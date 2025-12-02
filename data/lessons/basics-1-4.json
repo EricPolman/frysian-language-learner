@@ -1,0 +1,234 @@
+{
+  "id": "basics-1-4",
+  "skillId": "basics-1",
+  "lessonNumber": 4,
+  "title": "Basics 1 - Lesson 4",
+  "description": "Learn about please",
+  "introCards": [
+    {
+      "id": "intro-basics-1-4-0",
+      "vocabulary": {
+        "id": "1",
+        "frysian": "graach",
+        "dutch": "graag",
+        "english": "please",
+        "partOfSpeech": "adverb",
+        "exampleSentence": "Kinsto my graach helpe?"
+      },
+      "exampleSentence": "Kinsto my graach helpe?"
+    },
+    {
+      "id": "intro-basics-1-4-1",
+      "vocabulary": {
+        "id": "2",
+        "frysian": "asjebleaft",
+        "dutch": "alsjeblieft",
+        "english": "please",
+        "partOfSpeech": "adverb",
+        "exampleSentence": "Jou it boek asjebleaft oan my."
+      },
+      "exampleSentence": "Jou it boek asjebleaft oan my."
+    },
+    {
+      "id": "intro-basics-1-4-2",
+      "vocabulary": {
+        "id": "3",
+        "frysian": "kinst",
+        "dutch": "kunt",
+        "english": "can",
+        "partOfSpeech": "verb",
+        "exampleSentence": "Kinsto my asjebleaft de sâlt jaan?"
+      },
+      "exampleSentence": "Kinsto my asjebleaft de sâlt jaan?"
+    },
+    {
+      "id": "intro-basics-1-4-3",
+      "vocabulary": {
+        "id": "4",
+        "frysian": "wolst",
+        "dutch": "wil",
+        "english": "want",
+        "partOfSpeech": "verb",
+        "exampleSentence": "Wolst asjebleaft sêfter prate?"
+      },
+      "exampleSentence": "Wolst asjebleaft sêfter prate?"
+    },
+    {
+      "id": "intro-basics-1-4-4",
+      "vocabulary": {
+        "id": "5",
+        "frysian": "helpe",
+        "dutch": "helpen",
+        "english": "help",
+        "partOfSpeech": "verb",
+        "exampleSentence": "Kinsto my graach helpe mei dizze opdracht?"
+      },
+      "exampleSentence": "Kinsto my graach helpe mei dizze opdracht?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "ex1",
+      "question": "Kun je me alsjeblieft helpen?",
+      "correctAnswer": "Kinsto my asjebleaft helpe?",
+      "acceptedAnswers": [
+        "Kinsto my graach helpe?",
+        "Kinst my asjebleaft helpe?"
+      ],
+      "hint": "Use 'kinst' for 'kun je' and 'asjebleaft' for 'alsjeblieft'.",
+      "explanation": "In Frysian, 'kun je' translates to 'kinst' and 'alsjeblieft' translates to 'asjebleaft'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "ex2",
+      "question": "Wil je graag helpen?",
+      "correctAnswer": "Wolst graach helpe?",
+      "acceptedAnswers": [
+        "Wolst graach helpe?",
+        "Wolsto graach helpe?"
+      ],
+      "hint": "Use 'wolst' for 'wil je' and 'graach' for 'graag'.",
+      "explanation": "In Frysian, 'wil je' translates to 'wolst' and 'graag' is 'graach'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "ex3",
+      "question": "Geef het boek alsjeblieft aan mij.",
+      "correctAnswer": "Jou it boek asjebleaft oan my.",
+      "acceptedAnswers": [
+        "Jou it boek asjebleaft oan my.",
+        "Jou it boek graach oan my."
+      ],
+      "hint": "Use 'jou' for 'geef' and 'asjebleaft' for 'alsjeblieft'.",
+      "explanation": "In Frysian, 'geef' translates to 'jou' and 'alsjeblieft' translates to 'asjebleaft'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "ex4",
+      "sentence": "Kinsto my ___ helpe?",
+      "blankIndex": 2,
+      "correctAnswer": "graach",
+      "acceptedAnswers": [
+        "graach"
+      ],
+      "wordBank": [
+        "asjebleaft",
+        "graach",
+        "kinst",
+        "wolst"
+      ],
+      "hint": "Use the word for 'please' starting with 'g'.",
+      "explanation": "In this context, 'graach' is used as 'please'."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "ex5",
+      "sentence": "Jou it boek ___ oan my.",
+      "blankIndex": 3,
+      "correctAnswer": "asjebleaft",
+      "acceptedAnswers": [
+        "asjebleaft"
+      ],
+      "wordBank": [
+        "asjebleaft",
+        "graach",
+        "kinst",
+        "wolst"
+      ],
+      "hint": "Use the word for 'please' starting with 'a'.",
+      "explanation": "'Asjebleaft' is used to politely request an action."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "ex6",
+      "sentence": "Wolst ___ sêfter prate?",
+      "blankIndex": 1,
+      "correctAnswer": "asjebleaft",
+      "acceptedAnswers": [
+        "asjebleaft"
+      ],
+      "wordBank": [
+        "asjebleaft",
+        "graach",
+        "kinst",
+        "helpe"
+      ],
+      "hint": "Use the polite word for 'please'.",
+      "explanation": "'Asjebleaft' is used in requests for politeness."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "ex7",
+      "question": "What is the Frysian word for 'can'?",
+      "correctAnswer": "kinst",
+      "options": [
+        "kinst",
+        "wolst",
+        "graach",
+        "asjebleaft"
+      ],
+      "hint": "It starts with 'k'.",
+      "explanation": "'Kinst' is the Frysian equivalent of 'can'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "ex8",
+      "question": "How do you say 'want' in Frysian?",
+      "correctAnswer": "wolst",
+      "options": [
+        "kinst",
+        "wolst",
+        "graach",
+        "asjebleaft"
+      ],
+      "hint": "It starts with 'w'.",
+      "explanation": "'Wolst' is the Frysian equivalent of 'want'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "ex9",
+      "prompt": "Say 'Can you help me please?' in Frysian",
+      "correctOrder": [
+        "Kinsto",
+        "my",
+        "asjebleaft",
+        "helpe"
+      ],
+      "distractorWords": [
+        "wolst",
+        "graach",
+        "it"
+      ],
+      "hint": "Start with 'Kinsto'."
+    },
+    {
+      "type": "sentence-build",
+      "id": "ex10",
+      "prompt": "Say 'Do you want to help?' in Frysian",
+      "correctOrder": [
+        "Wolst",
+        "helpe"
+      ],
+      "distractorWords": [
+        "kinst",
+        "graach",
+        "my"
+      ],
+      "hint": "Start with 'Wolst'."
+    }
+  ],
+  "targetVocabulary": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "reviewVocabulary": []
+}

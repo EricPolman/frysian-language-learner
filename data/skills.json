@@ -1,0 +1,122 @@
+{
+  "skills": [
+    {
+      "id": "basics-1",
+      "title": "Basics 1",
+      "description": "Essential phrases and greetings",
+      "icon": "�",
+      "order": 0,
+      "lessons": [
+        "basics-1-1",
+        "basics-1-2",
+        "basics-1-3",
+        "basics-1-4"
+      ],
+      "prerequisites": [],
+      "color": "#3b82f6"
+    },
+    {
+      "id": "basics-2",
+      "title": "Basics 2",
+      "description": "Personal pronouns, to be, to have",
+      "icon": "📚",
+      "order": 1,
+      "lessons": [
+        "basics-2-1",
+        "basics-2-2",
+        "basics-2-3",
+        "basics-2-4"
+      ],
+      "prerequisites": [
+        "basics-1"
+      ],
+      "color": "#3b82f6"
+    },
+    {
+      "id": "numbers",
+      "title": "Numbers",
+      "description": "Counting and basic math",
+      "icon": "�",
+      "order": 2,
+      "lessons": [
+        "numbers-1",
+        "numbers-2",
+        "numbers-3",
+        "numbers-4"
+      ],
+      "prerequisites": [
+        "basics-2"
+      ],
+      "color": "#10b981"
+    },
+    {
+      "id": "family",
+      "title": "Family",
+      "description": "Family members and relationships",
+      "icon": "�‍👩‍👧‍👦",
+      "order": 3,
+      "lessons": [
+        "family-1",
+        "family-2",
+        "family-3",
+        "family-4"
+      ],
+      "prerequisites": [
+        "numbers"
+      ],
+      "color": "#f59e0b"
+    },
+    {
+      "id": "colors",
+      "title": "Colors & Shapes",
+      "description": "Descriptive vocabulary",
+      "icon": "🎨",
+      "order": 4,
+      "lessons": [
+        "colors-1",
+        "colors-2",
+        "colors-3",
+        "colors-4"
+      ],
+      "prerequisites": [
+        "family"
+      ],
+      "color": "#ec4899"
+    },
+    {
+      "id": "food",
+      "title": "Food & Drink",
+      "description": "Everyday vocabulary",
+      "icon": "🍎",
+      "order": 5,
+      "lessons": [
+        "food-1",
+        "food-2",
+        "food-3",
+        "food-4"
+      ],
+      "prerequisites": [
+        "colors"
+      ],
+      "color": "#ef4444"
+    },
+    {
+      "id": "animals",
+      "title": "Animals",
+      "description": "Common animals and pets",
+      "icon": "�",
+      "order": 6,
+      "lessons": [
+        "animals-1",
+        "animals-2",
+        "animals-3",
+        "animals-4"
+      ],
+      "prerequisites": [
+        "food"
+      ],
+      "color": "#8b5cf6"
+    }
+  ],
+  "totalLessons": 28
+}

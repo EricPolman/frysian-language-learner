@@ -1,0 +1,237 @@
+{
+  "id": "basics-1-1",
+  "skillId": "basics-1",
+  "lessonNumber": 1,
+  "title": "Basics 1 - Lesson 1",
+  "description": "Learn about greetings",
+  "introCards": [
+    {
+      "id": "intro-basics-1-1-0",
+      "vocabulary": {
+        "id": "greet-001",
+        "frysian": "Goeie",
+        "dutch": "Hallo",
+        "english": "Hello",
+        "partOfSpeech": "interjection",
+        "exampleSentence": "Goeie, hoe giet it mei dy?"
+      },
+      "exampleSentence": "Goeie, hoe giet it mei dy?"
+    },
+    {
+      "id": "intro-basics-1-1-1",
+      "vocabulary": {
+        "id": "greet-002",
+        "frysian": "Oant sjen",
+        "dutch": "Tot ziens",
+        "english": "Goodbye",
+        "partOfSpeech": "phrase",
+        "exampleSentence": "Oant sjen, ik sjoch dy moarn wer."
+      },
+      "exampleSentence": "Oant sjen, ik sjoch dy moarn wer."
+    },
+    {
+      "id": "intro-basics-1-1-2",
+      "vocabulary": {
+        "id": "greet-003",
+        "frysian": "Goeiemoarn",
+        "dutch": "Goedemorgen",
+        "english": "Good morning",
+        "partOfSpeech": "phrase",
+        "exampleSentence": "Goeiemoarn, ha jo goed slept?"
+      },
+      "exampleSentence": "Goeiemoarn, ha jo goed slept?"
+    },
+    {
+      "id": "intro-basics-1-1-3",
+      "vocabulary": {
+        "id": "greet-004",
+        "frysian": "Goeiemiddei",
+        "dutch": "Goedemiddag",
+        "english": "Good afternoon",
+        "partOfSpeech": "phrase",
+        "exampleSentence": "Goeiemiddei, wat in moaie dei hjoed!"
+      },
+      "exampleSentence": "Goeiemiddei, wat in moaie dei hjoed!"
+    },
+    {
+      "id": "intro-basics-1-1-4",
+      "vocabulary": {
+        "id": "greet-005",
+        "frysian": "Goeiejûn",
+        "dutch": "Goedenavond",
+        "english": "Good evening",
+        "partOfSpeech": "phrase",
+        "exampleSentence": "Goeiejûn, wat binne de plannen foar jûn?"
+      },
+      "exampleSentence": "Goeiejûn, wat binne de plannen foar jûn?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-001",
+      "question": "Goedemorgen",
+      "correctAnswer": "Goeiemoarn",
+      "acceptedAnswers": [
+        "Goeiemoarn"
+      ],
+      "hint": "Morning greeting",
+      "explanation": "Goeiemoarn is used to greet someone in the morning.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-002",
+      "question": "Goedemiddag",
+      "correctAnswer": "Goeiemiddei",
+      "acceptedAnswers": [
+        "Goeiemiddei"
+      ],
+      "hint": "Afternoon greeting",
+      "explanation": "Goeiemiddei is used to greet someone in the afternoon.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-003",
+      "question": "Goedenavond",
+      "correctAnswer": "Goeiejûn",
+      "acceptedAnswers": [
+        "Goeiejûn"
+      ],
+      "hint": "Evening greeting",
+      "explanation": "Goeiejûn is used to greet someone in the evening.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-001",
+      "sentence": "Goeie, hoe giet it mei ___?",
+      "blankIndex": 4,
+      "correctAnswer": "dy",
+      "acceptedAnswers": [
+        "dy"
+      ],
+      "wordBank": [
+        "dy",
+        "jo",
+        "hjoed",
+        "moarn"
+      ],
+      "hint": "Informal 'you'",
+      "explanation": "Use 'dy' for informal 'you' in Frysian."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-002",
+      "sentence": "Oant sjen, ik sjoch ___ moarn wer.",
+      "blankIndex": 3,
+      "correctAnswer": "dy",
+      "acceptedAnswers": [
+        "dy"
+      ],
+      "wordBank": [
+        "dy",
+        "jo",
+        "hjoed",
+        "moarn"
+      ],
+      "hint": "Referring to 'you' informally",
+      "explanation": "Use 'dy' when talking informally to 'you'."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-003",
+      "sentence": "Goeiemiddei, wat in moaie ___ hjoed!",
+      "blankIndex": 5,
+      "correctAnswer": "dei",
+      "acceptedAnswers": [
+        "dei"
+      ],
+      "wordBank": [
+        "dei",
+        "moarn",
+        "jûn",
+        "nacht"
+      ],
+      "hint": "Word for 'day'",
+      "explanation": "Use 'dei' which means 'day'."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-001",
+      "question": "Tot ziens",
+      "correctAnswer": "Oant sjen",
+      "options": [
+        "Goeie",
+        "Oant sjen",
+        "Goeiemiddei",
+        "Goeiejûn"
+      ],
+      "hint": "Farewell phrase",
+      "explanation": "Oant sjen means goodbye in Frysian.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-002",
+      "question": "Hallo",
+      "correctAnswer": "Goeie",
+      "options": [
+        "Goeie",
+        "Oant sjen",
+        "Goeiemiddei",
+        "Goeiejûn"
+      ],
+      "hint": "Common greeting",
+      "explanation": "Goeie means hello in Frysian.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "sb-001",
+      "prompt": "Say 'Good morning, did you sleep well?' in Frysian",
+      "correctOrder": [
+        "Goeiemoarn,",
+        "ha",
+        "jo",
+        "goed",
+        "slept?"
+      ],
+      "distractorWords": [
+        "Goeiemiddei",
+        "Oant",
+        "dy"
+      ],
+      "hint": "Focus on morning greeting and past tense"
+    },
+    {
+      "type": "sentence-build",
+      "id": "sb-002",
+      "prompt": "Say 'Good evening, what are the plans for tonight?' in Frysian",
+      "correctOrder": [
+        "Goeiejûn,",
+        "wat",
+        "binne",
+        "de",
+        "plannen",
+        "foar",
+        "jûn?"
+      ],
+      "distractorWords": [
+        "Goeiemiddei",
+        "Goeiemoarn",
+        "Oant"
+      ],
+      "hint": "Use the evening greeting and question format"
+    }
+  ],
+  "targetVocabulary": [
+    "greet-001",
+    "greet-002",
+    "greet-003",
+    "greet-004",
+    "greet-005"
+  ],
+  "reviewVocabulary": []
+}

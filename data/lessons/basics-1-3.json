@@ -1,0 +1,234 @@
+{
+  "id": "basics-1-3",
+  "skillId": "basics-1",
+  "lessonNumber": 3,
+  "title": "Basics 1 - Lesson 3",
+  "description": "Learn about thank you",
+  "introCards": [
+    {
+      "id": "intro-basics-1-3-0",
+      "vocabulary": {
+        "id": "1",
+        "frysian": "tankje",
+        "dutch": "dankje",
+        "english": "thank you",
+        "partOfSpeech": "verb",
+        "exampleSentence": "Tankje foar dyn help."
+      },
+      "exampleSentence": "Tankje foar dyn help."
+    },
+    {
+      "id": "intro-basics-1-3-1",
+      "vocabulary": {
+        "id": "2",
+        "frysian": "tankewol",
+        "dutch": "dankjewel",
+        "english": "thank you very much",
+        "partOfSpeech": "interjection",
+        "exampleSentence": "Tankewol foar it moaie kado."
+      },
+      "exampleSentence": "Tankewol foar it moaie kado."
+    },
+    {
+      "id": "intro-basics-1-3-2",
+      "vocabulary": {
+        "id": "3",
+        "frysian": "betanke",
+        "dutch": "bedankt",
+        "english": "thanks",
+        "partOfSpeech": "verb",
+        "exampleSentence": "Ik wol dy betanke foar alles."
+      },
+      "exampleSentence": "Ik wol dy betanke foar alles."
+    },
+    {
+      "id": "intro-basics-1-3-3",
+      "vocabulary": {
+        "id": "4",
+        "frysian": "dankber",
+        "dutch": "dankbaar",
+        "english": "grateful",
+        "partOfSpeech": "adjective",
+        "exampleSentence": "Ik bin tige tankber foar dyn stipe."
+      },
+      "exampleSentence": "Ik bin tige tankber foar dyn stipe."
+    },
+    {
+      "id": "intro-basics-1-3-4",
+      "vocabulary": {
+        "id": "5",
+        "frysian": "ûntankber",
+        "dutch": "ondankbaar",
+        "english": "ungrateful",
+        "partOfSpeech": "adjective",
+        "exampleSentence": "Hy is nea ûntankber foar wat er kriget."
+      },
+      "exampleSentence": "Hy is nea ûntankber foar wat er kriget."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "exercise-1",
+      "question": "dankje",
+      "correctAnswer": "tankje",
+      "acceptedAnswers": [
+        "tankje"
+      ],
+      "hint": "Similar to 'thank you' in English",
+      "explanation": "'Dankje' in Dutch is 'tankje' in Frysian.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "exercise-2",
+      "question": "bedankt",
+      "correctAnswer": "betanke",
+      "acceptedAnswers": [
+        "betanke"
+      ],
+      "hint": "Think of the word 'thanks'",
+      "explanation": "'Bedankt' in Dutch translates to 'betanke' in Frysian.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "exercise-3",
+      "question": "dankbaar",
+      "correctAnswer": "dankber",
+      "acceptedAnswers": [
+        "dankber"
+      ],
+      "hint": "Drop the 'a' to find the Frysian word",
+      "explanation": "'Dankbaar' in Dutch is 'dankber' in Frysian.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "exercise-4",
+      "sentence": "Tankje foar dyn ___",
+      "blankIndex": 3,
+      "correctAnswer": "help",
+      "acceptedAnswers": [
+        "help"
+      ],
+      "wordBank": [
+        "help",
+        "kado",
+        "stipe",
+        "freon"
+      ],
+      "hint": "You need this when in trouble",
+      "explanation": "Help means help in both languages."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "exercise-5",
+      "sentence": "Ik wol dy ___ foar alles.",
+      "blankIndex": 3,
+      "correctAnswer": "betanke",
+      "acceptedAnswers": [
+        "betanke"
+      ],
+      "wordBank": [
+        "tankje",
+        "betanke",
+        "dankber",
+        "ûntankber"
+      ],
+      "hint": "Synonym for 'thanks'",
+      "explanation": "Betanke means thanks."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "exercise-6",
+      "sentence": "Ik bin tige ___ foar dyn stipe.",
+      "blankIndex": 3,
+      "correctAnswer": "dankber",
+      "acceptedAnswers": [
+        "dankber"
+      ],
+      "wordBank": [
+        "dankber",
+        "ûntankber",
+        "tankje",
+        "betanke"
+      ],
+      "hint": "Feeling of gratitude",
+      "explanation": "Dankber means grateful."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "exercise-7",
+      "question": "Choose the correct translation for 'ungrateful'.",
+      "correctAnswer": "ûntankber",
+      "options": [
+        "ûntankber",
+        "dankber",
+        "betanke",
+        "tankewol"
+      ],
+      "hint": "Prefix indicates negation",
+      "explanation": "'ûntankber' is the opposite of 'dankber'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "exercise-8",
+      "question": "What is the Frysian word for 'thank you very much'?",
+      "correctAnswer": "tankewol",
+      "options": [
+        "tankewol",
+        "betanke",
+        "tankje",
+        "dankber"
+      ],
+      "hint": "The word is longer than just 'thank you'.",
+      "explanation": "'Tankewol' translates directly to 'thank you very much'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "exercise-9",
+      "prompt": "Say 'Thank you for your help' in Frysian",
+      "correctOrder": [
+        "Tankje",
+        "foar",
+        "dyn",
+        "help"
+      ],
+      "distractorWords": [
+        "ûn",
+        "tige",
+        "betanke"
+      ],
+      "hint": "Start with 'Tankje'"
+    },
+    {
+      "type": "sentence-build",
+      "id": "exercise-10",
+      "prompt": "Express gratitude for a gift in Frysian",
+      "correctOrder": [
+        "Tankewol",
+        "foar",
+        "it",
+        "moaie",
+        "kado"
+      ],
+      "distractorWords": [
+        "ûntankber",
+        "dyn",
+        "stipe"
+      ],
+      "hint": "Start with 'Tankewol'"
+    }
+  ],
+  "targetVocabulary": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5"
+  ],
+  "reviewVocabulary": []
+}

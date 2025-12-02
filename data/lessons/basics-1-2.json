@@ -1,0 +1,232 @@
+{
+  "id": "basics-1-2",
+  "skillId": "basics-1",
+  "lessonNumber": 2,
+  "title": "Basics 1 - Lesson 2",
+  "description": "Learn about yes/no",
+  "introCards": [
+    {
+      "id": "intro-basics-1-2-0",
+      "vocabulary": {
+        "id": "vocab-001",
+        "frysian": "ja",
+        "dutch": "ja",
+        "english": "yes",
+        "partOfSpeech": "adverb",
+        "exampleSentence": "Ja, ik wol dat dwaan."
+      },
+      "exampleSentence": "Ja, ik wol dat dwaan."
+    },
+    {
+      "id": "intro-basics-1-2-1",
+      "vocabulary": {
+        "id": "vocab-002",
+        "frysian": "nee",
+        "dutch": "nee",
+        "english": "no",
+        "partOfSpeech": "adverb",
+        "exampleSentence": "Nee, dat is net goed."
+      },
+      "exampleSentence": "Nee, dat is net goed."
+    },
+    {
+      "id": "intro-basics-1-2-2",
+      "vocabulary": {
+        "id": "vocab-003",
+        "frysian": "jawis",
+        "dutch": "zeker",
+        "english": "certainly",
+        "partOfSpeech": "adverb",
+        "exampleSentence": "Jawis, ik sil dêr wêze."
+      },
+      "exampleSentence": "Jawis, ik sil dêr wêze."
+    },
+    {
+      "id": "intro-basics-1-2-3",
+      "vocabulary": {
+        "id": "vocab-004",
+        "frysian": "nee net",
+        "dutch": "nee, niet",
+        "english": "no, not",
+        "partOfSpeech": "phrase",
+        "exampleSentence": "Nee, net op dit stuit."
+      },
+      "exampleSentence": "Nee, net op dit stuit."
+    },
+    {
+      "id": "intro-basics-1-2-4",
+      "vocabulary": {
+        "id": "vocab-005",
+        "frysian": "wis",
+        "dutch": "zeker",
+        "english": "sure",
+        "partOfSpeech": "adjective",
+        "exampleSentence": "Ik bin wis dat it giet troch."
+      },
+      "exampleSentence": "Ik bin wis dat it giet troch."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-001",
+      "question": "Ja, ik wil dat doen.",
+      "correctAnswer": "Ja, ik wol dat dwaan.",
+      "acceptedAnswers": [
+        "Ja, ik wol dat dwaan."
+      ],
+      "hint": "Translate 'yes, I want to do that'.",
+      "explanation": "The structure is similar to Dutch, with 'ik' for 'I'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-002",
+      "question": "Nee, dat is niet goed.",
+      "correctAnswer": "Nee, dat is net goed.",
+      "acceptedAnswers": [
+        "Nee, dat is net goed."
+      ],
+      "hint": "Focus on the negative form 'not'.",
+      "explanation": "'Net' is used for 'niet' in Frysian.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-003",
+      "question": "Zeker, ik zal daar zijn.",
+      "correctAnswer": "Jawis, ik sil dêr wêze.",
+      "acceptedAnswers": [
+        "Jawis, ik sil dêr wêze."
+      ],
+      "hint": "Use 'jawis' for 'zeker'.",
+      "explanation": "'Jawis' is a stronger affirmation than 'ja'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-001",
+      "sentence": "___, ik wol dat dwaan.",
+      "blankIndex": 0,
+      "correctAnswer": "Ja",
+      "acceptedAnswers": [
+        "Ja"
+      ],
+      "wordBank": [
+        "Ja",
+        "Nee",
+        "Jawis"
+      ],
+      "hint": "Affirmative response",
+      "explanation": "'Ja' means 'yes'."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-002",
+      "sentence": "Jawis, ik ___ dêr wêze.",
+      "blankIndex": 2,
+      "correctAnswer": "sil",
+      "acceptedAnswers": [
+        "sil"
+      ],
+      "wordBank": [
+        "sil",
+        "bin",
+        "wol"
+      ],
+      "hint": "Future tense of 'will'.",
+      "explanation": "'Sil' is used for future actions."
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-003",
+      "sentence": "Nee, ___ op dit stuit.",
+      "blankIndex": 1,
+      "correctAnswer": "net",
+      "acceptedAnswers": [
+        "net"
+      ],
+      "wordBank": [
+        "net",
+        "wis",
+        "ja"
+      ],
+      "hint": "Negative form.",
+      "explanation": "'Net' is equivalent to 'niet'."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-001",
+      "question": "How do you say 'certainly' in Frysian?",
+      "correctAnswer": "Jawis",
+      "options": [
+        "Ja",
+        "Nee",
+        "Jawis",
+        "Wis"
+      ],
+      "hint": "It's a strong affirmation.",
+      "explanation": "'Jawis' translates to 'certainly'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-002",
+      "question": "Which word means 'sure'?",
+      "correctAnswer": "Wis",
+      "options": [
+        "Ja",
+        "Nee",
+        "Jawis",
+        "Wis"
+      ],
+      "hint": "It's a synonym for 'certain'.",
+      "explanation": "'Wis' means 'sure'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "sb-001",
+      "prompt": "Say 'No, not at this moment' in Frysian",
+      "correctOrder": [
+        "Nee",
+        "net",
+        "op",
+        "dit",
+        "stuit"
+      ],
+      "distractorWords": [
+        "ja",
+        "wis",
+        "jawis"
+      ],
+      "hint": "Start with 'Nee'."
+    },
+    {
+      "type": "sentence-build",
+      "id": "sb-002",
+      "prompt": "Say 'Yes, I want to do that' in Frysian",
+      "correctOrder": [
+        "Ja",
+        "ik",
+        "wol",
+        "dat",
+        "dwaan"
+      ],
+      "distractorWords": [
+        "net",
+        "jawis",
+        "wis"
+      ],
+      "hint": "Start with 'Ja'."
+    }
+  ],
+  "targetVocabulary": [
+    "vocab-001",
+    "vocab-002",
+    "vocab-003",
+    "vocab-004",
+    "vocab-005"
+  ],
+  "reviewVocabulary": []
+}
