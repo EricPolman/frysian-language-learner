@@ -37,6 +37,46 @@ export function SentenceBuildExercise({
     setAttempts(0);
   }, [exercise.id, exercise.correctOrder, exercise.distractorWords]);
 
+  // Keyboard navigation: number keys to select, Backspace to undo, Enter to check/continue
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Don't handle if user is typing in an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      
+      if (showExplanation) {
+        if (e.key === "Enter") {
+          onContinue();
+        }
+        return;
+      }
+
+      // Number keys to select available words
+      const keyNum = parseInt(e.key);
+      if (keyNum >= 1 && keyNum <= availableWords.length) {
+        const word = availableWords[keyNum - 1];
+        setSelectedWords(prev => [...prev, word]);
+        setAvailableWords(prev => prev.filter((w) => w !== word));
+      } else if (e.key === "Backspace" && selectedWords.length > 0) {
+        // Remove last selected word
+        e.preventDefault();
+        const lastWord = selectedWords[selectedWords.length - 1];
+        setAvailableWords(prev => [...prev, lastWord]);
+        setSelectedWords(prev => prev.slice(0, -1));
+      } else if (e.key === "Enter" && selectedWords.length > 0) {
+        handleCheck();
+      } else if (e.key === "Escape") {
+        // Reset all selections
+        setAvailableWords([
+          ...exercise.correctOrder,
+          ...exercise.distractorWords,
+        ].sort(() => Math.random() - 0.5));
+        setSelectedWords([]);
+      }
+    };
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [showExplanation, onContinue, availableWords, selectedWords, exercise.correctOrder, exercise.distractorWords]);
+
   const handleWordClick = (word: string) => {
     if (showExplanation) return;
     
@@ -81,7 +121,8 @@ export function SentenceBuildExercise({
         <div className="min-h-20 p-4 border-2 border-dashed border-gray-300 rounded-lg bg-gray-50">
           {selectedWords.length === 0 ? (
             <div className="text-center text-gray-400 py-4">
-              Tik op woorden hieronder om je antwoord te bouwen
+              <span className="sm:hidden">Tik op woorden om je zin te bouwen</span>
+              <span className="hidden sm:inline">Tik op woorden of gebruik toetsen 1-{availableWords.length} om je zin te bouwen</span>
             </div>
           ) : (
             <div className="flex flex-wrap gap-2">
@@ -106,12 +147,15 @@ export function SentenceBuildExercise({
           <div className="grid grid-cols-2 gap-3">
             {availableWords.map((word, index) => (
               <Button
-                key={index}
+                key={`${word}-${index}`}
                 variant="outline"
                 size="lg"
                 className="text-lg"
                 onClick={() => handleWordClick(word)}
               >
+                <kbd className="hidden sm:inline mr-2 px-2 py-0.5 text-xs font-semibold bg-gray-100 border border-gray-300 rounded text-gray-600">
+                  {index + 1}
+                </kbd>
                 {word}
               </Button>
             ))}
@@ -121,7 +165,7 @@ export function SentenceBuildExercise({
         {/* Hint */}
         {exercise.hint && !showExplanation && attempts > 0 && !isCorrect && (
           <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <div className="text-sm text-blue-700">💡 Hint: {exercise.hint}</div>
+            <div className="text-sm text-blue-700">💡 Tip: {exercise.hint}</div>
           </div>
         )}
 
@@ -139,7 +183,7 @@ export function SentenceBuildExercise({
                 isCorrect ? "text-green-700" : "text-red-700"
               }`}
             >
-              {isCorrect ? "✓ Correct!" : "✗ Niet helemaal"}
+              {isCorrect ? "✓ Goed!" : "✗ Niet helemaal"}
             </div>
             {!isCorrect && (
               <div className="text-sm text-gray-700 mb-2">
@@ -164,7 +208,7 @@ export function SentenceBuildExercise({
                   setSelectedWords([]);
                 }}
               >
-                Reset
+                Opnieuw
               </Button>
               <Button
                 size="lg"

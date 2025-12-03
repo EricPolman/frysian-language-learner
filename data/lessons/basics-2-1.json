@@ -1,0 +1,260 @@
+{
+  "id": "basics-2-1",
+  "skillId": "basics-2",
+  "lessonNumber": 1,
+  "title": "Basis 2 - Les 1",
+  "description": "Persoonlijke voornaamwoorden: ik, jij, hij, zij, het, wij, jullie, zij.",
+  "topic": "ik/jij/hij/zij",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-basics-2-1-0",
+      "vocabulary": {
+        "id": "ik-foarbyld",
+        "frysian": "ik",
+        "dutch": "ik",
+        "partOfSpeech": "persoonlijk voornaamwoord",
+        "exampleSentence": "Ik bin thús.",
+        "exampleTranslation": "Ik ben thuis."
+      },
+      "exampleSentence": "Ik bin thús.",
+      "exampleTranslation": "Ik ben thuis."
+    },
+    {
+      "id": "intro-basics-2-1-1",
+      "vocabulary": {
+        "id": "do-foarbyld",
+        "frysian": "do",
+        "dutch": "jij",
+        "partOfSpeech": "persoonlijk voornaamwoord",
+        "exampleSentence": "Do bist moai.",
+        "exampleTranslation": "Jij bent mooi."
+      },
+      "exampleSentence": "Do bist moai.",
+      "exampleTranslation": "Jij bent mooi."
+    },
+    {
+      "id": "intro-basics-2-1-2",
+      "vocabulary": {
+        "id": "hy-foarbyld",
+        "frysian": "hy",
+        "dutch": "hij",
+        "partOfSpeech": "persoonlijk voornaamwoord",
+        "exampleSentence": "Hy giet nei skoalle.",
+        "exampleTranslation": "Hij gaat naar school."
+      },
+      "exampleSentence": "Hy giet nei skoalle.",
+      "exampleTranslation": "Hij gaat naar school."
+    },
+    {
+      "id": "intro-basics-2-1-3",
+      "vocabulary": {
+        "id": "sy-foarbyld",
+        "frysian": "sy",
+        "dutch": "zij",
+        "partOfSpeech": "persoonlijk voornaamwoord",
+        "exampleSentence": "Sy lêst in boek.",
+        "exampleTranslation": "Zij leest een boek."
+      },
+      "exampleSentence": "Sy lêst in boek.",
+      "exampleTranslation": "Zij leest een boek."
+    },
+    {
+      "id": "intro-basics-2-1-4",
+      "vocabulary": {
+        "id": "it-foarbyld",
+        "frysian": "it",
+        "dutch": "het",
+        "partOfSpeech": "persoonlijk voornaamwoord",
+        "exampleSentence": "It is kâld.",
+        "exampleTranslation": "Het is koud."
+      },
+      "exampleSentence": "It is kâld.",
+      "exampleTranslation": "Het is koud."
+    },
+    {
+      "id": "intro-basics-2-1-5",
+      "vocabulary": {
+        "id": "wy-foarbyld",
+        "frysian": "wy",
+        "dutch": "wij",
+        "partOfSpeech": "persoonlijk voornaamwoord",
+        "exampleSentence": "Wy geane te kuierjen.",
+        "exampleTranslation": "Wij gaan wandelen."
+      },
+      "exampleSentence": "Wy geane te kuierjen.",
+      "exampleTranslation": "Wij gaan wandelen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "ik",
+      "correctAnswer": "ik",
+      "acceptedAnswers": [
+        "ik"
+      ],
+      "hint": "Eerste persoon enkelvoud",
+      "explanation": "'Ik' betekent ik in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "___ is myn freon.",
+      "blankIndex": 0,
+      "correctAnswer": "Hy",
+      "wordBank": [
+        "Hy",
+        "Sy",
+        "It",
+        "Wy"
+      ],
+      "hint": "Gebruik het woord voor hij",
+      "explanation": "'Hy' betekent hij"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "do",
+      "correctAnswer": "jij",
+      "acceptedAnswers": [
+        "jij"
+      ],
+      "hint": "Tweede persoon enkelvoud",
+      "explanation": "'Do' betekent jij in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'zij' in het Fries?",
+      "correctAnswer": "sy",
+      "options": [
+        "sy",
+        "hy",
+        "do",
+        "wy"
+      ],
+      "hint": "Het is een vrouwelijke vorm",
+      "explanation": "'Sy' betekent zij",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "wij",
+      "correctAnswer": "wy",
+      "acceptedAnswers": [
+        "wy"
+      ],
+      "hint": "Meervoud eerste persoon",
+      "explanation": "'Wy' betekent wij in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "___ is in boek.",
+      "blankIndex": 0,
+      "correctAnswer": "It",
+      "wordBank": [
+        "It",
+        "Hy",
+        "Do",
+        "Sy"
+      ],
+      "hint": "Gebruik het woord voor het",
+      "explanation": "'It' betekent het"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "hy",
+      "correctAnswer": "hij",
+      "acceptedAnswers": [
+        "hij"
+      ],
+      "hint": "Derde persoon enkelvoud, mannelijk",
+      "explanation": "'Hy' betekent hij in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "het",
+      "correctAnswer": "it",
+      "acceptedAnswers": [
+        "it"
+      ],
+      "hint": "Onzijdig enkelvoud",
+      "explanation": "'It' betekent het in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'hij' in het Fries?",
+      "correctAnswer": "hy",
+      "options": [
+        "do",
+        "hy",
+        "sy",
+        "wy"
+      ],
+      "hint": "Mannelijke vorm",
+      "explanation": "'Hy' betekent hij",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "___ binne freonen.",
+      "blankIndex": 0,
+      "correctAnswer": "Wy",
+      "wordBank": [
+        "Wy",
+        "Sy",
+        "Hy",
+        "It"
+      ],
+      "hint": "Gebruik het woord voor wij",
+      "explanation": "'Wy' betekent wij"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "sy",
+      "correctAnswer": "zij",
+      "acceptedAnswers": [
+        "zij"
+      ],
+      "hint": "Derde persoon enkelvoud, vrouwelijk",
+      "explanation": "'Sy' betekent zij in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "jij",
+      "correctAnswer": "do",
+      "acceptedAnswers": [
+        "do"
+      ],
+      "hint": "Tweede persoon enkelvoud",
+      "explanation": "'Do' betekent jij in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "ik-foarbyld",
+    "do-foarbyld",
+    "hy-foarbyld",
+    "sy-foarbyld",
+    "it-foarbyld",
+    "wy-foarbyld"
+  ],
+  "reviewVocabulary": []
+}

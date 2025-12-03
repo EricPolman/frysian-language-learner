@@ -1,0 +1,255 @@
+{
+  "id": "basics-2-4",
+  "skillId": "basics-2",
+  "lessonNumber": 4,
+  "title": "Basis 2 - Les 4",
+  "description": "Combineer voornaamwoorden met zijn en hebben in eenvoudige zinnen.",
+  "topic": "eenvoudige zinnen",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-basics-2-4-0",
+      "vocabulary": {
+        "id": "ik-haw-in-kat",
+        "frysian": "kat",
+        "dutch": "kat",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik haw in kat.",
+        "exampleTranslation": "Ik heb een kat."
+      },
+      "exampleSentence": "Ik haw in kat.",
+      "exampleTranslation": "Ik heb een kat."
+    },
+    {
+      "id": "intro-basics-2-4-1",
+      "vocabulary": {
+        "id": "hy-is-blid",
+        "frysian": "blid",
+        "dutch": "blij",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy is blid.",
+        "exampleTranslation": "Hij is blij."
+      },
+      "exampleSentence": "Hy is blid.",
+      "exampleTranslation": "Hij is blij."
+    },
+    {
+      "id": "intro-basics-2-4-2",
+      "vocabulary": {
+        "id": "sy-hat-in-hûs",
+        "frysian": "hûs",
+        "dutch": "huis",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Sy hat in hûs.",
+        "exampleTranslation": "Zij heeft een huis."
+      },
+      "exampleSentence": "Sy hat in hûs.",
+      "exampleTranslation": "Zij heeft een huis."
+    },
+    {
+      "id": "intro-basics-2-4-3",
+      "vocabulary": {
+        "id": "wy-bin-wurch",
+        "frysian": "wurch",
+        "dutch": "moe",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Wy binne wurch.",
+        "exampleTranslation": "Wij zijn moe."
+      },
+      "exampleSentence": "Wy binne wurch.",
+      "exampleTranslation": "Wij zijn moe."
+    },
+    {
+      "id": "intro-basics-2-4-4",
+      "vocabulary": {
+        "id": "jim-hawwe-in-auto",
+        "frysian": "auto",
+        "dutch": "auto",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Jim hawwe in auto.",
+        "exampleTranslation": "Jullie hebben een auto."
+      },
+      "exampleSentence": "Jim hawwe in auto.",
+      "exampleTranslation": "Jullie hebben een auto."
+    },
+    {
+      "id": "intro-basics-2-4-5",
+      "vocabulary": {
+        "id": "sy-is-lyts",
+        "frysian": "lyts",
+        "dutch": "klein",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Sy is lyts.",
+        "exampleTranslation": "Zij is klein."
+      },
+      "exampleSentence": "Sy is lyts.",
+      "exampleTranslation": "Zij is klein."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "De kat is blij",
+      "correctAnswer": "De kat is blid",
+      "acceptedAnswers": [
+        "De kat is blid"
+      ],
+      "hint": "Verander 'blij' naar Fries",
+      "explanation": "'Blij' vertaalt naar 'blid' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'klein huis' in het Fries?",
+      "correctAnswer": "lyts hûs",
+      "options": [
+        "lyts hûs",
+        "kat",
+        "blid",
+        "hûs"
+      ],
+      "hint": "Gebruik het Friese woord voor 'klein'",
+      "explanation": "'Klein' betekent 'lyts' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De kat is ___",
+      "blankIndex": 3,
+      "correctAnswer": "wurch",
+      "wordBank": [
+        "wurch",
+        "blid",
+        "lyts",
+        "hûs"
+      ],
+      "hint": "De kat is moe",
+      "explanation": "'Moe' betekent 'wurch' in het Fries"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "It lyts hûs",
+      "correctAnswer": "Het kleine huis",
+      "acceptedAnswers": [
+        "Het kleine huis"
+      ],
+      "hint": "Vertaal 'lyts' en 'hûs'",
+      "explanation": "'Lyts' betekent 'klein' en 'hûs' betekent 'huis'",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "De auto is blid",
+      "correctAnswer": "De auto is blij",
+      "acceptedAnswers": [
+        "De auto is blij"
+      ],
+      "hint": "Verander 'blid' naar Nederlands",
+      "explanation": "'Blid' betekent 'blij' in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'lyts'?",
+      "correctAnswer": "klein",
+      "options": [
+        "klein",
+        "huis",
+        "auto",
+        "kat"
+      ],
+      "hint": "Het is een beschrijvend woord",
+      "explanation": "'Lyts' betekent 'klein' in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ is lyts",
+      "blankIndex": 1,
+      "correctAnswer": "kat",
+      "wordBank": [
+        "kat",
+        "auto",
+        "hûs",
+        "wurch"
+      ],
+      "hint": "Een klein dier",
+      "explanation": "'De kat is lyts' betekent 'De kat is klein'"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Lyts hûs",
+      "correctAnswer": "Klein huis",
+      "acceptedAnswers": [
+        "Klein huis"
+      ],
+      "hint": "Verander 'lyts' en 'hûs' naar het Nederlands",
+      "explanation": "'Lyts' betekent 'klein' en 'hûs' betekent 'huis'",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'De kat is blij' in het Fries",
+      "correctOrder": [
+        "De",
+        "kat",
+        "is",
+        "blid"
+      ],
+      "distractorWords": [
+        "lyts",
+        "auto"
+      ],
+      "hint": "Begin met 'De kat'"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De auto is ___",
+      "blankIndex": 3,
+      "correctAnswer": "lyts",
+      "wordBank": [
+        "lyts",
+        "wurch",
+        "kat",
+        "blid"
+      ],
+      "hint": "Het beschrijft de grootte",
+      "explanation": "'De auto is lyts' betekent 'De auto is klein'"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'De kat is moe' in het Fries?",
+      "correctAnswer": "De kat is wurch",
+      "options": [
+        "De kat is wurch",
+        "kat",
+        "blid",
+        "hûs"
+      ],
+      "hint": "Gebruik het Friese woord voor 'moe'",
+      "explanation": "'Moe' betekent 'wurch' in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "ik-haw-in-kat",
+    "hy-is-blid",
+    "sy-hat-in-hûs",
+    "wy-bin-wurch",
+    "jim-hawwe-in-auto",
+    "sy-is-lyts"
+  ],
+  "reviewVocabulary": []
+}

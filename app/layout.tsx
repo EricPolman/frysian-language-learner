@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Header } from "@/components/shared/Header";
+import { MobileNav } from "@/components/shared/MobileNav";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -14,9 +15,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Frysian Learning - Learn Frysian from Dutch",
+  title: "Leer Fries - Fries Leren vanuit het Nederlands",
   description:
-    "Learn Frysian language through interactive exercises and gamified lessons",
+    "Leer de Friese taal door interactieve oefeningen en speelse lessen",
   manifest: "/manifest.json",
   themeColor: "#3b82f6",
   viewport: {
@@ -28,7 +29,7 @@ export const metadata: Metadata = {
   appleWebApp: {
     capable: true,
     statusBarStyle: "default",
-    title: "Frysian Learning",
+    title: "Leer Fries",
   },
 };
 
@@ -38,12 +39,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <Header />
-        {children}
+        <main className="pb-16 md:pb-0">{children}</main>
+        <MobileNav />
       </body>
     </html>
   );

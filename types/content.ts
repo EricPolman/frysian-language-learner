@@ -10,6 +10,7 @@ export interface Vocabulary {
   imageUrl?: string;
   partOfSpeech?: string;
   exampleSentence?: string;
+  exampleTranslation?: string; // Dutch translation of the example sentence
 }
 
 export interface TranslationExercise {
@@ -74,19 +75,28 @@ export interface Lesson {
   lessonNumber: number;
   title: string;
   description?: string;
+  topic?: string;
   introCards: IntroCard[];
   exercises: Exercise[];
   targetVocabulary: string[]; // IDs of vocabulary items
   reviewVocabulary: string[]; // IDs of vocabulary to review
 }
 
+export interface LessonInfo {
+  id: string;
+  title: string;
+  description: string;
+  topic: string;
+}
+
 export interface Skill {
   id: string;
   title: string;
   description: string;
+  longDescription?: string;
   icon?: string;
   order: number;
-  lessons: string[]; // Lesson IDs
+  lessons: LessonInfo[] | string[]; // Lesson info objects or IDs for backward compatibility
   prerequisites: string[]; // Skill IDs that must be completed first
   color?: string;
 }

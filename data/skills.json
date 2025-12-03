@@ -2,120 +2,267 @@
   "skills": [
     {
       "id": "basics-1",
-      "title": "Basics 1",
-      "description": "Essential phrases and greetings",
-      "icon": "�",
+      "title": "Basis 1",
+      "description": "Essentiële zinnen en begroetingen",
+      "longDescription": "Begin je Friese reis met de belangrijkste woorden en zinnen. Leer hoe je mensen begroet, afscheid neemt en basisbeleefdheden uitdrukt in het Fries.",
+      "icon": "👋",
       "order": 0,
       "lessons": [
-        "basics-1-1",
-        "basics-1-2",
-        "basics-1-3",
-        "basics-1-4"
+        {
+          "id": "basics-1-1",
+          "title": "Les 1",
+          "description": "Leer hoe je mensen begroet in het Fries - van goedemorgen tot goedenacht.",
+          "topic": "begroetingen"
+        },
+        {
+          "id": "basics-1-2",
+          "title": "Les 2",
+          "description": "Ontdek hoe je ja en nee zegt, en leer eenvoudige bevestigingen.",
+          "topic": "ja/nee"
+        },
+        {
+          "id": "basics-1-3",
+          "title": "Les 3",
+          "description": "Leer bedanken op verschillende manieren - van informeel tot beleefd.",
+          "topic": "bedanken"
+        },
+        {
+          "id": "basics-1-4",
+          "title": "Les 4",
+          "description": "Beleefdheidswoorden: leer hoe je alsjeblieft zegt en verzoeken doet.",
+          "topic": "alsjeblieft"
+        }
       ],
       "prerequisites": [],
       "color": "#3b82f6"
     },
     {
       "id": "basics-2",
-      "title": "Basics 2",
-      "description": "Personal pronouns, to be, to have",
-      "icon": "📚",
+      "title": "Basis 2",
+      "description": "Persoonlijke voornaamwoorden, zijn, hebben",
+      "longDescription": "Bouw je eerste zinnen in het Fries. Leer de persoonlijke voornaamwoorden en de belangrijkste werkwoorden \"wêze\" (zijn) en \"hawwe\" (hebben).",
+      "icon": "🗣️",
       "order": 1,
       "lessons": [
-        "basics-2-1",
-        "basics-2-2",
-        "basics-2-3",
-        "basics-2-4"
+        {
+          "id": "basics-2-1",
+          "title": "Les 1",
+          "description": "Leer \"ik bin\" (ik ben) en maak je eerste persoonlijke zinnen.",
+          "topic": "ik ben"
+        },
+        {
+          "id": "basics-2-2",
+          "title": "Les 2",
+          "description": "Ontdek hoe je over anderen praat met \"do bist\" (jij bent).",
+          "topic": "jij bent"
+        },
+        {
+          "id": "basics-2-3",
+          "title": "Les 3",
+          "description": "Leer over derden spreken: hij/zij/het is in het Fries.",
+          "topic": "hij/zij is"
+        },
+        {
+          "id": "basics-2-4",
+          "title": "Les 4",
+          "description": "Combineer alles: maak complete zinnen met zijn en hebben.",
+          "topic": "basis zinnen"
+        }
       ],
       "prerequisites": [
         "basics-1"
       ],
-      "color": "#3b82f6"
+      "color": "#10b981"
     },
     {
       "id": "numbers",
-      "title": "Numbers",
-      "description": "Counting and basic math",
-      "icon": "�",
+      "title": "Getallen",
+      "description": "Tellen en basis rekenen",
+      "longDescription": "Leer tellen in het Fries! Van de basis getallen tot grotere nummers, en ontdek hoe je rangtelwoorden gebruikt.",
+      "icon": "🔢",
       "order": 2,
       "lessons": [
-        "numbers-1",
-        "numbers-2",
-        "numbers-3",
-        "numbers-4"
+        {
+          "id": "numbers-1",
+          "title": "Les 1",
+          "description": "De basis: leer tellen van 1 tot 10 in het Fries.",
+          "topic": "1-10"
+        },
+        {
+          "id": "numbers-2",
+          "title": "Les 2",
+          "description": "Verder tellen: ontdek de getallen 11 tot 20.",
+          "topic": "11-20"
+        },
+        {
+          "id": "numbers-3",
+          "title": "Les 3",
+          "description": "Grotere getallen: leer tientallen en tellen tot 100.",
+          "topic": "21-100"
+        },
+        {
+          "id": "numbers-4",
+          "title": "Les 4",
+          "description": "Rangtelwoorden: eerste, tweede, derde... in het Fries.",
+          "topic": "rangtelwoorden"
+        }
       ],
       "prerequisites": [
         "basics-2"
       ],
-      "color": "#10b981"
+      "color": "#f59e0b"
     },
     {
       "id": "family",
-      "title": "Family",
-      "description": "Family members and relationships",
-      "icon": "�‍👩‍👧‍👦",
+      "title": "Familie",
+      "description": "Familieleden en relaties",
+      "longDescription": "Leer praten over je familie in het Fries. Van ouders tot grootouders, broers, zussen en meer.",
+      "icon": "👨‍👩‍👧‍👦",
       "order": 3,
       "lessons": [
-        "family-1",
-        "family-2",
-        "family-3",
-        "family-4"
+        {
+          "id": "family-1",
+          "title": "Les 1",
+          "description": "Leer de woorden voor vader, moeder en ouders.",
+          "topic": "ouders"
+        },
+        {
+          "id": "family-2",
+          "title": "Les 2",
+          "description": "Broers en zussen: leer over siblings praten.",
+          "topic": "broers en zussen"
+        },
+        {
+          "id": "family-3",
+          "title": "Les 3",
+          "description": "De uitgebreide familie: opa, oma, oom, tante en meer.",
+          "topic": "uitgebreide familie"
+        },
+        {
+          "id": "family-4",
+          "title": "Les 4",
+          "description": "Praat over je eigen familie met complete zinnen.",
+          "topic": "mijn familie"
+        }
       ],
       "prerequisites": [
         "numbers"
       ],
-      "color": "#f59e0b"
+      "color": "#ef4444"
     },
     {
       "id": "colors",
-      "title": "Colors & Shapes",
-      "description": "Descriptive vocabulary",
+      "title": "Kleuren & Vormen",
+      "description": "Beschrijvende woordenschat",
+      "longDescription": "Maak je Fries kleurrijk! Leer alle kleuren en basisvormen om de wereld om je heen te beschrijven.",
       "icon": "🎨",
       "order": 4,
       "lessons": [
-        "colors-1",
-        "colors-2",
-        "colors-3",
-        "colors-4"
+        {
+          "id": "colors-1",
+          "title": "Les 1",
+          "description": "De basiskleuren: rood, blauw, groen, geel en meer.",
+          "topic": "basiskleuren"
+        },
+        {
+          "id": "colors-2",
+          "title": "Les 2",
+          "description": "Meer kleuren: roze, paars, oranje en tinten.",
+          "topic": "meer kleuren"
+        },
+        {
+          "id": "colors-3",
+          "title": "Les 3",
+          "description": "Vormen: rond, vierkant, driehoek en andere vormen.",
+          "topic": "basisvormen"
+        },
+        {
+          "id": "colors-4",
+          "title": "Les 4",
+          "description": "Combineer kleuren en vormen om dingen te beschrijven.",
+          "topic": "objecten beschrijven"
+        }
       ],
       "prerequisites": [
         "family"
       ],
-      "color": "#ec4899"
+      "color": "#8b5cf6"
     },
     {
       "id": "food",
-      "title": "Food & Drink",
-      "description": "Everyday vocabulary",
-      "icon": "🍎",
+      "title": "Eten & Drinken",
+      "description": "Dagelijkse woordenschat",
+      "longDescription": "Honger? Leer over eten en drinken in het Fries. Van ontbijt tot avondeten, en alles daartussen.",
+      "icon": "🍽️",
       "order": 5,
       "lessons": [
-        "food-1",
-        "food-2",
-        "food-3",
-        "food-4"
+        {
+          "id": "food-1",
+          "title": "Les 1",
+          "description": "Maaltijden: ontbijt, lunch en avondeten in het Fries.",
+          "topic": "maaltijden"
+        },
+        {
+          "id": "food-2",
+          "title": "Les 2",
+          "description": "Gezond eten: leer de namen van groenten en fruit.",
+          "topic": "groenten en fruit"
+        },
+        {
+          "id": "food-3",
+          "title": "Les 3",
+          "description": "Dranken: van water en koffie tot sap en meer.",
+          "topic": "dranken"
+        },
+        {
+          "id": "food-4",
+          "title": "Les 4",
+          "description": "In het restaurant: bestel eten en vraag om de rekening.",
+          "topic": "in het restaurant"
+        }
       ],
       "prerequisites": [
         "colors"
       ],
-      "color": "#ef4444"
+      "color": "#ec4899"
     },
     {
       "id": "animals",
-      "title": "Animals",
-      "description": "Common animals and pets",
-      "icon": "�",
+      "title": "Dieren",
+      "description": "Gewone dieren en huisdieren",
+      "longDescription": "Ontdek de dierenwereld in het Fries! Van huisdieren tot boerderijdieren en wilde dieren.",
+      "icon": "🐾",
       "order": 6,
       "lessons": [
-        "animals-1",
-        "animals-2",
-        "animals-3",
-        "animals-4"
+        {
+          "id": "animals-1",
+          "title": "Les 1",
+          "description": "Huisdieren: hond, kat, vogel en andere vriendjes.",
+          "topic": "huisdieren"
+        },
+        {
+          "id": "animals-2",
+          "title": "Les 2",
+          "description": "Op de boerderij: koe, varken, kip en meer.",
+          "topic": "boerderijdieren"
+        },
+        {
+          "id": "animals-3",
+          "title": "Les 3",
+          "description": "Wilde dieren: van de bossen tot de zee.",
+          "topic": "wilde dieren"
+        },
+        {
+          "id": "animals-4",
+          "title": "Les 4",
+          "description": "Beschrijf dieren: groot, klein, snel, langzaam.",
+          "topic": "dieren beschrijven"
+        }
       ],
       "prerequisites": [
         "food"
       ],
-      "color": "#8b5cf6"
+      "color": "#06b6d4"
     }
   ],
   "totalLessons": 28

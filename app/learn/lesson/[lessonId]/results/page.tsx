@@ -1,12 +1,18 @@
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
 import { getUser } from "@/app/login/actions";
+import { createClient } from "@/lib/supabase/server";
 import { redirect } from "next/navigation";
+import { ResultsClient } from "@/components/lesson/ResultsClient";
 
 interface Props {
   params: Promise<{ lessonId: string }>;
-  searchParams: Promise<{ xp?: string }>;
+  searchParams: Promise<{
+    xp?: string;
+    accuracy?: string;
+    correct?: string;
+    total?: string;
+    perfect?: string;
+    weakWords?: string;
+  }>;
 }
 
 export default async function LessonResultsPage({
@@ -14,57 +20,44 @@ export default async function LessonResultsPage({
   searchParams,
 }: Props) {
   const { lessonId } = await params;
-  const { xp } = await searchParams;
+  const { xp, accuracy, correct, total, perfect, weakWords } = await searchParams;
   const user = await getUser();
 
   if (!user) {
     redirect("/login");
   }
 
+  // Get user's current level from database
+  const supabase = await createClient();
+  const { data: profile } = await supabase
+    .from("profiles")
+    .select("level, total_xp")
+    .eq("id", user.id)
+    .single();
+
   const xpEarned = parseInt(xp || "0");
+  const accuracyPercent = parseInt(accuracy || "0");
+  const correctCount = parseInt(correct || "0");
+  const totalCount = parseInt(total || "0");
+  const isPerfect = perfect === "true";
+  const weakWordsList = weakWords ? weakWords.split(",").filter(Boolean) : [];
+
+  // Calculate if level up happened
+  const currentLevel = (profile as any)?.level || 1;
+  const previousXP = ((profile as any)?.total_xp || 0) - xpEarned;
+  const previousLevel = Math.floor(previousXP / 100) + 1;
 
   return (
-    <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-12">
-      <div className="container mx-auto px-4">
-        <div className="max-w-2xl mx-auto text-center">
-          {/* Success animation */}
-          <div className="text-8xl mb-6 animate-bounce">🎉</div>
-
-          {/* Title */}
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Les Voltooid!
-          </h1>
-          <p className="text-xl text-gray-600 mb-8">
-            Goed gedaan! Je hebt deze les afgerond.
-          </p>
-
-          {/* Stats */}
-          <Card className="p-8 mb-8">
-            <div className="grid grid-cols-1 gap-6">
-              <div>
-                <div className="text-5xl font-bold text-yellow-500 mb-2">
-                  +{xpEarned} XP
-                </div>
-                <div className="text-gray-600">Ervaringspunten Verdiend</div>
-              </div>
-            </div>
-          </Card>
-
-          {/* Actions */}
-          <div className="space-y-4">
-            <Link href="/learn">
-              <Button size="lg" className="w-full">
-                Ga Verder met Leren
-              </Button>
-            </Link>
-            <Link href={`/learn/lesson/${lessonId}`}>
-              <Button variant="outline" size="lg" className="w-full">
-                Oefen Opnieuw
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </div>
-    </div>
+    <ResultsClient
+      lessonId={lessonId}
+      xpEarned={xpEarned}
+      accuracyPercent={accuracyPercent}
+      correctCount={correctCount}
+      totalCount={totalCount}
+      isPerfect={isPerfect}
+      weakWordsList={weakWordsList}
+      newLevel={currentLevel}
+      previousLevel={previousLevel > 0 ? previousLevel : 1}
+    />
   );
 }

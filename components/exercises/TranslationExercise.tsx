@@ -47,10 +47,25 @@ export function TranslationExercise({
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === "Enter" && !showExplanation) {
-      handleCheck();
+    if (e.key === "Enter") {
+      if (showExplanation) {
+        onContinue();
+      } else if (userAnswer.trim()) {
+        handleCheck();
+      }
     }
   };
+
+  // Global keyboard listener for Enter when showing explanation
+  useEffect(() => {
+    const handleGlobalKeyPress = (e: KeyboardEvent) => {
+      if (e.key === "Enter" && showExplanation) {
+        onContinue();
+      }
+    };
+    window.addEventListener("keydown", handleGlobalKeyPress);
+    return () => window.removeEventListener("keydown", handleGlobalKeyPress);
+  }, [showExplanation, onContinue]);
 
   return (
     <Card className="p-8">
@@ -58,7 +73,9 @@ export function TranslationExercise({
         {/* Question */}
         <div className="space-y-2">
           <h2 className="text-sm uppercase text-gray-500 font-medium">
-            Vertaal dit naar het Fries
+            {exercise.direction === "frysian-to-dutch" 
+              ? "Vertaal dit naar het Nederlands" 
+              : "Vertaal dit naar het Fries"}
           </h2>
           <div className="text-3xl font-bold text-gray-900">
             {exercise.question}
@@ -68,7 +85,9 @@ export function TranslationExercise({
         {/* Input */}
         <Input
           type="text"
-          placeholder="Typ je antwoord..."
+          placeholder={exercise.direction === "frysian-to-dutch" 
+            ? "Typ de Nederlandse vertaling..." 
+            : "Typ de Friese vertaling..."}
           value={userAnswer}
           onChange={(e) => setUserAnswer(e.target.value)}
           onKeyPress={handleKeyPress}
@@ -80,7 +99,7 @@ export function TranslationExercise({
         {/* Hint */}
         {exercise.hint && !showExplanation && attempts > 0 && !isCorrect && (
           <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <div className="text-sm text-blue-700">💡 Hint: {exercise.hint}</div>
+            <div className="text-sm text-blue-700">💡 Tip: {exercise.hint}</div>
           </div>
         )}
 
@@ -98,7 +117,7 @@ export function TranslationExercise({
                 isCorrect ? "text-green-700" : "text-red-700"
               }`}
             >
-              {isCorrect ? "✓ Correct!" : "✗ Niet helemaal"}
+              {isCorrect ? "✓ Goed!" : "✗ Niet helemaal"}
             </div>
             {!isCorrect && (
               <div className="text-sm text-gray-700 mb-2">

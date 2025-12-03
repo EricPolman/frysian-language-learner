@@ -1,0 +1,262 @@
+{
+  "id": "basics-2-2",
+  "skillId": "basics-2",
+  "lessonNumber": 2,
+  "title": "Basis 2 - Les 2",
+  "description": "Het werkwoord \"wêze\" (zijn): ik bin, do bist, hy/sy is, wy binne.",
+  "topic": "wêze (zijn)",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-basics-2-2-0",
+      "vocabulary": {
+        "id": "ik-bin",
+        "frysian": "ik bin",
+        "dutch": "ik ben",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik bin thús.",
+        "exampleTranslation": "Ik ben thuis."
+      },
+      "exampleSentence": "Ik bin thús.",
+      "exampleTranslation": "Ik ben thuis."
+    },
+    {
+      "id": "intro-basics-2-2-1",
+      "vocabulary": {
+        "id": "do-bist",
+        "frysian": "do bist",
+        "dutch": "jij bent",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Do bist moai.",
+        "exampleTranslation": "Jij bent mooi."
+      },
+      "exampleSentence": "Do bist moai.",
+      "exampleTranslation": "Jij bent mooi."
+    },
+    {
+      "id": "intro-basics-2-2-2",
+      "vocabulary": {
+        "id": "hy-sy-is",
+        "frysian": "hy/sy is",
+        "dutch": "hij/zij is",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy is hjir.",
+        "exampleTranslation": "Hij is hier."
+      },
+      "exampleSentence": "Hy is hjir.",
+      "exampleTranslation": "Hij is hier."
+    },
+    {
+      "id": "intro-basics-2-2-3",
+      "vocabulary": {
+        "id": "wy-binne",
+        "frysian": "wy binne",
+        "dutch": "wij zijn",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Wy binne tegearre.",
+        "exampleTranslation": "Wij zijn samen."
+      },
+      "exampleSentence": "Wy binne tegearre.",
+      "exampleTranslation": "Wij zijn samen."
+    },
+    {
+      "id": "intro-basics-2-2-4",
+      "vocabulary": {
+        "id": "goeie",
+        "frysian": "Goeie",
+        "dutch": "Hallo",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeie, hoe giet it?",
+        "exampleTranslation": "Hallo, hoe gaat het?"
+      },
+      "exampleSentence": "Goeie, hoe giet it?",
+      "exampleTranslation": "Hallo, hoe gaat het?"
+    },
+    {
+      "id": "intro-basics-2-2-5",
+      "vocabulary": {
+        "id": "goeiemiddei",
+        "frysian": "Goeiemiddei",
+        "dutch": "Goedemiddag",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeiemiddei, ik bin Klaas.",
+        "exampleTranslation": "Goedemiddag, ik ben Klaas."
+      },
+      "exampleSentence": "Goeiemiddei, ik bin Klaas.",
+      "exampleTranslation": "Goedemiddag, ik ben Klaas."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "hallo",
+      "correctAnswer": "Goeie",
+      "acceptedAnswers": [
+        "Goeie"
+      ],
+      "hint": "Informele begroeting",
+      "explanation": "'Goeie' is de meest gebruikte begroeting",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Goeiemiddei",
+      "correctAnswer": "goedemiddag",
+      "acceptedAnswers": [
+        "goedemiddag"
+      ],
+      "hint": "Een middagbegroeting",
+      "explanation": "'Goeiemiddei' betekent goedemiddag in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "___! Hoe giet it?",
+      "blankIndex": 0,
+      "correctAnswer": "Goeie",
+      "wordBank": [
+        "Goeie",
+        "ik bin",
+        "do bist",
+        "hy/sy is"
+      ],
+      "hint": "Een algemene begroeting",
+      "explanation": "'Goeie' betekent hallo"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'goedemiddag' in het Fries?",
+      "correctAnswer": "Goeiemiddei",
+      "options": [
+        "Goeie",
+        "Goeiemiddei",
+        "ik bin",
+        "do bist"
+      ],
+      "hint": "Het is een middagbegroeting",
+      "explanation": "'Goeiemiddei' betekent goedemiddag",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "jij bent",
+      "correctAnswer": "do bist",
+      "acceptedAnswers": [
+        "do bist"
+      ],
+      "hint": "Tweede persoon enkelvoud",
+      "explanation": "'do bist' is de Friese vertaling van 'jij bent'",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "hy/sy is",
+      "correctAnswer": "hij/zij is",
+      "acceptedAnswers": [
+        "hij is",
+        "zij is"
+      ],
+      "hint": "Derde persoon enkelvoud",
+      "explanation": "'hy/sy is' betekent hij/zij is",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Wy ___ bliid.",
+      "blankIndex": 1,
+      "correctAnswer": "binne",
+      "wordBank": [
+        "binne",
+        "ik bin",
+        "do bist",
+        "hy/sy is"
+      ],
+      "hint": "Meervoudsvorm van 'zijn'",
+      "explanation": "'Wy binne' betekent wij zijn"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "wij zijn",
+      "correctAnswer": "wy binne",
+      "acceptedAnswers": [
+        "wy binne"
+      ],
+      "hint": "Meervoudsvorm van 'zijn' met 'wij'",
+      "explanation": "'wy binne' is de Friese vertaling van 'wij zijn'",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'ik bin'?",
+      "correctAnswer": "ik ben",
+      "options": [
+        "jij bent",
+        "ik ben",
+        "wij zijn",
+        "hij/zij is"
+      ],
+      "hint": "Eerste persoon enkelvoud",
+      "explanation": "'ik bin' betekent ik ben",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Do ___ moai.",
+      "blankIndex": 1,
+      "correctAnswer": "bist",
+      "wordBank": [
+        "bist",
+        "ik bin",
+        "do bist",
+        "hy/sy is"
+      ],
+      "hint": "Tweede persoon enkelvoud van 'zijn'",
+      "explanation": "'Do bist' betekent jij bent"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "ik bin",
+      "correctAnswer": "ik ben",
+      "acceptedAnswers": [
+        "ik ben"
+      ],
+      "hint": "Eerste persoon enkelvoud",
+      "explanation": "'ik bin' betekent ik ben in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "hij/zij is",
+      "correctAnswer": "hy/sy is",
+      "acceptedAnswers": [
+        "hy is",
+        "sy is"
+      ],
+      "hint": "Derde persoon enkelvoud",
+      "explanation": "'hy/sy is' is de Friese vertaling van 'hij/zij is'",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "ik-bin",
+    "do-bist",
+    "hy-sy-is",
+    "wy-binne",
+    "goeie",
+    "goeiemiddei"
+  ],
+  "reviewVocabulary": []
+}

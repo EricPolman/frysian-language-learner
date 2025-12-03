@@ -2,13 +2,21 @@
 
 import { SkillNode } from "./SkillNode";
 
+interface LessonInfo {
+  id: string;
+  title: string;
+  description: string;
+  topic: string;
+}
+
 interface Skill {
   id: string;
   title: string;
   description: string;
+  longDescription?: string;
   icon: string;
   order: number;
-  lessons: string[];
+  lessons: LessonInfo[] | string[];
   prerequisites: string[];
   color: string;
 }
@@ -21,6 +29,11 @@ interface UserProgress {
 interface SkillTreeProps {
   skills: Skill[];
   userProgress: UserProgress;
+}
+
+// Helper to get lesson ID from lesson info or string
+function getLessonId(lesson: LessonInfo | string): string {
+  return typeof lesson === 'string' ? lesson : lesson.id;
 }
 
 export function SkillTree({ skills, userProgress }: SkillTreeProps) {
@@ -36,8 +49,8 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
       if (!prereqSkill) return false;
       
       // A skill is completed if all its lessons are completed
-      return prereqSkill.lessons.every((lessonId) =>
-        completedLessons.has(lessonId)
+      return prereqSkill.lessons.every((lesson) =>
+        completedLessons.has(getLessonId(lesson))
       );
     });
 
@@ -63,8 +76,8 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
         {skills
           .sort((a, b) => a.order - b.order)
           .map((skill) => {
-            const lessonsCompleted = skill.lessons.filter((lessonId) =>
-              completedLessons.has(lessonId)
+            const lessonsCompleted = skill.lessons.filter((lesson) =>
+              completedLessons.has(getLessonId(lesson))
             ).length;
             
             const isLocked = !unlockedSkills.has(skill.id);
@@ -81,6 +94,7 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
                   id={skill.id}
                   title={skill.title}
                   description={skill.description}
+                  longDescription={skill.longDescription}
                   icon={skill.icon}
                   color={skill.color}
                   lessonsCompleted={lessonsCompleted}

@@ -18,16 +18,16 @@ export default async function LoginPage({
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2 mb-6">
-            <div className="text-3xl">🇳🇱</div>
+            <div className="text-3xl"><img src="/Frisian_flag.png" alt="Frysk Leare Logo"  className="w-8" /></div>
             <span className="text-2xl font-bold text-gray-900">
-              Frysian Learning
+              Frysk Leare
             </span>
           </Link>
           <h1 className="text-3xl font-bold text-gray-900 mt-4">
-            Welcome Back
+            Welkom Terug
           </h1>
           <p className="text-gray-600 mt-2">
-            Log in to continue your learning journey
+            Log in om verder te gaan met leren
           </p>
         </div>
 
@@ -40,18 +40,18 @@ export default async function LoginPage({
         <Card className="p-6">
           <form action={login} className="space-y-4">
             <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
+              <Label htmlFor="email">E-mailadres</Label>
               <Input
                 id="email"
                 name="email"
                 type="email"
-                placeholder="your.email@example.com"
+                placeholder="jouw.email@voorbeeld.nl"
                 required
               />
             </div>
 
             <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
+              <Label htmlFor="password">Wachtwoord</Label>
               <Input
                 id="password"
                 name="password"
@@ -64,34 +64,34 @@ export default async function LoginPage({
             <div className="flex items-center justify-between text-sm">
               <label className="flex items-center gap-2">
                 <input type="checkbox" className="rounded" />
-                <span className="text-gray-600">Remember me</span>
+                <span className="text-gray-600">Onthoud mij</span>
               </label>
               <Link
                 href="/forgot-password"
                 className="text-blue-600 hover:underline"
               >
-                Forgot password?
+                Wachtwoord vergeten?
               </Link>
             </div>
 
             <Button type="submit" className="w-full" size="lg">
-              Log In
+              Inloggen
             </Button>
           </form>
 
           <div className="mt-6 text-center text-sm text-gray-600">
-            Don't have an account?{" "}
+            Nog geen account?{" "}
             <Link
               href="/signup"
               className="text-blue-600 font-medium hover:underline"
             >
-              Sign up
+              Registreren
             </Link>
           </div>
         </Card>
 
         <p className="text-center text-sm text-gray-500 mt-6">
-          By logging in, you agree to our Terms of Service and Privacy Policy
+          Door in te loggen ga je akkoord met onze Gebruiksvoorwaarden en Privacybeleid
         </p>
       </div>
     </div>

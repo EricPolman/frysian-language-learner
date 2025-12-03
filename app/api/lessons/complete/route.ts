@@ -1,9 +1,19 @@
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { calculateLevel } from "@/lib/levels";
 
 export async function POST(request: Request) {
   try {
-    const { lessonId, xpEarned, userId } = await request.json();
+    const { 
+      lessonId, 
+      xpEarned, 
+      userId,
+      accuracy,
+      correctOnFirstTry,
+      totalExercises,
+      weakWords,
+      isPerfect,
+    } = await request.json();
 
     const supabase = await createClient();
 
@@ -73,18 +83,72 @@ export async function POST(request: Request) {
       if (updateError) throw updateError;
     }
 
-    // Update user level based on XP
+    // Update user level based on XP (progressive scaling)
     const newTotalXp = ((currentProgress as any)?.total_xp || 0) + xpEarned;
-    const newLevel = Math.floor(newTotalXp / 100) + 1;
+    const newLevel = calculateLevel(newTotalXp);
 
     // @ts-ignore - Supabase types not fully configured
     await supabase
       .from("profiles")
       // @ts-ignore
-      .update({ level: newLevel })
+      .update({ level: newLevel, total_xp: newTotalXp })
       .eq("id", userId);
 
-    return NextResponse.json({ success: true });
+    // Record lesson attempt with detailed stats
+    await supabase
+      .from("lesson_attempts")
+      .insert({
+        user_id: userId,
+        lesson_id: lessonId,
+        questions_answered: totalExercises || 0,
+        questions_correct: correctOnFirstTry || 0,
+        xp_earned: xpEarned,
+        completed_at: new Date().toISOString(),
+      } as any);
+
+    // Update word progress for weak words (spaced repetition)
+    if (weakWords && weakWords.length > 0) {
+      for (const word of weakWords) {
+        // Check if word progress exists
+        const { data: existingProgress } = await supabase
+          .from("word_progress")
+          .select("*")
+          .eq("user_id", userId)
+          .eq("word_id", word)
+          .single();
+
+        if (existingProgress) {
+          // Decrease strength for weak word
+          const newStrength = Math.max(1, (existingProgress as any).strength - 1);
+          await supabase
+            .from("word_progress")
+            .update({
+              strength: newStrength,
+              incorrect_count: ((existingProgress as any).incorrect_count || 0) + 1,
+              last_practiced: new Date().toISOString(),
+            } as any)
+            .eq("id", (existingProgress as any).id);
+        } else {
+          // Create new word progress entry
+          await supabase
+            .from("word_progress")
+            .insert({
+              user_id: userId,
+              word_id: word,
+              strength: 1,
+              incorrect_count: 1,
+              correct_count: 0,
+            } as any);
+        }
+      }
+    }
+
+    return NextResponse.json({ 
+      success: true,
+      newLevel,
+      newTotalXp,
+      isPerfect,
+    });
   } catch (error) {
     console.error("Error completing lesson:", error);
     return NextResponse.json(

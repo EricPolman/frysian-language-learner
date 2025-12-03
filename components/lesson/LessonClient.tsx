@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
@@ -9,7 +9,16 @@ import { FillInBlankExercise } from "@/components/exercises/FillInBlankExercise"
 import { SentenceBuildExercise } from "@/components/exercises/SentenceBuildExercise";
 import { MultipleChoiceExercise } from "@/components/exercises/MultipleChoiceExercise";
 import { IntroCard } from "@/components/lesson/IntroCard";
-import type { Lesson } from "@/types/content";
+import type { Lesson, Exercise } from "@/types/content";
+
+// Track individual exercise results
+interface ExerciseResultData {
+  exerciseId: string;
+  correct: boolean;
+  firstTry: boolean;
+  xpEarned: number;
+  vocabulary?: string[]; // Related vocabulary words
+}
 
 interface LessonClientProps {
   lesson: Lesson;
@@ -22,6 +31,11 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
   const [completedCount, setCompletedCount] = useState(0);
   const [totalXP, setTotalXP] = useState(0);
   const [showExplanation, setShowExplanation] = useState(false);
+  
+  // New tracking state
+  const [exerciseResults, setExerciseResults] = useState<ExerciseResultData[]>([]);
+  const [currentAttempt, setCurrentAttempt] = useState(1);
+  const [weakWords, setWeakWords] = useState<string[]>([]);
 
   const totalItems = lesson.introCards.length + lesson.exercises.length;
   const progress = (completedCount / totalItems) * 100;
@@ -43,10 +57,38 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
       setCurrentIndex(currentIndex + 1);
       setCompletedCount(completedCount + 1);
       setShowExplanation(false);
+      setCurrentAttempt(1); // Reset attempt counter for next exercise
+    }
+  };
+
+  // Helper to extract vocabulary from exercise
+  const getExerciseVocabulary = (exercise: Exercise): string[] => {
+    switch (exercise.type) {
+      case "translation":
+        return [exercise.correctAnswer];
+      case "fill-in-blank":
+        return [exercise.correctAnswer];
+      case "multiple-choice":
+        return [exercise.correctAnswer];
+      case "sentence-build":
+        return exercise.correctOrder;
+      default:
+        return [];
     }
   };
 
   const handleComplete = async () => {
+    // Calculate stats
+    const correctOnFirstTry = exerciseResults.filter(r => r.firstTry && r.correct).length;
+    const totalExercises = lesson.exercises.length;
+    const accuracy = totalExercises > 0 ? Math.round((correctOnFirstTry / totalExercises) * 100) : 0;
+    const isPerfect = correctOnFirstTry === totalExercises;
+    
+    // Calculate bonus XP
+    const lessonBonus = 50;
+    const perfectBonus = isPerfect ? 25 : 0;
+    const finalXP = totalXP + lessonBonus + perfectBonus;
+
     // Save progress to database
     try {
       const response = await fetch("/api/lessons/complete", {
@@ -54,13 +96,27 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           lessonId: lesson.id,
-          xpEarned: totalXP,
+          xpEarned: finalXP,
           userId,
+          accuracy,
+          correctOnFirstTry,
+          totalExercises,
+          weakWords,
+          isPerfect,
         }),
       });
 
       if (response.ok) {
-        router.push(`/learn/lesson/${lesson.id}/results?xp=${totalXP}`);
+        // Pass stats to results page via URL params
+        const params = new URLSearchParams({
+          xp: finalXP.toString(),
+          accuracy: accuracy.toString(),
+          correct: correctOnFirstTry.toString(),
+          total: totalExercises.toString(),
+          perfect: isPerfect.toString(),
+          weakWords: weakWords.join(","),
+        });
+        router.push(`/learn/lesson/${lesson.id}/results?${params.toString()}`);
       }
     } catch (error) {
       console.error("Failed to save lesson progress:", error);
@@ -68,7 +124,28 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
   };
 
   const handleExerciseComplete = (correct: boolean, xp: number) => {
+    const exercise = lesson.exercises[currentIndex - lesson.introCards.length];
+    const isFirstTry = currentAttempt === 1;
+    
+    // Track the result
+    const result: ExerciseResultData = {
+      exerciseId: exercise.id,
+      correct,
+      firstTry: isFirstTry,
+      xpEarned: xp,
+      vocabulary: getExerciseVocabulary(exercise),
+    };
+    
+    setExerciseResults(prev => [...prev, result]);
     setTotalXP(totalXP + xp);
+    
+    // Track weak words if incorrect on first try
+    if (!correct && isFirstTry) {
+      const vocab = getExerciseVocabulary(exercise);
+      setWeakWords(prev => [...new Set([...prev, ...vocab])]);
+      setCurrentAttempt(2);
+    }
+    
     setShowExplanation(true);
   };
 
@@ -124,7 +201,7 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
           />
         );
       default:
-        return <div>Unknown exercise type</div>;
+        return <div>Onbekend oefentype</div>;
     }
   };
 

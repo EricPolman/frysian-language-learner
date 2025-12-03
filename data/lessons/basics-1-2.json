@@ -2,231 +2,259 @@
   "id": "basics-1-2",
   "skillId": "basics-1",
   "lessonNumber": 2,
-  "title": "Basics 1 - Lesson 2",
-  "description": "Learn about yes/no",
+  "title": "Basis 1 - Les 2",
+  "description": "Leer afscheid nemen: tot ziens, tot morgen, tot straks, goedenacht.",
+  "topic": "afscheid nemen",
+  "difficulty": 1,
+  "estimatedMinutes": 9,
   "introCards": [
     {
       "id": "intro-basics-1-2-0",
       "vocabulary": {
-        "id": "vocab-001",
-        "frysian": "ja",
-        "dutch": "ja",
-        "english": "yes",
-        "partOfSpeech": "adverb",
-        "exampleSentence": "Ja, ik wol dat dwaan."
+        "id": "oant-sjen-001",
+        "frysian": "Oant sjen",
+        "dutch": "Tot ziens",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Oant sjen, ik gean no.",
+        "exampleTranslation": "Tot ziens, ik ga nu."
       },
-      "exampleSentence": "Ja, ik wol dat dwaan."
+      "exampleSentence": "Oant sjen, ik gean no.",
+      "exampleTranslation": "Tot ziens, ik ga nu."
     },
     {
       "id": "intro-basics-1-2-1",
       "vocabulary": {
-        "id": "vocab-002",
-        "frysian": "nee",
-        "dutch": "nee",
-        "english": "no",
-        "partOfSpeech": "adverb",
-        "exampleSentence": "Nee, dat is net goed."
+        "id": "oant-moarn-002",
+        "frysian": "Oant moarn",
+        "dutch": "Tot morgen",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Ik sjoch dy, oant moarn!",
+        "exampleTranslation": "Ik zie je, tot morgen!"
       },
-      "exampleSentence": "Nee, dat is net goed."
+      "exampleSentence": "Ik sjoch dy, oant moarn!",
+      "exampleTranslation": "Ik zie je, tot morgen!"
     },
     {
       "id": "intro-basics-1-2-2",
       "vocabulary": {
-        "id": "vocab-003",
-        "frysian": "jawis",
-        "dutch": "zeker",
-        "english": "certainly",
-        "partOfSpeech": "adverb",
-        "exampleSentence": "Jawis, ik sil dêr wêze."
+        "id": "oant-aanst-003",
+        "frysian": "Oant aanst",
+        "dutch": "Tot straks",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Oant aanst, ik sjoch dy letter.",
+        "exampleTranslation": "Tot straks, ik zie je later."
       },
-      "exampleSentence": "Jawis, ik sil dêr wêze."
+      "exampleSentence": "Oant aanst, ik sjoch dy letter.",
+      "exampleTranslation": "Tot straks, ik zie je later."
     },
     {
       "id": "intro-basics-1-2-3",
       "vocabulary": {
-        "id": "vocab-004",
-        "frysian": "nee net",
-        "dutch": "nee, niet",
-        "english": "no, not",
-        "partOfSpeech": "phrase",
-        "exampleSentence": "Nee, net op dit stuit."
+        "id": "goeienacht-004",
+        "frysian": "Goeienacht",
+        "dutch": "Goedenacht",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeienacht, sliep lekker.",
+        "exampleTranslation": "Goedenacht, slaap lekker."
       },
-      "exampleSentence": "Nee, net op dit stuit."
+      "exampleSentence": "Goeienacht, sliep lekker.",
+      "exampleTranslation": "Goedenacht, slaap lekker."
     },
     {
       "id": "intro-basics-1-2-4",
       "vocabulary": {
-        "id": "vocab-005",
-        "frysian": "wis",
-        "dutch": "zeker",
-        "english": "sure",
-        "partOfSpeech": "adjective",
-        "exampleSentence": "Ik bin wis dat it giet troch."
+        "id": "oant-letter-005",
+        "frysian": "Oant letter",
+        "dutch": "Tot later",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Ik moat gean, oant letter.",
+        "exampleTranslation": "Ik moet gaan, tot later."
       },
-      "exampleSentence": "Ik bin wis dat it giet troch."
+      "exampleSentence": "Ik moat gean, oant letter.",
+      "exampleTranslation": "Ik moet gaan, tot later."
+    },
+    {
+      "id": "intro-basics-1-2-5",
+      "vocabulary": {
+        "id": "sjoch-006",
+        "frysian": "Sjoch",
+        "dutch": "Zie",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Sjoch dy gau wer.",
+        "exampleTranslation": "Zie je snel weer."
+      },
+      "exampleSentence": "Sjoch dy gau wer.",
+      "exampleTranslation": "Zie je snel weer."
     }
   ],
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-001",
-      "question": "Ja, ik wil dat doen.",
-      "correctAnswer": "Ja, ik wol dat dwaan.",
+      "id": "trans-1",
+      "question": "Tot ziens",
+      "correctAnswer": "Oant sjen",
       "acceptedAnswers": [
-        "Ja, ik wol dat dwaan."
+        "Oant sjen"
       ],
-      "hint": "Translate 'yes, I want to do that'.",
-      "explanation": "The structure is similar to Dutch, with 'ik' for 'I'.",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "translation",
-      "id": "trans-002",
-      "question": "Nee, dat is niet goed.",
-      "correctAnswer": "Nee, dat is net goed.",
-      "acceptedAnswers": [
-        "Nee, dat is net goed."
-      ],
-      "hint": "Focus on the negative form 'not'.",
-      "explanation": "'Net' is used for 'niet' in Frysian.",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "translation",
-      "id": "trans-003",
-      "question": "Zeker, ik zal daar zijn.",
-      "correctAnswer": "Jawis, ik sil dêr wêze.",
-      "acceptedAnswers": [
-        "Jawis, ik sil dêr wêze."
-      ],
-      "hint": "Use 'jawis' for 'zeker'.",
-      "explanation": "'Jawis' is a stronger affirmation than 'ja'.",
+      "hint": "Gebruik voor afscheid nemen",
+      "explanation": "'Oant sjen' betekent tot ziens in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-001",
-      "sentence": "___, ik wol dat dwaan.",
+      "id": "fill-1",
+      "sentence": "___ moarn! Hoe giet it?",
       "blankIndex": 0,
-      "correctAnswer": "Ja",
-      "acceptedAnswers": [
-        "Ja"
-      ],
+      "correctAnswer": "Oant",
       "wordBank": [
-        "Ja",
-        "Nee",
-        "Jawis"
+        "Oant",
+        "Goeienacht",
+        "Sjoch",
+        "Oant letter"
       ],
-      "hint": "Affirmative response",
-      "explanation": "'Ja' means 'yes'."
-    },
-    {
-      "type": "fill-in-blank",
-      "id": "fill-002",
-      "sentence": "Jawis, ik ___ dêr wêze.",
-      "blankIndex": 2,
-      "correctAnswer": "sil",
-      "acceptedAnswers": [
-        "sil"
-      ],
-      "wordBank": [
-        "sil",
-        "bin",
-        "wol"
-      ],
-      "hint": "Future tense of 'will'.",
-      "explanation": "'Sil' is used for future actions."
-    },
-    {
-      "type": "fill-in-blank",
-      "id": "fill-003",
-      "sentence": "Nee, ___ op dit stuit.",
-      "blankIndex": 1,
-      "correctAnswer": "net",
-      "acceptedAnswers": [
-        "net"
-      ],
-      "wordBank": [
-        "net",
-        "wis",
-        "ja"
-      ],
-      "hint": "Negative form.",
-      "explanation": "'Net' is equivalent to 'niet'."
+      "hint": "Een begroeting voor de volgende dag",
+      "explanation": "'Oant moarn' betekent tot morgen"
     },
     {
       "type": "multiple-choice",
-      "id": "mc-001",
-      "question": "How do you say 'certainly' in Frysian?",
-      "correctAnswer": "Jawis",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'goedenacht' in het Fries?",
+      "correctAnswer": "Goeienacht",
       "options": [
-        "Ja",
-        "Nee",
-        "Jawis",
-        "Wis"
+        "Goeienacht",
+        "Oant moarn",
+        "Sjoch",
+        "Oant sjen"
       ],
-      "hint": "It's a strong affirmation.",
-      "explanation": "'Jawis' translates to 'certainly'.",
+      "hint": "Een groet voor het slapengaan",
+      "explanation": "'Goeienacht' betekent goedenacht",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Oant moarn",
+      "correctAnswer": "Tot morgen",
+      "acceptedAnswers": [
+        "Tot morgen"
+      ],
+      "hint": "Een groet voor de volgende dag",
+      "explanation": "'Oant moarn' betekent tot morgen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "___ letter! Ik moat gean.",
+      "blankIndex": 0,
+      "correctAnswer": "Oant",
+      "wordBank": [
+        "Oant",
+        "Goeienacht",
+        "Sjoch",
+        "Oant aanst"
+      ],
+      "hint": "Een informele manier om te zeggen dat je later terugkomt",
+      "explanation": "'Oant letter' betekent tot later"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "Zie",
+      "correctAnswer": "Sjoch",
+      "acceptedAnswers": [
+        "Sjoch"
+      ],
+      "hint": "Gebruik voor kijken",
+      "explanation": "'Sjoch' betekent zie in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "multiple-choice",
-      "id": "mc-002",
-      "question": "Which word means 'sure'?",
-      "correctAnswer": "Wis",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'tot straks' in het Fries?",
+      "correctAnswer": "Oant aanst",
       "options": [
-        "Ja",
-        "Nee",
-        "Jawis",
-        "Wis"
+        "Oant aanst",
+        "Oant sjen",
+        "Goeienacht",
+        "Sjoch"
       ],
-      "hint": "It's a synonym for 'certain'.",
-      "explanation": "'Wis' means 'sure'.",
+      "hint": "Gebruik wanneer je elkaar binnen een korte tijd weer ziet",
+      "explanation": "'Oant aanst' betekent tot straks",
       "direction": "dutch-to-frysian"
     },
     {
-      "type": "sentence-build",
-      "id": "sb-001",
-      "prompt": "Say 'No, not at this moment' in Frysian",
-      "correctOrder": [
-        "Nee",
-        "net",
-        "op",
-        "dit",
-        "stuit"
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "Goeienacht",
+      "correctAnswer": "Goedenacht",
+      "acceptedAnswers": [
+        "Goedenacht"
       ],
-      "distractorWords": [
-        "ja",
-        "wis",
-        "jawis"
-      ],
-      "hint": "Start with 'Nee'."
+      "hint": "Een groet voor het slapengaan",
+      "explanation": "'Goeienacht' betekent goedenacht in het Nederlands",
+      "direction": "frysian-to-dutch"
     },
     {
-      "type": "sentence-build",
-      "id": "sb-002",
-      "prompt": "Say 'Yes, I want to do that' in Frysian",
-      "correctOrder": [
-        "Ja",
-        "ik",
-        "wol",
-        "dat",
-        "dwaan"
+      "type": "translation",
+      "id": "trans-3",
+      "question": "Tot later",
+      "correctAnswer": "Oant letter",
+      "acceptedAnswers": [
+        "Oant letter"
       ],
-      "distractorWords": [
-        "net",
-        "jawis",
-        "wis"
+      "hint": "Gebruik wanneer je elkaar weer ziet na enige tijd",
+      "explanation": "'Oant letter' betekent tot later in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "___ sjen! It wie in moaie dei.",
+      "blankIndex": 0,
+      "correctAnswer": "Oant",
+      "wordBank": [
+        "Oant",
+        "Goeienacht",
+        "Sjoch",
+        "Oant moarn"
       ],
-      "hint": "Start with 'Ja'."
+      "hint": "Gebruik wanneer je afscheid neemt",
+      "explanation": "'Oant sjen' betekent tot ziens"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "Tot straks",
+      "correctAnswer": "Oant aanst",
+      "acceptedAnswers": [
+        "Oant aanst"
+      ],
+      "hint": "Gebruik voor een korte afscheid",
+      "explanation": "'Oant aanst' betekent tot straks in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "Sjoch",
+      "correctAnswer": "Zie",
+      "acceptedAnswers": [
+        "Zie"
+      ],
+      "hint": "Gebruik voor kijken",
+      "explanation": "'Sjoch' betekent zie in het Nederlands",
+      "direction": "frysian-to-dutch"
     }
   ],
   "targetVocabulary": [
-    "vocab-001",
-    "vocab-002",
-    "vocab-003",
-    "vocab-004",
-    "vocab-005"
+    "oant-sjen-001",
+    "oant-moarn-002",
+    "oant-aanst-003",
+    "goeienacht-004",
+    "oant-letter-005",
+    "sjoch-006"
   ],
   "reviewVocabulary": []
 }

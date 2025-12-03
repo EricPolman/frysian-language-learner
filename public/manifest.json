@@ -1,7 +1,7 @@
 {
-  "name": "Frysian Learning",
-  "short_name": "Frysian",
-  "description": "Learn Frysian from Dutch",
+  "name": "Leer Fries",
+  "short_name": "Leer Fries",
+  "description": "Leer Fries vanuit het Nederlands",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

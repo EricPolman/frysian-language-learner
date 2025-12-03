@@ -6,8 +6,28 @@ import { createClient } from "@/lib/supabase/server";
 import skillsData from "@/data/skills.json";
 import { redirect, notFound } from "next/navigation";
 
+interface LessonInfo {
+  id: string;
+  title: string;
+  description: string;
+  topic: string;
+}
+
 interface Props {
   params: Promise<{ skillId: string }>;
+}
+
+// Helper to get lesson ID from lesson info or string
+function getLessonId(lesson: LessonInfo | string): string {
+  return typeof lesson === 'string' ? lesson : lesson.id;
+}
+
+// Helper to get lesson info
+function getLessonInfo(lesson: LessonInfo | string, index: number): { id: string; title: string; description: string } {
+  if (typeof lesson === 'string') {
+    return { id: lesson, title: `Les ${index + 1}`, description: lesson };
+  }
+  return { id: lesson.id, title: lesson.title, description: lesson.description };
 }
 
 export default async function SkillPage({ params }: Props) {
@@ -36,6 +56,9 @@ export default async function SkillPage({ params }: Props) {
     (progressData as any)?.completed_lessons || []
   );
 
+  // Cast skill to include optional longDescription
+  const skillWithLongDesc = skill as typeof skill & { longDescription?: string };
+
   return (
     <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-8">
       <div className="container mx-auto px-4">
@@ -53,17 +76,24 @@ export default async function SkillPage({ params }: Props) {
             <h1 className="text-3xl font-bold text-gray-900 mb-2">
               {skill.title}
             </h1>
-            <p className="text-gray-600">{skill.description}</p>
+            <p className="text-gray-600 mb-2">{skill.description}</p>
+            {skillWithLongDesc.longDescription && (
+              <p className="text-sm text-gray-500 max-w-xl mx-auto">
+                {skillWithLongDesc.longDescription}
+              </p>
+            )}
           </div>
 
           {/* Lessons */}
           <div className="space-y-4">
             <h2 className="text-xl font-bold text-gray-900 mb-4">Lessen</h2>
-            {skill.lessons.map((lessonId, index) => {
+            {skill.lessons.map((lesson, index) => {
+              const lessonInfo = getLessonInfo(lesson, index);
+              const lessonId = lessonInfo.id;
               const isCompleted = completedLessons.has(lessonId);
               const isFirst = index === 0;
-              const previousCompleted =
-                isFirst || completedLessons.has(skill.lessons[index - 1]);
+              const previousLessonId = index > 0 ? getLessonId(skill.lessons[index - 1]) : null;
+              const previousCompleted = isFirst || (previousLessonId && completedLessons.has(previousLessonId));
               const isUnlocked = isFirst || previousCompleted;
 
               return (
@@ -75,27 +105,29 @@ export default async function SkillPage({ params }: Props) {
                     ${isCompleted ? "bg-green-50 border-green-200" : ""}
                   `}
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-4">
-                      <div className="text-3xl">
+                  <div className="flex items-center justify-between gap-4">
+                    <div className="flex items-center gap-4 flex-1 min-w-0">
+                      <div className="text-3xl shrink-0">
                         {isCompleted ? "✅" : isUnlocked ? "📖" : "🔒"}
                       </div>
-                      <div>
+                      <div className="min-w-0">
                         <h3 className="font-bold text-gray-900">
                           Les {index + 1}
                         </h3>
-                        <p className="text-sm text-gray-600">{lessonId}</p>
+                        <p className="text-sm text-gray-600 line-clamp-2">
+                          {lessonInfo.description}
+                        </p>
                       </div>
                     </div>
 
                     {isUnlocked ? (
-                      <Link href={`/learn/lesson/${lessonId}`}>
+                      <Link href={`/learn/lesson/${lessonId}`} className="shrink-0">
                         <Button size="sm">
                           {isCompleted ? "Oefen" : "Start"}
                         </Button>
                       </Link>
                     ) : (
-                      <Button size="sm" disabled>
+                      <Button size="sm" disabled className="shrink-0">
                         Vergrendeld
                       </Button>
                     )}

@@ -29,6 +29,31 @@ export function FillInBlankExercise({
     setAttempts(0);
   }, [exercise.id]);
 
+  // Keyboard navigation: 1-4 to select word, Enter to check/continue
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Don't handle if user is typing in an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      
+      if (showExplanation) {
+        if (e.key === "Enter") {
+          onContinue();
+        }
+        return;
+      }
+
+      // Number keys 1-4 to select word bank options
+      const keyNum = parseInt(e.key);
+      if (exercise.wordBank && keyNum >= 1 && keyNum <= exercise.wordBank.length) {
+        setSelectedWord(exercise.wordBank[keyNum - 1]);
+      } else if (e.key === "Enter" && selectedWord) {
+        handleCheck();
+      }
+    };
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [showExplanation, onContinue, exercise.wordBank, selectedWord]);
+
   const words = exercise.sentence.split(" ");
   const blankWord = words[exercise.blankIndex];
 
@@ -86,7 +111,7 @@ export function FillInBlankExercise({
         {/* Word bank */}
         {!showExplanation && exercise.wordBank && (
           <div className="grid grid-cols-2 gap-3">
-            {exercise.wordBank.map((word) => (
+            {exercise.wordBank.map((word, index) => (
               <Button
                 key={word}
                 variant={selectedWord === word ? "default" : "outline"}
@@ -94,6 +119,9 @@ export function FillInBlankExercise({
                 className="text-lg"
                 onClick={() => setSelectedWord(word)}
               >
+                <kbd className="hidden sm:inline mr-2 px-2 py-0.5 text-xs font-semibold bg-gray-100 border border-gray-300 rounded text-gray-600">
+                  {index + 1}
+                </kbd>
                 {word}
               </Button>
             ))}
@@ -103,7 +131,7 @@ export function FillInBlankExercise({
         {/* Hint */}
         {exercise.hint && !showExplanation && attempts > 0 && !isCorrect && (
           <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <div className="text-sm text-blue-700">💡 Hint: {exercise.hint}</div>
+            <div className="text-sm text-blue-700">💡 Tip: {exercise.hint}</div>
           </div>
         )}
 
@@ -121,7 +149,7 @@ export function FillInBlankExercise({
                 isCorrect ? "text-green-700" : "text-red-700"
               }`}
             >
-              {isCorrect ? "✓ Correct!" : "✗ Not quite"}
+              {isCorrect ? "✓ Goed!" : "✗ Niet helemaal"}
             </div>
             {exercise.explanation && (
               <div className="text-sm text-gray-600">

@@ -8,6 +8,7 @@ interface SkillNodeProps {
   id: string;
   title: string;
   description: string;
+  longDescription?: string;
   icon: string;
   color: string;
   lessonsCompleted: number;
@@ -20,6 +21,7 @@ export function SkillNode({
   id,
   title,
   description,
+  longDescription,
   icon,
   color,
   lessonsCompleted,

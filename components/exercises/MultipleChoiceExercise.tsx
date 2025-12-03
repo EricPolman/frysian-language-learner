@@ -29,6 +29,36 @@ export function MultipleChoiceExercise({
     setAttempts(0);
   }, [exercise.id]);
 
+  // Keyboard navigation: 1-4 to select, Enter to check/continue
+  useEffect(() => {
+    const handleKeyPress = (e: KeyboardEvent) => {
+      // Don't handle if user is typing in an input
+      if (e.target instanceof HTMLInputElement || e.target instanceof HTMLTextAreaElement) return;
+      
+      if (showExplanation) {
+        if (e.key === "Enter") {
+          onContinue();
+        }
+        return;
+      }
+
+      // Number keys 1-4 or A-D to select options
+      const keyNum = parseInt(e.key);
+      if (keyNum >= 1 && keyNum <= exercise.options.length) {
+        setSelectedAnswer(exercise.options[keyNum - 1]);
+      } else if (e.key.toLowerCase() >= 'a' && e.key.toLowerCase() <= 'd') {
+        const index = e.key.toLowerCase().charCodeAt(0) - 'a'.charCodeAt(0);
+        if (index < exercise.options.length) {
+          setSelectedAnswer(exercise.options[index]);
+        }
+      } else if (e.key === "Enter" && selectedAnswer) {
+        handleCheck();
+      }
+    };
+    window.addEventListener("keydown", handleKeyPress);
+    return () => window.removeEventListener("keydown", handleKeyPress);
+  }, [showExplanation, onContinue, exercise.options, selectedAnswer]);
+
   const handleAnswerClick = (answer: string) => {
     if (showExplanation) return;
     setSelectedAnswer(answer);
@@ -79,7 +109,9 @@ export function MultipleChoiceExercise({
               onClick={() => handleAnswerClick(option)}
               disabled={showExplanation}
             >
-              <span className="mr-3 font-bold">{String.fromCharCode(65 + index)}.</span>
+              <kbd className="hidden sm:inline mr-3 px-2 py-0.5 text-xs font-semibold bg-gray-100 border border-gray-300 rounded text-gray-600">
+                {index + 1}
+              </kbd>
               {option}
             </Button>
           ))}
@@ -88,7 +120,7 @@ export function MultipleChoiceExercise({
         {/* Hint */}
         {exercise.hint && !showExplanation && attempts > 0 && !isCorrect && (
           <div className="p-4 bg-blue-50 border border-blue-200 rounded-lg">
-            <div className="text-sm text-blue-700">💡 Hint: {exercise.hint}</div>
+            <div className="text-sm text-blue-700">💡 Tip: {exercise.hint}</div>
           </div>
         )}
 
@@ -106,7 +138,7 @@ export function MultipleChoiceExercise({
                 isCorrect ? "text-green-700" : "text-red-700"
               }`}
             >
-              {isCorrect ? "✓ Correct!" : "✗ Niet helemaal"}
+              {isCorrect ? "✓ Goed!" : "✗ Niet helemaal"}
             </div>
             {!isCorrect && (
               <div className="text-sm text-gray-700 mb-2">
