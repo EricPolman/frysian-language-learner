@@ -105,6 +105,10 @@ CREATE POLICY "Users can update their own progress"
   ON public.user_progress FOR UPDATE
   USING (auth.uid() = user_id);
 
+CREATE POLICY "Users can delete their own progress"
+  ON public.user_progress FOR DELETE
+  USING (auth.uid() = user_id);
+
 -- RLS Policies for word_progress
 CREATE POLICY "Users can view their own word progress"
   ON public.word_progress FOR SELECT
@@ -118,6 +122,10 @@ CREATE POLICY "Users can update their own word progress"
   ON public.word_progress FOR UPDATE
   USING (auth.uid() = user_id);
 
+CREATE POLICY "Users can delete their own word progress"
+  ON public.word_progress FOR DELETE
+  USING (auth.uid() = user_id);
+
 -- RLS Policies for lesson_attempts
 CREATE POLICY "Users can view their own lesson attempts"
   ON public.lesson_attempts FOR SELECT
@@ -129,6 +137,10 @@ CREATE POLICY "Users can insert their own lesson attempts"
 
 CREATE POLICY "Users can update their own lesson attempts"
   ON public.lesson_attempts FOR UPDATE
+  USING (auth.uid() = user_id);
+
+CREATE POLICY "Users can delete their own lesson attempts"
+  ON public.lesson_attempts FOR DELETE
   USING (auth.uid() = user_id);
 
 -- Function to automatically create a profile on user signup

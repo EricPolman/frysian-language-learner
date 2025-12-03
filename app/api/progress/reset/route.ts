@@ -11,28 +11,48 @@ export async function POST(request: Request) {
       return NextResponse.json({ error: "Niet ingelogd" }, { status: 401 });
     }
 
+    console.log("Resetting progress for user:", user.id);
+
     // Delete all user progress data
-    // 1. Reset user_progress
-    await supabase
+    // 1. Reset user_progress (completed_lessons)
+    const { error: progressError } = await supabase
       .from("user_progress")
       .delete()
       .eq("user_id", user.id);
+    
+    if (progressError) {
+      console.error("Error deleting user_progress:", progressError);
+    } else {
+      console.log("Deleted user_progress");
+    }
 
     // 2. Delete all word_progress
-    await supabase
+    const { error: wordError } = await supabase
       .from("word_progress")
       .delete()
       .eq("user_id", user.id);
+    
+    if (wordError) {
+      console.error("Error deleting word_progress:", wordError);
+    } else {
+      console.log("Deleted word_progress");
+    }
 
     // 3. Delete all lesson_attempts
-    await supabase
+    const { error: attemptsError } = await supabase
       .from("lesson_attempts")
       .delete()
       .eq("user_id", user.id);
+    
+    if (attemptsError) {
+      console.error("Error deleting lesson_attempts:", attemptsError);
+    } else {
+      console.log("Deleted lesson_attempts");
+    }
 
     // 4. Reset profile level and XP
     // @ts-ignore - Supabase types not fully configured
-    await supabase
+    const { error: profileError } = await supabase
       .from("profiles")
       // @ts-ignore
       .update({ 
@@ -40,6 +60,12 @@ export async function POST(request: Request) {
         total_xp: 0 
       })
       .eq("id", user.id);
+    
+    if (profileError) {
+      console.error("Error resetting profile:", profileError);
+    } else {
+      console.log("Reset profile level and XP");
+    }
 
     return NextResponse.json({ 
       success: true,
