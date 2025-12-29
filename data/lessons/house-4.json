@@ -1,0 +1,257 @@
+{
+  "id": "house-4",
+  "skillId": "house",
+  "lessonNumber": 4,
+  "title": "Hûs & Thús - Les 4",
+  "description": "In huis: \"Yn 'e keamer\" (In de kamer), \"Op 'e tafel\" (Op de tafel).",
+  "topic": "yn 'e hûs",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-house-4-0",
+      "vocabulary": {
+        "id": "bank-yn-keamer",
+        "frysian": "bank",
+        "dutch": "bank",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De bank stiet yn de keamer.",
+        "exampleTranslation": "De bank staat in de kamer."
+      },
+      "exampleSentence": "De bank stiet yn de keamer.",
+      "exampleTranslation": "De bank staat in de kamer."
+    },
+    {
+      "id": "intro-house-4-1",
+      "vocabulary": {
+        "id": "tafel-op-keamer",
+        "frysian": "tafel",
+        "dutch": "tafel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It boek leit op 'e tafel.",
+        "exampleTranslation": "Het boek ligt op de tafel."
+      },
+      "exampleSentence": "It boek leit op 'e tafel.",
+      "exampleTranslation": "Het boek ligt op de tafel."
+    },
+    {
+      "id": "intro-house-4-2",
+      "vocabulary": {
+        "id": "stoel-yn-keamer",
+        "frysian": "stoel",
+        "dutch": "stoel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De stoel stiet njonken de tafel.",
+        "exampleTranslation": "De stoel staat naast de tafel."
+      },
+      "exampleSentence": "De stoel stiet njonken de tafel.",
+      "exampleTranslation": "De stoel staat naast de tafel."
+    },
+    {
+      "id": "intro-house-4-3",
+      "vocabulary": {
+        "id": "lamp-boppe-tafel",
+        "frysian": "lamp",
+        "dutch": "lamp",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De lamp hinget boppe de tafel.",
+        "exampleTranslation": "De lamp hangt boven de tafel."
+      },
+      "exampleSentence": "De lamp hinget boppe de tafel.",
+      "exampleTranslation": "De lamp hangt boven de tafel."
+    },
+    {
+      "id": "intro-house-4-4",
+      "vocabulary": {
+        "id": "kast-yn-hoeke",
+        "frysian": "kast",
+        "dutch": "kast",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De kast stiet yn 'e hoeke.",
+        "exampleTranslation": "De kast staat in de hoek."
+      },
+      "exampleSentence": "De kast stiet yn 'e hoeke.",
+      "exampleTranslation": "De kast staat in de hoek."
+    },
+    {
+      "id": "intro-house-4-5",
+      "vocabulary": {
+        "id": "sitte-op-stoel",
+        "frysian": "sitte",
+        "dutch": "zitten",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik sit op 'e stoel.",
+        "exampleTranslation": "Ik zit op de stoel."
+      },
+      "exampleSentence": "Ik sit op 'e stoel.",
+      "exampleTranslation": "Ik zit op de stoel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "De lamp staat op de tafel.",
+      "correctAnswer": "De lamp stiet op de tafel.",
+      "acceptedAnswers": [
+        "De lamp stiet op de tafel."
+      ],
+      "hint": "Begin met 'De lamp'",
+      "explanation": "Het woord 'staat' wordt in het Fries 'stiet'.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ stiet op 'e tafel.",
+      "blankIndex": 1,
+      "correctAnswer": "lamp",
+      "wordBank": [
+        "lamp",
+        "stoel",
+        "kast",
+        "bank"
+      ],
+      "hint": "Het is een lichtbron.",
+      "explanation": "'Lamp' blijft hetzelfde in het Fries."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'De stoel staat naast de bank' in het Fries?",
+      "correctAnswer": "De stoel stiet neist de bank.",
+      "options": [
+        "De stoel stiet neist de bank.",
+        "bank",
+        "tafel",
+        "stoel"
+      ],
+      "hint": "Neist betekent naast in het Fries.",
+      "explanation": "Let op de positie van de stoel ten opzichte van de bank.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "De kast stiet neist de tafel.",
+      "correctAnswer": "De kast staat naast de tafel.",
+      "acceptedAnswers": [
+        "De kast staat naast de tafel."
+      ],
+      "hint": "Het woord 'stiet' betekent 'staat'.",
+      "explanation": "De Friese zin beschrijft de positie van de kast.",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ sitte op de tafel.",
+      "blankIndex": 1,
+      "correctAnswer": "stoel",
+      "wordBank": [
+        "stoel",
+        "lamp",
+        "bank",
+        "kast"
+      ],
+      "hint": "Je kunt erop zitten.",
+      "explanation": "'Stoel' is hetzelfde in het Fries."
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "De bank sit ûnder de lamp.",
+      "correctAnswer": "De bank zit onder de lamp.",
+      "acceptedAnswers": [
+        "De bank zit onder de lamp."
+      ],
+      "hint": "Onder betekent 'ûnder' in het Fries.",
+      "explanation": "'Sit' betekent 'zit'.",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'De tafel stiet neist de stoel'?",
+      "correctAnswer": "De tafel staat naast de stoel.",
+      "options": [
+        "De tafel staat naast de stoel.",
+        "bank",
+        "tafel",
+        "stoel"
+      ],
+      "hint": "Stiet betekent staat.",
+      "explanation": "De tafel en de stoel zijn naast elkaar geplaatst.",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ sit neist de kast.",
+      "blankIndex": 1,
+      "correctAnswer": "bank",
+      "wordBank": [
+        "bank",
+        "stoel",
+        "lamp",
+        "tafel"
+      ],
+      "hint": "Het is een zitmeubel.",
+      "explanation": "'Bank' blijft hetzelfde in het Fries."
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'De stoel zit op de bank' in het Fries",
+      "correctOrder": [
+        "De",
+        "stoel",
+        "sit",
+        "op",
+        "de",
+        "bank"
+      ],
+      "distractorWords": [
+        "tafel",
+        "kast"
+      ],
+      "hint": "Begin met 'De stoel'."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'De kast staat op de bank' in het Fries?",
+      "correctAnswer": "De kast stiet op de bank.",
+      "options": [
+        "De kast stiet op de bank.",
+        "bank",
+        "tafel",
+        "stoel"
+      ],
+      "hint": "Let op de positie van de kast.",
+      "explanation": "Stiet betekent 'staat' in het Fries.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "De lamp hangt boven de tafel.",
+      "correctAnswer": "De lamp hinget boppe de tafel.",
+      "acceptedAnswers": [
+        "De lamp hinget boppe de tafel."
+      ],
+      "hint": "Het woord 'boven' betekent 'boppe'.",
+      "explanation": "Gebruik 'hinget' voor 'hangt' in het Fries.",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "bank-yn-keamer",
+    "tafel-op-keamer",
+    "stoel-yn-keamer",
+    "lamp-boppe-tafel",
+    "kast-yn-hoeke",
+    "sitte-op-stoel"
+  ],
+  "reviewVocabulary": []
+}

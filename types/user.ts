@@ -7,6 +7,12 @@ export interface UserProfile {
   avatarUrl?: string;
   currentLevel: number;
   totalXP: number;
+  currentStreak: number;
+  longestStreak: number;
+  lastPracticeDate?: string;
+  dailyGoalXp: number;
+  audioEnabled: boolean;
+  notificationsEnabled: boolean;
   createdAt: Date;
   updatedAt: Date;
 }

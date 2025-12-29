@@ -1,0 +1,260 @@
+{
+  "id": "hobbies-1",
+  "skillId": "hobbies",
+  "lessonNumber": 1,
+  "title": "Hobbyʼs - Les 1",
+  "description": "Sport: fuotbalje (voetballen), fytse (fietsen), swimme (zwemmen), rinne (hardlopen), tennis.",
+  "topic": "sport",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-hobbies-1-0",
+      "vocabulary": {
+        "id": "fuotbalje",
+        "frysian": "fuotbalje",
+        "dutch": "voetballen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik wol fuotbalje hjoed.",
+        "exampleTranslation": "Ik wil vandaag voetballen."
+      },
+      "exampleSentence": "Ik wol fuotbalje hjoed.",
+      "exampleTranslation": "Ik wil vandaag voetballen."
+    },
+    {
+      "id": "intro-hobbies-1-1",
+      "vocabulary": {
+        "id": "fytse",
+        "frysian": "fytse",
+        "dutch": "fietsen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Wy geane te fytse.",
+        "exampleTranslation": "Wij gaan fietsen."
+      },
+      "exampleSentence": "Wy geane te fytse.",
+      "exampleTranslation": "Wij gaan fietsen."
+    },
+    {
+      "id": "intro-hobbies-1-2",
+      "vocabulary": {
+        "id": "swimme",
+        "frysian": "swimme",
+        "dutch": "zwemmen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy kin goed swimme.",
+        "exampleTranslation": "Hij kan goed zwemmen."
+      },
+      "exampleSentence": "Hy kin goed swimme.",
+      "exampleTranslation": "Hij kan goed zwemmen."
+    },
+    {
+      "id": "intro-hobbies-1-3",
+      "vocabulary": {
+        "id": "rinne",
+        "frysian": "rinne",
+        "dutch": "hardlopen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Se rint elke moarn.",
+        "exampleTranslation": "Zij loopt elke ochtend."
+      },
+      "exampleSentence": "Se rint elke moarn.",
+      "exampleTranslation": "Zij loopt elke ochtend."
+    },
+    {
+      "id": "intro-hobbies-1-4",
+      "vocabulary": {
+        "id": "tennis",
+        "frysian": "tennis",
+        "dutch": "tennis",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik hâld fan tennis.",
+        "exampleTranslation": "Ik houd van tennis."
+      },
+      "exampleSentence": "Ik hâld fan tennis.",
+      "exampleTranslation": "Ik houd van tennis."
+    },
+    {
+      "id": "intro-hobbies-1-5",
+      "vocabulary": {
+        "id": "sport",
+        "frysian": "sport",
+        "dutch": "sport",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Sport is wichtich foar my.",
+        "exampleTranslation": "Sport is belangrijk voor mij."
+      },
+      "exampleSentence": "Sport is wichtich foar my.",
+      "exampleTranslation": "Sport is belangrijk voor mij."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "voetballen",
+      "correctAnswer": "fuotbalje",
+      "acceptedAnswers": [
+        "fuotbalje"
+      ],
+      "hint": "Een populaire teamsport",
+      "explanation": "'Fuotbalje' betekent voetballen in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Ik hâld fan ___",
+      "blankIndex": 3,
+      "correctAnswer": "fytse",
+      "wordBank": [
+        "fytse",
+        "swimme",
+        "rinne",
+        "tennis"
+      ],
+      "hint": "Het is een activiteit met een fiets",
+      "explanation": "'Fytse' betekent fietsen"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "swimme",
+      "correctAnswer": "zwemmen",
+      "acceptedAnswers": [
+        "zwemmen"
+      ],
+      "hint": "Activiteit in het water",
+      "explanation": "'Swimme' betekent zwemmen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'tennis' in het Fries?",
+      "correctAnswer": "tennis",
+      "options": [
+        "fuotbalje",
+        "tennis",
+        "fytse",
+        "swimme"
+      ],
+      "hint": "Het is hetzelfde in beide talen",
+      "explanation": "'Tennis' is hetzelfde in het Fries en Nederlands",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "fietsen",
+      "correctAnswer": "fytse",
+      "acceptedAnswers": [
+        "fytse"
+      ],
+      "hint": "Een populaire manier van vervoer",
+      "explanation": "'Fytse' betekent fietsen in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Hâldsto fan ___?",
+      "blankIndex": 2,
+      "correctAnswer": "rinne",
+      "wordBank": [
+        "rinne",
+        "fuotbalje",
+        "swimme",
+        "fytse"
+      ],
+      "hint": "Het is een activiteit te voet",
+      "explanation": "'Rinne' betekent hardlopen"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "rinne",
+      "correctAnswer": "hardlopen",
+      "acceptedAnswers": [
+        "hardlopen"
+      ],
+      "hint": "Een snelle manier van lopen",
+      "explanation": "'Rinne' betekent hardlopen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'sport' in het Fries?",
+      "correctAnswer": "sport",
+      "options": [
+        "fuotbalje",
+        "sport",
+        "swimme",
+        "tennis"
+      ],
+      "hint": "Het is hetzelfde in beide talen",
+      "explanation": "'Sport' is hetzelfde in het Fries en Nederlands",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "zwemmen",
+      "correctAnswer": "swimme",
+      "acceptedAnswers": [
+        "swimme"
+      ],
+      "hint": "Een activiteit in het water",
+      "explanation": "'Swimme' betekent zwemmen in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Wy geane te ___",
+      "blankIndex": 2,
+      "correctAnswer": "fuotbalje",
+      "wordBank": [
+        "fuotbalje",
+        "fytse",
+        "swimme",
+        "tennis"
+      ],
+      "hint": "Het is een teamsport",
+      "explanation": "'Fuotbalje' betekent voetballen"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "tennis",
+      "correctAnswer": "tennis",
+      "acceptedAnswers": [
+        "tennis"
+      ],
+      "hint": "Een racketsport",
+      "explanation": "'Tennis' betekent hetzelfde in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "sport",
+      "correctAnswer": "sport",
+      "acceptedAnswers": [
+        "sport"
+      ],
+      "hint": "Een algemene term voor fysieke activiteiten",
+      "explanation": "'Sport' is hetzelfde in het Fries en Nederlands",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "fuotbalje",
+    "fytse",
+    "swimme",
+    "rinne",
+    "tennis",
+    "sport"
+  ],
+  "reviewVocabulary": []
+}

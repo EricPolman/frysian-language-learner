@@ -1,0 +1,263 @@
+{
+  "id": "time-3",
+  "skillId": "time",
+  "lessonNumber": 3,
+  "title": "Tiid & Kalinder - Les 3",
+  "description": "Tijden van de dag: moarns ('s ochtends), middeis ('s middags), jûns ('s avonds), nachts ('s nachts).",
+  "topic": "tijden van de dag",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-time-3-0",
+      "vocabulary": {
+        "id": "moarns-1",
+        "frysian": "moarns",
+        "dutch": "'s ochtends",
+        "partOfSpeech": "bijwoord",
+        "exampleSentence": "Moarns skynt de sinne.",
+        "exampleTranslation": "'s Ochtends schijnt de zon."
+      },
+      "exampleSentence": "Moarns skynt de sinne.",
+      "exampleTranslation": "'s Ochtends schijnt de zon."
+    },
+    {
+      "id": "intro-time-3-1",
+      "vocabulary": {
+        "id": "middeis-2",
+        "frysian": "middeis",
+        "dutch": "'s middags",
+        "partOfSpeech": "bijwoord",
+        "exampleSentence": "Middeis iten wy bôle.",
+        "exampleTranslation": "'s Middags eten we brood."
+      },
+      "exampleSentence": "Middeis iten wy bôle.",
+      "exampleTranslation": "'s Middags eten we brood."
+    },
+    {
+      "id": "intro-time-3-2",
+      "vocabulary": {
+        "id": "jûns-3",
+        "frysian": "jûns",
+        "dutch": "'s avonds",
+        "partOfSpeech": "bijwoord",
+        "exampleSentence": "Jûns sjoch ik tv.",
+        "exampleTranslation": "'s Avonds kijk ik tv."
+      },
+      "exampleSentence": "Jûns sjoch ik tv.",
+      "exampleTranslation": "'s Avonds kijk ik tv."
+    },
+    {
+      "id": "intro-time-3-3",
+      "vocabulary": {
+        "id": "nachts-4",
+        "frysian": "nachts",
+        "dutch": "'s nachts",
+        "partOfSpeech": "bijwoord",
+        "exampleSentence": "Nachts is it stil.",
+        "exampleTranslation": "'s Nachts is het stil."
+      },
+      "exampleSentence": "Nachts is it stil.",
+      "exampleTranslation": "'s Nachts is het stil."
+    },
+    {
+      "id": "intro-time-3-4",
+      "vocabulary": {
+        "id": "goeie-5",
+        "frysian": "Goeie",
+        "dutch": "Hallo",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeie, hoe giet it?",
+        "exampleTranslation": "Hallo, hoe gaat het?"
+      },
+      "exampleSentence": "Goeie, hoe giet it?",
+      "exampleTranslation": "Hallo, hoe gaat het?"
+    },
+    {
+      "id": "intro-time-3-5",
+      "vocabulary": {
+        "id": "goeiejûn-6",
+        "frysian": "Goeiejûn",
+        "dutch": "Goedenavond",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeiejûn, hoe wie dyn dei?",
+        "exampleTranslation": "Goedenavond, hoe was je dag?"
+      },
+      "exampleSentence": "Goeiejûn, hoe wie dyn dei?",
+      "exampleTranslation": "Goedenavond, hoe was je dag?"
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "'s avonds",
+      "correctAnswer": "jûns",
+      "acceptedAnswers": [
+        "jûns"
+      ],
+      "hint": "Het is een tijd van de dag",
+      "explanation": "'Jûns' betekent 's avonds in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Goeiejûn",
+      "correctAnswer": "goedenavond",
+      "acceptedAnswers": [
+        "goedenavond"
+      ],
+      "hint": "Een avondbegroeting",
+      "explanation": "'Goeiejûn' betekent goedenavond in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Goeiejûn, hoe wie dyn ___?",
+      "blankIndex": 3,
+      "correctAnswer": "jûns",
+      "wordBank": [
+        "moarns",
+        "middeis",
+        "jûns",
+        "nachts"
+      ],
+      "hint": "Een tijd van de dag",
+      "explanation": "We vragen naar de avond"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'goedenacht' in het Fries?",
+      "correctAnswer": "nachts",
+      "options": [
+        "moarns",
+        "middeis",
+        "jûns",
+        "nachts"
+      ],
+      "hint": "Gebruikt voor laat op de dag",
+      "explanation": "'Nachts' betekent 's nachts"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Hallo! Goedenavond!' in het Fries",
+      "correctOrder": [
+        "Goeie!",
+        "Goeiejûn!"
+      ],
+      "distractorWords": [
+        "moarns",
+        "middeis"
+      ],
+      "hint": "Begin met de algemene begroeting"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "'s middags",
+      "correctAnswer": "middeis",
+      "acceptedAnswers": [
+        "middeis"
+      ],
+      "hint": "Het is een tijd tussen ochtend en avond",
+      "explanation": "'Middeis' betekent 's middags in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "moarns",
+      "correctAnswer": "'s ochtends",
+      "acceptedAnswers": [
+        "'s ochtends"
+      ],
+      "hint": "Eerste deel van de dag",
+      "explanation": "'Moarns' betekent 's ochtends in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Hoe wie dyn ___?",
+      "blankIndex": 3,
+      "correctAnswer": "moarns",
+      "wordBank": [
+        "moarns",
+        "middeis",
+        "jûns",
+        "nachts"
+      ],
+      "hint": "Een tijd van de dag",
+      "explanation": "We vragen naar de ochtend"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'hallo' in het Fries?",
+      "correctAnswer": "Goeie",
+      "options": [
+        "Goeie",
+        "Goeiejûn",
+        "moarns",
+        "middeis"
+      ],
+      "hint": "Een algemene begroeting",
+      "explanation": "'Goeie' is de meest gebruikte begroeting"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Goeie, hoe wie dyn ___?",
+      "blankIndex": 3,
+      "correctAnswer": "middeis",
+      "wordBank": [
+        "moarns",
+        "middeis",
+        "jûns",
+        "nachts"
+      ],
+      "hint": "Een tijd van de dag",
+      "explanation": "We vragen naar de middag"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'middeis'?",
+      "correctAnswer": "'s middags",
+      "options": [
+        "'s ochtends",
+        "'s middags",
+        "'s avonds",
+        "'s nachts"
+      ],
+      "hint": "Het is na de ochtend",
+      "explanation": "'Middeis' betekent 's middags",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "'s nachts",
+      "correctAnswer": "nachts",
+      "acceptedAnswers": [
+        "nachts"
+      ],
+      "hint": "De laatste tijd van de dag",
+      "explanation": "'Nachts' betekent 's nachts in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "moarns-1",
+    "middeis-2",
+    "jûns-3",
+    "nachts-4",
+    "goeie-5",
+    "goeiejûn-6"
+  ],
+  "reviewVocabulary": []
+}

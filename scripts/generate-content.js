@@ -9,11 +9,13 @@
  *   node scripts/generate-content.js <skill-id> --all
  *   node scripts/generate-content.js --init
  *   node scripts/generate-content.js --generate-all
+ *   node scripts/generate-content.js --missing
  * 
  * Examples:
  *   node scripts/generate-content.js basics-1 1
  *   node scripts/generate-content.js basics-1 --all
  *   node scripts/generate-content.js --generate-all
+ *   node scripts/generate-content.js --missing
  */
 
 import OpenAI from 'openai';
@@ -139,6 +141,136 @@ const SKILLS = {
       'Beschrijf dieren met kleuren en eigenschappen die je al kent.'
     ],
     difficulty: 1,
+  },
+  'time': {
+    title: 'Tiid & Kalinder',
+    description: 'Dagen, maanden en klokkijken',
+    longDescription: 'Leer over tijd in het Fries. Van dagen van de week tot maanden en het vertellen van de tijd.',
+    topics: ['dagen van de week', 'maanden', 'tijden van de dag', 'klokkijken'],
+    lessonDescriptions: [
+      'Dagen van de week: moandei, tiisdei, woansdei, tongersdei, freed, sneon, snein.',
+      'Maanden van het jaar: jannewaris, febrewaris, maart, april, maaie, juny...',
+      'Tijden van de dag: moarns (\'s ochtends), middeis (\'s middags), jûns (\'s avonds), nachts (\'s nachts).',
+      'De klok: hoe let is it? It is trije oere. Kwart oer trije.'
+    ],
+    difficulty: 2,
+  },
+  'weather': {
+    title: 'Waar & Seizoenen',
+    description: 'Weer en jaargetijden',
+    longDescription: 'Praat over het weer in het Fries! Leer de seizoenen en weersomstandigheden.',
+    topics: ['seizoenen', 'weersomstandigheden', 'temperatuur', 'weer praten'],
+    lessonDescriptions: [
+      'De vier seizoenen: linte (lente), simmer (zomer), hjerst (herfst), winter (winter).',
+      'Weersomstandigheden: sinne (zon), rein (regen), wyn (wind), snie (sneeuw), bewolkt.',
+      'Temperatuur: waarm (warm), kâld (koud), hjit (heet), fris (fris), lekker.',
+      'Praat over het weer: "Hoe is it waar?" "It is moai waar hjoed."'
+    ],
+    difficulty: 2,
+  },
+  'body': {
+    title: 'Lichem',
+    description: 'Lichaamsdelen',
+    longDescription: 'Leer de lichaamsdelen in het Fries. Nuttig voor gezondheidsgesprekken en beschrijvingen.',
+    topics: ['holle en gesicht', 'lichem', 'hânnen en fuotten', 'gefoel en sear'],
+    lessonDescriptions: [
+      'Hoofd en gezicht: holle (hoofd), eagen (ogen), noas (neus), mûle (mond), earen (oren).',
+      'Lichaam: lichem (lichaam), hals (hals), boarst (borst), rêch (rug), búk (buik).',
+      'Handen en voeten: hân (hand), finger (vinger), foet (voet), tean (teen), earm (arm), been (been).',
+      'Gevoel en pijn: "Myn holle docht sear" (Mijn hoofd doet zeer), sûn (gezond), siik (ziek).'
+    ],
+    difficulty: 2,
+  },
+  'house': {
+    title: 'Hûs & Thús',
+    description: 'Kamers en meubels',
+    longDescription: 'Leer over je huis in het Fries. Van kamers tot meubels en huishoudelijke items.',
+    topics: ['kamers', 'meubels', 'huishouden', 'yn \'e hûs'],
+    lessonDescriptions: [
+      'Kamers: keamer (kamer), keuken (keuken), badkeamer (badkamer), sliepeseamer (slaapkamer), tún (tuin).',
+      'Meubels: stoel (stoel), tafel (tafel), bêd (bed), kast (kast), bank (bank).',
+      'Huishoudelijk: doar (deur), finster (raam), ljocht (lamp), trep (trap), mûre (muur).',
+      'In huis: "Yn \'e keamer" (In de kamer), "Op \'e tafel" (Op de tafel).'
+    ],
+    difficulty: 2,
+  },
+  'clothing': {
+    title: 'Klean',
+    description: 'Kleding en accessoires',
+    longDescription: 'Leer kledingstukken in het Fries. Combineer met kleuren die je al kent!',
+    topics: ['basiskleding', 'accessoires', 'kleding en kleuren', 'oandwaan'],
+    lessonDescriptions: [
+      'Basiskleding: broek (broek), heve (trui),jas (jas), rok (rok), T-shirt.',
+      'Schoenen en accessoires: skoech (schoenen), sokken (sokken), hoed (hoed), bril (bril), sjaal.',
+      'Kleding en kleuren: "In read heve" (Een rode trui), "Swarte skoech" (Zwarte schoenen).',
+      'Aantrekken: "Ik doch myn jas oan" (Ik trek mijn jas aan), "Wat hast oan?" (Wat heb je aan?)'
+    ],
+    difficulty: 2,
+  },
+  'verbs': {
+    title: 'Werkwurden',
+    description: 'Dagelijkse handelingen',
+    longDescription: 'Leer de belangrijkste werkwoorden voor dagelijkse activiteiten. Essentieel voor echte gesprekken!',
+    topics: ['basiswerkwoorden', 'beweging', 'dagelijkse handelingen', 'tegenwoordige tijd'],
+    lessonDescriptions: [
+      'Basiswerkwoorden: ite (eten), drinke (drinken), sliepe (slapen), wurde (worden), meitsje (maken).',
+      'Beweging: rinne (lopen), springe (springen), sitten (zitten), stean (staan), lizze (liggen).',
+      'Dagelijkse handelingen: wurkje (werken),learje (leren), spylje (spelen), lêze (lezen), skriuwe (schrijven).',
+      'Vervoeging oefenen: "Ik rin, do rinst, hy rint" en zinnen maken.'
+    ],
+    difficulty: 3,
+  },
+  'places': {
+    title: 'Plakken & Rjochting',
+    description: 'Locaties en richtingen',
+    longDescription: 'Navigeer in het Fries! Leer over plekken, richtingen en voorzetsels.',
+    topics: ['plakken', 'rjochtingen', 'foarsetsels', 'wêr is...?'],
+    lessonDescriptions: [
+      'Plaatsen: stêd (stad), doarp (dorp), skoalle (school), wurk (werk), winkel (winkel), hûs (huis).',
+      'Richtingen: lofts (links), rjochts (rechts), foarút (vooruit), efterút (achteruit), boppe (boven), ûnder (onder).',
+      'Voorzetsels: yn (in), op (op), ûnder (onder), neist (naast), tusken (tussen), by (bij).',
+      'Vragen stellen: "Wêr is de winkel?" (Waar is de winkel?), "Hoe kom ik dêr?" (Hoe kom ik daar?)'
+    ],
+    difficulty: 3,
+  },
+  'adjectives': {
+    title: 'Bywurden',
+    description: 'Beschrijvende woorden',
+    longDescription: 'Maak je zinnen rijker met bijvoeglijke naamwoorden. Beschrijf grootte, kwaliteit en gevoelens.',
+    topics: ['grutte', 'kwaliteit', 'gefoel', 'tsjinstellings'],
+    lessonDescriptions: [
+      'Grootte: grut (groot), lyts (klein), lang (lang), koart (kort), breed (breed), smel (smal).',
+      'Kwaliteit: goed (goed), min (slecht), moai (mooi), lelik (lelijk), nij (nieuw), âld (oud).',
+      'Gevoelens: bliid (blij), tryst (verdrietig),reas (boos), bang (bang), grutsk (trots), leafst (liefst).',
+      'Tegenstellingen en gradaties: "grutter dan" (groter dan), "it grutste" (het grootst).'
+    ],
+    difficulty: 2,
+  },
+  'shopping': {
+    title: 'Winkelje',
+    description: 'Winkelen en kopen',
+    longDescription: 'Leer winkelen in het Fries! Van winkels tot prijzen en praktische gesprekken.',
+    topics: ['winkels', 'keapje', 'prizen', 'gesprekken'],
+    lessonDescriptions: [
+      'Soorten winkels: winkel (winkel), bakker (bakker), slachter (slager), supermerkt, apteek (apotheek).',
+      'Kopen: "Ik wol graach..." (Ik wil graag...), "Hofolle kostet dit?" (Hoeveel kost dit?)',
+      'Prijzen en hoeveelheden: euro, sint, kilo, gram, stik (stuk), "Te djoer" (Te duur).',
+      'Praktische gesprekken: bestellen, betalen, korting vragen, "Kinne jo my helpe?" (Kunt u mij helpen?)'
+    ],
+    difficulty: 3,
+  },
+  'hobbies': {
+    title: 'Hobbyʼs',
+    description: 'Vrije tijd en activiteiten',
+    longDescription: 'Praat over je hobby\'s in het Fries! Van sport tot kunst en andere vrijetijdsbesteding.',
+    topics: ['sport', 'kultuer', 'bûtendoar', 'wat dochsto graach?'],
+    lessonDescriptions: [
+      'Sport: fuotbalje (voetballen), fytse (fietsen), swimme (zwemmen), rinne (hardlopen), tennis.',
+      'Cultuur: lêze (lezen), filme sjen (films kijken), muzyk hearke (muziek luisteren), sjonge (zingen).',
+      'Buitenactiviteiten: wandelje (wandelen), kampearje (kamperen), fiskerje (vissen), tuinierje.',
+      'Praten over hobby\'s: "Wat dochsto graach?" (Wat doe je graag?), "Ik hâld fan..." (Ik hou van...)'
+    ],
+    difficulty: 3,
   },
 };
 
@@ -779,6 +911,76 @@ async function generateAllContent() {
   console.log('\n🎉 ALLE CONTENT IS GEGENEREERD!\n');
 }
 
+/**
+ * Check which lessons exist
+ */
+function getLessonFilePath(skillId, lessonNumber) {
+  const lessonsDir = path.join(__dirname, '..', 'data', 'lessons');
+  return path.join(lessonsDir, `${skillId}-${lessonNumber}.json`);
+}
+
+function lessonExists(skillId, lessonNumber) {
+  const filePath = getLessonFilePath(skillId, lessonNumber);
+  return fs.existsSync(filePath);
+}
+
+/**
+ * Generate only missing lessons
+ */
+async function generateMissingLessons() {
+  console.log('\n🔍 Controleren welke lessen ontbreken...\n');
+  
+  const missingLessons = [];
+  
+  // Check all skills and lessons
+  for (const skillId of Object.keys(SKILLS)) {
+    for (let lessonNum = 1; lessonNum <= LESSONS_PER_SKILL; lessonNum++) {
+      if (!lessonExists(skillId, lessonNum)) {
+        missingLessons.push({ skillId, lessonNum });
+      }
+    }
+  }
+  
+  if (missingLessons.length === 0) {
+    console.log('✅ Alle lessen bestaan al! Niets te genereren.\n');
+    return;
+  }
+  
+  console.log(`📋 ${missingLessons.length} ontbrekende lessen gevonden:\n`);
+  missingLessons.forEach(({ skillId, lessonNum }) => {
+    console.log(`   - ${skillId} les ${lessonNum}`);
+  });
+  console.log('');
+  
+  // Generate skill tree first (in case it's missing)
+  const skillTreePath = path.join(__dirname, '..', 'data', 'skills.json');
+  if (!fs.existsSync(skillTreePath)) {
+    console.log('🌳 Vaardigheidsboom ontbreekt, eerst genereren...\n');
+    await generateSkillTree();
+  }
+  
+  // Generate each missing lesson
+  let generated = 0;
+  for (const { skillId, lessonNum } of missingLessons) {
+    try {
+      console.log(`\n[${generated + 1}/${missingLessons.length}] Genereren: ${skillId} les ${lessonNum}`);
+      const lesson = await generateLesson(skillId, lessonNum);
+      await saveLesson(lesson);
+      generated++;
+      
+      // Small delay to avoid rate limiting
+      if (generated < missingLessons.length) {
+        console.log('⏳ Even wachten voor volgende les...');
+        await new Promise(resolve => setTimeout(resolve, 2000));
+      }
+    } catch (error) {
+      console.error(`❌ Fout bij genereren ${skillId} les ${lessonNum}: ${error.message}`);
+    }
+  }
+  
+  console.log(`\n🎉 Klaar! ${generated} van ${missingLessons.length} lessen gegenereerd.\n`);
+}
+
 // Main execution
 async function main() {
   const args = process.argv.slice(2);
@@ -788,6 +990,7 @@ async function main() {
     console.log('         node scripts/generate-content.js <skill-id> --all');
     console.log('         node scripts/generate-content.js --init');
     console.log('         node scripts/generate-content.js --generate-all');
+    console.log('         node scripts/generate-content.js --missing');
     console.log('\nBeschikbare vaardigheden:', Object.keys(SKILLS).join(', '));
     process.exit(1);
   }
@@ -801,6 +1004,11 @@ async function main() {
 
   if (args[0] === '--generate-all') {
     await generateAllContent();
+    return;
+  }
+
+  if (args[0] === '--missing') {
+    await generateMissingLessons();
     return;
   }
 

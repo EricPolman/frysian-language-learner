@@ -1,0 +1,267 @@
+{
+  "id": "weather-3",
+  "skillId": "weather",
+  "lessonNumber": 3,
+  "title": "Waar & Seizoenen - Les 3",
+  "description": "Temperatuur: waarm (warm), kâld (koud), hjit (heet), fris (fris), lekker.",
+  "topic": "temperatuur",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-weather-3-0",
+      "vocabulary": {
+        "id": "waarm",
+        "frysian": "waarm",
+        "dutch": "warm",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It waar is waarm.",
+        "exampleTranslation": "Het weer is warm."
+      },
+      "exampleSentence": "It waar is waarm.",
+      "exampleTranslation": "Het weer is warm."
+    },
+    {
+      "id": "intro-weather-3-1",
+      "vocabulary": {
+        "id": "kald",
+        "frysian": "kâld",
+        "dutch": "koud",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It wetter is kâld.",
+        "exampleTranslation": "Het water is koud."
+      },
+      "exampleSentence": "It wetter is kâld.",
+      "exampleTranslation": "Het water is koud."
+    },
+    {
+      "id": "intro-weather-3-2",
+      "vocabulary": {
+        "id": "hjit",
+        "frysian": "hjit",
+        "dutch": "heet",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De sinne is hjit.",
+        "exampleTranslation": "De zon is heet."
+      },
+      "exampleSentence": "De sinne is hjit.",
+      "exampleTranslation": "De zon is heet."
+    },
+    {
+      "id": "intro-weather-3-3",
+      "vocabulary": {
+        "id": "fris",
+        "frysian": "fris",
+        "dutch": "fris",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De wyn is fris.",
+        "exampleTranslation": "De wind is fris."
+      },
+      "exampleSentence": "De wyn is fris.",
+      "exampleTranslation": "De wind is fris."
+    },
+    {
+      "id": "intro-weather-3-4",
+      "vocabulary": {
+        "id": "lekker",
+        "frysian": "lekker",
+        "dutch": "lekker",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It waar is lekker.",
+        "exampleTranslation": "Het weer is lekker."
+      },
+      "exampleSentence": "It waar is lekker.",
+      "exampleTranslation": "Het weer is lekker."
+    },
+    {
+      "id": "intro-weather-3-5",
+      "vocabulary": {
+        "id": "temperatuer",
+        "frysian": "temperatuer",
+        "dutch": "temperatuur",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De temperatuer is heech.",
+        "exampleTranslation": "De temperatuur is hoog."
+      },
+      "exampleSentence": "De temperatuer is heech.",
+      "exampleTranslation": "De temperatuur is hoog."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "warm",
+      "correctAnswer": "waarm",
+      "acceptedAnswers": [
+        "waarm"
+      ],
+      "hint": "Het tegenovergestelde van koud",
+      "explanation": "'Waarm' betekent warm in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "koud",
+      "correctAnswer": "kâld",
+      "acceptedAnswers": [
+        "kâld"
+      ],
+      "hint": "Het tegenovergestelde van warm",
+      "explanation": "'Kâld' betekent koud in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De temperatuer is ___.",
+      "blankIndex": 3,
+      "correctAnswer": "lekker",
+      "wordBank": [
+        "waarm",
+        "kâld",
+        "lekker",
+        "hjit"
+      ],
+      "hint": "Gebruik een woord dat aangename temperatuur beschrijft",
+      "explanation": "'Lekker' betekent lekker of aangenaam"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "hjit",
+      "correctAnswer": "heet",
+      "acceptedAnswers": [
+        "heet"
+      ],
+      "hint": "Het is warmer dan warm",
+      "explanation": "'Hjit' betekent heet in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'fris' in het Fries?",
+      "correctAnswer": "fris",
+      "options": [
+        "fris",
+        "kâld",
+        "waarm",
+        "hjit"
+      ],
+      "hint": "Het Friese woord is hetzelfde als in het Nederlands",
+      "explanation": "'Fris' blijft 'fris' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It is ___ en kâld.",
+      "blankIndex": 2,
+      "correctAnswer": "fris",
+      "wordBank": [
+        "fris",
+        "hjit",
+        "lekker",
+        "waarm"
+      ],
+      "hint": "Gebruik een woord dat koel betekent",
+      "explanation": "'Fris' betekent fris of koel"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'kâld'?",
+      "correctAnswer": "koud",
+      "options": [
+        "warm",
+        "heet",
+        "fris",
+        "koud"
+      ],
+      "hint": "Het is het tegenovergestelde van warm",
+      "explanation": "'Kâld' betekent koud in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "De temperatuur is warm",
+      "correctAnswer": "De temperatuer is waarm",
+      "acceptedAnswers": [
+        "De temperatuer is waarm"
+      ],
+      "hint": "Vertaal elk woord afzonderlijk",
+      "explanation": "Gebruik 'temperatuer' voor temperatuur en 'waarm' voor warm",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "It waar is ___ hjit.",
+      "blankIndex": 3,
+      "correctAnswer": "hjit",
+      "wordBank": [
+        "fris",
+        "hjit",
+        "kâld",
+        "waarm"
+      ],
+      "hint": "Het beschrijft een erg warme dag",
+      "explanation": "'Hjit' betekent heet"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'De temperatuur is fris' in het Fries",
+      "correctOrder": [
+        "De",
+        "temperatuer",
+        "is",
+        "fris"
+      ],
+      "distractorWords": [
+        "waarm",
+        "kâld"
+      ],
+      "hint": "Begin met 'De temperatuer'"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'lekker' in het Fries?",
+      "correctAnswer": "lekker",
+      "options": [
+        "lekker",
+        "fris",
+        "kâld",
+        "hjit"
+      ],
+      "hint": "Het Friese woord is hetzelfde als in het Nederlands",
+      "explanation": "'Lekker' blijft 'lekker' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "fris",
+      "correctAnswer": "fris",
+      "acceptedAnswers": [
+        "fris"
+      ],
+      "hint": "Hetzelfde woord als in Nederlands",
+      "explanation": "'Fris' betekent fris in het Nederlands",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "waarm",
+    "kald",
+    "hjit",
+    "fris",
+    "lekker",
+    "temperatuer"
+  ],
+  "reviewVocabulary": []
+}

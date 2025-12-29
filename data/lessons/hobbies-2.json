@@ -1,0 +1,260 @@
+{
+  "id": "hobbies-2",
+  "skillId": "hobbies",
+  "lessonNumber": 2,
+  "title": "Hobbyʼs - Les 2",
+  "description": "Cultuur: lêze (lezen), filme sjen (films kijken), muzyk hearke (muziek luisteren), sjonge (zingen).",
+  "topic": "kultuer",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-hobbies-2-0",
+      "vocabulary": {
+        "id": "lêze-aktiviteit",
+        "frysian": "lêze",
+        "dutch": "lezen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik hâld fan lêze.",
+        "exampleTranslation": "Ik hou van lezen."
+      },
+      "exampleSentence": "Ik hâld fan lêze.",
+      "exampleTranslation": "Ik hou van lezen."
+    },
+    {
+      "id": "intro-hobbies-2-1",
+      "vocabulary": {
+        "id": "boek-selsstannich",
+        "frysian": "boek",
+        "dutch": "boek",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik lês in boek.",
+        "exampleTranslation": "Ik lees een boek."
+      },
+      "exampleSentence": "Ik lês in boek.",
+      "exampleTranslation": "Ik lees een boek."
+    },
+    {
+      "id": "intro-hobbies-2-2",
+      "vocabulary": {
+        "id": "film-aktiviteit",
+        "frysian": "film",
+        "dutch": "film",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Wy sjogge in film.",
+        "exampleTranslation": "Wij kijken een film."
+      },
+      "exampleSentence": "Wy sjogge in film.",
+      "exampleTranslation": "Wij kijken een film."
+    },
+    {
+      "id": "intro-hobbies-2-3",
+      "vocabulary": {
+        "id": "muzyk-selsstannich",
+        "frysian": "muzyk",
+        "dutch": "muziek",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Sy harket nei muzyk.",
+        "exampleTranslation": "Zij luistert naar muziek."
+      },
+      "exampleSentence": "Sy harket nei muzyk.",
+      "exampleTranslation": "Zij luistert naar muziek."
+    },
+    {
+      "id": "intro-hobbies-2-4",
+      "vocabulary": {
+        "id": "sjonge-aktiviteit",
+        "frysian": "sjonge",
+        "dutch": "zingen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy hâldt fan sjonge.",
+        "exampleTranslation": "Hij houdt van zingen."
+      },
+      "exampleSentence": "Hy hâldt fan sjonge.",
+      "exampleTranslation": "Hij houdt van zingen."
+    },
+    {
+      "id": "intro-hobbies-2-5",
+      "vocabulary": {
+        "id": "film-sjen-aktiviteit",
+        "frysian": "filme sjen",
+        "dutch": "films kijken",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Se hâlde fan filme sjen.",
+        "exampleTranslation": "Zij houden van films kijken."
+      },
+      "exampleSentence": "Se hâlde fan filme sjen.",
+      "exampleTranslation": "Zij houden van films kijken."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "boek",
+      "correctAnswer": "boek",
+      "acceptedAnswers": [
+        "boek"
+      ],
+      "hint": "Iets wat je leest",
+      "explanation": "'Boek' is hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Ik wol in ___ lêze.",
+      "blankIndex": 2,
+      "correctAnswer": "boek",
+      "wordBank": [
+        "boek",
+        "film",
+        "muzyk",
+        "sjonge"
+      ],
+      "hint": "Iets wat je kunt lezen",
+      "explanation": "'Boek' betekent boek"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "muzyk",
+      "correctAnswer": "muziek",
+      "acceptedAnswers": [
+        "muziek"
+      ],
+      "hint": "Iets om naar te luisteren",
+      "explanation": "'Muzyk' betekent muziek in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'zingen' in het Fries?",
+      "correctAnswer": "sjonge",
+      "options": [
+        "sjonge",
+        "lêze",
+        "boek",
+        "film"
+      ],
+      "hint": "Het heeft iets met muziek te maken",
+      "explanation": "'Sjonge' betekent zingen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "film",
+      "correctAnswer": "film",
+      "acceptedAnswers": [
+        "film"
+      ],
+      "hint": "Iets wat je kunt bekijken",
+      "explanation": "'Film' is hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Wy sille in ___ sjen.",
+      "blankIndex": 3,
+      "correctAnswer": "film",
+      "wordBank": [
+        "film",
+        "boek",
+        "muzyk",
+        "sjonge"
+      ],
+      "hint": "Iets wat je kunt bekijken",
+      "explanation": "'Film' betekent film"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "lêze",
+      "correctAnswer": "lezen",
+      "acceptedAnswers": [
+        "lezen"
+      ],
+      "hint": "Iets wat je doet met een boek",
+      "explanation": "'Lêze' betekent lezen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "muziek",
+      "correctAnswer": "muzyk",
+      "acceptedAnswers": [
+        "muzyk"
+      ],
+      "hint": "Iets waar je naar luistert",
+      "explanation": "'Muzyk' betekent muziek",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Se hâldt fan ___ sjonge.",
+      "blankIndex": 3,
+      "correctAnswer": "muzyk",
+      "wordBank": [
+        "boek",
+        "film",
+        "muzyk",
+        "sjonge"
+      ],
+      "hint": "Iets met geluid",
+      "explanation": "'Muzyk' betekent muziek"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "sjonge",
+      "correctAnswer": "zingen",
+      "acceptedAnswers": [
+        "zingen"
+      ],
+      "hint": "Iets wat je doet met je stem",
+      "explanation": "'Sjonge' betekent zingen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "films kijken",
+      "correctAnswer": "filme sjen",
+      "acceptedAnswers": [
+        "filme sjen"
+      ],
+      "hint": "Meervoud van film + activiteit",
+      "explanation": "'Filme sjen' betekent films kijken",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'boeken' in het Fries?",
+      "correctAnswer": "boeken",
+      "options": [
+        "boeken",
+        "film",
+        "muzyk",
+        "sjonge"
+      ],
+      "hint": "Het is hetzelfde als het Nederlandse woord",
+      "explanation": "'Boeken' is hetzelfde in het Fries en Nederlands",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "lêze-aktiviteit",
+    "boek-selsstannich",
+    "film-aktiviteit",
+    "muzyk-selsstannich",
+    "sjonge-aktiviteit",
+    "film-sjen-aktiviteit"
+  ],
+  "reviewVocabulary": []
+}

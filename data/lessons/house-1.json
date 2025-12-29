@@ -1,0 +1,248 @@
+{
+  "id": "house-1",
+  "skillId": "house",
+  "lessonNumber": 1,
+  "title": "Hûs & Thús - Les 1",
+  "description": "Kamers: keamer (kamer), keuken (keuken), badkeamer (badkamer), sliepeseamer (slaapkamer), tún (tuin).",
+  "topic": "kamers",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-house-1-0",
+      "vocabulary": {
+        "id": "keamer",
+        "frysian": "keamer",
+        "dutch": "kamer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De keamer is grut.",
+        "exampleTranslation": "De kamer is groot."
+      },
+      "exampleSentence": "De keamer is grut.",
+      "exampleTranslation": "De kamer is groot."
+    },
+    {
+      "id": "intro-house-1-1",
+      "vocabulary": {
+        "id": "keuken",
+        "frysian": "keuken",
+        "dutch": "keuken",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De keuken is skjin.",
+        "exampleTranslation": "De keuken is schoon."
+      },
+      "exampleSentence": "De keuken is skjin.",
+      "exampleTranslation": "De keuken is schoon."
+    },
+    {
+      "id": "intro-house-1-2",
+      "vocabulary": {
+        "id": "badkeamer",
+        "frysian": "badkeamer",
+        "dutch": "badkamer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De badkeamer hat in dûs.",
+        "exampleTranslation": "De badkamer heeft een douche."
+      },
+      "exampleSentence": "De badkeamer hat in dûs.",
+      "exampleTranslation": "De badkamer heeft een douche."
+    },
+    {
+      "id": "intro-house-1-3",
+      "vocabulary": {
+        "id": "sliepkeamer",
+        "frysian": "sliepkeamer",
+        "dutch": "slaapkamer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De sliepkeamer is rêstich.",
+        "exampleTranslation": "De slaapkamer is rustig."
+      },
+      "exampleSentence": "De sliepkeamer is rêstich.",
+      "exampleTranslation": "De slaapkamer is rustig."
+    },
+    {
+      "id": "intro-house-1-4",
+      "vocabulary": {
+        "id": "tún",
+        "frysian": "tún",
+        "dutch": "tuin",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De tún is grien.",
+        "exampleTranslation": "De tuin is groen."
+      },
+      "exampleSentence": "De tún is grien.",
+      "exampleTranslation": "De tuin is groen."
+    },
+    {
+      "id": "intro-house-1-5",
+      "vocabulary": {
+        "id": "bank",
+        "frysian": "bank",
+        "dutch": "bank",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De bank is noflik.",
+        "exampleTranslation": "De bank is comfortabel."
+      },
+      "exampleSentence": "De bank is noflik.",
+      "exampleTranslation": "De bank is comfortabel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "kamer",
+      "correctAnswer": "keamer",
+      "acceptedAnswers": [
+        "keamer"
+      ],
+      "hint": "Een ruimte in het huis",
+      "explanation": "'Keamer' betekent kamer in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Ik gean nei de ___",
+      "blankIndex": 2,
+      "correctAnswer": "keuken",
+      "wordBank": [
+        "keuken",
+        "tún",
+        "bank",
+        "keamer"
+      ],
+      "hint": "Waar je kookt",
+      "explanation": "'Keuken' betekent keuken in het Fries"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "sliepkeamer",
+      "correctAnswer": "slaapkamer",
+      "acceptedAnswers": [
+        "slaapkamer"
+      ],
+      "hint": "Waar je slaapt",
+      "explanation": "'Sliepkeamer' betekent slaapkamer in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'badkamer' in het Fries?",
+      "correctAnswer": "badkeamer",
+      "options": [
+        "keamer",
+        "badkeamer",
+        "keuken",
+        "tún"
+      ],
+      "hint": "Waar je een douche neemt",
+      "explanation": "'Badkeamer' betekent badkamer",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "tuin",
+      "correctAnswer": "tún",
+      "acceptedAnswers": [
+        "tún"
+      ],
+      "hint": "Een plek buiten het huis",
+      "explanation": "'Tún' betekent tuin in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ is grut",
+      "blankIndex": 1,
+      "correctAnswer": "tún",
+      "wordBank": [
+        "tún",
+        "keamer",
+        "bank",
+        "keuken"
+      ],
+      "hint": "Een plek met planten",
+      "explanation": "'Tún' betekent tuin"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "bank",
+      "correctAnswer": "bank",
+      "acceptedAnswers": [
+        "bank"
+      ],
+      "hint": "Waar je op kunt zitten",
+      "explanation": "'Bank' betekent bank in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'slaapkamer' in het Fries?",
+      "correctAnswer": "sliepkeamer",
+      "options": [
+        "sliepkeamer",
+        "keamer",
+        "badkeamer",
+        "keuken"
+      ],
+      "hint": "Waar je slaapt",
+      "explanation": "'Sliepkeamer' betekent slaapkamer",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "bank",
+      "correctAnswer": "bank",
+      "acceptedAnswers": [
+        "bank"
+      ],
+      "hint": "Een zitmeubel",
+      "explanation": "'Bank' betekent bank in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Yn de ___ is in bêd",
+      "blankIndex": 2,
+      "correctAnswer": "sliepkeamer",
+      "wordBank": [
+        "sliepkeamer",
+        "keuken",
+        "badkeamer",
+        "keamer"
+      ],
+      "hint": "Waar je slaapt",
+      "explanation": "'Sliepkeamer' betekent slaapkamer"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "keamer",
+      "correctAnswer": "kamer",
+      "acceptedAnswers": [
+        "kamer"
+      ],
+      "hint": "Een ruimte in huis",
+      "explanation": "'Keamer' betekent kamer in het Nederlands",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "keamer",
+    "keuken",
+    "badkeamer",
+    "sliepkeamer",
+    "tún",
+    "bank"
+  ],
+  "reviewVocabulary": []
+}

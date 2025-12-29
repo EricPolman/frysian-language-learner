@@ -1,0 +1,266 @@
+{
+  "id": "weather-4",
+  "skillId": "weather",
+  "lessonNumber": 4,
+  "title": "Waar & Seizoenen - Les 4",
+  "description": "Praat over het weer: \"Hoe is it waar?\" \"It is moai waar hjoed.\"",
+  "topic": "weer praten",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-weather-4-0",
+      "vocabulary": {
+        "id": "waar",
+        "frysian": "waar",
+        "dutch": "weer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Hoe is it waar?",
+        "exampleTranslation": "Hoe is het weer?"
+      },
+      "exampleSentence": "Hoe is it waar?",
+      "exampleTranslation": "Hoe is het weer?"
+    },
+    {
+      "id": "intro-weather-4-1",
+      "vocabulary": {
+        "id": "moai",
+        "frysian": "moai",
+        "dutch": "mooi",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It is moai waar hjoed.",
+        "exampleTranslation": "Het is mooi weer vandaag."
+      },
+      "exampleSentence": "It is moai waar hjoed.",
+      "exampleTranslation": "Het is mooi weer vandaag."
+    },
+    {
+      "id": "intro-weather-4-2",
+      "vocabulary": {
+        "id": "rein",
+        "frysian": "rein",
+        "dutch": "regen",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Der komt rein moarn.",
+        "exampleTranslation": "Er komt regen morgen."
+      },
+      "exampleSentence": "Der komt rein moarn.",
+      "exampleTranslation": "Er komt regen morgen."
+    },
+    {
+      "id": "intro-weather-4-3",
+      "vocabulary": {
+        "id": "snie",
+        "frysian": "snie",
+        "dutch": "sneeuw",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De snie is wyt.",
+        "exampleTranslation": "De sneeuw is wit."
+      },
+      "exampleSentence": "De snie is wyt.",
+      "exampleTranslation": "De sneeuw is wit."
+    },
+    {
+      "id": "intro-weather-4-4",
+      "vocabulary": {
+        "id": "sinnich",
+        "frysian": "sinnich",
+        "dutch": "zonnig",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It is in sinnige dei.",
+        "exampleTranslation": "Het is een zonnige dag."
+      },
+      "exampleSentence": "It is in sinnige dei.",
+      "exampleTranslation": "Het is een zonnige dag."
+    },
+    {
+      "id": "intro-weather-4-5",
+      "vocabulary": {
+        "id": "wyn",
+        "frysian": "wyn",
+        "dutch": "wind",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De wyn waait hurd.",
+        "exampleTranslation": "De wind waait hard."
+      },
+      "exampleSentence": "De wyn waait hurd.",
+      "exampleTranslation": "De wind waait hard."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "mooi weer",
+      "correctAnswer": "moai waar",
+      "acceptedAnswers": [
+        "moai waar"
+      ],
+      "hint": "Het is fijn buiten",
+      "explanation": "'Moai waar' betekent mooi weer",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "It is ___ sinnich.",
+      "blankIndex": 1,
+      "correctAnswer": "moai",
+      "wordBank": [
+        "moai",
+        "rein",
+        "wyn",
+        "snie"
+      ],
+      "hint": "Het tegenovergestelde van slecht weer",
+      "explanation": "'Moai' betekent mooi"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'regen' in het Fries?",
+      "correctAnswer": "rein",
+      "options": [
+        "sinnich",
+        "rein",
+        "moai",
+        "snie"
+      ],
+      "hint": "Het water dat uit de lucht valt",
+      "explanation": "'Rein' betekent regen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "snie",
+      "correctAnswer": "sneeuw",
+      "acceptedAnswers": [
+        "sneeuw"
+      ],
+      "hint": "Wit en koud",
+      "explanation": "'Snie' betekent sneeuw",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Mooi zonnig weer' in het Fries",
+      "correctOrder": [
+        "Moai",
+        "sinnich",
+        "waar"
+      ],
+      "distractorWords": [
+        "rein",
+        "snie"
+      ],
+      "hint": "Begin met mooi, dan zonnig en weer"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It waar is ___ mei wyn.",
+      "blankIndex": 3,
+      "correctAnswer": "wyn",
+      "wordBank": [
+        "moai",
+        "rein",
+        "sinnich",
+        "wyn"
+      ],
+      "hint": "Het waait buiten",
+      "explanation": "'Wyn' betekent wind"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'wyn'?",
+      "correctAnswer": "wind",
+      "options": [
+        "zonnig",
+        "wind",
+        "regen",
+        "sneeuw"
+      ],
+      "hint": "Het waait",
+      "explanation": "'Wyn' betekent wind",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "zonnig weer",
+      "correctAnswer": "sinnich waar",
+      "acceptedAnswers": [
+        "sinnich waar"
+      ],
+      "hint": "De zon schijnt",
+      "explanation": "'Sinnich waar' betekent zonnig weer",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "moai",
+      "correctAnswer": "mooi",
+      "acceptedAnswers": [
+        "mooi"
+      ],
+      "hint": "Iets dat er goed uitziet",
+      "explanation": "'Moai' betekent mooi",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "It is ___ mei snie.",
+      "blankIndex": 1,
+      "correctAnswer": "rein",
+      "wordBank": [
+        "wyn",
+        "rein",
+        "moai",
+        "sinnich"
+      ],
+      "hint": "Het regent",
+      "explanation": "'Rein' betekent regen"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'sneeuw' in het Fries?",
+      "correctAnswer": "snie",
+      "options": [
+        "moai",
+        "sinnich",
+        "snie",
+        "rein"
+      ],
+      "hint": "Het witte dat valt in de winter",
+      "explanation": "'Snie' betekent sneeuw",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "wind en regen",
+      "correctAnswer": "wyn en rein",
+      "acceptedAnswers": [
+        "wyn en rein"
+      ],
+      "hint": "Het waait en het regent",
+      "explanation": "'Wyn en rein' betekent wind en regen",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "waar",
+    "moai",
+    "rein",
+    "snie",
+    "sinnich",
+    "wyn"
+  ],
+  "reviewVocabulary": []
+}

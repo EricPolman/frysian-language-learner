@@ -1,0 +1,248 @@
+{
+  "id": "places-2",
+  "skillId": "places",
+  "lessonNumber": 2,
+  "title": "Plakken & Rjochting - Les 2",
+  "description": "Richtingen: lofts (links), rjochts (rechts), foarút (vooruit), efterút (achteruit), boppe (boven), ûnder (onder).",
+  "topic": "rjochtingen",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-places-2-0",
+      "vocabulary": {
+        "id": "lofts-123",
+        "frysian": "lofts",
+        "dutch": "links",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy giet nei lofts.",
+        "exampleTranslation": "Hij gaat naar links."
+      },
+      "exampleSentence": "Hy giet nei lofts.",
+      "exampleTranslation": "Hij gaat naar links."
+    },
+    {
+      "id": "intro-places-2-1",
+      "vocabulary": {
+        "id": "rjochts-456",
+        "frysian": "rjochts",
+        "dutch": "rechts",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Se draait rjochts.",
+        "exampleTranslation": "Zij draait rechts."
+      },
+      "exampleSentence": "Se draait rjochts.",
+      "exampleTranslation": "Zij draait rechts."
+    },
+    {
+      "id": "intro-places-2-2",
+      "vocabulary": {
+        "id": "foarut-789",
+        "frysian": "foarút",
+        "dutch": "vooruit",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Rin foarút nei de doar.",
+        "exampleTranslation": "Loop vooruit naar de deur."
+      },
+      "exampleSentence": "Rin foarút nei de doar.",
+      "exampleTranslation": "Loop vooruit naar de deur."
+    },
+    {
+      "id": "intro-places-2-3",
+      "vocabulary": {
+        "id": "efterut-101",
+        "frysian": "efterút",
+        "dutch": "achteruit",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy giet efterút.",
+        "exampleTranslation": "Hij gaat achteruit."
+      },
+      "exampleSentence": "Hy giet efterút.",
+      "exampleTranslation": "Hij gaat achteruit."
+    },
+    {
+      "id": "intro-places-2-4",
+      "vocabulary": {
+        "id": "boppe-112",
+        "frysian": "boppe",
+        "dutch": "boven",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De bal is boppe.",
+        "exampleTranslation": "De bal is boven."
+      },
+      "exampleSentence": "De bal is boppe.",
+      "exampleTranslation": "De bal is boven."
+    },
+    {
+      "id": "intro-places-2-5",
+      "vocabulary": {
+        "id": "under-131",
+        "frysian": "ûnder",
+        "dutch": "onder",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De kat sit ûnder de tafel.",
+        "exampleTranslation": "De kat zit onder de tafel."
+      },
+      "exampleSentence": "De kat sit ûnder de tafel.",
+      "exampleTranslation": "De kat zit onder de tafel."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "links",
+      "correctAnswer": "lofts",
+      "acceptedAnswers": [
+        "lofts"
+      ],
+      "hint": "Het tegenovergestelde van rechts",
+      "explanation": "'Lofts' betekent links in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "rjochts",
+      "correctAnswer": "rechts",
+      "acceptedAnswers": [
+        "rechts"
+      ],
+      "hint": "Het tegenovergestelde van links",
+      "explanation": "'Rjochts' betekent rechts in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Gean ___!",
+      "blankIndex": 1,
+      "correctAnswer": "foarút",
+      "wordBank": [
+        "lofts",
+        "rjochts",
+        "foarút",
+        "efterút"
+      ],
+      "hint": "Ga de richting van vooruit",
+      "explanation": "'Foarút' betekent vooruit"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'boven' in het Fries?",
+      "correctAnswer": "boppe",
+      "options": [
+        "ûnder",
+        "boppe",
+        "lofts",
+        "rjochts"
+      ],
+      "hint": "Het is het tegenovergestelde van onder",
+      "explanation": "'Boppe' betekent boven",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "onder",
+      "correctAnswer": "ûnder",
+      "acceptedAnswers": [
+        "ûnder"
+      ],
+      "hint": "Het tegenovergestelde van boven",
+      "explanation": "'Ûnder' betekent onder in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "foarút",
+      "correctAnswer": "vooruit",
+      "acceptedAnswers": [
+        "vooruit"
+      ],
+      "hint": "Het tegenovergestelde van achteruit",
+      "explanation": "'Foarút' betekent vooruit in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Draaie ___!",
+      "blankIndex": 1,
+      "correctAnswer": "lofts",
+      "wordBank": [
+        "lofts",
+        "rjochts",
+        "boppe",
+        "ûnder"
+      ],
+      "hint": "Draai de linker kant op",
+      "explanation": "'Lofts' betekent links"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'achteruit' in het Fries?",
+      "correctAnswer": "efterút",
+      "options": [
+        "efterút",
+        "foarút",
+        "boppe",
+        "ûnder"
+      ],
+      "hint": "Het is het tegenovergestelde van vooruit",
+      "explanation": "'Efterút' betekent achteruit",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "vooruit",
+      "correctAnswer": "foarút",
+      "acceptedAnswers": [
+        "foarút"
+      ],
+      "hint": "Het tegenovergestelde van achteruit",
+      "explanation": "'Foarút' betekent vooruit in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "ûnder",
+      "correctAnswer": "onder",
+      "acceptedAnswers": [
+        "onder"
+      ],
+      "hint": "Het tegenovergestelde van boven",
+      "explanation": "'Ûnder' betekent onder in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Sjoch ___ de tafel.",
+      "blankIndex": 1,
+      "correctAnswer": "ûnder",
+      "wordBank": [
+        "boppe",
+        "ûnder",
+        "lofts",
+        "rjochts"
+      ],
+      "hint": "Kijk onder de tafel",
+      "explanation": "'Ûnder' betekent onder"
+    }
+  ],
+  "targetVocabulary": [
+    "lofts-123",
+    "rjochts-456",
+    "foarut-789",
+    "efterut-101",
+    "boppe-112",
+    "under-131"
+  ],
+  "reviewVocabulary": []
+}

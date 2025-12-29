@@ -12,6 +12,9 @@ interface Props {
     total?: string;
     perfect?: string;
     weakWords?: string;
+    newAchievements?: string;
+    streak?: string;
+    longestStreak?: string;
   }>;
 }
 
@@ -20,7 +23,7 @@ export default async function LessonResultsPage({
   searchParams,
 }: Props) {
   const { lessonId } = await params;
-  const { xp, accuracy, correct, total, perfect, weakWords } = await searchParams;
+  const { xp, accuracy, correct, total, perfect, weakWords, newAchievements, streak, longestStreak } = await searchParams;
   const user = await getUser();
 
   if (!user) {
@@ -41,6 +44,9 @@ export default async function LessonResultsPage({
   const totalCount = parseInt(total || "0");
   const isPerfect = perfect === "true";
   const weakWordsList = weakWords ? weakWords.split(",").filter(Boolean) : [];
+  const newAchievementsList = newAchievements ? newAchievements.split(",").filter(Boolean) : [];
+  const currentStreak = parseInt(streak || "0");
+  const longestStreakValue = parseInt(longestStreak || "0");
 
   // Calculate if level up happened
   const currentLevel = (profile as any)?.level || 1;
@@ -58,6 +64,9 @@ export default async function LessonResultsPage({
       weakWordsList={weakWordsList}
       newLevel={currentLevel}
       previousLevel={previousLevel > 0 ? previousLevel : 1}
+      newAchievements={newAchievementsList}
+      currentStreak={currentStreak}
+      longestStreak={longestStreakValue}
     />
   );
 }

@@ -1,0 +1,266 @@
+{
+  "id": "adjectives-3",
+  "skillId": "adjectives",
+  "lessonNumber": 3,
+  "title": "Bywurden - Les 3",
+  "description": "Gevoelens: bliid (blij), tryst (verdrietig),reas (boos), bang (bang), grutsk (trots), leafst (liefst).",
+  "topic": "gefoel",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-adjectives-3-0",
+      "vocabulary": {
+        "id": "bliid-bywurd",
+        "frysian": "bliid",
+        "dutch": "blij",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy is hjoed bliid.",
+        "exampleTranslation": "Hij is vandaag blij."
+      },
+      "exampleSentence": "Hy is hjoed bliid.",
+      "exampleTranslation": "Hij is vandaag blij."
+    },
+    {
+      "id": "intro-adjectives-3-1",
+      "vocabulary": {
+        "id": "tryst-bywurd",
+        "frysian": "tryst",
+        "dutch": "verdrietig",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Se is tryst om it nijs.",
+        "exampleTranslation": "Ze is verdrietig om het nieuws."
+      },
+      "exampleSentence": "Se is tryst om it nijs.",
+      "exampleTranslation": "Ze is verdrietig om het nieuws."
+    },
+    {
+      "id": "intro-adjectives-3-2",
+      "vocabulary": {
+        "id": "reas-bywurd",
+        "frysian": "reas",
+        "dutch": "boos",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy waard tige reas.",
+        "exampleTranslation": "Hij werd erg boos."
+      },
+      "exampleSentence": "Hy waard tige reas.",
+      "exampleTranslation": "Hij werd erg boos."
+    },
+    {
+      "id": "intro-adjectives-3-3",
+      "vocabulary": {
+        "id": "bang-bywurd",
+        "frysian": "bang",
+        "dutch": "bang",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It bern is bang yn it tsjuster.",
+        "exampleTranslation": "Het kind is bang in het donker."
+      },
+      "exampleSentence": "It bern is bang yn it tsjuster.",
+      "exampleTranslation": "Het kind is bang in het donker."
+    },
+    {
+      "id": "intro-adjectives-3-4",
+      "vocabulary": {
+        "id": "grutsk-bywurd",
+        "frysian": "grutsk",
+        "dutch": "trots",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Ik bin grutsk op dy.",
+        "exampleTranslation": "Ik ben trots op jou."
+      },
+      "exampleSentence": "Ik bin grutsk op dy.",
+      "exampleTranslation": "Ik ben trots op jou."
+    },
+    {
+      "id": "intro-adjectives-3-5",
+      "vocabulary": {
+        "id": "leafst-bywurd",
+        "frysian": "leafst",
+        "dutch": "liefst",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Se is myn leafste freon.",
+        "exampleTranslation": "Zij is mijn liefste vriendin."
+      },
+      "exampleSentence": "Se is myn leafste freon.",
+      "exampleTranslation": "Zij is mijn liefste vriendin."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "blij",
+      "correctAnswer": "bliid",
+      "acceptedAnswers": [
+        "bliid"
+      ],
+      "hint": "Het is een positieve emotie",
+      "explanation": "'Bliid' betekent blij in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Hy is ___ mei syn wurk.",
+      "blankIndex": 1,
+      "correctAnswer": "grutsk",
+      "wordBank": [
+        "bliid",
+        "grutsk",
+        "reas",
+        "tryst"
+      ],
+      "hint": "Het gevoel van trots",
+      "explanation": "'Grutsk' betekent trots"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'boos' in het Fries?",
+      "correctAnswer": "reas",
+      "options": [
+        "bliid",
+        "reas",
+        "bang",
+        "tryst"
+      ],
+      "hint": "Het is een negatieve emotie",
+      "explanation": "'Reas' betekent boos",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "tryst",
+      "correctAnswer": "verdrietig",
+      "acceptedAnswers": [
+        "verdrietig"
+      ],
+      "hint": "Een sombere emotie",
+      "explanation": "'Tryst' betekent verdrietig in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Se is ___ foar har bern.",
+      "blankIndex": 1,
+      "correctAnswer": "grutsk",
+      "wordBank": [
+        "grutsk",
+        "tryst",
+        "bliid",
+        "reas"
+      ],
+      "hint": "Het gevoel van trots",
+      "explanation": "Ze is trots op haar kinderen"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'bliid'?",
+      "correctAnswer": "blij",
+      "options": [
+        "verdrietig",
+        "boos",
+        "blij",
+        "bang"
+      ],
+      "hint": "Een positieve emotie",
+      "explanation": "'Bliid' betekent blij",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "trots",
+      "correctAnswer": "grutsk",
+      "acceptedAnswers": [
+        "grutsk"
+      ],
+      "hint": "Een gevoel van voldoening",
+      "explanation": "'Grutsk' betekent trots in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Ik ben blij' in het Fries",
+      "correctOrder": [
+        "Ik",
+        "bin",
+        "bliid"
+      ],
+      "distractorWords": [
+        "grutsk",
+        "reas"
+      ],
+      "hint": "Gebruik 'Ik' en eindig met emotie"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "bang",
+      "correctAnswer": "bang",
+      "acceptedAnswers": [
+        "bang"
+      ],
+      "hint": "Een negatieve emotie",
+      "explanation": "'Bang' betekent bang in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Hy is ___ foar de toets.",
+      "blankIndex": 1,
+      "correctAnswer": "bang",
+      "wordBank": [
+        "bang",
+        "bliid",
+        "grutsk",
+        "reas"
+      ],
+      "hint": "Een gevoel van angst",
+      "explanation": "Hij is bang voor de toets"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'liefst' in het Fries?",
+      "correctAnswer": "leafst",
+      "options": [
+        "bliid",
+        "leafst",
+        "tryst",
+        "reas"
+      ],
+      "hint": "Het is een positieve emotie",
+      "explanation": "'Leafst' betekent het liefst",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "bang",
+      "correctAnswer": "bang",
+      "acceptedAnswers": [
+        "bang"
+      ],
+      "hint": "Hetzelfde in het Fries",
+      "explanation": "'Bang' is hetzelfde in het Fries en Nederlands",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "bliid-bywurd",
+    "tryst-bywurd",
+    "reas-bywurd",
+    "bang-bywurd",
+    "grutsk-bywurd",
+    "leafst-bywurd"
+  ],
+  "reviewVocabulary": []
+}

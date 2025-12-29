@@ -1,0 +1,266 @@
+{
+  "id": "places-3",
+  "skillId": "places",
+  "lessonNumber": 3,
+  "title": "Plakken & Rjochting - Les 3",
+  "description": "Voorzetsels: yn (in), op (op), ûnder (onder), neist (naast), tusken (tussen), by (bij).",
+  "topic": "foarsetsels",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-places-3-0",
+      "vocabulary": {
+        "id": "yn1",
+        "frysian": "yn",
+        "dutch": "in",
+        "partOfSpeech": "voorzetsel",
+        "exampleSentence": "De kat is yn 'e fakânsje.",
+        "exampleTranslation": "De kat is in de vakantie."
+      },
+      "exampleSentence": "De kat is yn 'e fakânsje.",
+      "exampleTranslation": "De kat is in de vakantie."
+    },
+    {
+      "id": "intro-places-3-1",
+      "vocabulary": {
+        "id": "op1",
+        "frysian": "op",
+        "dutch": "op",
+        "partOfSpeech": "voorzetsel",
+        "exampleSentence": "De boek leit op 'e tafel.",
+        "exampleTranslation": "Het boek ligt op de tafel."
+      },
+      "exampleSentence": "De boek leit op 'e tafel.",
+      "exampleTranslation": "Het boek ligt op de tafel."
+    },
+    {
+      "id": "intro-places-3-2",
+      "vocabulary": {
+        "id": "under1",
+        "frysian": "ûnder",
+        "dutch": "onder",
+        "partOfSpeech": "voorzetsel",
+        "exampleSentence": "De hûn sit ûnder 'e stoel.",
+        "exampleTranslation": "De hond zit onder de stoel."
+      },
+      "exampleSentence": "De hûn sit ûnder 'e stoel.",
+      "exampleTranslation": "De hond zit onder de stoel."
+    },
+    {
+      "id": "intro-places-3-3",
+      "vocabulary": {
+        "id": "neist1",
+        "frysian": "neist",
+        "dutch": "naast",
+        "partOfSpeech": "voorzetsel",
+        "exampleSentence": "Hy wennet neist ús hûs.",
+        "exampleTranslation": "Hij woont naast ons huis."
+      },
+      "exampleSentence": "Hy wennet neist ús hûs.",
+      "exampleTranslation": "Hij woont naast ons huis."
+    },
+    {
+      "id": "intro-places-3-4",
+      "vocabulary": {
+        "id": "tusken1",
+        "frysian": "tusken",
+        "dutch": "tussen",
+        "partOfSpeech": "voorzetsel",
+        "exampleSentence": "De auto stiet tusken de beammen.",
+        "exampleTranslation": "De auto staat tussen de bomen."
+      },
+      "exampleSentence": "De auto stiet tusken de beammen.",
+      "exampleTranslation": "De auto staat tussen de bomen."
+    },
+    {
+      "id": "intro-places-3-5",
+      "vocabulary": {
+        "id": "by1",
+        "frysian": "by",
+        "dutch": "bij",
+        "partOfSpeech": "voorzetsel",
+        "exampleSentence": "Ik bin by it park.",
+        "exampleTranslation": "Ik ben bij het park."
+      },
+      "exampleSentence": "Ik bin by it park.",
+      "exampleTranslation": "Ik ben bij het park."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "in de doos",
+      "correctAnswer": "yn de doaze",
+      "acceptedAnswers": [
+        "yn de doaze"
+      ],
+      "hint": "Gebruik 'yn' voor 'in'",
+      "explanation": "'Yn' betekent 'in' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "ûnder de tafel",
+      "correctAnswer": "onder de tafel",
+      "acceptedAnswers": [
+        "onder de tafel"
+      ],
+      "hint": "Het is een positie beschrijving",
+      "explanation": "'ûnder' betekent 'onder' in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De boek is ___ de tafel.",
+      "blankIndex": 2,
+      "correctAnswer": "op",
+      "wordBank": [
+        "yn",
+        "op",
+        "ûnder",
+        "neist"
+      ],
+      "hint": "Het boek ligt bovenop de tafel",
+      "explanation": "'Op' betekent 'op' in het Fries"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'naast de stoel' in het Fries?",
+      "correctAnswer": "neist de stoel",
+      "options": [
+        "neist de stoel",
+        "yn",
+        "op",
+        "ûnder"
+      ],
+      "hint": "Gebruik 'neist' voor 'naast'",
+      "explanation": "'Neist' betekent 'naast' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "tussen de boeken",
+      "correctAnswer": "tusken de boeken",
+      "acceptedAnswers": [
+        "tusken de boeken"
+      ],
+      "hint": "Gebruik 'tusken' voor 'tussen'",
+      "explanation": "'Tusken' betekent 'tussen' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'by de rjochting'?",
+      "correctAnswer": "bij de richting",
+      "options": [
+        "bij de richting",
+        "in",
+        "op",
+        "onder"
+      ],
+      "hint": "Het is een locatie aanduiding",
+      "explanation": "'By' betekent 'bij' in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De kat sit ___ de stoel.",
+      "blankIndex": 2,
+      "correctAnswer": "ûnder",
+      "wordBank": [
+        "yn",
+        "op",
+        "ûnder",
+        "neist"
+      ],
+      "hint": "De kat zit lager dan de stoel",
+      "explanation": "'ûnder' betekent 'onder' in het Fries"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "bij het raam",
+      "correctAnswer": "by it rút",
+      "acceptedAnswers": [
+        "by it rút"
+      ],
+      "hint": "Gebruik 'by' voor 'bij'",
+      "explanation": "'By' betekent 'bij' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'In de kast' in het Fries",
+      "correctOrder": [
+        "Yn",
+        "de",
+        "kast"
+      ],
+      "distractorWords": [
+        "Op",
+        "ûnder"
+      ],
+      "hint": "Begin met de locatie aanduiding"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De papieren lizze ___ de tafel.",
+      "blankIndex": 2,
+      "correctAnswer": "op",
+      "wordBank": [
+        "yn",
+        "op",
+        "ûnder",
+        "neist"
+      ],
+      "hint": "De papieren liggen bovenop",
+      "explanation": "'Op' betekent 'op' in het Fries"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'onder de brug' in het Fries?",
+      "correctAnswer": "ûnder de brêge",
+      "options": [
+        "ûnder de brêge",
+        "yn",
+        "op",
+        "ûnder"
+      ],
+      "hint": "Gebruik 'ûnder' voor 'onder'",
+      "explanation": "'ûnder' betekent 'onder' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "tusken de huzen",
+      "correctAnswer": "tussen de huizen",
+      "acceptedAnswers": [
+        "tussen de huizen"
+      ],
+      "hint": "Het is een locatie tussen objecten",
+      "explanation": "'Tusken' betekent 'tussen' in het Nederlands",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "yn1",
+    "op1",
+    "under1",
+    "neist1",
+    "tusken1",
+    "by1"
+  ],
+  "reviewVocabulary": []
+}

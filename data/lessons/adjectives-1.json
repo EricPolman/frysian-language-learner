@@ -1,0 +1,260 @@
+{
+  "id": "adjectives-1",
+  "skillId": "adjectives",
+  "lessonNumber": 1,
+  "title": "Bywurden - Les 1",
+  "description": "Grootte: grut (groot), lyts (klein), lang (lang), koart (kort), breed (breed), smel (smal).",
+  "topic": "grutte",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-adjectives-1-0",
+      "vocabulary": {
+        "id": "grut-bijvoeglijk-naamwoord",
+        "frysian": "grut",
+        "dutch": "groot",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De hûn is grut.",
+        "exampleTranslation": "De hond is groot."
+      },
+      "exampleSentence": "De hûn is grut.",
+      "exampleTranslation": "De hond is groot."
+    },
+    {
+      "id": "intro-adjectives-1-1",
+      "vocabulary": {
+        "id": "lyts-bijvoeglijk-naamwoord",
+        "frysian": "lyts",
+        "dutch": "klein",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It hûs is lyts.",
+        "exampleTranslation": "Het huis is klein."
+      },
+      "exampleSentence": "It hûs is lyts.",
+      "exampleTranslation": "Het huis is klein."
+    },
+    {
+      "id": "intro-adjectives-1-2",
+      "vocabulary": {
+        "id": "lang-bijvoeglijk-naamwoord",
+        "frysian": "lang",
+        "dutch": "lang",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De strjitte is lang.",
+        "exampleTranslation": "De straat is lang."
+      },
+      "exampleSentence": "De strjitte is lang.",
+      "exampleTranslation": "De straat is lang."
+    },
+    {
+      "id": "intro-adjectives-1-3",
+      "vocabulary": {
+        "id": "koart-bijvoeglijk-naamwoord",
+        "frysian": "koart",
+        "dutch": "kort",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De rok is koart.",
+        "exampleTranslation": "De rok is kort."
+      },
+      "exampleSentence": "De rok is koart.",
+      "exampleTranslation": "De rok is kort."
+    },
+    {
+      "id": "intro-adjectives-1-4",
+      "vocabulary": {
+        "id": "breed-bijvoeglijk-naamwoord",
+        "frysian": "breed",
+        "dutch": "breed",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De wei is breed.",
+        "exampleTranslation": "De weg is breed."
+      },
+      "exampleSentence": "De wei is breed.",
+      "exampleTranslation": "De weg is breed."
+    },
+    {
+      "id": "intro-adjectives-1-5",
+      "vocabulary": {
+        "id": "smel-bijvoeglijk-naamwoord",
+        "frysian": "smel",
+        "dutch": "smal",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De doar is smel.",
+        "exampleTranslation": "De deur is smal."
+      },
+      "exampleSentence": "De doar is smel.",
+      "exampleTranslation": "De deur is smal."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "groot",
+      "correctAnswer": "grut",
+      "acceptedAnswers": [
+        "grut"
+      ],
+      "hint": "Het tegenovergestelde van klein",
+      "explanation": "'Grut' betekent groot in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "lyts",
+      "correctAnswer": "klein",
+      "acceptedAnswers": [
+        "klein"
+      ],
+      "hint": "Het tegenovergestelde van groot",
+      "explanation": "'Lyts' betekent klein in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "In ___ hûs",
+      "blankIndex": 1,
+      "correctAnswer": "grut",
+      "wordBank": [
+        "grut",
+        "lyts",
+        "smel",
+        "breed"
+      ],
+      "hint": "Het is niet klein",
+      "explanation": "'Grut' betekent groot"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'klein' in het Fries?",
+      "correctAnswer": "lyts",
+      "options": [
+        "grut",
+        "lyts",
+        "lang",
+        "koart"
+      ],
+      "hint": "Het is het tegenovergestelde van groot",
+      "explanation": "'Lyts' betekent klein",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "lang",
+      "correctAnswer": "lang",
+      "acceptedAnswers": [
+        "lang"
+      ],
+      "hint": "Denk aan een lange weg",
+      "explanation": "'Lang' betekent lang in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "koart",
+      "correctAnswer": "kort",
+      "acceptedAnswers": [
+        "kort"
+      ],
+      "hint": "Het tegenovergestelde van lang",
+      "explanation": "'Koart' betekent kort in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De strjitte is ___",
+      "blankIndex": 3,
+      "correctAnswer": "lang",
+      "wordBank": [
+        "lang",
+        "koart",
+        "smel",
+        "breed"
+      ],
+      "hint": "Het is niet kort",
+      "explanation": "'Lang' betekent lang"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "smal",
+      "correctAnswer": "smel",
+      "acceptedAnswers": [
+        "smel"
+      ],
+      "hint": "Het is het tegenovergestelde van breed",
+      "explanation": "'Smel' betekent smal in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'smal' in het Fries?",
+      "correctAnswer": "smel",
+      "options": [
+        "grut",
+        "smel",
+        "lyts",
+        "lang"
+      ],
+      "hint": "Het is het tegenovergestelde van breed",
+      "explanation": "'Smel' betekent smal",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "breed",
+      "correctAnswer": "breed",
+      "acceptedAnswers": [
+        "breed"
+      ],
+      "hint": "Het is het tegenovergestelde van smal",
+      "explanation": "'Breed' betekent breed in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "In ___ paad",
+      "blankIndex": 1,
+      "correctAnswer": "smel",
+      "wordBank": [
+        "smel",
+        "breed",
+        "lang",
+        "koart"
+      ],
+      "hint": "Het is niet breed",
+      "explanation": "'Smel' betekent smal"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "kort",
+      "correctAnswer": "koart",
+      "acceptedAnswers": [
+        "koart"
+      ],
+      "hint": "Het tegenovergestelde van lang",
+      "explanation": "'Koart' betekent kort in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "grut-bijvoeglijk-naamwoord",
+    "lyts-bijvoeglijk-naamwoord",
+    "lang-bijvoeglijk-naamwoord",
+    "koart-bijvoeglijk-naamwoord",
+    "breed-bijvoeglijk-naamwoord",
+    "smel-bijvoeglijk-naamwoord"
+  ],
+  "reviewVocabulary": []
+}

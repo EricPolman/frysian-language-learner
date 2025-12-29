@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Confetti } from "@/components/animations/Confetti";
 import { LevelUpAnimation } from "@/components/animations/LevelUpAnimation";
+import { AchievementUnlock } from "@/components/animations/AchievementUnlock";
 
 interface ResultsClientProps {
   lessonId: string;
@@ -17,6 +18,9 @@ interface ResultsClientProps {
   weakWordsList: string[];
   newLevel?: number;
   previousLevel?: number;
+  newAchievements?: string[];
+  currentStreak?: number;
+  longestStreak?: number;
 }
 
 export function ResultsClient({
@@ -29,11 +33,16 @@ export function ResultsClient({
   weakWordsList,
   newLevel,
   previousLevel,
+  newAchievements = [],
+  currentStreak = 0,
+  longestStreak = 0,
 }: ResultsClientProps) {
   const [showConfetti, setShowConfetti] = useState(true);
   const [showLevelUp, setShowLevelUp] = useState(false);
+  const [showAchievements, setShowAchievements] = useState(false);
 
   const didLevelUp = newLevel && previousLevel && newLevel > previousLevel;
+  const hasNewAchievements = newAchievements.length > 0;
 
   useEffect(() => {
     if (didLevelUp) {
@@ -45,6 +54,17 @@ export function ResultsClient({
     }
   }, [didLevelUp]);
 
+  useEffect(() => {
+    // Show achievements after level up (or immediately if no level up)
+    if (hasNewAchievements) {
+      const delay = didLevelUp ? 5000 : 2000;
+      const timer = setTimeout(() => {
+        setShowAchievements(true);
+      }, delay);
+      return () => clearTimeout(timer);
+    }
+  }, [hasNewAchievements, didLevelUp]);
+
   return (
     <>
       <Confetti isActive={showConfetti} duration={4000} />
@@ -54,6 +74,13 @@ export function ResultsClient({
           isVisible={showLevelUp}
           newLevel={newLevel}
           onComplete={() => setShowLevelUp(false)}
+        />
+      )}
+
+      {showAchievements && hasNewAchievements && (
+        <AchievementUnlock
+          achievementIds={newAchievements}
+          onClose={() => setShowAchievements(false)}
         />
       )}
 
@@ -113,6 +140,14 @@ export function ResultsClient({
               {didLevelUp && (
                 <div className="mt-4 bg-gradient-to-r from-purple-100 to-pink-100 text-purple-700 px-4 py-2 rounded-lg">
                   🎉 Nieuw Level! Je bent nu level {newLevel}!
+                </div>
+              )}
+
+              {/* Streak indicator */}
+              {currentStreak > 0 && (
+                <div className="mt-4 bg-gradient-to-r from-orange-100 to-red-100 text-orange-700 px-4 py-2 rounded-lg">
+                  🔥 {currentStreak} dag streak!
+                  {currentStreak === longestStreak && currentStreak > 1 && " (Nieuwe record!)"}
                 </div>
               )}
             </Card>

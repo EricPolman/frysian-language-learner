@@ -67,13 +67,35 @@ This file tracks the development progress and remaining tasks. Updated regularly
   - Hidden during lesson flow
   - Links to Learn and Dashboard
 
+## New Features (Priority 4)
+
+- [x] **12. Daily Streaks**
+  - Track consecutive days of practice
+  - Current streak and longest streak display
+  - Streak status on dashboard and results
+  - Automatic streak calculation on lesson completion
+
+- [x] **13. Achievement System**
+  - 28 unique achievement badges
+  - Categories: Lessons, XP, Streaks, Accuracy, Special
+  - Achievement unlock animations
+  - Achievement grid page (/achievements)
+  - Recent achievements on dashboard
+
+- [x] **14. Settings Page**
+  - Daily goal customization (20-500 XP)
+  - Audio enable/disable
+  - Notifications enable/disable
+  - Settings accessible from header
+  - Persistent user preferences
+
 ---
 
 ## Progress Summary
 
-**Completed**: 10 / 11 items
-**In Progress**: 0 / 11 items
-**Not Started**: 1 / 11 items (Content generation)
+**Completed**: 13 / 14 items
+**In Progress**: 0 / 14 items
+**Not Started**: 1 / 14 items (Content generation)
 
 ## What's Implemented
 

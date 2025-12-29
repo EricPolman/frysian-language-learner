@@ -1,0 +1,267 @@
+{
+  "id": "clothing-3",
+  "skillId": "clothing",
+  "lessonNumber": 3,
+  "title": "Klean - Les 3",
+  "description": "Kleding en kleuren: \"In read heve\" (Een rode trui), \"Swarte skoech\" (Zwarte schoenen).",
+  "topic": "kleding en kleuren",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-clothing-3-0",
+      "vocabulary": {
+        "id": "read-heve",
+        "frysian": "heve",
+        "dutch": "trui",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik draach in read heve.",
+        "exampleTranslation": "Ik draag een rode trui."
+      },
+      "exampleSentence": "Ik draach in read heve.",
+      "exampleTranslation": "Ik draag een rode trui."
+    },
+    {
+      "id": "intro-clothing-3-1",
+      "vocabulary": {
+        "id": "swart-skoech",
+        "frysian": "skoech",
+        "dutch": "schoen",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De swarte skoech is moai.",
+        "exampleTranslation": "De zwarte schoen is mooi."
+      },
+      "exampleSentence": "De swarte skoech is moai.",
+      "exampleTranslation": "De zwarte schoen is mooi."
+    },
+    {
+      "id": "intro-clothing-3-2",
+      "vocabulary": {
+        "id": "giele-jas",
+        "frysian": "giel",
+        "dutch": "geel",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy hat in giele jas oan.",
+        "exampleTranslation": "Hij heeft een gele jas aan."
+      },
+      "exampleSentence": "Hy hat in giele jas oan.",
+      "exampleTranslation": "Hij heeft een gele jas aan."
+    },
+    {
+      "id": "intro-clothing-3-3",
+      "vocabulary": {
+        "id": "grize-broek",
+        "frysian": "broek",
+        "dutch": "broek",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Se draacht in grize broek.",
+        "exampleTranslation": "Zij draagt een grijze broek."
+      },
+      "exampleSentence": "Se draacht in grize broek.",
+      "exampleTranslation": "Zij draagt een grijze broek."
+    },
+    {
+      "id": "intro-clothing-3-4",
+      "vocabulary": {
+        "id": "blau-sjaal",
+        "frysian": "blau",
+        "dutch": "blauw",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De sjaal is moai blau.",
+        "exampleTranslation": "De sjaal is mooi blauw."
+      },
+      "exampleSentence": "De sjaal is moai blau.",
+      "exampleTranslation": "De sjaal is mooi blauw."
+    },
+    {
+      "id": "intro-clothing-3-5",
+      "vocabulary": {
+        "id": "wite-tsjinst",
+        "frysian": "tsjinst",
+        "dutch": "shirt",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "In wite tsjinst past altyd.",
+        "exampleTranslation": "Een wit shirt past altijd."
+      },
+      "exampleSentence": "In wite tsjinst past altyd.",
+      "exampleTranslation": "Een wit shirt past altijd."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "blauwe trui",
+      "correctAnswer": "blau heve",
+      "acceptedAnswers": [
+        "blau heve"
+      ],
+      "hint": "Kleur vóór kledingstuk",
+      "explanation": "'Blau' betekent blauw en 'heve' betekent trui",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De broek is ___",
+      "blankIndex": 3,
+      "correctAnswer": "giel",
+      "wordBank": [
+        "heve",
+        "skoech",
+        "giel",
+        "blau"
+      ],
+      "hint": "Het is een kleur",
+      "explanation": "'Giel' betekent geel"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "giele tsjinst",
+      "correctAnswer": "geel shirt",
+      "acceptedAnswers": [
+        "geel shirt"
+      ],
+      "hint": "Kledingstuk na de kleur",
+      "explanation": "'Giel' betekent geel en 'tsjinst' betekent shirt",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'blauwe broek' in het Fries?",
+      "correctAnswer": "blau broek",
+      "options": [
+        "blau broek",
+        "heve",
+        "skoech",
+        "giel"
+      ],
+      "hint": "Kleur is 'blau'",
+      "explanation": "'Blau broek' betekent blauwe broek",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Ik draach in ___",
+      "blankIndex": 3,
+      "correctAnswer": "skoech",
+      "wordBank": [
+        "heve",
+        "skoech",
+        "broek",
+        "tsjinst"
+      ],
+      "hint": "Iets voor je voet",
+      "explanation": "'Skoech' betekent schoen"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "geel shirt",
+      "correctAnswer": "giele tsjinst",
+      "acceptedAnswers": [
+        "giele tsjinst"
+      ],
+      "hint": "Kleur komt eerst",
+      "explanation": "'Giele' betekent geel en 'tsjinst' betekent shirt",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'giele heve'?",
+      "correctAnswer": "gele trui",
+      "options": [
+        "gele trui",
+        "trui",
+        "schoen",
+        "geel"
+      ],
+      "hint": "Het is een kledingstuk voor bovenlichaam",
+      "explanation": "'Giele heve' betekent gele trui",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ is blau",
+      "blankIndex": 1,
+      "correctAnswer": "broek",
+      "wordBank": [
+        "heve",
+        "skoech",
+        "broek",
+        "tsjinst"
+      ],
+      "hint": "Een kledingstuk voor je benen",
+      "explanation": "'Broek' betekent broek"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "blauwe schoenen",
+      "correctAnswer": "blauwe skoegen",
+      "acceptedAnswers": [
+        "blauwe skoegen"
+      ],
+      "hint": "Meervoud van 'skoech'",
+      "explanation": "'Blauwe' betekent blauw en 'skoegen' is meervoud van schoen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Blauw shirt is mooi' in het Fries",
+      "correctOrder": [
+        "Blau",
+        "tsjinst",
+        "is",
+        "moai"
+      ],
+      "distractorWords": [
+        "giel",
+        "broek"
+      ],
+      "hint": "Begin met de kleur en het kledingstuk"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'gele broek' in het Fries?",
+      "correctAnswer": "giele broek",
+      "options": [
+        "giele broek",
+        "heve",
+        "skoech",
+        "giel"
+      ],
+      "hint": "Kleur is 'giel'",
+      "explanation": "'Giele broek' betekent gele broek",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "blau skoech",
+      "correctAnswer": "blauwe schoen",
+      "acceptedAnswers": [
+        "blauwe schoen"
+      ],
+      "hint": "Kleur en enkelvoud",
+      "explanation": "'Blau' betekent blauw en 'skoech' betekent schoen",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "read-heve",
+    "swart-skoech",
+    "giele-jas",
+    "grize-broek",
+    "blau-sjaal",
+    "wite-tsjinst"
+  ],
+  "reviewVocabulary": []
+}

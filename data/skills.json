@@ -270,7 +270,397 @@
         "food"
       ],
       "color": "#06b6d4"
+    },
+    {
+      "id": "time",
+      "title": "Tiid & Kalinder",
+      "description": "Dagen, maanden en klokkijken",
+      "longDescription": "Leer over tijd in het Fries. Van dagen van de week tot maanden en het vertellen van de tijd.",
+      "icon": "📚",
+      "order": 7,
+      "difficulty": 2,
+      "lessons": [
+        {
+          "id": "time-1",
+          "title": "Les 1",
+          "description": "Dagen van de week: moandei, tiisdei, woansdei, tongersdei, freed, sneon, snein.",
+          "topic": "dagen van de week"
+        },
+        {
+          "id": "time-2",
+          "title": "Les 2",
+          "description": "Maanden van het jaar: jannewaris, febrewaris, maart, april, maaie, juny...",
+          "topic": "maanden"
+        },
+        {
+          "id": "time-3",
+          "title": "Les 3",
+          "description": "Tijden van de dag: moarns ('s ochtends), middeis ('s middags), jûns ('s avonds), nachts ('s nachts).",
+          "topic": "tijden van de dag"
+        },
+        {
+          "id": "time-4",
+          "title": "Les 4",
+          "description": "De klok: hoe let is it? It is trije oere. Kwart oer trije.",
+          "topic": "klokkijken"
+        }
+      ],
+      "prerequisites": [
+        "animals"
+      ],
+      "color": "#3b82f6"
+    },
+    {
+      "id": "weather",
+      "title": "Waar & Seizoenen",
+      "description": "Weer en jaargetijden",
+      "longDescription": "Praat over het weer in het Fries! Leer de seizoenen en weersomstandigheden.",
+      "icon": "📚",
+      "order": 8,
+      "difficulty": 2,
+      "lessons": [
+        {
+          "id": "weather-1",
+          "title": "Les 1",
+          "description": "De vier seizoenen: linte (lente), simmer (zomer), hjerst (herfst), winter (winter).",
+          "topic": "seizoenen"
+        },
+        {
+          "id": "weather-2",
+          "title": "Les 2",
+          "description": "Weersomstandigheden: sinne (zon), rein (regen), wyn (wind), snie (sneeuw), bewolkt.",
+          "topic": "weersomstandigheden"
+        },
+        {
+          "id": "weather-3",
+          "title": "Les 3",
+          "description": "Temperatuur: waarm (warm), kâld (koud), hjit (heet), fris (fris), lekker.",
+          "topic": "temperatuur"
+        },
+        {
+          "id": "weather-4",
+          "title": "Les 4",
+          "description": "Praat over het weer: \"Hoe is it waar?\" \"It is moai waar hjoed.\"",
+          "topic": "weer praten"
+        }
+      ],
+      "prerequisites": [
+        "time"
+      ],
+      "color": "#10b981"
+    },
+    {
+      "id": "body",
+      "title": "Lichem",
+      "description": "Lichaamsdelen",
+      "longDescription": "Leer de lichaamsdelen in het Fries. Nuttig voor gezondheidsgesprekken en beschrijvingen.",
+      "icon": "📚",
+      "order": 9,
+      "difficulty": 2,
+      "lessons": [
+        {
+          "id": "body-1",
+          "title": "Les 1",
+          "description": "Hoofd en gezicht: holle (hoofd), eagen (ogen), noas (neus), mûle (mond), earen (oren).",
+          "topic": "holle en gesicht"
+        },
+        {
+          "id": "body-2",
+          "title": "Les 2",
+          "description": "Lichaam: lichem (lichaam), hals (hals), boarst (borst), rêch (rug), búk (buik).",
+          "topic": "lichem"
+        },
+        {
+          "id": "body-3",
+          "title": "Les 3",
+          "description": "Handen en voeten: hân (hand), finger (vinger), foet (voet), tean (teen), earm (arm), been (been).",
+          "topic": "hânnen en fuotten"
+        },
+        {
+          "id": "body-4",
+          "title": "Les 4",
+          "description": "Gevoel en pijn: \"Myn holle docht sear\" (Mijn hoofd doet zeer), sûn (gezond), siik (ziek).",
+          "topic": "gefoel en sear"
+        }
+      ],
+      "prerequisites": [
+        "weather"
+      ],
+      "color": "#f59e0b"
+    },
+    {
+      "id": "house",
+      "title": "Hûs & Thús",
+      "description": "Kamers en meubels",
+      "longDescription": "Leer over je huis in het Fries. Van kamers tot meubels en huishoudelijke items.",
+      "icon": "📚",
+      "order": 10,
+      "difficulty": 2,
+      "lessons": [
+        {
+          "id": "house-1",
+          "title": "Les 1",
+          "description": "Kamers: keamer (kamer), keuken (keuken), badkeamer (badkamer), sliepeseamer (slaapkamer), tún (tuin).",
+          "topic": "kamers"
+        },
+        {
+          "id": "house-2",
+          "title": "Les 2",
+          "description": "Meubels: stoel (stoel), tafel (tafel), bêd (bed), kast (kast), bank (bank).",
+          "topic": "meubels"
+        },
+        {
+          "id": "house-3",
+          "title": "Les 3",
+          "description": "Huishoudelijk: doar (deur), finster (raam), ljocht (lamp), trep (trap), mûre (muur).",
+          "topic": "huishouden"
+        },
+        {
+          "id": "house-4",
+          "title": "Les 4",
+          "description": "In huis: \"Yn 'e keamer\" (In de kamer), \"Op 'e tafel\" (Op de tafel).",
+          "topic": "yn 'e hûs"
+        }
+      ],
+      "prerequisites": [
+        "body"
+      ],
+      "color": "#ef4444"
+    },
+    {
+      "id": "clothing",
+      "title": "Klean",
+      "description": "Kleding en accessoires",
+      "longDescription": "Leer kledingstukken in het Fries. Combineer met kleuren die je al kent!",
+      "icon": "📚",
+      "order": 11,
+      "difficulty": 2,
+      "lessons": [
+        {
+          "id": "clothing-1",
+          "title": "Les 1",
+          "description": "Basiskleding: broek (broek), heve (trui),jas (jas), rok (rok), T-shirt.",
+          "topic": "basiskleding"
+        },
+        {
+          "id": "clothing-2",
+          "title": "Les 2",
+          "description": "Schoenen en accessoires: skoech (schoenen), sokken (sokken), hoed (hoed), bril (bril), sjaal.",
+          "topic": "accessoires"
+        },
+        {
+          "id": "clothing-3",
+          "title": "Les 3",
+          "description": "Kleding en kleuren: \"In read heve\" (Een rode trui), \"Swarte skoech\" (Zwarte schoenen).",
+          "topic": "kleding en kleuren"
+        },
+        {
+          "id": "clothing-4",
+          "title": "Les 4",
+          "description": "Aantrekken: \"Ik doch myn jas oan\" (Ik trek mijn jas aan), \"Wat hast oan?\" (Wat heb je aan?)",
+          "topic": "oandwaan"
+        }
+      ],
+      "prerequisites": [
+        "house"
+      ],
+      "color": "#8b5cf6"
+    },
+    {
+      "id": "verbs",
+      "title": "Werkwurden",
+      "description": "Dagelijkse handelingen",
+      "longDescription": "Leer de belangrijkste werkwoorden voor dagelijkse activiteiten. Essentieel voor echte gesprekken!",
+      "icon": "📚",
+      "order": 12,
+      "difficulty": 3,
+      "lessons": [
+        {
+          "id": "verbs-1",
+          "title": "Les 1",
+          "description": "Basiswerkwoorden: ite (eten), drinke (drinken), sliepe (slapen), wurde (worden), meitsje (maken).",
+          "topic": "basiswerkwoorden"
+        },
+        {
+          "id": "verbs-2",
+          "title": "Les 2",
+          "description": "Beweging: rinne (lopen), springe (springen), sitten (zitten), stean (staan), lizze (liggen).",
+          "topic": "beweging"
+        },
+        {
+          "id": "verbs-3",
+          "title": "Les 3",
+          "description": "Dagelijkse handelingen: wurkje (werken),learje (leren), spylje (spelen), lêze (lezen), skriuwe (schrijven).",
+          "topic": "dagelijkse handelingen"
+        },
+        {
+          "id": "verbs-4",
+          "title": "Les 4",
+          "description": "Vervoeging oefenen: \"Ik rin, do rinst, hy rint\" en zinnen maken.",
+          "topic": "tegenwoordige tijd"
+        }
+      ],
+      "prerequisites": [
+        "clothing"
+      ],
+      "color": "#ec4899"
+    },
+    {
+      "id": "places",
+      "title": "Plakken & Rjochting",
+      "description": "Locaties en richtingen",
+      "longDescription": "Navigeer in het Fries! Leer over plekken, richtingen en voorzetsels.",
+      "icon": "📚",
+      "order": 13,
+      "difficulty": 3,
+      "lessons": [
+        {
+          "id": "places-1",
+          "title": "Les 1",
+          "description": "Plaatsen: stêd (stad), doarp (dorp), skoalle (school), wurk (werk), winkel (winkel), hûs (huis).",
+          "topic": "plakken"
+        },
+        {
+          "id": "places-2",
+          "title": "Les 2",
+          "description": "Richtingen: lofts (links), rjochts (rechts), foarút (vooruit), efterút (achteruit), boppe (boven), ûnder (onder).",
+          "topic": "rjochtingen"
+        },
+        {
+          "id": "places-3",
+          "title": "Les 3",
+          "description": "Voorzetsels: yn (in), op (op), ûnder (onder), neist (naast), tusken (tussen), by (bij).",
+          "topic": "foarsetsels"
+        },
+        {
+          "id": "places-4",
+          "title": "Les 4",
+          "description": "Vragen stellen: \"Wêr is de winkel?\" (Waar is de winkel?), \"Hoe kom ik dêr?\" (Hoe kom ik daar?)",
+          "topic": "wêr is...?"
+        }
+      ],
+      "prerequisites": [
+        "verbs"
+      ],
+      "color": "#06b6d4"
+    },
+    {
+      "id": "adjectives",
+      "title": "Bywurden",
+      "description": "Beschrijvende woorden",
+      "longDescription": "Maak je zinnen rijker met bijvoeglijke naamwoorden. Beschrijf grootte, kwaliteit en gevoelens.",
+      "icon": "📚",
+      "order": 14,
+      "difficulty": 2,
+      "lessons": [
+        {
+          "id": "adjectives-1",
+          "title": "Les 1",
+          "description": "Grootte: grut (groot), lyts (klein), lang (lang), koart (kort), breed (breed), smel (smal).",
+          "topic": "grutte"
+        },
+        {
+          "id": "adjectives-2",
+          "title": "Les 2",
+          "description": "Kwaliteit: goed (goed), min (slecht), moai (mooi), lelik (lelijk), nij (nieuw), âld (oud).",
+          "topic": "kwaliteit"
+        },
+        {
+          "id": "adjectives-3",
+          "title": "Les 3",
+          "description": "Gevoelens: bliid (blij), tryst (verdrietig),reas (boos), bang (bang), grutsk (trots), leafst (liefst).",
+          "topic": "gefoel"
+        },
+        {
+          "id": "adjectives-4",
+          "title": "Les 4",
+          "description": "Tegenstellingen en gradaties: \"grutter dan\" (groter dan), \"it grutste\" (het grootst).",
+          "topic": "tsjinstellings"
+        }
+      ],
+      "prerequisites": [
+        "places"
+      ],
+      "color": "#3b82f6"
+    },
+    {
+      "id": "shopping",
+      "title": "Winkelje",
+      "description": "Winkelen en kopen",
+      "longDescription": "Leer winkelen in het Fries! Van winkels tot prijzen en praktische gesprekken.",
+      "icon": "📚",
+      "order": 15,
+      "difficulty": 3,
+      "lessons": [
+        {
+          "id": "shopping-1",
+          "title": "Les 1",
+          "description": "Soorten winkels: winkel (winkel), bakker (bakker), slachter (slager), supermerkt, apteek (apotheek).",
+          "topic": "winkels"
+        },
+        {
+          "id": "shopping-2",
+          "title": "Les 2",
+          "description": "Kopen: \"Ik wol graach...\" (Ik wil graag...), \"Hofolle kostet dit?\" (Hoeveel kost dit?)",
+          "topic": "keapje"
+        },
+        {
+          "id": "shopping-3",
+          "title": "Les 3",
+          "description": "Prijzen en hoeveelheden: euro, sint, kilo, gram, stik (stuk), \"Te djoer\" (Te duur).",
+          "topic": "prizen"
+        },
+        {
+          "id": "shopping-4",
+          "title": "Les 4",
+          "description": "Praktische gesprekken: bestellen, betalen, korting vragen, \"Kinne jo my helpe?\" (Kunt u mij helpen?)",
+          "topic": "gesprekken"
+        }
+      ],
+      "prerequisites": [
+        "adjectives"
+      ],
+      "color": "#10b981"
+    },
+    {
+      "id": "hobbies",
+      "title": "Hobbyʼs",
+      "description": "Vrije tijd en activiteiten",
+      "longDescription": "Praat over je hobby's in het Fries! Van sport tot kunst en andere vrijetijdsbesteding.",
+      "icon": "📚",
+      "order": 16,
+      "difficulty": 3,
+      "lessons": [
+        {
+          "id": "hobbies-1",
+          "title": "Les 1",
+          "description": "Sport: fuotbalje (voetballen), fytse (fietsen), swimme (zwemmen), rinne (hardlopen), tennis.",
+          "topic": "sport"
+        },
+        {
+          "id": "hobbies-2",
+          "title": "Les 2",
+          "description": "Cultuur: lêze (lezen), filme sjen (films kijken), muzyk hearke (muziek luisteren), sjonge (zingen).",
+          "topic": "kultuer"
+        },
+        {
+          "id": "hobbies-3",
+          "title": "Les 3",
+          "description": "Buitenactiviteiten: wandelje (wandelen), kampearje (kamperen), fiskerje (vissen), tuinierje.",
+          "topic": "bûtendoar"
+        },
+        {
+          "id": "hobbies-4",
+          "title": "Les 4",
+          "description": "Praten over hobby's: \"Wat dochsto graach?\" (Wat doe je graag?), \"Ik hâld fan...\" (Ik hou van...)",
+          "topic": "wat dochsto graach?"
+        }
+      ],
+      "prerequisites": [
+        "shopping"
+      ],
+      "color": "#f59e0b"
     }
   ],
-  "totalLessons": 28
+  "totalLessons": 68
 }

@@ -1,0 +1,260 @@
+{
+  "id": "house-2",
+  "skillId": "house",
+  "lessonNumber": 2,
+  "title": "Hûs & Thús - Les 2",
+  "description": "Meubels: stoel (stoel), tafel (tafel), bêd (bed), kast (kast), bank (bank).",
+  "topic": "meubels",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-house-2-0",
+      "vocabulary": {
+        "id": "stoel",
+        "frysian": "stoel",
+        "dutch": "stoel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De stoel is blau.",
+        "exampleTranslation": "De stoel is blauw."
+      },
+      "exampleSentence": "De stoel is blau.",
+      "exampleTranslation": "De stoel is blauw."
+    },
+    {
+      "id": "intro-house-2-1",
+      "vocabulary": {
+        "id": "tafel",
+        "frysian": "tafel",
+        "dutch": "tafel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Dêr is de tafel.",
+        "exampleTranslation": "Daar is de tafel."
+      },
+      "exampleSentence": "Dêr is de tafel.",
+      "exampleTranslation": "Daar is de tafel."
+    },
+    {
+      "id": "intro-house-2-2",
+      "vocabulary": {
+        "id": "bed",
+        "frysian": "bêd",
+        "dutch": "bed",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It bêd is grut.",
+        "exampleTranslation": "Het bed is groot."
+      },
+      "exampleSentence": "It bêd is grut.",
+      "exampleTranslation": "Het bed is groot."
+    },
+    {
+      "id": "intro-house-2-3",
+      "vocabulary": {
+        "id": "kast",
+        "frysian": "kast",
+        "dutch": "kast",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De kast is fol boeken.",
+        "exampleTranslation": "De kast is vol boeken."
+      },
+      "exampleSentence": "De kast is fol boeken.",
+      "exampleTranslation": "De kast is vol boeken."
+    },
+    {
+      "id": "intro-house-2-4",
+      "vocabulary": {
+        "id": "bank",
+        "frysian": "bank",
+        "dutch": "bank",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Wy sitte op de bank.",
+        "exampleTranslation": "Wij zitten op de bank."
+      },
+      "exampleSentence": "Wy sitte op de bank.",
+      "exampleTranslation": "Wij zitten op de bank."
+    },
+    {
+      "id": "intro-house-2-5",
+      "vocabulary": {
+        "id": "lamp",
+        "frysian": "lamp",
+        "dutch": "lamp",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De lamp jout ljocht.",
+        "exampleTranslation": "De lamp geeft licht."
+      },
+      "exampleSentence": "De lamp jout ljocht.",
+      "exampleTranslation": "De lamp geeft licht."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "stoel",
+      "correctAnswer": "stoel",
+      "acceptedAnswers": [
+        "stoel"
+      ],
+      "hint": "Iets waar je op zit",
+      "explanation": "'Stoel' betekent hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ is grut.",
+      "blankIndex": 1,
+      "correctAnswer": "tafel",
+      "wordBank": [
+        "tafel",
+        "bêd",
+        "bank",
+        "lamp"
+      ],
+      "hint": "Je eet eraan",
+      "explanation": "'Tafel' betekent hetzelfde in het Fries"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "bêd",
+      "correctAnswer": "bed",
+      "acceptedAnswers": [
+        "bed"
+      ],
+      "hint": "Waar je in slaapt",
+      "explanation": "'Bêd' betekent bed in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'kast' in het Fries?",
+      "correctAnswer": "kast",
+      "options": [
+        "kast",
+        "stoel",
+        "lamp",
+        "bank"
+      ],
+      "hint": "Waar je spullen in opbergt",
+      "explanation": "'Kast' betekent hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "lamp",
+      "correctAnswer": "lamp",
+      "acceptedAnswers": [
+        "lamp"
+      ],
+      "hint": "Geeft licht",
+      "explanation": "'Lamp' betekent hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ skynt helder.",
+      "blankIndex": 1,
+      "correctAnswer": "lamp",
+      "wordBank": [
+        "lamp",
+        "stoel",
+        "bank",
+        "kast"
+      ],
+      "hint": "Geeft licht in de kamer",
+      "explanation": "'Lamp' betekent hetzelfde in het Fries"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "bank",
+      "correctAnswer": "bank",
+      "acceptedAnswers": [
+        "bank"
+      ],
+      "hint": "Waar je op zit met meerdere personen",
+      "explanation": "'Bank' betekent hetzelfde in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'bed' in het Fries?",
+      "correctAnswer": "bêd",
+      "options": [
+        "bêd",
+        "stoel",
+        "kast",
+        "tafel"
+      ],
+      "hint": "Waar je in slaapt",
+      "explanation": "'Bêd' betekent bed in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "bank",
+      "correctAnswer": "bank",
+      "acceptedAnswers": [
+        "bank"
+      ],
+      "hint": "Meubelstuk waar je op zit",
+      "explanation": "'Bank' betekent hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ is fol boeken.",
+      "blankIndex": 1,
+      "correctAnswer": "kast",
+      "wordBank": [
+        "kast",
+        "tafel",
+        "bêd",
+        "stoel"
+      ],
+      "hint": "Waar je boeken in opbergt",
+      "explanation": "'Kast' betekent hetzelfde in het Fries"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "tafel",
+      "correctAnswer": "tafel",
+      "acceptedAnswers": [
+        "tafel"
+      ],
+      "hint": "Waar je aan eet",
+      "explanation": "'Tafel' betekent hetzelfde in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "kast",
+      "correctAnswer": "kast",
+      "acceptedAnswers": [
+        "kast"
+      ],
+      "hint": "Meubelstuk voor opslag",
+      "explanation": "'Kast' betekent hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "stoel",
+    "tafel",
+    "bed",
+    "kast",
+    "bank",
+    "lamp"
+  ],
+  "reviewVocabulary": []
+}

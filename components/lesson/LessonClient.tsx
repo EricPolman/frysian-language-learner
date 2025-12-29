@@ -107,6 +107,7 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
       });
 
       if (response.ok) {
+        const data = await response.json();
         // Pass stats to results page via URL params
         const params = new URLSearchParams({
           xp: finalXP.toString(),
@@ -115,6 +116,9 @@ export function LessonClient({ lesson, userId }: LessonClientProps) {
           total: totalExercises.toString(),
           perfect: isPerfect.toString(),
           weakWords: weakWords.join(","),
+          newAchievements: (data.newAchievements || []).join(","),
+          streak: (data.streak?.current || 0).toString(),
+          longestStreak: (data.streak?.longest || 0).toString(),
         });
         router.push(`/learn/lesson/${lesson.id}/results?${params.toString()}`);
       }

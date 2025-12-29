@@ -1,0 +1,267 @@
+{
+  "id": "places-4",
+  "skillId": "places",
+  "lessonNumber": 4,
+  "title": "Plakken & Rjochting - Les 4",
+  "description": "Vragen stellen: \"Wêr is de winkel?\" (Waar is de winkel?), \"Hoe kom ik dêr?\" (Hoe kom ik daar?)",
+  "topic": "wêr is...?",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-places-4-0",
+      "vocabulary": {
+        "id": "winkel",
+        "frysian": "winkel",
+        "dutch": "winkel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Wêr is de winkel?",
+        "exampleTranslation": "Waar is de winkel?"
+      },
+      "exampleSentence": "Wêr is de winkel?",
+      "exampleTranslation": "Waar is de winkel?"
+    },
+    {
+      "id": "intro-places-4-1",
+      "vocabulary": {
+        "id": "strjitte",
+        "frysian": "strjitte",
+        "dutch": "straat",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It is yn de strjitte.",
+        "exampleTranslation": "Het is in de straat."
+      },
+      "exampleSentence": "It is yn de strjitte.",
+      "exampleTranslation": "Het is in de straat."
+    },
+    {
+      "id": "intro-places-4-2",
+      "vocabulary": {
+        "id": "links",
+        "frysian": "links",
+        "dutch": "links",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Gean links by de hoeke.",
+        "exampleTranslation": "Ga links bij de hoek."
+      },
+      "exampleSentence": "Gean links by de hoeke.",
+      "exampleTranslation": "Ga links bij de hoek."
+    },
+    {
+      "id": "intro-places-4-3",
+      "vocabulary": {
+        "id": "rjochtút",
+        "frysian": "rjochtút",
+        "dutch": "rechtdoor",
+        "partOfSpeech": "bijwoord",
+        "exampleSentence": "Gean rjochtút oer de brêge.",
+        "exampleTranslation": "Ga rechtdoor over de brug."
+      },
+      "exampleSentence": "Gean rjochtút oer de brêge.",
+      "exampleTranslation": "Ga rechtdoor over de brug."
+    },
+    {
+      "id": "intro-places-4-4",
+      "vocabulary": {
+        "id": "rjochts",
+        "frysian": "rjochts",
+        "dutch": "rechts",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De winkel is rjochts.",
+        "exampleTranslation": "De winkel is rechts."
+      },
+      "exampleSentence": "De winkel is rjochts.",
+      "exampleTranslation": "De winkel is rechts."
+    },
+    {
+      "id": "intro-places-4-5",
+      "vocabulary": {
+        "id": "plein",
+        "frysian": "plein",
+        "dutch": "plein",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It kafee is op it plein.",
+        "exampleTranslation": "Het café is op het plein."
+      },
+      "exampleSentence": "It kafee is op it plein.",
+      "exampleTranslation": "Het café is op het plein."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "winkel",
+      "correctAnswer": "winkel",
+      "acceptedAnswers": [
+        "winkel"
+      ],
+      "hint": "Plaats waar je dingen koopt",
+      "explanation": "'Winkel' betekent winkel in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ is rjochts.",
+      "blankIndex": 1,
+      "correctAnswer": "winkel",
+      "wordBank": [
+        "winkel",
+        "strjitte",
+        "plein",
+        "links"
+      ],
+      "hint": "Een plaats om te winkelen",
+      "explanation": "De juiste vertaling is 'winkel'"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'straat' in het Fries?",
+      "correctAnswer": "strjitte",
+      "options": [
+        "winkel",
+        "plein",
+        "strjitte",
+        "rjochtút"
+      ],
+      "hint": "Het is een plaats waar je loopt",
+      "explanation": "'Strjitte' betekent straat",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "plein",
+      "correctAnswer": "plein",
+      "acceptedAnswers": [
+        "plein"
+      ],
+      "hint": "Open ruimte in een stad",
+      "explanation": "'Plein' betekent plein in het Fries",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "rechtdoor",
+      "correctAnswer": "rjochtút",
+      "acceptedAnswers": [
+        "rjochtút"
+      ],
+      "hint": "Een richting zonder afslaan",
+      "explanation": "'Rjochtút' betekent rechtdoor in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It ___ is links.",
+      "blankIndex": 1,
+      "correctAnswer": "plein",
+      "wordBank": [
+        "plein",
+        "winkel",
+        "strjitte",
+        "rjochts"
+      ],
+      "hint": "Een open ruimte",
+      "explanation": "De juiste vertaling is 'plein'"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'rjochts'?",
+      "correctAnswer": "rechts",
+      "options": [
+        "links",
+        "rechtdoor",
+        "rechts",
+        "plein"
+      ],
+      "hint": "Het is een richting",
+      "explanation": "'Rjochts' betekent rechts",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "strjitte",
+      "correctAnswer": "straat",
+      "acceptedAnswers": [
+        "straat"
+      ],
+      "hint": "Een weg in de stad",
+      "explanation": "'Strjitte' betekent straat in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Gean ___ nei de winkel.",
+      "blankIndex": 1,
+      "correctAnswer": "rjochtút",
+      "wordBank": [
+        "rjochtút",
+        "links",
+        "rjochts",
+        "plein"
+      ],
+      "hint": "Een richting zonder afslaan",
+      "explanation": "De juiste vertaling is 'rjochtút'"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'rechts' in het Fries?",
+      "correctAnswer": "rjochts",
+      "options": [
+        "rjochts",
+        "links",
+        "rjochtút",
+        "strjitte"
+      ],
+      "hint": "Het is een richting",
+      "explanation": "'Rjochts' betekent rechts",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "links",
+      "correctAnswer": "links",
+      "acceptedAnswers": [
+        "links"
+      ],
+      "hint": "Een richting",
+      "explanation": "'Links' blijft 'links' in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'De straat is links' in het Fries",
+      "correctOrder": [
+        "De",
+        "strjitte",
+        "is",
+        "links"
+      ],
+      "distractorWords": [
+        "winkel",
+        "plein"
+      ],
+      "hint": "Begin met 'De strjitte'"
+    }
+  ],
+  "targetVocabulary": [
+    "winkel",
+    "strjitte",
+    "links",
+    "rjochtút",
+    "rjochts",
+    "plein"
+  ],
+  "reviewVocabulary": []
+}

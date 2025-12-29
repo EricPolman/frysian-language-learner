@@ -1,0 +1,260 @@
+{
+  "id": "weather-2",
+  "skillId": "weather",
+  "lessonNumber": 2,
+  "title": "Waar & Seizoenen - Les 2",
+  "description": "Weersomstandigheden: sinne (zon), rein (regen), wyn (wind), snie (sneeuw), bewolkt.",
+  "topic": "weersomstandigheden",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-weather-2-0",
+      "vocabulary": {
+        "id": "sinne",
+        "frysian": "sinne",
+        "dutch": "zon",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De sinne skynt hjoed.",
+        "exampleTranslation": "De zon schijnt vandaag."
+      },
+      "exampleSentence": "De sinne skynt hjoed.",
+      "exampleTranslation": "De zon schijnt vandaag."
+    },
+    {
+      "id": "intro-weather-2-1",
+      "vocabulary": {
+        "id": "rein",
+        "frysian": "rein",
+        "dutch": "regen",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It reint hjoed folle.",
+        "exampleTranslation": "Het regent vandaag veel."
+      },
+      "exampleSentence": "It reint hjoed folle.",
+      "exampleTranslation": "Het regent vandaag veel."
+    },
+    {
+      "id": "intro-weather-2-2",
+      "vocabulary": {
+        "id": "wyn",
+        "frysian": "wyn",
+        "dutch": "wind",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De wyn waait hurd.",
+        "exampleTranslation": "De wind waait hard."
+      },
+      "exampleSentence": "De wyn waait hurd.",
+      "exampleTranslation": "De wind waait hard."
+    },
+    {
+      "id": "intro-weather-2-3",
+      "vocabulary": {
+        "id": "snie",
+        "frysian": "snie",
+        "dutch": "sneeuw",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Der leit snie op 'e grûn.",
+        "exampleTranslation": "Er ligt sneeuw op de grond."
+      },
+      "exampleSentence": "Der leit snie op 'e grûn.",
+      "exampleTranslation": "Er ligt sneeuw op de grond."
+    },
+    {
+      "id": "intro-weather-2-4",
+      "vocabulary": {
+        "id": "bewolkt",
+        "frysian": "bewolkt",
+        "dutch": "bewolkt",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It is hjoed bewolkt.",
+        "exampleTranslation": "Het is vandaag bewolkt."
+      },
+      "exampleSentence": "It is hjoed bewolkt.",
+      "exampleTranslation": "Het is vandaag bewolkt."
+    },
+    {
+      "id": "intro-weather-2-5",
+      "vocabulary": {
+        "id": "stoarm",
+        "frysian": "stoarm",
+        "dutch": "storm",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Der is in stoarm op komst.",
+        "exampleTranslation": "Er is een storm op komst."
+      },
+      "exampleSentence": "Der is in stoarm op komst.",
+      "exampleTranslation": "Er is een storm op komst."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "zon",
+      "correctAnswer": "sinne",
+      "acceptedAnswers": [
+        "sinne"
+      ],
+      "hint": "Het grote licht aan de hemel",
+      "explanation": "'Sinne' betekent zon in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ skynt",
+      "blankIndex": 1,
+      "correctAnswer": "sinne",
+      "wordBank": [
+        "sinne",
+        "rein",
+        "wyn",
+        "snie"
+      ],
+      "hint": "Het grote licht aan de hemel",
+      "explanation": "'Sinne' betekent zon"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "rein",
+      "correctAnswer": "regen",
+      "acceptedAnswers": [
+        "regen"
+      ],
+      "hint": "Water dat uit de lucht valt",
+      "explanation": "'Rein' betekent regen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'wind' in het Fries?",
+      "correctAnswer": "wyn",
+      "options": [
+        "sinne",
+        "rein",
+        "wyn",
+        "snie"
+      ],
+      "hint": "Lucht die beweegt",
+      "explanation": "'Wyn' betekent wind",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "sneeuw",
+      "correctAnswer": "snie",
+      "acceptedAnswers": [
+        "snie"
+      ],
+      "hint": "Witte vlokken in de winter",
+      "explanation": "'Snie' betekent sneeuw in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It is ___ hjoed",
+      "blankIndex": 2,
+      "correctAnswer": "bewolkt",
+      "wordBank": [
+        "bewolkt",
+        "sinne",
+        "rein",
+        "wyn"
+      ],
+      "hint": "De zon is verstopt",
+      "explanation": "'Bewolkt' betekent bewolkt"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "stoarm",
+      "correctAnswer": "storm",
+      "acceptedAnswers": [
+        "storm"
+      ],
+      "hint": "Heftig weer met veel wind",
+      "explanation": "'Stoarm' betekent storm in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'bewolkt' in het Fries?",
+      "correctAnswer": "bewolkt",
+      "options": [
+        "bewolkt",
+        "sinne",
+        "rein",
+        "stoarm"
+      ],
+      "hint": "De zon is niet zichtbaar",
+      "explanation": "'Bewolkt' betekent hetzelfde in beide talen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "storm",
+      "correctAnswer": "stoarm",
+      "acceptedAnswers": [
+        "stoarm"
+      ],
+      "hint": "Heftig weer met veel wind",
+      "explanation": "'Stoarm' betekent storm in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ waait hurd",
+      "blankIndex": 1,
+      "correctAnswer": "wyn",
+      "wordBank": [
+        "wyn",
+        "rein",
+        "snie",
+        "stoarm"
+      ],
+      "hint": "Lucht die beweegt",
+      "explanation": "'Wyn' betekent wind"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "bewolkt",
+      "correctAnswer": "bewolkt",
+      "acceptedAnswers": [
+        "bewolkt"
+      ],
+      "hint": "De zon is niet zichtbaar",
+      "explanation": "'Bewolkt' betekent hetzelfde in beide talen",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "regen",
+      "correctAnswer": "rein",
+      "acceptedAnswers": [
+        "rein"
+      ],
+      "hint": "Water dat uit de lucht valt",
+      "explanation": "'Rein' betekent regen in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "sinne",
+    "rein",
+    "wyn",
+    "snie",
+    "bewolkt",
+    "stoarm"
+  ],
+  "reviewVocabulary": []
+}

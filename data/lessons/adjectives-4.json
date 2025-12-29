@@ -1,0 +1,254 @@
+{
+  "id": "adjectives-4",
+  "skillId": "adjectives",
+  "lessonNumber": 4,
+  "title": "Bywurden - Les 4",
+  "description": "Tegenstellingen en gradaties: \"grutter dan\" (groter dan), \"it grutste\" (het grootst).",
+  "topic": "tsjinstellings",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-adjectives-4-0",
+      "vocabulary": {
+        "id": "lytse-grut",
+        "frysian": "lytse",
+        "dutch": "klein",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De kat is lyts.",
+        "exampleTranslation": "De kat is klein."
+      },
+      "exampleSentence": "De kat is lyts.",
+      "exampleTranslation": "De kat is klein."
+    },
+    {
+      "id": "intro-adjectives-4-1",
+      "vocabulary": {
+        "id": "grutte-grut",
+        "frysian": "grutte",
+        "dutch": "groot",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It hûs is grut.",
+        "exampleTranslation": "Het huis is groot."
+      },
+      "exampleSentence": "It hûs is grut.",
+      "exampleTranslation": "Het huis is groot."
+    },
+    {
+      "id": "intro-adjectives-4-2",
+      "vocabulary": {
+        "id": "rap-slow",
+        "frysian": "rap",
+        "dutch": "snel",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy is tige rap.",
+        "exampleTranslation": "Hij is heel snel."
+      },
+      "exampleSentence": "Hy is tige rap.",
+      "exampleTranslation": "Hij is heel snel."
+    },
+    {
+      "id": "intro-adjectives-4-3",
+      "vocabulary": {
+        "id": "stadich-slow",
+        "frysian": "stadich",
+        "dutch": "langzaam",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De slak is stadich.",
+        "exampleTranslation": "De slak is langzaam."
+      },
+      "exampleSentence": "De slak is stadich.",
+      "exampleTranslation": "De slak is langzaam."
+    },
+    {
+      "id": "intro-adjectives-4-4",
+      "vocabulary": {
+        "id": "heech-low",
+        "frysian": "heech",
+        "dutch": "hoog",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De toer is heech.",
+        "exampleTranslation": "De toren is hoog."
+      },
+      "exampleSentence": "De toer is heech.",
+      "exampleTranslation": "De toren is hoog."
+    },
+    {
+      "id": "intro-adjectives-4-5",
+      "vocabulary": {
+        "id": "leech-low",
+        "frysian": "leech",
+        "dutch": "laag",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De tafel is leech.",
+        "exampleTranslation": "De tafel is laag."
+      },
+      "exampleSentence": "De tafel is leech.",
+      "exampleTranslation": "De tafel is laag."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "klein en snel",
+      "correctAnswer": "lytse en rap",
+      "acceptedAnswers": [
+        "lytse en rap"
+      ],
+      "hint": "Gebruik de Friese woorden voor klein en snel",
+      "explanation": "'Lytse' betekent klein en 'rap' betekent snel",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Hy is ___ stadich.",
+      "blankIndex": 1,
+      "correctAnswer": "grutte",
+      "wordBank": [
+        "grutte",
+        "lytse",
+        "heech",
+        "leech"
+      ],
+      "hint": "Het tegenovergestelde van klein",
+      "explanation": "'Grutte' betekent groot"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'hoog en laag' in het Fries?",
+      "correctAnswer": "heech en leech",
+      "options": [
+        "heech en leech",
+        "lytse",
+        "grutte",
+        "rap"
+      ],
+      "hint": "Gebruik de woorden voor hoog en laag",
+      "explanation": "'Heech' betekent hoog en 'leech' betekent laag",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "stadich en grutte",
+      "correctAnswer": "langzaam en groot",
+      "acceptedAnswers": [
+        "langzaam en groot"
+      ],
+      "hint": "Het tegenovergestelde van snel en klein",
+      "explanation": "'Stadich' betekent langzaam en 'grutte' betekent groot",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It is in ___ dei.",
+      "blankIndex": 2,
+      "correctAnswer": "rap",
+      "wordBank": [
+        "rap",
+        "stadich",
+        "heech",
+        "leech"
+      ],
+      "hint": "Het tegenovergestelde van langzaam",
+      "explanation": "'Rap' betekent snel"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'lytse en grutte'?",
+      "correctAnswer": "klein en groot",
+      "options": [
+        "klein en groot",
+        "klein",
+        "groot",
+        "snel"
+      ],
+      "hint": "Twee tegenstellingen in grootte",
+      "explanation": "'Lytse' betekent klein en 'grutte' betekent groot",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "hoog en snel",
+      "correctAnswer": "heech en rap",
+      "acceptedAnswers": [
+        "heech en rap"
+      ],
+      "hint": "Gebruik de Friese woorden voor hoog en snel",
+      "explanation": "'Heech' betekent hoog en 'rap' betekent snel",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Klein en laag' in het Fries",
+      "correctOrder": [
+        "lytse",
+        "en",
+        "leech"
+      ],
+      "distractorWords": [
+        "grutte",
+        "heech"
+      ],
+      "hint": "Begin met het woord voor klein"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De auto is ___ en rap.",
+      "blankIndex": 2,
+      "correctAnswer": "lytse",
+      "wordBank": [
+        "lytse",
+        "grutte",
+        "heech",
+        "leech"
+      ],
+      "hint": "Het tegenovergestelde van groot",
+      "explanation": "'Lytse' betekent klein"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "heech en stadich",
+      "correctAnswer": "hoog en langzaam",
+      "acceptedAnswers": [
+        "hoog en langzaam"
+      ],
+      "hint": "Gebruik de Nederlandse woorden voor hoog en langzaam",
+      "explanation": "'Heech' betekent hoog en 'stadich' betekent langzaam",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'groot en langzaam' in het Fries?",
+      "correctAnswer": "grutte en stadich",
+      "options": [
+        "grutte en stadich",
+        "lytse",
+        "grutte",
+        "rap"
+      ],
+      "hint": "Gebruik de woorden voor groot en langzaam",
+      "explanation": "'Grutte' betekent groot en 'stadich' betekent langzaam",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "lytse-grut",
+    "grutte-grut",
+    "rap-slow",
+    "stadich-slow",
+    "heech-low",
+    "leech-low"
+  ],
+  "reviewVocabulary": []
+}

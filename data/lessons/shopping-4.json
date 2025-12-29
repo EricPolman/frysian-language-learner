@@ -1,0 +1,265 @@
+{
+  "id": "shopping-4",
+  "skillId": "shopping",
+  "lessonNumber": 4,
+  "title": "Winkelje - Les 4",
+  "description": "Praktische gesprekken: bestellen, betalen, korting vragen, \"Kinne jo my helpe?\" (Kunt u mij helpen?)",
+  "topic": "gesprekken",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-shopping-4-0",
+      "vocabulary": {
+        "id": "goeie",
+        "frysian": "Goeie",
+        "dutch": "Hallo",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeie, kinne jo my helpe?",
+        "exampleTranslation": "Hallo, kunt u mij helpen?"
+      },
+      "exampleSentence": "Goeie, kinne jo my helpe?",
+      "exampleTranslation": "Hallo, kunt u mij helpen?"
+    },
+    {
+      "id": "intro-shopping-4-1",
+      "vocabulary": {
+        "id": "betelje",
+        "frysian": "Betelje",
+        "dutch": "Betalen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Wêr kin ik betelje?",
+        "exampleTranslation": "Waar kan ik betalen?"
+      },
+      "exampleSentence": "Wêr kin ik betelje?",
+      "exampleTranslation": "Waar kan ik betalen?"
+    },
+    {
+      "id": "intro-shopping-4-2",
+      "vocabulary": {
+        "id": "koarting",
+        "frysian": "Koarting",
+        "dutch": "Korting",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Jouwe jo koarting?",
+        "exampleTranslation": "Geeft u korting?"
+      },
+      "exampleSentence": "Jouwe jo koarting?",
+      "exampleTranslation": "Geeft u korting?"
+    },
+    {
+      "id": "intro-shopping-4-3",
+      "vocabulary": {
+        "id": "helpe",
+        "frysian": "Helpe",
+        "dutch": "Helpen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Kinne jo my helpe?",
+        "exampleTranslation": "Kunt u mij helpen?"
+      },
+      "exampleSentence": "Kinne jo my helpe?",
+      "exampleTranslation": "Kunt u mij helpen?"
+    },
+    {
+      "id": "intro-shopping-4-4",
+      "vocabulary": {
+        "id": "bestelle",
+        "frysian": "Bestelle",
+        "dutch": "Bestellen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik wol bestelle, graach.",
+        "exampleTranslation": "Ik wil graag bestellen."
+      },
+      "exampleSentence": "Ik wol bestelle, graach.",
+      "exampleTranslation": "Ik wil graag bestellen."
+    },
+    {
+      "id": "intro-shopping-4-5",
+      "vocabulary": {
+        "id": "tankewol",
+        "frysian": "Tankewol",
+        "dutch": "Dank u wel",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Tankewol foar de help.",
+        "exampleTranslation": "Dank u wel voor de hulp."
+      },
+      "exampleSentence": "Tankewol foar de help.",
+      "exampleTranslation": "Dank u wel voor de hulp."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "hallo",
+      "correctAnswer": "Goeie",
+      "acceptedAnswers": [
+        "Goeie"
+      ],
+      "hint": "Informele begroeting",
+      "explanation": "'Goeie' is de meest gebruikte begroeting",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Betelje",
+      "correctAnswer": "betalen",
+      "acceptedAnswers": [
+        "betalen"
+      ],
+      "hint": "Je doet dit bij de kassa",
+      "explanation": "'Betelje' betekent betalen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "___ foar de koarting!",
+      "blankIndex": 0,
+      "correctAnswer": "Tankewol",
+      "wordBank": [
+        "Betelje",
+        "Tankewol",
+        "Helpe",
+        "Bestelle"
+      ],
+      "hint": "Een manier om dankbaarheid te tonen",
+      "explanation": "'Tankewol' betekent dank u wel"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'korting' in het Fries?",
+      "correctAnswer": "Koarting",
+      "options": [
+        "Goeie",
+        "Koarting",
+        "Betelje",
+        "Helpe"
+      ],
+      "hint": "Je krijgt dit vaak bij uitverkoop",
+      "explanation": "'Koarting' betekent korting",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "bestellen",
+      "correctAnswer": "Bestelle",
+      "acceptedAnswers": [
+        "Bestelle"
+      ],
+      "hint": "Je doet dit in een restaurant",
+      "explanation": "'Bestelle' betekent bestellen in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Ik wol graach ___",
+      "blankIndex": 3,
+      "correctAnswer": "bestelle",
+      "wordBank": [
+        "betelje",
+        "bestelle",
+        "helpe",
+        "koarting"
+      ],
+      "hint": "Je vraagt om iets te krijgen",
+      "explanation": "'Bestelle' betekent bestellen"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'Helpe'?",
+      "correctAnswer": "helpen",
+      "options": [
+        "helpen",
+        "betalen",
+        "bestellen",
+        "Hallo"
+      ],
+      "hint": "Je biedt dit aan als iemand hulp nodig heeft",
+      "explanation": "'Helpe' betekent helpen",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "Koarting",
+      "correctAnswer": "korting",
+      "acceptedAnswers": [
+        "korting"
+      ],
+      "hint": "Je krijgt dit vaak in winkels",
+      "explanation": "'Koarting' betekent korting in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Kinsto my ___?",
+      "blankIndex": 2,
+      "correctAnswer": "helpe",
+      "wordBank": [
+        "betelje",
+        "helpe",
+        "bestelle",
+        "koarting"
+      ],
+      "hint": "Je vraagt om assistentie",
+      "explanation": "'Helpe' betekent helpen"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'dank u wel' in het Fries?",
+      "correctAnswer": "Tankewol",
+      "options": [
+        "Goeie",
+        "Koarting",
+        "Tankewol",
+        "Helpe"
+      ],
+      "hint": "Je zegt dit na het ontvangen van hulp",
+      "explanation": "'Tankewol' betekent dank u wel",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Hallo! Dank u wel!' in het Fries",
+      "correctOrder": [
+        "Goeie!",
+        "Tankewol!"
+      ],
+      "distractorWords": [
+        "Koarting",
+        "Betelje"
+      ],
+      "hint": "Begin met de begroeting en eindig met dankbaarheid"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "helpen",
+      "correctAnswer": "Helpe",
+      "acceptedAnswers": [
+        "Helpe"
+      ],
+      "hint": "Je biedt dit aan als je iets voor iemand kunt doen",
+      "explanation": "'Helpe' betekent helpen in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "goeie",
+    "betelje",
+    "koarting",
+    "helpe",
+    "bestelle",
+    "tankewol"
+  ],
+  "reviewVocabulary": []
+}

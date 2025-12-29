@@ -1,0 +1,248 @@
+{
+  "id": "weather-1",
+  "skillId": "weather",
+  "lessonNumber": 1,
+  "title": "Waar & Seizoenen - Les 1",
+  "description": "De vier seizoenen: linte (lente), simmer (zomer), hjerst (herfst), winter (winter).",
+  "topic": "seizoenen",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-weather-1-0",
+      "vocabulary": {
+        "id": "linte-seizoen",
+        "frysian": "linte",
+        "dutch": "lente",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De linte is moai.",
+        "exampleTranslation": "De lente is mooi."
+      },
+      "exampleSentence": "De linte is moai.",
+      "exampleTranslation": "De lente is mooi."
+    },
+    {
+      "id": "intro-weather-1-1",
+      "vocabulary": {
+        "id": "simme-seizoen",
+        "frysian": "simme",
+        "dutch": "zomer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Yn de simme is it waarm.",
+        "exampleTranslation": "In de zomer is het warm."
+      },
+      "exampleSentence": "Yn de simme is it waarm.",
+      "exampleTranslation": "In de zomer is het warm."
+    },
+    {
+      "id": "intro-weather-1-2",
+      "vocabulary": {
+        "id": "hjerst-seizoen",
+        "frysian": "hjerst",
+        "dutch": "herfst",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De hjerst hat moaie kleuren.",
+        "exampleTranslation": "De herfst heeft mooie kleuren."
+      },
+      "exampleSentence": "De hjerst hat moaie kleuren.",
+      "exampleTranslation": "De herfst heeft mooie kleuren."
+    },
+    {
+      "id": "intro-weather-1-3",
+      "vocabulary": {
+        "id": "winter-seizoen",
+        "frysian": "winter",
+        "dutch": "winter",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De winter is kâld.",
+        "exampleTranslation": "De winter is koud."
+      },
+      "exampleSentence": "De winter is kâld.",
+      "exampleTranslation": "De winter is koud."
+    },
+    {
+      "id": "intro-weather-1-4",
+      "vocabulary": {
+        "id": "waar-waar",
+        "frysian": "waar",
+        "dutch": "weer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It waar is noflik.",
+        "exampleTranslation": "Het weer is aangenaam."
+      },
+      "exampleSentence": "It waar is noflik.",
+      "exampleTranslation": "Het weer is aangenaam."
+    },
+    {
+      "id": "intro-weather-1-5",
+      "vocabulary": {
+        "id": "snie-verschijnsel",
+        "frysian": "snie",
+        "dutch": "sneeuw",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De snie is wyt.",
+        "exampleTranslation": "De sneeuw is wit."
+      },
+      "exampleSentence": "De snie is wyt.",
+      "exampleTranslation": "De sneeuw is wit."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "lente",
+      "correctAnswer": "linte",
+      "acceptedAnswers": [
+        "linte"
+      ],
+      "hint": "Het seizoen na de winter",
+      "explanation": "'Linte' betekent lente in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "simme",
+      "correctAnswer": "zomer",
+      "acceptedAnswers": [
+        "zomer"
+      ],
+      "hint": "Het warmste seizoen",
+      "explanation": "'Simme' betekent zomer in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "___ is moai.",
+      "blankIndex": 0,
+      "correctAnswer": "Waar",
+      "wordBank": [
+        "Waar",
+        "Snie",
+        "Linte",
+        "Simme"
+      ],
+      "hint": "Het is iets dat je buiten kunt voelen",
+      "explanation": "'Waar' betekent weer in het Nederlands"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'herfst' in het Fries?",
+      "correctAnswer": "hjerst",
+      "options": [
+        "hjerst",
+        "linte",
+        "simme",
+        "winter"
+      ],
+      "hint": "Het seizoen waarin bladeren vallen",
+      "explanation": "'Hjerst' betekent herfst in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "winter",
+      "correctAnswer": "winter",
+      "acceptedAnswers": [
+        "winter"
+      ],
+      "hint": "Het koudste seizoen",
+      "explanation": "'Winter' is hetzelfde in het Fries en Nederlands",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "waar",
+      "correctAnswer": "weer",
+      "acceptedAnswers": [
+        "weer"
+      ],
+      "hint": "Het beschrijft de buitenomstandigheden",
+      "explanation": "'Waar' betekent weer in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ is kâld.",
+      "blankIndex": 1,
+      "correctAnswer": "winter",
+      "wordBank": [
+        "linte",
+        "simme",
+        "hjerst",
+        "winter"
+      ],
+      "hint": "Het seizoen na de herfst",
+      "explanation": "'Winter' betekent winter in het Nederlands"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'sneeuw' in het Fries?",
+      "correctAnswer": "snie",
+      "options": [
+        "linte",
+        "snie",
+        "hjerst",
+        "waar"
+      ],
+      "hint": "Valt vaak in de winter",
+      "explanation": "'Snie' betekent sneeuw in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "herfst",
+      "correctAnswer": "hjerst",
+      "acceptedAnswers": [
+        "hjerst"
+      ],
+      "hint": "Het seizoen waarin bladeren vallen",
+      "explanation": "'Hjerst' betekent herfst in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "linte",
+      "correctAnswer": "lente",
+      "acceptedAnswers": [
+        "lente"
+      ],
+      "hint": "Het seizoen na de winter",
+      "explanation": "'Linte' betekent lente in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ falt.",
+      "blankIndex": 1,
+      "correctAnswer": "snie",
+      "wordBank": [
+        "snie",
+        "simme",
+        "hjerst",
+        "waar"
+      ],
+      "hint": "Het is wit en koud",
+      "explanation": "'Snie' betekent sneeuw in het Nederlands"
+    }
+  ],
+  "targetVocabulary": [
+    "linte-seizoen",
+    "simme-seizoen",
+    "hjerst-seizoen",
+    "winter-seizoen",
+    "waar-waar",
+    "snie-verschijnsel"
+  ],
+  "reviewVocabulary": []
+}

@@ -1,0 +1,266 @@
+{
+  "id": "body-4",
+  "skillId": "body",
+  "lessonNumber": 4,
+  "title": "Lichem - Les 4",
+  "description": "Gevoel en pijn: \"Myn holle docht sear\" (Mijn hoofd doet zeer), sûn (gezond), siik (ziek).",
+  "topic": "gefoel en sear",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-body-4-0",
+      "vocabulary": {
+        "id": "myn-holle-docht-sear",
+        "frysian": "holle",
+        "dutch": "hoofd",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Myn holle docht sear.",
+        "exampleTranslation": "Mijn hoofd doet zeer."
+      },
+      "exampleSentence": "Myn holle docht sear.",
+      "exampleTranslation": "Mijn hoofd doet zeer."
+    },
+    {
+      "id": "intro-body-4-1",
+      "vocabulary": {
+        "id": "ûnthâld-dei",
+        "frysian": "ûnthâld",
+        "dutch": "onthouden",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik kin it net ûnthâlde.",
+        "exampleTranslation": "Ik kan het niet onthouden."
+      },
+      "exampleSentence": "Ik kin it net ûnthâlde.",
+      "exampleTranslation": "Ik kan het niet onthouden."
+    },
+    {
+      "id": "intro-body-4-2",
+      "vocabulary": {
+        "id": "ik-bin-siik",
+        "frysian": "siik",
+        "dutch": "ziek",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Ik bin siik hjoed.",
+        "exampleTranslation": "Ik ben ziek vandaag."
+      },
+      "exampleSentence": "Ik bin siik hjoed.",
+      "exampleTranslation": "Ik ben ziek vandaag."
+    },
+    {
+      "id": "intro-body-4-3",
+      "vocabulary": {
+        "id": "sûn-yn-it-hert",
+        "frysian": "sûn",
+        "dutch": "gezond",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "Hy is hiel sûn.",
+        "exampleTranslation": "Hij is heel gezond."
+      },
+      "exampleSentence": "Hy is hiel sûn.",
+      "exampleTranslation": "Hij is heel gezond."
+    },
+    {
+      "id": "intro-body-4-4",
+      "vocabulary": {
+        "id": "fiele-dei",
+        "frysian": "fiele",
+        "dutch": "voelen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Se fielt har goed.",
+        "exampleTranslation": "Ze voelt zich goed."
+      },
+      "exampleSentence": "Se fielt har goed.",
+      "exampleTranslation": "Ze voelt zich goed."
+    },
+    {
+      "id": "intro-body-4-5",
+      "vocabulary": {
+        "id": "pijn-dei",
+        "frysian": "pijn",
+        "dutch": "pijn",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik ha gjin pijn mear.",
+        "exampleTranslation": "Ik heb geen pijn meer."
+      },
+      "exampleSentence": "Ik ha gjin pijn mear.",
+      "exampleTranslation": "Ik heb geen pijn meer."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "Mijn hoofd doet pijn",
+      "correctAnswer": "Myn holle docht pijn",
+      "acceptedAnswers": [
+        "Myn holle docht pijn"
+      ],
+      "hint": "Gebruik 'holle' voor 'hoofd'",
+      "explanation": "'Holle' betekent hoofd en 'pijn' blijft hetzelfde",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Ik ___ my siik",
+      "blankIndex": 1,
+      "correctAnswer": "fiele",
+      "wordBank": [
+        "fiele",
+        "ûnthâld",
+        "sûn",
+        "holle"
+      ],
+      "hint": "Dit woord betekent 'voelen'.",
+      "explanation": "'Fiele' betekent voelen, de zin betekent 'Ik voel me ziek'."
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Ik bin sûn",
+      "correctAnswer": "Ik ben gezond",
+      "acceptedAnswers": [
+        "Ik ben gezond"
+      ],
+      "hint": "Het tegenovergestelde van ziek",
+      "explanation": "'Sûn' betekent gezond in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'gezond hoofd' in het Fries?",
+      "correctAnswer": "sûn holle",
+      "options": [
+        "sûn holle",
+        "holle",
+        "ûnthâld",
+        "siik"
+      ],
+      "hint": "Gezond betekent 'sûn'",
+      "explanation": "'Sûn' betekent gezond en 'holle' betekent hoofd",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Ik moat it ___",
+      "blankIndex": 3,
+      "correctAnswer": "ûnthâld",
+      "wordBank": [
+        "ûnthâld",
+        "fiele",
+        "siik",
+        "holle"
+      ],
+      "hint": "Dit woord betekent 'onthouden'.",
+      "explanation": "'Ûnthâld' betekent onthouden, de zin betekent 'Ik moet het onthouden'."
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "Ik voel me gezond",
+      "correctAnswer": "Ik fiel my sûn",
+      "acceptedAnswers": [
+        "Ik fiel my sûn"
+      ],
+      "hint": "Gebruik 'sûn' voor gezond",
+      "explanation": "'Fiele' betekent voelen en 'sûn' betekent gezond",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'Myn holle docht pijn'?",
+      "correctAnswer": "Mijn hoofd doet pijn",
+      "options": [
+        "Mijn hoofd doet pijn",
+        "hoofd",
+        "onthouden",
+        "ziek"
+      ],
+      "hint": "Het gaat over pijn in het hoofd",
+      "explanation": "'Holle' betekent hoofd en 'pijn' blijft hetzelfde",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Hy is ___",
+      "blankIndex": 2,
+      "correctAnswer": "siik",
+      "wordBank": [
+        "siik",
+        "sûn",
+        "ûnthâld",
+        "holle"
+      ],
+      "hint": "Het tegenovergestelde van gezond",
+      "explanation": "'Siik' betekent ziek, de zin betekent 'Hij is ziek'."
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "Ik fiel my siik",
+      "correctAnswer": "Ik voel me ziek",
+      "acceptedAnswers": [
+        "Ik voel me ziek"
+      ],
+      "hint": "Het tegenovergestelde van gezond voelen",
+      "explanation": "'Siik' betekent ziek in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Ik ben gezond' in het Fries",
+      "correctOrder": [
+        "Ik",
+        "bin",
+        "sûn"
+      ],
+      "distractorWords": [
+        "siik",
+        "ûnthâld"
+      ],
+      "hint": "Gebruik 'sûn' voor gezond"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'onthouden' in het Fries?",
+      "correctAnswer": "ûnthâld",
+      "options": [
+        "ûnthâld",
+        "fiele",
+        "siik",
+        "sûn"
+      ],
+      "hint": "Het begint met 'ûn'",
+      "explanation": "'Ûnthâld' betekent onthouden in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "Ik heb pijn",
+      "correctAnswer": "Ik ha pijn",
+      "acceptedAnswers": [
+        "Ik ha pijn"
+      ],
+      "hint": "Gebruik 'pijn' direct",
+      "explanation": "'Pijn' blijft hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "myn-holle-docht-sear",
+    "ûnthâld-dei",
+    "ik-bin-siik",
+    "sûn-yn-it-hert",
+    "fiele-dei",
+    "pijn-dei"
+  ],
+  "reviewVocabulary": []
+}

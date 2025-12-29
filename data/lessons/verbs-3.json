@@ -1,0 +1,268 @@
+{
+  "id": "verbs-3",
+  "skillId": "verbs",
+  "lessonNumber": 3,
+  "title": "Werkwurden - Les 3",
+  "description": "Dagelijkse handelingen: wurkje (werken),learje (leren), spylje (spelen), lêze (lezen), skriuwe (schrijven).",
+  "topic": "dagelijkse handelingen",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-verbs-3-0",
+      "vocabulary": {
+        "id": "wurkje",
+        "frysian": "wurkje",
+        "dutch": "werken",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy moat hjoed wurkje.",
+        "exampleTranslation": "Hij moet vandaag werken."
+      },
+      "exampleSentence": "Hy moat hjoed wurkje.",
+      "exampleTranslation": "Hij moet vandaag werken."
+    },
+    {
+      "id": "intro-verbs-3-1",
+      "vocabulary": {
+        "id": "learje",
+        "frysian": "learje",
+        "dutch": "leren",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik wol Frysk learje.",
+        "exampleTranslation": "Ik wil Fries leren."
+      },
+      "exampleSentence": "Ik wol Frysk learje.",
+      "exampleTranslation": "Ik wil Fries leren."
+    },
+    {
+      "id": "intro-verbs-3-2",
+      "vocabulary": {
+        "id": "spylje",
+        "frysian": "spylje",
+        "dutch": "spelen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "De bern spylje bûten.",
+        "exampleTranslation": "De kinderen spelen buiten."
+      },
+      "exampleSentence": "De bern spylje bûten.",
+      "exampleTranslation": "De kinderen spelen buiten."
+    },
+    {
+      "id": "intro-verbs-3-3",
+      "vocabulary": {
+        "id": "lêze",
+        "frysian": "lêze",
+        "dutch": "lezen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Se hâldt fan lêze.",
+        "exampleTranslation": "Zij houdt van lezen."
+      },
+      "exampleSentence": "Se hâldt fan lêze.",
+      "exampleTranslation": "Zij houdt van lezen."
+    },
+    {
+      "id": "intro-verbs-3-4",
+      "vocabulary": {
+        "id": "skriuwe",
+        "frysian": "skriuwe",
+        "dutch": "schrijven",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy kin goed skriuwe.",
+        "exampleTranslation": "Hij kan goed schrijven."
+      },
+      "exampleSentence": "Hy kin goed skriuwe.",
+      "exampleTranslation": "Hij kan goed schrijven."
+    },
+    {
+      "id": "intro-verbs-3-5",
+      "vocabulary": {
+        "id": "drinke",
+        "frysian": "drinke",
+        "dutch": "drinken",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik drinke in kopke kofje.",
+        "exampleTranslation": "Ik drink een kopje koffie."
+      },
+      "exampleSentence": "Ik drinke in kopke kofje.",
+      "exampleTranslation": "Ik drink een kopje koffie."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "werken",
+      "correctAnswer": "wurkje",
+      "acceptedAnswers": [
+        "wurkje"
+      ],
+      "hint": "Activiteit om geld te verdienen",
+      "explanation": "'Wurkje' betekent werken",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "leren",
+      "correctAnswer": "learje",
+      "acceptedAnswers": [
+        "learje"
+      ],
+      "hint": "Kennis opdoen",
+      "explanation": "'Learje' betekent leren",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "spylje",
+      "correctAnswer": "spelen",
+      "acceptedAnswers": [
+        "spelen"
+      ],
+      "hint": "Activiteit voor plezier",
+      "explanation": "'Spylje' betekent spelen in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Ik wol ___ hjoed.",
+      "blankIndex": 1,
+      "correctAnswer": "wurkje",
+      "wordBank": [
+        "wurkje",
+        "learje",
+        "spylje",
+        "lêze"
+      ],
+      "hint": "Activiteit om geld te verdienen",
+      "explanation": "'Wurkje' betekent werken"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'schrijven' in het Fries?",
+      "correctAnswer": "skriuwe",
+      "options": [
+        "skriuwe",
+        "lêze",
+        "drinke",
+        "spylje"
+      ],
+      "hint": "Het is een activiteit met een pen",
+      "explanation": "'Skriuwe' betekent schrijven",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Ik wil lezen en schrijven' in het Fries",
+      "correctOrder": [
+        "Ik",
+        "wol",
+        "lêze",
+        "en",
+        "skriuwe"
+      ],
+      "distractorWords": [
+        "wurkje",
+        "learje"
+      ],
+      "hint": "Begin met 'Ik wol', dan de activiteiten"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "drinken",
+      "correctAnswer": "drinke",
+      "acceptedAnswers": [
+        "drinke"
+      ],
+      "hint": "Vloeistof tot je nemen",
+      "explanation": "'Drinke' betekent drinken",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Se wolle ___ yn de biblioteek.",
+      "blankIndex": 2,
+      "correctAnswer": "lêze",
+      "wordBank": [
+        "lêze",
+        "drinke",
+        "learje",
+        "wurkje"
+      ],
+      "hint": "Activiteit die je met een boek doet",
+      "explanation": "'Lêze' betekent lezen"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "drinke",
+      "correctAnswer": "drinken",
+      "acceptedAnswers": [
+        "drinken"
+      ],
+      "hint": "Vloeistof tot je nemen",
+      "explanation": "'Drinke' betekent drinken in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Wy geane ___ nei skoalle.",
+      "blankIndex": 1,
+      "correctAnswer": "learje",
+      "wordBank": [
+        "learje",
+        "spylje",
+        "wurkje",
+        "lêze"
+      ],
+      "hint": "Activiteit om kennis op te doen",
+      "explanation": "'Learje' betekent leren"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'spelen' in het Fries?",
+      "correctAnswer": "spylje",
+      "options": [
+        "spylje",
+        "wurkje",
+        "learje",
+        "drinke"
+      ],
+      "hint": "Activiteit voor plezier",
+      "explanation": "'Spylje' betekent spelen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'wurkje'?",
+      "correctAnswer": "werken",
+      "options": [
+        "werken",
+        "leren",
+        "spelen",
+        "schrijven"
+      ],
+      "hint": "Activiteit om geld te verdienen",
+      "explanation": "'Wurkje' betekent werken",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "wurkje",
+    "learje",
+    "spylje",
+    "lêze",
+    "skriuwe",
+    "drinke"
+  ],
+  "reviewVocabulary": []
+}

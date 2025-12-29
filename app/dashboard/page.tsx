@@ -8,6 +8,8 @@ import Link from "next/link";
 import skillsData from "@/data/skills.json";
 import { calculateLevel, getLevelProgress, getXPRequiredForLevel, getXPUntilNextLevel } from "@/lib/levels";
 import { ResetProgressButton } from "@/components/dashboard/ResetProgressButton";
+import { getStreakStatus } from "@/lib/streaks";
+import { AchievementBadge } from "@/components/achievements/AchievementBadge";
 
 export default async function DashboardPage() {
   const user = await getUser();
@@ -49,12 +51,35 @@ export default async function DashboardPage() {
     .order("strength", { ascending: true })
     .limit(10);
 
+  // Get user achievements
+  const { data: userAchievements } = await supabase
+    .from("user_achievements")
+    .select("*")
+    .eq("user_id", user.id)
+    .order("unlocked_at", { ascending: false });
+
   const totalXP = (profile as any)?.total_xp || 0;
   const completedLessons = (progress as any)?.completed_lessons || [];
   const totalLessons = skillsData.skills.reduce(
     (acc, skill) => acc + skill.lessons.length,
     0
   );
+
+  // Streak data
+  const currentStreak = (profile as any)?.current_streak || 0;
+  const longestStreak = (profile as any)?.longest_streak || 0;
+  const lastPracticeDate = (profile as any)?.last_practice_date || null;
+  const streakStatus = getStreakStatus(currentStreak, lastPracticeDate);
+  const dailyGoalXp = (profile as any)?.daily_goal_xp || 50;
+
+  // Calculate XP earned today
+  const today = new Date().toISOString().split('T')[0];
+  const todayXp = (attempts as any[])?.filter(a => {
+    const attemptDate = new Date(a.completed_at).toISOString().split('T')[0];
+    return attemptDate === today;
+  }).reduce((sum, a) => sum + (a.xp_earned || 0), 0) || 0;
+
+  const dailyGoalProgress = Math.min(100, (todayXp / dailyGoalXp) * 100);
 
   // Calculate level using progressive scaling
   const level = calculateLevel(totalXP);
@@ -109,6 +134,53 @@ export default async function DashboardPage() {
             </div>
           </Card>
 
+          {/* Daily Goal and Streak */}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
+            {/* Daily Goal */}
+            <Card className="p-6">
+              <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                🎯 Dagelijks Doel
+              </h3>
+              <div className="space-y-2">
+                <div className="flex justify-between text-sm text-gray-600">
+                  <span>{todayXp} / {dailyGoalXp} XP vandaag</span>
+                  <span>{Math.round(dailyGoalProgress)}%</span>
+                </div>
+                <Progress value={dailyGoalProgress} className="h-3" />
+                {dailyGoalProgress >= 100 ? (
+                  <p className="text-sm text-green-600 font-semibold">✅ Doel bereikt!</p>
+                ) : (
+                  <p className="text-sm text-gray-500">Nog {dailyGoalXp - todayXp} XP te gaan!</p>
+                )}
+              </div>
+              <Link href="/settings">
+                <Button variant="outline" size="sm" className="mt-3 w-full">
+                  Pas Doel Aan
+                </Button>
+              </Link>
+            </Card>
+
+            {/* Streak */}
+            <Card className="p-6">
+              <h3 className="text-lg font-semibold mb-3 flex items-center gap-2">
+                🔥 Streak
+              </h3>
+              <div className="space-y-3">
+                <div className="flex items-center justify-between">
+                  <div>
+                    <div className="text-3xl font-bold text-orange-600">{currentStreak}</div>
+                    <div className="text-sm text-gray-500">Huidige Streak</div>
+                  </div>
+                  <div className="text-right">
+                    <div className="text-3xl font-bold text-orange-400">{longestStreak}</div>
+                    <div className="text-sm text-gray-500">Langste Streak</div>
+                  </div>
+                </div>
+                <p className="text-sm text-gray-600">{streakStatus}</p>
+              </div>
+            </Card>
+          </div>
+
           {/* Stats Grid */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-6">
             <Card className="p-4 text-center">
@@ -143,6 +215,31 @@ export default async function DashboardPage() {
               />
             </div>
           </Card>
+
+          {/* Achievements */}
+          {(userAchievements as any[])?.length > 0 && (
+            <Card className="p-6 mb-6">
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-xl font-semibold text-gray-900">🏆 Recente Prestaties</h2>
+                <Link href="/achievements">
+                  <Button variant="outline" size="sm">Bekijk Alles</Button>
+                </Link>
+              </div>
+              <div className="flex gap-4 overflow-x-auto pb-2">
+                {(userAchievements as any[]).slice(0, 6).map((achievement) => (
+                  <div key={achievement.id} className="flex-shrink-0">
+                    <AchievementBadge
+                      achievementId={achievement.achievement_id}
+                      unlocked={true}
+                      unlockedAt={achievement.unlocked_at}
+                      size="md"
+                      showDetails={true}
+                    />
+                  </div>
+                ))}
+              </div>
+            </Card>
+          )}
 
           {/* Weak Words Section */}
           {(weakWords as any[])?.length > 0 && (

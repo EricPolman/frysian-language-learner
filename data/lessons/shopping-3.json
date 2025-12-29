@@ -1,0 +1,269 @@
+{
+  "id": "shopping-3",
+  "skillId": "shopping",
+  "lessonNumber": 3,
+  "title": "Winkelje - Les 3",
+  "description": "Prijzen en hoeveelheden: euro, sint, kilo, gram, stik (stuk), \"Te djoer\" (Te duur).",
+  "topic": "prizen",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-shopping-3-0",
+      "vocabulary": {
+        "id": "euro",
+        "frysian": "euro",
+        "dutch": "euro",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It kostet fiif euro.",
+        "exampleTranslation": "Het kost vijf euro."
+      },
+      "exampleSentence": "It kostet fiif euro.",
+      "exampleTranslation": "Het kost vijf euro."
+    },
+    {
+      "id": "intro-shopping-3-1",
+      "vocabulary": {
+        "id": "sint",
+        "frysian": "sint",
+        "dutch": "cent",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It kostet fyftich sinten.",
+        "exampleTranslation": "Het kost vijftig cent."
+      },
+      "exampleSentence": "It kostet fyftich sinten.",
+      "exampleTranslation": "Het kost vijftig cent."
+    },
+    {
+      "id": "intro-shopping-3-2",
+      "vocabulary": {
+        "id": "kilo",
+        "frysian": "kilo",
+        "dutch": "kilo",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik keapje in kilo appels.",
+        "exampleTranslation": "Ik koop een kilo appels."
+      },
+      "exampleSentence": "Ik keapje in kilo appels.",
+      "exampleTranslation": "Ik koop een kilo appels."
+    },
+    {
+      "id": "intro-shopping-3-3",
+      "vocabulary": {
+        "id": "gram",
+        "frysian": "gram",
+        "dutch": "gram",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "In gram goud is djoer.",
+        "exampleTranslation": "Een gram goud is duur."
+      },
+      "exampleSentence": "In gram goud is djoer.",
+      "exampleTranslation": "Een gram goud is duur."
+    },
+    {
+      "id": "intro-shopping-3-4",
+      "vocabulary": {
+        "id": "stik",
+        "frysian": "stik",
+        "dutch": "stuk",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik wol in stik tsiis.",
+        "exampleTranslation": "Ik wil een stuk kaas."
+      },
+      "exampleSentence": "Ik wol in stik tsiis.",
+      "exampleTranslation": "Ik wil een stuk kaas."
+    },
+    {
+      "id": "intro-shopping-3-5",
+      "vocabulary": {
+        "id": "te-djoer",
+        "frysian": "te djoer",
+        "dutch": "te duur",
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Dat is te djoer foar my.",
+        "exampleTranslation": "Dat is te duur voor mij."
+      },
+      "exampleSentence": "Dat is te djoer foar my.",
+      "exampleTranslation": "Dat is te duur voor mij."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "te duur",
+      "correctAnswer": "te djoer",
+      "acceptedAnswers": [
+        "te djoer"
+      ],
+      "hint": "Het gaat om de prijs",
+      "explanation": "'Te djoer' betekent te duur",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "It is ___ kilo.",
+      "blankIndex": 2,
+      "correctAnswer": "te djoer",
+      "wordBank": [
+        "euro",
+        "sint",
+        "te djoer",
+        "stik"
+      ],
+      "hint": "Het gaat om een prijs",
+      "explanation": "'Te djoer' betekent te duur, en past hier bij"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'cent' in het Fries?",
+      "correctAnswer": "sint",
+      "options": [
+        "euro",
+        "sint",
+        "te djoer",
+        "kilo"
+      ],
+      "hint": "Het is een klein bedrag",
+      "explanation": "'Sint' betekent cent",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'gram'?",
+      "correctAnswer": "gram",
+      "options": [
+        "stuk",
+        "kilo",
+        "gram",
+        "euro"
+      ],
+      "hint": "Het is een gewichtseenheid",
+      "explanation": "'Gram' betekent gram",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "stuk",
+      "correctAnswer": "stik",
+      "acceptedAnswers": [
+        "stik"
+      ],
+      "hint": "Een enkel item",
+      "explanation": "'Stik' betekent stuk",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "In ___ fan 100 gram.",
+      "blankIndex": 1,
+      "correctAnswer": "stik",
+      "wordBank": [
+        "euro",
+        "sint",
+        "stik",
+        "kilo"
+      ],
+      "hint": "Het gaat om een item",
+      "explanation": "'Stik' betekent stuk"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "kilo",
+      "correctAnswer": "kilo",
+      "acceptedAnswers": [
+        "kilo"
+      ],
+      "hint": "Het is een gewichtseenheid",
+      "explanation": "'Kilo' betekent kilo",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Een euro en een stuk' in het Fries",
+      "correctOrder": [
+        "In",
+        "euro",
+        "en",
+        "in",
+        "stik"
+      ],
+      "distractorWords": [
+        "sint",
+        "sint",
+        "kilo"
+      ],
+      "hint": "Begin met de prijs en eindig met het item"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "In kilo foar ien ___.",
+      "blankIndex": 4,
+      "correctAnswer": "euro",
+      "wordBank": [
+        "gram",
+        "euro",
+        "sint",
+        "stik"
+      ],
+      "hint": "Het gaat om een munt",
+      "explanation": "'Euro' betekent euro"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "cent",
+      "correctAnswer": "sint",
+      "acceptedAnswers": [
+        "sint"
+      ],
+      "hint": "Een klein geldbedrag",
+      "explanation": "'Sint' betekent cent",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "stik",
+      "correctAnswer": "stuk",
+      "acceptedAnswers": [
+        "stuk"
+      ],
+      "hint": "Een enkel item",
+      "explanation": "'Stik' betekent stuk",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'gram' in het Fries?",
+      "correctAnswer": "gram",
+      "options": [
+        "euro",
+        "sint",
+        "gram",
+        "stik"
+      ],
+      "hint": "Een gewichtseenheid",
+      "explanation": "'Gram' betekent gram",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "euro",
+    "sint",
+    "kilo",
+    "gram",
+    "stik",
+    "te-djoer"
+  ],
+  "reviewVocabulary": []
+}

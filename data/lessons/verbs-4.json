@@ -1,0 +1,268 @@
+{
+  "id": "verbs-4",
+  "skillId": "verbs",
+  "lessonNumber": 4,
+  "title": "Werkwurden - Les 4",
+  "description": "Vervoeging oefenen: \"Ik rin, do rinst, hy rint\" en zinnen maken.",
+  "topic": "tegenwoordige tijd",
+  "difficulty": 3,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-verbs-4-0",
+      "vocabulary": {
+        "id": "ik-rin",
+        "frysian": "rin",
+        "dutch": "loop",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik rin nei skoalle.",
+        "exampleTranslation": "Ik loop naar school."
+      },
+      "exampleSentence": "Ik rin nei skoalle.",
+      "exampleTranslation": "Ik loop naar school."
+    },
+    {
+      "id": "intro-verbs-4-1",
+      "vocabulary": {
+        "id": "do-rinst",
+        "frysian": "rinst",
+        "dutch": "loopt",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Do rinst nei hûs.",
+        "exampleTranslation": "Jij loopt naar huis."
+      },
+      "exampleSentence": "Do rinst nei hûs.",
+      "exampleTranslation": "Jij loopt naar huis."
+    },
+    {
+      "id": "intro-verbs-4-2",
+      "vocabulary": {
+        "id": "hy-rint",
+        "frysian": "rint",
+        "dutch": "loopt",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy rint nei it park.",
+        "exampleTranslation": "Hij loopt naar het park."
+      },
+      "exampleSentence": "Hy rint nei it park.",
+      "exampleTranslation": "Hij loopt naar het park."
+    },
+    {
+      "id": "intro-verbs-4-3",
+      "vocabulary": {
+        "id": "se-rinne",
+        "frysian": "rinne",
+        "dutch": "lopen",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Se rinne tegearre.",
+        "exampleTranslation": "Zij lopen samen."
+      },
+      "exampleSentence": "Se rinne tegearre.",
+      "exampleTranslation": "Zij lopen samen."
+    },
+    {
+      "id": "intro-verbs-4-4",
+      "vocabulary": {
+        "id": "goeie",
+        "frysian": "Goeie",
+        "dutch": "Hallo",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeie, hoe giet it?",
+        "exampleTranslation": "Hallo, hoe gaat het?"
+      },
+      "exampleSentence": "Goeie, hoe giet it?",
+      "exampleTranslation": "Hallo, hoe gaat het?"
+    },
+    {
+      "id": "intro-verbs-4-5",
+      "vocabulary": {
+        "id": "moarn",
+        "frysian": "moarn",
+        "dutch": "morgen",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik sjoch dy moarn.",
+        "exampleTranslation": "Ik zie je morgen."
+      },
+      "exampleSentence": "Ik sjoch dy moarn.",
+      "exampleTranslation": "Ik zie je morgen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "hallo",
+      "correctAnswer": "Goeie",
+      "acceptedAnswers": [
+        "Goeie"
+      ],
+      "hint": "Informele begroeting",
+      "explanation": "'Goeie' is de meest gebruikte begroeting",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Goeie",
+      "correctAnswer": "hallo",
+      "acceptedAnswers": [
+        "hallo",
+        "dag"
+      ],
+      "hint": "Een begroeting",
+      "explanation": "'Goeie' betekent hallo in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Goeie! Hoe giet it mei ___?",
+      "blankIndex": 3,
+      "correctAnswer": "moarn",
+      "wordBank": [
+        "moarn",
+        "rinne",
+        "rinst",
+        "rint"
+      ],
+      "hint": "Het is een tijdstip",
+      "explanation": "'Moarn' betekent morgen"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'loopt' in het Fries?",
+      "correctAnswer": "rinst",
+      "options": [
+        "rin",
+        "rinst",
+        "rint",
+        "rinne"
+      ],
+      "hint": "Het is een vervoegde vorm van 'lopen'",
+      "explanation": "'Rinst' gebruik je voor 'jij loopt'",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'rinne'?",
+      "correctAnswer": "lopen",
+      "options": [
+        "lopen",
+        "loopt",
+        "loop",
+        "hallo"
+      ],
+      "hint": "Het is de infinitiefvorm",
+      "explanation": "'Rinne' betekent lopen",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "lopen",
+      "correctAnswer": "rinne",
+      "acceptedAnswers": [
+        "rinne"
+      ],
+      "hint": "Infinitiefvorm",
+      "explanation": "'Rinne' is het werkwoord voor lopen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Ik ___ nei skoalle.",
+      "blankIndex": 1,
+      "correctAnswer": "rin",
+      "wordBank": [
+        "rin",
+        "rint",
+        "rinst",
+        "rinne"
+      ],
+      "hint": "Eerste persoon enkelvoud",
+      "explanation": "'Rin' gebruik je voor 'ik loop'"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Hallo! Morgen loop ik!' in het Fries",
+      "correctOrder": [
+        "Goeie!",
+        "Moarn",
+        "rin",
+        "ik!"
+      ],
+      "distractorWords": [
+        "rinst",
+        "rint"
+      ],
+      "hint": "Begin met de begroeting, dan de tijd"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "morgen",
+      "correctAnswer": "moarn",
+      "acceptedAnswers": [
+        "moarn"
+      ],
+      "hint": "Tijdsaanduiding",
+      "explanation": "'Moarn' betekent morgen",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "rint",
+      "correctAnswer": "loopt",
+      "acceptedAnswers": [
+        "loopt"
+      ],
+      "hint": "Derde persoon enkelvoud",
+      "explanation": "'Rint' betekent loopt in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Hy ___ nei de winkel.",
+      "blankIndex": 1,
+      "correctAnswer": "rint",
+      "wordBank": [
+        "rin",
+        "rinst",
+        "rint",
+        "rinne"
+      ],
+      "hint": "Derde persoon enkelvoud",
+      "explanation": "'Rint' gebruik je voor 'hij loopt'"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'morgen' in het Fries?",
+      "correctAnswer": "moarn",
+      "options": [
+        "rin",
+        "rinst",
+        "moarn",
+        "rint"
+      ],
+      "hint": "Het verwijst naar een tijdstip",
+      "explanation": "'Moarn' betekent morgen",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "ik-rin",
+    "do-rinst",
+    "hy-rint",
+    "se-rinne",
+    "goeie",
+    "moarn"
+  ],
+  "reviewVocabulary": []
+}

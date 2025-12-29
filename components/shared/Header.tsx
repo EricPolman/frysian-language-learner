@@ -1,7 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { getUser, logout } from "@/app/login/actions";
-import { createClient } from "@/lib/supabase/server";
+import { createClient } from "@/lib/supabase/client";
 import { calculateLevel, getLevelProgress } from "@/lib/levels";
 
 export async function Header() {
@@ -71,6 +71,11 @@ export async function Header() {
               <Link href="/dashboard" className="hidden sm:block">
                 <Button variant="ghost" size="sm">
                   Dashboard
+                </Button>
+              </Link>
+              <Link href="/settings" className="hidden sm:block">
+                <Button variant="ghost" size="sm">
+                  ⚙️
                 </Button>
               </Link>
               <form action={logout}>

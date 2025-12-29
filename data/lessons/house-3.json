@@ -1,0 +1,267 @@
+{
+  "id": "house-3",
+  "skillId": "house",
+  "lessonNumber": 3,
+  "title": "Hûs & Thús - Les 3",
+  "description": "Huishoudelijk: doar (deur), finster (raam), ljocht (lamp), trep (trap), mûre (muur).",
+  "topic": "huishouden",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-house-3-0",
+      "vocabulary": {
+        "id": "stoel-1",
+        "frysian": "stoel",
+        "dutch": "stoel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De stoel stiet klear.",
+        "exampleTranslation": "De stoel staat klaar."
+      },
+      "exampleSentence": "De stoel stiet klear.",
+      "exampleTranslation": "De stoel staat klaar."
+    },
+    {
+      "id": "intro-house-3-1",
+      "vocabulary": {
+        "id": "tafel-2",
+        "frysian": "tafel",
+        "dutch": "tafel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De tafel is grut.",
+        "exampleTranslation": "De tafel is groot."
+      },
+      "exampleSentence": "De tafel is grut.",
+      "exampleTranslation": "De tafel is groot."
+    },
+    {
+      "id": "intro-house-3-2",
+      "vocabulary": {
+        "id": "bêd-3",
+        "frysian": "bêd",
+        "dutch": "bed",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It bêd is sêft.",
+        "exampleTranslation": "Het bed is zacht."
+      },
+      "exampleSentence": "It bêd is sêft.",
+      "exampleTranslation": "Het bed is zacht."
+    },
+    {
+      "id": "intro-house-3-3",
+      "vocabulary": {
+        "id": "kast-4",
+        "frysian": "kast",
+        "dutch": "kast",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De kast is fol.",
+        "exampleTranslation": "De kast is vol."
+      },
+      "exampleSentence": "De kast is fol.",
+      "exampleTranslation": "De kast is vol."
+    },
+    {
+      "id": "intro-house-3-4",
+      "vocabulary": {
+        "id": "fakuum-5",
+        "frysian": "fakuum",
+        "dutch": "stofzuiger",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik brûk de fakuum.",
+        "exampleTranslation": "Ik gebruik de stofzuiger."
+      },
+      "exampleSentence": "Ik brûk de fakuum.",
+      "exampleTranslation": "Ik gebruik de stofzuiger."
+    },
+    {
+      "id": "intro-house-3-5",
+      "vocabulary": {
+        "id": "skuon-6",
+        "frysian": "skuon",
+        "dutch": "schoenen",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De skuon lizze dêr.",
+        "exampleTranslation": "De schoenen liggen daar."
+      },
+      "exampleSentence": "De skuon lizze dêr.",
+      "exampleTranslation": "De schoenen liggen daar."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "stoel",
+      "correctAnswer": "stoel",
+      "acceptedAnswers": [
+        "stoel"
+      ],
+      "hint": "Een meubelstuk om op te zitten",
+      "explanation": "Het woord 'stoel' is hetzelfde in het Fries.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ stiet by de tafel.",
+      "blankIndex": 1,
+      "correctAnswer": "stoel",
+      "wordBank": [
+        "stoel",
+        "bêd",
+        "kast",
+        "fakuum"
+      ],
+      "hint": "Een meubelstuk om op te zitten",
+      "explanation": "De stoel hoort vaak bij de tafel."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'bed' in het Fries?",
+      "correctAnswer": "bêd",
+      "options": [
+        "stoel",
+        "tafel",
+        "bêd",
+        "kast"
+      ],
+      "hint": "Het is een meubelstuk om op te slapen",
+      "explanation": "'Bêd' is het Friese woord voor bed.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "tafel",
+      "correctAnswer": "tafel",
+      "acceptedAnswers": [
+        "tafel"
+      ],
+      "hint": "Meubelstuk voor eten of werken",
+      "explanation": "Het woord 'tafel' is hetzelfde in het Fries.",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'kast'?",
+      "correctAnswer": "kast",
+      "options": [
+        "stoel",
+        "bed",
+        "kast",
+        "stofzuiger"
+      ],
+      "hint": "Een meubelstuk om spullen in op te bergen",
+      "explanation": "'Kast' betekent hetzelfde in het Nederlands.",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "kast",
+      "correctAnswer": "kast",
+      "acceptedAnswers": [
+        "kast"
+      ],
+      "hint": "Een meubelstuk om spullen in te bewaren",
+      "explanation": "Het woord 'kast' is hetzelfde in het Fries.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ makket it skjin.",
+      "blankIndex": 1,
+      "correctAnswer": "fakuum",
+      "wordBank": [
+        "stoel",
+        "tafel",
+        "fakuum",
+        "bêd"
+      ],
+      "hint": "Een apparaat om stof mee te verwijderen",
+      "explanation": "'Fakuum' betekent stofzuiger."
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Het bed staat hier' in het Fries",
+      "correctOrder": [
+        "It",
+        "bêd",
+        "stiet",
+        "hjir"
+      ],
+      "distractorWords": [
+        "tafel",
+        "fakuum"
+      ],
+      "hint": "Begin met 'It bêd...'"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "schoenen",
+      "correctAnswer": "skuon",
+      "acceptedAnswers": [
+        "skuon"
+      ],
+      "hint": "Wat je aan je voeten draagt",
+      "explanation": "'Skuon' is het Friese woord voor schoenen.",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ binne swart.",
+      "blankIndex": 1,
+      "correctAnswer": "skuon",
+      "wordBank": [
+        "skuon",
+        "tafel",
+        "bêd",
+        "kast"
+      ],
+      "hint": "Je draagt ze aan je voeten",
+      "explanation": "'Skuon' betekent schoenen."
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "bêd",
+      "correctAnswer": "bed",
+      "acceptedAnswers": [
+        "bed"
+      ],
+      "hint": "Een meubelstuk om op te slapen",
+      "explanation": "'Bêd' betekent bed in het Nederlands.",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'stofzuiger' in het Fries?",
+      "correctAnswer": "fakuum",
+      "options": [
+        "fakuum",
+        "kast",
+        "skuon",
+        "bêd"
+      ],
+      "hint": "Een apparaat om stof mee te verwijderen",
+      "explanation": "'Fakuum' is het Friese woord voor stofzuiger.",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "stoel-1",
+    "tafel-2",
+    "bêd-3",
+    "kast-4",
+    "fakuum-5",
+    "skuon-6"
+  ],
+  "reviewVocabulary": []
+}

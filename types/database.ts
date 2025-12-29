@@ -8,8 +8,14 @@ export interface Database {
           id: string;
           display_name: string | null;
           avatar_url: string | null;
-          current_level: number;
+          level: number;
           total_xp: number;
+          current_streak: number;
+          longest_streak: number;
+          last_practice_date: string | null;
+          daily_goal_xp: number;
+          audio_enabled: boolean;
+          notifications_enabled: boolean;
           created_at: string;
           updated_at: string;
         };
@@ -17,8 +23,14 @@ export interface Database {
           id: string;
           display_name?: string | null;
           avatar_url?: string | null;
-          current_level?: number;
+          level?: number;
           total_xp?: number;
+          current_streak?: number;
+          longest_streak?: number;
+          last_practice_date?: string | null;
+          daily_goal_xp?: number;
+          audio_enabled?: boolean;
+          notifications_enabled?: boolean;
           created_at?: string;
           updated_at?: string;
         };
@@ -26,8 +38,14 @@ export interface Database {
           id?: string;
           display_name?: string | null;
           avatar_url?: string | null;
-          current_level?: number;
+          level?: number;
           total_xp?: number;
+          current_streak?: number;
+          longest_streak?: number;
+          last_practice_date?: string | null;
+          daily_goal_xp?: number;
+          audio_enabled?: boolean;
+          notifications_enabled?: boolean;
           created_at?: string;
           updated_at?: string;
         };
@@ -36,32 +54,29 @@ export interface Database {
         Row: {
           id: string;
           user_id: string;
-          skill_id: string;
-          lesson_id: string;
-          completed: boolean;
-          accuracy: number;
-          xp_earned: number;
-          completed_at: string | null;
+          completed_lessons: string[];
+          current_skill: string | null;
+          total_xp: number;
+          created_at: string;
+          updated_at: string;
         };
         Insert: {
           id?: string;
           user_id: string;
-          skill_id: string;
-          lesson_id: string;
-          completed?: boolean;
-          accuracy?: number;
-          xp_earned?: number;
-          completed_at?: string | null;
+          completed_lessons?: string[];
+          current_skill?: string | null;
+          total_xp?: number;
+          created_at?: string;
+          updated_at?: string;
         };
         Update: {
           id?: string;
           user_id?: string;
-          skill_id?: string;
-          lesson_id?: string;
-          completed?: boolean;
-          accuracy?: number;
-          xp_earned?: number;
-          completed_at?: string | null;
+          completed_lessons?: string[];
+          current_skill?: string | null;
+          total_xp?: number;
+          created_at?: string;
+          updated_at?: string;
         };
       };
       word_progress: {
@@ -74,6 +89,7 @@ export interface Database {
           incorrect_count: number;
           last_practiced: string;
           next_review: string;
+          created_at: string;
         };
         Insert: {
           id?: string;
@@ -84,6 +100,7 @@ export interface Database {
           incorrect_count?: number;
           last_practiced?: string;
           next_review?: string;
+          created_at?: string;
         };
         Update: {
           id?: string;
@@ -94,6 +111,7 @@ export interface Database {
           incorrect_count?: number;
           last_practiced?: string;
           next_review?: string;
+          created_at?: string;
         };
       };
       lesson_attempts: {
@@ -106,6 +124,7 @@ export interface Database {
           xp_earned: number;
           started_at: string;
           completed_at: string | null;
+          created_at: string;
         };
         Insert: {
           id?: string;
@@ -116,6 +135,7 @@ export interface Database {
           xp_earned?: number;
           started_at?: string;
           completed_at?: string | null;
+          created_at?: string;
         };
         Update: {
           id?: string;
@@ -126,6 +146,30 @@ export interface Database {
           xp_earned?: number;
           started_at?: string;
           completed_at?: string | null;
+          created_at?: string;
+        };
+      };
+      user_achievements: {
+        Row: {
+          id: string;
+          user_id: string;
+          achievement_id: string;
+          unlocked_at: string;
+          created_at: string;
+        };
+        Insert: {
+          id?: string;
+          user_id: string;
+          achievement_id: string;
+          unlocked_at?: string;
+          created_at?: string;
+        };
+        Update: {
+          id?: string;
+          user_id?: string;
+          achievement_id?: string;
+          unlocked_at?: string;
+          created_at?: string;
         };
       };
     };
