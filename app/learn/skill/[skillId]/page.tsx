@@ -141,7 +141,7 @@ export default async function SkillPage({ params }: Props) {
           <div className="mt-8 p-6 bg-white rounded-lg border border-gray-200">
             <div className="text-center">
               <div className="text-2xl font-bold text-blue-600 mb-2">
-                {skill.lessons.filter((l) => completedLessons.has(l)).length} /{" "}
+                {skill.lessons.filter((l) => completedLessons.has(l.id)).length} /{" "}
                 {skill.lessons.length}
               </div>
               <div className="text-sm text-gray-600">Lessen Voltooid</div>
