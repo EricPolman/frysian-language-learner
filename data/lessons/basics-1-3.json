@@ -11,33 +11,33 @@
     {
       "id": "intro-basics-1-3-0",
       "vocabulary": {
-        "id": "tankewol-1",
+        "id": "tankewol-01",
         "frysian": "Tankewol",
         "dutch": "Dankjewel",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Tankewol foar dyn help!",
-        "exampleTranslation": "Dankjewel voor je hulp!"
+        "exampleSentence": "Tankewol foar de help.",
+        "exampleTranslation": "Dankjewel voor de hulp."
       },
-      "exampleSentence": "Tankewol foar dyn help!",
-      "exampleTranslation": "Dankjewel voor je hulp!"
+      "exampleSentence": "Tankewol foar de help.",
+      "exampleTranslation": "Dankjewel voor de hulp."
     },
     {
       "id": "intro-basics-1-3-1",
       "vocabulary": {
-        "id": "tige-tank-2",
+        "id": "tige-tank-02",
         "frysian": "Tige tank",
         "dutch": "Hartelijk dank",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Tige tank foar it kado!",
-        "exampleTranslation": "Hartelijk dank voor het cadeau!"
+        "exampleSentence": "Tige tank foar it iten.",
+        "exampleTranslation": "Hartelijk dank voor het eten."
       },
-      "exampleSentence": "Tige tank foar it kado!",
-      "exampleTranslation": "Hartelijk dank voor het cadeau!"
+      "exampleSentence": "Tige tank foar it iten.",
+      "exampleTranslation": "Hartelijk dank voor het eten."
     },
     {
       "id": "intro-basics-1-3-2",
       "vocabulary": {
-        "id": "graach-dien-3",
+        "id": "graach-dien-03",
         "frysian": "Graach dien",
         "dutch": "Graag gedaan",
         "partOfSpeech": "uitdrukking",
@@ -50,41 +50,41 @@
     {
       "id": "intro-basics-1-3-3",
       "vocabulary": {
-        "id": "gjin-tank-4",
+        "id": "gjin-tank-04",
         "frysian": "Gjin tank",
         "dutch": "Geen dank",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Gjin tank, it wie neat.",
-        "exampleTranslation": "Geen dank, het was niets."
+        "exampleSentence": "Gjin tank, it is goed.",
+        "exampleTranslation": "Geen dank, het is goed."
       },
-      "exampleSentence": "Gjin tank, it wie neat.",
-      "exampleTranslation": "Geen dank, het was niets."
+      "exampleSentence": "Gjin tank, it is goed.",
+      "exampleTranslation": "Geen dank, het is goed."
     },
     {
       "id": "intro-basics-1-3-4",
       "vocabulary": {
-        "id": "tank-5",
+        "id": "tank-05",
         "frysian": "Tank",
         "dutch": "Dank",
         "partOfSpeech": "zelfstandig naamwoord",
-        "exampleSentence": "In grutte tank oan elkenien.",
-        "exampleTranslation": "Een grote dank aan iedereen."
+        "exampleSentence": "Tank foar alles.",
+        "exampleTranslation": "Dank voor alles."
       },
-      "exampleSentence": "In grutte tank oan elkenien.",
-      "exampleTranslation": "Een grote dank aan iedereen."
+      "exampleSentence": "Tank foar alles.",
+      "exampleTranslation": "Dank voor alles."
     },
     {
       "id": "intro-basics-1-3-5",
       "vocabulary": {
-        "id": "tige-tankber-6",
+        "id": "tige-tankber-06",
         "frysian": "Tige tankber",
         "dutch": "Zeer dankbaar",
         "partOfSpeech": "bijvoeglijk naamwoord",
-        "exampleSentence": "Ik bin tige tankber foar alles.",
-        "exampleTranslation": "Ik ben zeer dankbaar voor alles."
+        "exampleSentence": "Ik bin tige tankber.",
+        "exampleTranslation": "Ik ben zeer dankbaar."
       },
-      "exampleSentence": "Ik bin tige tankber foar alles.",
-      "exampleTranslation": "Ik ben zeer dankbaar voor alles."
+      "exampleSentence": "Ik bin tige tankber.",
+      "exampleTranslation": "Ik ben zeer dankbaar."
     }
   ],
   "exercises": [
@@ -96,171 +96,161 @@
       "acceptedAnswers": [
         "Tankewol"
       ],
-      "hint": "Gebruik een Fries woord voor dank",
-      "explanation": "'Tankewol' betekent dankjewel in het Fries",
+      "hint": "Gebruik een woord dat 'dank' betekent",
+      "explanation": "'Tankewol' is de Friese vertaling van 'Dankjewel'",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-1",
-      "sentence": "___ dien! Hoe giet it?",
+      "sentence": "___! Ik bin tige tankber.",
       "blankIndex": 0,
-      "correctAnswer": "Graach",
+      "correctAnswer": "Tankewol",
       "wordBank": [
-        "Graach",
         "Tankewol",
         "Tige tank",
+        "Gjin tank",
         "Graach dien"
       ],
-      "hint": "Antwoord op een bedankje",
-      "explanation": "'Graach dien' betekent graag gedaan"
-    },
-    {
-      "type": "multiple-choice",
-      "id": "mc-rev-1",
-      "question": "Wat betekent 'Tige tank'?",
-      "correctAnswer": "hartelijk dank",
-      "options": [
-        "hartelijk dank",
-        "graag gedaan",
-        "geen dank",
-        "zeer dankbaar"
-      ],
-      "hint": "Een manier om zeer dankbaar te zijn",
-      "explanation": "'Tige tank' betekent hartelijk dank",
-      "direction": "frysian-to-dutch"
-    },
-    {
-      "type": "translation",
-      "id": "trans-rev-1",
-      "question": "Gjin tank",
-      "correctAnswer": "Geen dank",
-      "acceptedAnswers": [
-        "Geen dank"
-      ],
-      "hint": "Gebruik het woord voor geen",
-      "explanation": "'Gjin tank' betekent geen dank in het Nederlands",
-      "direction": "frysian-to-dutch"
+      "hint": "Een woord om dank te uiten",
+      "explanation": "'Tankewol' betekent dankjewel"
     },
     {
       "type": "multiple-choice",
       "id": "mc-1",
-      "question": "Hoe zeg je 'zeer dankbaar' in het Fries?",
-      "correctAnswer": "Tige tankber",
+      "question": "Hoe zeg je 'geen dank' in het Fries?",
+      "correctAnswer": "Gjin tank",
       "options": [
         "Tankewol",
         "Tige tank",
-        "Tige tankber",
+        "Graach dien",
         "Gjin tank"
       ],
-      "hint": "Gebruik het woord 'tige' in de vertaling",
+      "hint": "Het bevat het woord 'geen'",
+      "explanation": "'Gjin tank' betekent geen dank",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "Tige tank",
+      "correctAnswer": "Hartelijk dank",
+      "acceptedAnswers": [
+        "Hartelijk dank"
+      ],
+      "hint": "Het is een beleefde manier om dank uit te drukken",
+      "explanation": "'Tige tank' betekent hartelijk dank in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Ik bin ___ foar dyn help.",
+      "blankIndex": 1,
+      "correctAnswer": "tige tankber",
+      "wordBank": [
+        "tankewol",
+        "tige tank",
+        "gjin tank",
+        "tige tankber"
+      ],
+      "hint": "Een uitdrukking van grote dankbaarheid",
+      "explanation": "'Tige tankber' betekent zeer dankbaar"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'Graach dien'?",
+      "correctAnswer": "Graag gedaan",
+      "options": [
+        "Dankjewel",
+        "Hartelijk dank",
+        "Graag gedaan",
+        "Geen dank"
+      ],
+      "hint": "Een antwoord op een bedankje",
+      "explanation": "'Graach dien' betekent graag gedaan",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Hartelijk dank! Graag gedaan!' in het Fries",
+      "correctOrder": [
+        "Tige",
+        "tank!",
+        "Graach",
+        "dien!"
+      ],
+      "distractorWords": [
+        "Tankewol",
+        "Tige tank",
+        "Graach dien"
+      ],
+      "hint": "Begin met de dankbetuiging"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "Zeer dankbaar",
+      "correctAnswer": "Tige tankber",
+      "acceptedAnswers": [
+        "Tige tankber"
+      ],
+      "hint": "Gebruik een combinatie van 'tige' en een ander woord uit de lijst",
       "explanation": "'Tige tankber' betekent zeer dankbaar",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
-      "sentence": "Tige ___ foar dyn help.",
+      "id": "fill-3",
+      "sentence": "Tige tank! ___ dien!",
       "blankIndex": 1,
-      "correctAnswer": "tank",
+      "correctAnswer": "Graach",
       "wordBank": [
-        "tank",
         "Tankewol",
+        "Graach",
         "Tige tank",
         "Graach dien"
       ],
-      "hint": "Gebruik het woord voor dank",
-      "explanation": "'Tige tank' betekent hartelijk dank"
-    },
-    {
-      "type": "translation",
-      "id": "trans-2",
-      "question": "Hartelijk dank",
-      "correctAnswer": "Tige tank",
-      "acceptedAnswers": [
-        "Tige tank"
-      ],
-      "hint": "Gebruik het woord 'tige'",
-      "explanation": "'Tige tank' betekent hartelijk dank in het Fries",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "sentence-build",
-      "id": "build-1",
-      "prompt": "Zeg 'Zeer dankbaar' in het Fries",
-      "correctOrder": [
-        "Tige",
-        "tankber"
-      ],
-      "distractorWords": [
-        "Tankewol",
-        "Tankewol",
-        "Tige tank"
-      ],
-      "hint": "Begin met 'Tige'"
+      "hint": "Een beleefd antwoord op een bedankje",
+      "explanation": "'Graach dien' betekent graag gedaan"
     },
     {
       "type": "multiple-choice",
       "id": "mc-2",
-      "question": "Hoe zeg je 'graag gedaan' in het Fries?",
-      "correctAnswer": "Graach dien",
+      "question": "Hoe zeg je 'dank' in het Fries?",
+      "correctAnswer": "Tank",
       "options": [
         "Tankewol",
+        "Tige tank",
         "Graach dien",
-        "Gjin tank",
-        "Tige tank"
+        "Tank"
       ],
-      "hint": "Het woord begint met 'Graach'",
-      "explanation": "'Graach dien' betekent graag gedaan",
+      "hint": "Het is een kort woord",
+      "explanation": "'Tank' betekent dank",
       "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "translation",
-      "id": "trans-3",
-      "question": "Graag gedaan",
-      "correctAnswer": "Graach dien",
-      "acceptedAnswers": [
-        "Graach dien"
-      ],
-      "hint": "Gebruik het woord 'Graach'",
-      "explanation": "'Graach dien' betekent graag gedaan in het Fries",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "fill-in-blank",
-      "id": "fill-3",
-      "sentence": "Tankewol! ___ tank.",
-      "blankIndex": 1,
-      "correctAnswer": "Gjin",
-      "wordBank": [
-        "Gjin",
-        "Tank",
-        "Tankewol",
-        "Tige tank"
-      ],
-      "hint": "Gebruik het woord voor geen",
-      "explanation": "'Gjin tank' betekent geen dank"
     },
     {
       "type": "translation",
       "id": "trans-rev-2",
-      "question": "Tige tankber",
-      "correctAnswer": "Zeer dankbaar",
+      "question": "Gjin tank",
+      "correctAnswer": "Geen dank",
       "acceptedAnswers": [
-        "Zeer dankbaar"
+        "Geen dank"
       ],
-      "hint": "Gebruik het woord voor zeer",
-      "explanation": "'Tige tankber' betekent zeer dankbaar in het Nederlands",
+      "hint": "Een vriendelijke manier om te zeggen dat het niet nodig was",
+      "explanation": "'Gjin tank' betekent geen dank in het Nederlands",
       "direction": "frysian-to-dutch"
     }
   ],
   "targetVocabulary": [
-    "tankewol-1",
-    "tige-tank-2",
-    "graach-dien-3",
-    "gjin-tank-4",
-    "tank-5",
-    "tige-tankber-6"
+    "tankewol-01",
+    "tige-tank-02",
+    "graach-dien-03",
+    "gjin-tank-04",
+    "tank-05",
+    "tige-tankber-06"
   ],
   "reviewVocabulary": []
 }

@@ -1,0 +1,260 @@
+{
+  "id": "family-1",
+  "skillId": "family",
+  "lessonNumber": 1,
+  "title": "Familie - Les 1",
+  "description": "Leer de woorden voor vader (heit), moeder (mem), ouders (âlders).",
+  "topic": "ouders",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-family-1-0",
+      "vocabulary": {
+        "id": "heit",
+        "frysian": "heit",
+        "dutch": "vader",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Heit is thús.",
+        "exampleTranslation": "Vader is thuis."
+      },
+      "exampleSentence": "Heit is thús.",
+      "exampleTranslation": "Vader is thuis."
+    },
+    {
+      "id": "intro-family-1-1",
+      "vocabulary": {
+        "id": "mem",
+        "frysian": "mem",
+        "dutch": "moeder",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Mem is leaf.",
+        "exampleTranslation": "Moeder is lief."
+      },
+      "exampleSentence": "Mem is leaf.",
+      "exampleTranslation": "Moeder is lief."
+    },
+    {
+      "id": "intro-family-1-2",
+      "vocabulary": {
+        "id": "âlders",
+        "frysian": "âlders",
+        "dutch": "ouders",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Myn âlders wenje hjir.",
+        "exampleTranslation": "Mijn ouders wonen hier."
+      },
+      "exampleSentence": "Myn âlders wenje hjir.",
+      "exampleTranslation": "Mijn ouders wonen hier."
+    },
+    {
+      "id": "intro-family-1-3",
+      "vocabulary": {
+        "id": "bern",
+        "frysian": "bern",
+        "dutch": "kind",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It bern laket.",
+        "exampleTranslation": "Het kind lacht."
+      },
+      "exampleSentence": "It bern laket.",
+      "exampleTranslation": "Het kind lacht."
+    },
+    {
+      "id": "intro-family-1-4",
+      "vocabulary": {
+        "id": "famylje",
+        "frysian": "famylje",
+        "dutch": "familie",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Wy binne famylje.",
+        "exampleTranslation": "Wij zijn familie."
+      },
+      "exampleSentence": "Wy binne famylje.",
+      "exampleTranslation": "Wij zijn familie."
+    },
+    {
+      "id": "intro-family-1-5",
+      "vocabulary": {
+        "id": "leaf",
+        "frysian": "leaf",
+        "dutch": "lief",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De bern binne leaf.",
+        "exampleTranslation": "De kinderen zijn lief."
+      },
+      "exampleSentence": "De bern binne leaf.",
+      "exampleTranslation": "De kinderen zijn lief."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "vader",
+      "correctAnswer": "heit",
+      "acceptedAnswers": [
+        "heit"
+      ],
+      "hint": "Het Fries woord voor 'vader'",
+      "explanation": "'Heit' betekent vader in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ binne leaf.",
+      "blankIndex": 1,
+      "correctAnswer": "âlders",
+      "wordBank": [
+        "âlders",
+        "bern",
+        "famylje",
+        "heit"
+      ],
+      "hint": "Het gaat om beide ouders",
+      "explanation": "'Alders' betekent ouders"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "bern",
+      "correctAnswer": "kind",
+      "acceptedAnswers": [
+        "kind"
+      ],
+      "hint": "Een jong persoon",
+      "explanation": "'Bern' betekent kind in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'familie' in het Fries?",
+      "correctAnswer": "famylje",
+      "options": [
+        "famylje",
+        "âlders",
+        "bern",
+        "mem"
+      ],
+      "hint": "Het lijkt op het Engelse woord",
+      "explanation": "'Famylje' betekent familie",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "lief",
+      "correctAnswer": "leaf",
+      "acceptedAnswers": [
+        "leaf"
+      ],
+      "hint": "Een woord dat genegenheid uitdrukt",
+      "explanation": "'Leaf' betekent lief in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ is grut.",
+      "blankIndex": 1,
+      "correctAnswer": "famylje",
+      "wordBank": [
+        "famylje",
+        "heit",
+        "mem",
+        "bern"
+      ],
+      "hint": "Het gaat om een groep mensen verbonden door bloed",
+      "explanation": "'Famylje' betekent familie"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "heit",
+      "correctAnswer": "vader",
+      "acceptedAnswers": [
+        "vader"
+      ],
+      "hint": "Een mannelijk familielid",
+      "explanation": "'Heit' betekent vader in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'ouders' in het Fries?",
+      "correctAnswer": "âlders",
+      "options": [
+        "âlders",
+        "heit",
+        "mem",
+        "bern"
+      ],
+      "hint": "Het verwijst naar beide ouders",
+      "explanation": "'Alders' betekent ouders",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "moeder",
+      "correctAnswer": "mem",
+      "acceptedAnswers": [
+        "mem"
+      ],
+      "hint": "Het Fries woord voor 'moeder'",
+      "explanation": "'Mem' betekent moeder in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ is leaf.",
+      "blankIndex": 1,
+      "correctAnswer": "mem",
+      "wordBank": [
+        "mem",
+        "heit",
+        "âlders",
+        "famylje"
+      ],
+      "hint": "Het gaat om een vrouwelijk familielid",
+      "explanation": "'Mem' betekent moeder"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "leaf",
+      "correctAnswer": "lief",
+      "acceptedAnswers": [
+        "lief"
+      ],
+      "hint": "Een woord dat genegenheid uitdrukt",
+      "explanation": "'Leaf' betekent lief in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "kind",
+      "correctAnswer": "bern",
+      "acceptedAnswers": [
+        "bern"
+      ],
+      "hint": "Een jong persoon",
+      "explanation": "'Bern' betekent kind in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "heit",
+    "mem",
+    "âlders",
+    "bern",
+    "famylje",
+    "leaf"
+  ],
+  "reviewVocabulary": []
+}

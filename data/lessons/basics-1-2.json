@@ -11,80 +11,80 @@
     {
       "id": "intro-basics-1-2-0",
       "vocabulary": {
-        "id": "oant-sjen-001",
+        "id": "oant-sjen",
         "frysian": "Oant sjen",
         "dutch": "Tot ziens",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Oant sjen, ik gean no.",
-        "exampleTranslation": "Tot ziens, ik ga nu."
+        "exampleSentence": "Oant sjen, Jan!",
+        "exampleTranslation": "Tot ziens, Jan!"
       },
-      "exampleSentence": "Oant sjen, ik gean no.",
-      "exampleTranslation": "Tot ziens, ik ga nu."
+      "exampleSentence": "Oant sjen, Jan!",
+      "exampleTranslation": "Tot ziens, Jan!"
     },
     {
       "id": "intro-basics-1-2-1",
       "vocabulary": {
-        "id": "oant-moarn-002",
+        "id": "oant-moarn",
         "frysian": "Oant moarn",
         "dutch": "Tot morgen",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Ik sjoch dy, oant moarn!",
-        "exampleTranslation": "Ik zie je, tot morgen!"
+        "exampleSentence": "Oant moarn, Lisa!",
+        "exampleTranslation": "Tot morgen, Lisa!"
       },
-      "exampleSentence": "Ik sjoch dy, oant moarn!",
-      "exampleTranslation": "Ik zie je, tot morgen!"
+      "exampleSentence": "Oant moarn, Lisa!",
+      "exampleTranslation": "Tot morgen, Lisa!"
     },
     {
       "id": "intro-basics-1-2-2",
       "vocabulary": {
-        "id": "oant-aanst-003",
+        "id": "oant-aanst",
         "frysian": "Oant aanst",
         "dutch": "Tot straks",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Oant aanst, ik sjoch dy letter.",
-        "exampleTranslation": "Tot straks, ik zie je later."
+        "exampleSentence": "Oant aanst, heit!",
+        "exampleTranslation": "Tot straks, vader!"
       },
-      "exampleSentence": "Oant aanst, ik sjoch dy letter.",
-      "exampleTranslation": "Tot straks, ik zie je later."
+      "exampleSentence": "Oant aanst, heit!",
+      "exampleTranslation": "Tot straks, vader!"
     },
     {
       "id": "intro-basics-1-2-3",
       "vocabulary": {
-        "id": "goeienacht-004",
+        "id": "goeienacht",
         "frysian": "Goeienacht",
         "dutch": "Goedenacht",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Goeienacht, sliep lekker.",
-        "exampleTranslation": "Goedenacht, slaap lekker."
+        "exampleSentence": "Goeienacht, mem!",
+        "exampleTranslation": "Goedenacht, moeder!"
       },
-      "exampleSentence": "Goeienacht, sliep lekker.",
-      "exampleTranslation": "Goedenacht, slaap lekker."
+      "exampleSentence": "Goeienacht, mem!",
+      "exampleTranslation": "Goedenacht, moeder!"
     },
     {
       "id": "intro-basics-1-2-4",
       "vocabulary": {
-        "id": "oant-letter-005",
+        "id": "oant-letter",
         "frysian": "Oant letter",
         "dutch": "Tot later",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Ik moat gean, oant letter.",
-        "exampleTranslation": "Ik moet gaan, tot later."
+        "exampleSentence": "Oant letter, klas!",
+        "exampleTranslation": "Tot later, klas!"
       },
-      "exampleSentence": "Ik moat gean, oant letter.",
-      "exampleTranslation": "Ik moet gaan, tot later."
+      "exampleSentence": "Oant letter, klas!",
+      "exampleTranslation": "Tot later, klas!"
     },
     {
       "id": "intro-basics-1-2-5",
       "vocabulary": {
-        "id": "sjoch-006",
+        "id": "sjoch",
         "frysian": "Sjoch",
-        "dutch": "Zie",
+        "dutch": "Kijk",
         "partOfSpeech": "werkwoord",
-        "exampleSentence": "Sjoch dy gau wer.",
-        "exampleTranslation": "Zie je snel weer."
+        "exampleSentence": "Sjoch dy gau wer!",
+        "exampleTranslation": "Kijk je snel weer!"
       },
-      "exampleSentence": "Sjoch dy gau wer.",
-      "exampleTranslation": "Zie je snel weer."
+      "exampleSentence": "Sjoch dy gau wer!",
+      "exampleTranslation": "Kijk je snel weer!"
     }
   ],
   "exercises": [
@@ -96,97 +96,148 @@
       "acceptedAnswers": [
         "Oant sjen"
       ],
-      "hint": "Gebruik voor afscheid nemen",
+      "hint": "Een afscheidsgroet",
       "explanation": "'Oant sjen' betekent tot ziens in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "Tot morgen",
+      "correctAnswer": "Oant moarn",
+      "acceptedAnswers": [
+        "Oant moarn"
+      ],
+      "hint": "Een groet voor de volgende dag",
+      "explanation": "'Oant moarn' betekent tot morgen in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-1",
-      "sentence": "___ moarn! Hoe giet it?",
+      "sentence": "___ moarn!",
       "blankIndex": 0,
       "correctAnswer": "Oant",
       "wordBank": [
         "Oant",
-        "Goeienacht",
         "Sjoch",
+        "Goeienacht",
         "Oant letter"
       ],
-      "hint": "Een begroeting voor de volgende dag",
+      "hint": "Een afscheidsgroet voor de volgende dag",
       "explanation": "'Oant moarn' betekent tot morgen"
-    },
-    {
-      "type": "multiple-choice",
-      "id": "mc-1",
-      "question": "Hoe zeg je 'goedenacht' in het Fries?",
-      "correctAnswer": "Goeienacht",
-      "options": [
-        "Goeienacht",
-        "Oant moarn",
-        "Sjoch",
-        "Oant sjen"
-      ],
-      "hint": "Een groet voor het slapengaan",
-      "explanation": "'Goeienacht' betekent goedenacht",
-      "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-rev-1",
-      "question": "Oant moarn",
-      "correctAnswer": "Tot morgen",
+      "question": "Sjoch",
+      "correctAnswer": "Kijk",
       "acceptedAnswers": [
-        "Tot morgen"
+        "Kijk"
       ],
-      "hint": "Een groet voor de volgende dag",
-      "explanation": "'Oant moarn' betekent tot morgen in het Nederlands",
+      "hint": "Een aanmoediging om te observeren",
+      "explanation": "'Sjoch' betekent kijk in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
-      "type": "fill-in-blank",
-      "id": "fill-2",
-      "sentence": "___ letter! Ik moat gean.",
-      "blankIndex": 0,
-      "correctAnswer": "Oant",
-      "wordBank": [
-        "Oant",
-        "Goeienacht",
-        "Sjoch",
-        "Oant aanst"
-      ],
-      "hint": "Een informele manier om te zeggen dat je later terugkomt",
-      "explanation": "'Oant letter' betekent tot later"
-    },
-    {
-      "type": "translation",
-      "id": "trans-2",
-      "question": "Zie",
-      "correctAnswer": "Sjoch",
-      "acceptedAnswers": [
-        "Sjoch"
-      ],
-      "hint": "Gebruik voor kijken",
-      "explanation": "'Sjoch' betekent zie in het Fries",
-      "direction": "dutch-to-frysian"
-    },
-    {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "mc-1",
       "question": "Hoe zeg je 'tot straks' in het Fries?",
       "correctAnswer": "Oant aanst",
       "options": [
-        "Oant aanst",
         "Oant sjen",
-        "Goeienacht",
-        "Sjoch"
+        "Oant moarn",
+        "Oant aanst",
+        "Goeienacht"
       ],
-      "hint": "Gebruik wanneer je elkaar binnen een korte tijd weer ziet",
+      "hint": "Een korte tijd tot je elkaar weer ziet",
       "explanation": "'Oant aanst' betekent tot straks",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
+      "id": "trans-3",
+      "question": "Goedenacht",
+      "correctAnswer": "Goeienacht",
+      "acceptedAnswers": [
+        "Goeienacht"
+      ],
+      "hint": "Een groet voor het slapengaan",
+      "explanation": "'Goeienacht' betekent goedenacht in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "___! Sliep lekker!",
+      "blankIndex": 0,
+      "correctAnswer": "Goeienacht",
+      "wordBank": [
+        "Goeienacht",
+        "Oant aanst",
+        "Sjoch",
+        "Oant letter"
+      ],
+      "hint": "Een groet voor het slapengaan",
+      "explanation": "'Goeienacht' betekent goedenacht"
+    },
+    {
+      "type": "translation",
       "id": "trans-rev-2",
+      "question": "Oant letter",
+      "correctAnswer": "Tot later",
+      "acceptedAnswers": [
+        "Tot later"
+      ],
+      "hint": "Een afscheidsgroet voor een later moment",
+      "explanation": "'Oant letter' betekent tot later in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'kijk' in het Fries?",
+      "correctAnswer": "Sjoch",
+      "options": [
+        "Sjoch",
+        "Oant sjen",
+        "Goeienacht",
+        "Oant letter"
+      ],
+      "hint": "Een aanmoediging om te observeren",
+      "explanation": "'Sjoch' betekent kijk",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "Tot later",
+      "correctAnswer": "Oant letter",
+      "acceptedAnswers": [
+        "Oant letter"
+      ],
+      "hint": "Een afscheidsgroet voor een later moment",
+      "explanation": "'Oant letter' betekent tot later in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "___, ik sjoch dy aanst!",
+      "blankIndex": 0,
+      "correctAnswer": "Oant aanst",
+      "wordBank": [
+        "Oant aanst",
+        "Goeienacht",
+        "Sjoch",
+        "Oant moarn"
+      ],
+      "hint": "Een afscheidsgroet voor een korte tijd",
+      "explanation": "'Oant aanst' betekent tot straks"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
       "question": "Goeienacht",
       "correctAnswer": "Goedenacht",
       "acceptedAnswers": [
@@ -195,66 +246,15 @@
       "hint": "Een groet voor het slapengaan",
       "explanation": "'Goeienacht' betekent goedenacht in het Nederlands",
       "direction": "frysian-to-dutch"
-    },
-    {
-      "type": "translation",
-      "id": "trans-3",
-      "question": "Tot later",
-      "correctAnswer": "Oant letter",
-      "acceptedAnswers": [
-        "Oant letter"
-      ],
-      "hint": "Gebruik wanneer je elkaar weer ziet na enige tijd",
-      "explanation": "'Oant letter' betekent tot later in het Fries",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "fill-in-blank",
-      "id": "fill-3",
-      "sentence": "___ sjen! It wie in moaie dei.",
-      "blankIndex": 0,
-      "correctAnswer": "Oant",
-      "wordBank": [
-        "Oant",
-        "Goeienacht",
-        "Sjoch",
-        "Oant moarn"
-      ],
-      "hint": "Gebruik wanneer je afscheid neemt",
-      "explanation": "'Oant sjen' betekent tot ziens"
-    },
-    {
-      "type": "translation",
-      "id": "trans-4",
-      "question": "Tot straks",
-      "correctAnswer": "Oant aanst",
-      "acceptedAnswers": [
-        "Oant aanst"
-      ],
-      "hint": "Gebruik voor een korte afscheid",
-      "explanation": "'Oant aanst' betekent tot straks in het Fries",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "translation",
-      "id": "trans-rev-3",
-      "question": "Sjoch",
-      "correctAnswer": "Zie",
-      "acceptedAnswers": [
-        "Zie"
-      ],
-      "hint": "Gebruik voor kijken",
-      "explanation": "'Sjoch' betekent zie in het Nederlands",
-      "direction": "frysian-to-dutch"
     }
   ],
   "targetVocabulary": [
-    "oant-sjen-001",
-    "oant-moarn-002",
-    "oant-aanst-003",
-    "goeienacht-004",
-    "oant-letter-005",
-    "sjoch-006"
+    "oant-sjen",
+    "oant-moarn",
+    "oant-aanst",
+    "goeienacht",
+    "oant-letter",
+    "sjoch"
   ],
   "reviewVocabulary": []
 }

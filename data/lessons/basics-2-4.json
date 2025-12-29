@@ -11,245 +11,256 @@
     {
       "id": "intro-basics-2-4-0",
       "vocabulary": {
-        "id": "ik-haw-in-kat",
-        "frysian": "kat",
-        "dutch": "kat",
-        "partOfSpeech": "zelfstandig naamwoord",
-        "exampleSentence": "Ik haw in kat.",
-        "exampleTranslation": "Ik heb een kat."
+        "id": "ik-ûnthâld",
+        "frysian": "ik",
+        "dutch": "ik",
+        "partOfSpeech": "voornaamwoord",
+        "exampleSentence": "Ik haw in boek.",
+        "exampleTranslation": "Ik heb een boek."
       },
-      "exampleSentence": "Ik haw in kat.",
-      "exampleTranslation": "Ik heb een kat."
+      "exampleSentence": "Ik haw in boek.",
+      "exampleTranslation": "Ik heb een boek."
     },
     {
       "id": "intro-basics-2-4-1",
       "vocabulary": {
-        "id": "hy-is-blid",
-        "frysian": "blid",
-        "dutch": "blij",
-        "partOfSpeech": "bijvoeglijk naamwoord",
-        "exampleSentence": "Hy is blid.",
-        "exampleTranslation": "Hij is blij."
+        "id": "do-ûnthâld",
+        "frysian": "do",
+        "dutch": "jij",
+        "partOfSpeech": "voornaamwoord",
+        "exampleSentence": "Do bist thús.",
+        "exampleTranslation": "Jij bent thuis."
       },
-      "exampleSentence": "Hy is blid.",
-      "exampleTranslation": "Hij is blij."
+      "exampleSentence": "Do bist thús.",
+      "exampleTranslation": "Jij bent thuis."
     },
     {
       "id": "intro-basics-2-4-2",
       "vocabulary": {
-        "id": "sy-hat-in-hûs",
-        "frysian": "hûs",
-        "dutch": "huis",
-        "partOfSpeech": "zelfstandig naamwoord",
-        "exampleSentence": "Sy hat in hûs.",
-        "exampleTranslation": "Zij heeft een huis."
+        "id": "hy-ûnthâld",
+        "frysian": "hy",
+        "dutch": "hij",
+        "partOfSpeech": "voornaamwoord",
+        "exampleSentence": "Hy hat in auto.",
+        "exampleTranslation": "Hij heeft een auto."
       },
-      "exampleSentence": "Sy hat in hûs.",
-      "exampleTranslation": "Zij heeft een huis."
+      "exampleSentence": "Hy hat in auto.",
+      "exampleTranslation": "Hij heeft een auto."
     },
     {
       "id": "intro-basics-2-4-3",
       "vocabulary": {
-        "id": "wy-bin-wurch",
-        "frysian": "wurch",
-        "dutch": "moe",
-        "partOfSpeech": "bijvoeglijk naamwoord",
-        "exampleSentence": "Wy binne wurch.",
-        "exampleTranslation": "Wij zijn moe."
+        "id": "sy-ûnthâld",
+        "frysian": "sy",
+        "dutch": "zij",
+        "partOfSpeech": "voornaamwoord",
+        "exampleSentence": "Sy is moai.",
+        "exampleTranslation": "Zij is mooi."
       },
-      "exampleSentence": "Wy binne wurch.",
-      "exampleTranslation": "Wij zijn moe."
+      "exampleSentence": "Sy is moai.",
+      "exampleTranslation": "Zij is mooi."
     },
     {
       "id": "intro-basics-2-4-4",
       "vocabulary": {
-        "id": "jim-hawwe-in-auto",
-        "frysian": "auto",
-        "dutch": "auto",
-        "partOfSpeech": "zelfstandig naamwoord",
-        "exampleSentence": "Jim hawwe in auto.",
-        "exampleTranslation": "Jullie hebben een auto."
+        "id": "wy-ûnthâld",
+        "frysian": "wy",
+        "dutch": "wij",
+        "partOfSpeech": "voornaamwoord",
+        "exampleSentence": "Wy hawwe in kat.",
+        "exampleTranslation": "Wij hebben een kat."
       },
-      "exampleSentence": "Jim hawwe in auto.",
-      "exampleTranslation": "Jullie hebben een auto."
+      "exampleSentence": "Wy hawwe in kat.",
+      "exampleTranslation": "Wij hebben een kat."
     },
     {
       "id": "intro-basics-2-4-5",
       "vocabulary": {
-        "id": "sy-is-lyts",
-        "frysian": "lyts",
-        "dutch": "klein",
-        "partOfSpeech": "bijvoeglijk naamwoord",
-        "exampleSentence": "Sy is lyts.",
-        "exampleTranslation": "Zij is klein."
+        "id": "jim-ûnthâld",
+        "frysian": "jim",
+        "dutch": "jullie",
+        "partOfSpeech": "voornaamwoord",
+        "exampleSentence": "Jim binne hjir.",
+        "exampleTranslation": "Jullie zijn hier."
       },
-      "exampleSentence": "Sy is lyts.",
-      "exampleTranslation": "Zij is klein."
+      "exampleSentence": "Jim binne hjir.",
+      "exampleTranslation": "Jullie zijn hier."
     }
   ],
   "exercises": [
     {
       "type": "translation",
       "id": "trans-1",
-      "question": "De kat is blij",
-      "correctAnswer": "De kat is blid",
+      "question": "ik",
+      "correctAnswer": "ik",
       "acceptedAnswers": [
-        "De kat is blid"
+        "ik"
       ],
-      "hint": "Verander 'blij' naar Fries",
-      "explanation": "'Blij' vertaalt naar 'blid' in het Fries",
+      "hint": "Het is hetzelfde woord in het Fries.",
+      "explanation": "Het woord 'ik' is hetzelfde in het Fries en het Nederlands.",
       "direction": "dutch-to-frysian"
     },
     {
-      "type": "multiple-choice",
-      "id": "mc-1",
-      "question": "Hoe zeg je 'klein huis' in het Fries?",
-      "correctAnswer": "lyts hûs",
-      "options": [
-        "lyts hûs",
-        "kat",
-        "blid",
-        "hûs"
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "sy",
+      "correctAnswer": "zij",
+      "acceptedAnswers": [
+        "zij"
       ],
-      "hint": "Gebruik het Friese woord voor 'klein'",
-      "explanation": "'Klein' betekent 'lyts' in het Fries",
-      "direction": "dutch-to-frysian"
+      "hint": "Vrouwelijk persoonlijk voornaamwoord",
+      "explanation": "'Sy' betekent zij in het Nederlands.",
+      "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-1",
-      "sentence": "De kat is ___",
-      "blankIndex": 3,
-      "correctAnswer": "wurch",
+      "sentence": "___ binne hjir.",
+      "blankIndex": 0,
+      "correctAnswer": "Wy",
       "wordBank": [
-        "wurch",
-        "blid",
-        "lyts",
-        "hûs"
+        "Ik",
+        "Wy",
+        "Hy",
+        "Sy"
       ],
-      "hint": "De kat is moe",
-      "explanation": "'Moe' betekent 'wurch' in het Fries"
+      "hint": "Het onderwerp is meervoud.",
+      "explanation": "'Wy' betekent wij."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'hij' in het Fries?",
+      "correctAnswer": "hy",
+      "options": [
+        "hy",
+        "sy",
+        "ik",
+        "do"
+      ],
+      "hint": "Het begint met dezelfde letter als in het Nederlands.",
+      "explanation": "'Hy' betekent hij.",
+      "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-2",
-      "question": "It lyts hûs",
-      "correctAnswer": "Het kleine huis",
+      "question": "jij",
+      "correctAnswer": "do",
       "acceptedAnswers": [
-        "Het kleine huis"
+        "do"
       ],
-      "hint": "Vertaal 'lyts' en 'hûs'",
-      "explanation": "'Lyts' betekent 'klein' en 'hûs' betekent 'huis'",
-      "direction": "frysian-to-dutch"
-    },
-    {
-      "type": "translation",
-      "id": "trans-3",
-      "question": "De auto is blid",
-      "correctAnswer": "De auto is blij",
-      "acceptedAnswers": [
-        "De auto is blij"
-      ],
-      "hint": "Verander 'blid' naar Nederlands",
-      "explanation": "'Blid' betekent 'blij' in het Nederlands",
-      "direction": "frysian-to-dutch"
+      "hint": "Persoonlijk voornaamwoord tweede persoon.",
+      "explanation": "'Do' is de Friese vertaling van jij.",
+      "direction": "dutch-to-frysian"
     },
     {
       "type": "multiple-choice",
       "id": "mc-rev-1",
-      "question": "Wat betekent 'lyts'?",
-      "correctAnswer": "klein",
+      "question": "Wat betekent 'wy'?",
+      "correctAnswer": "wij",
       "options": [
-        "klein",
-        "huis",
-        "auto",
-        "kat"
+        "hij",
+        "zij",
+        "wij",
+        "jij"
       ],
-      "hint": "Het is een beschrijvend woord",
-      "explanation": "'Lyts' betekent 'klein' in het Nederlands",
+      "hint": "Het is een meervoudige vorm.",
+      "explanation": "'Wy' betekent wij in het Nederlands.",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-2",
-      "sentence": "De ___ is lyts",
-      "blankIndex": 1,
-      "correctAnswer": "kat",
+      "sentence": "___ is hjir.",
+      "blankIndex": 0,
+      "correctAnswer": "Hy",
       "wordBank": [
-        "kat",
-        "auto",
-        "hûs",
-        "wurch"
+        "Hy",
+        "Sy",
+        "Wy",
+        "Ik"
       ],
-      "hint": "Een klein dier",
-      "explanation": "'De kat is lyts' betekent 'De kat is klein'"
-    },
-    {
-      "type": "translation",
-      "id": "trans-rev-1",
-      "question": "Lyts hûs",
-      "correctAnswer": "Klein huis",
-      "acceptedAnswers": [
-        "Klein huis"
-      ],
-      "hint": "Verander 'lyts' en 'hûs' naar het Nederlands",
-      "explanation": "'Lyts' betekent 'klein' en 'hûs' betekent 'huis'",
-      "direction": "frysian-to-dutch"
+      "hint": "Het onderwerp is mannelijk.",
+      "explanation": "'Hy' betekent hij."
     },
     {
       "type": "sentence-build",
       "id": "build-1",
-      "prompt": "Zeg 'De kat is blij' in het Fries",
+      "prompt": "Zeg 'Hij en zij' in het Fries",
       "correctOrder": [
-        "De",
-        "kat",
-        "is",
-        "blid"
+        "Hy",
+        "en",
+        "sy"
       ],
       "distractorWords": [
-        "lyts",
-        "auto"
+        "ik",
+        "do"
       ],
-      "hint": "Begin met 'De kat'"
+      "hint": "Begin met het mannelijke voornaamwoord."
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "zij",
+      "correctAnswer": "sy",
+      "acceptedAnswers": [
+        "sy"
+      ],
+      "hint": "Vrouwelijk persoonlijk voornaamwoord.",
+      "explanation": "'Sy' is de Friese vertaling van zij.",
+      "direction": "dutch-to-frysian"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-3",
-      "sentence": "De auto is ___",
-      "blankIndex": 3,
-      "correctAnswer": "lyts",
+      "sentence": "Jim en ___ binne der.",
+      "blankIndex": 1,
+      "correctAnswer": "wy",
       "wordBank": [
-        "lyts",
-        "wurch",
-        "kat",
-        "blid"
+        "hy",
+        "wy",
+        "sy",
+        "ik"
       ],
-      "hint": "Het beschrijft de grootte",
-      "explanation": "'De auto is lyts' betekent 'De auto is klein'"
+      "hint": "Het onderwerp is meervoud.",
+      "explanation": "'Wy' betekent wij."
     },
     {
       "type": "multiple-choice",
       "id": "mc-2",
-      "question": "Hoe zeg je 'De kat is moe' in het Fries?",
-      "correctAnswer": "De kat is wurch",
+      "question": "Hoe zeg je 'wij' in het Fries?",
+      "correctAnswer": "wy",
       "options": [
-        "De kat is wurch",
-        "kat",
-        "blid",
-        "hûs"
+        "ik",
+        "do",
+        "wy",
+        "sy"
       ],
-      "hint": "Gebruik het Friese woord voor 'moe'",
-      "explanation": "'Moe' betekent 'wurch' in het Fries",
+      "hint": "Het begint met een 'w'.",
+      "explanation": "'Wy' betekent wij.",
       "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "jim",
+      "correctAnswer": "jullie",
+      "acceptedAnswers": [
+        "jullie"
+      ],
+      "hint": "Meervoudige aanspreekvorm.",
+      "explanation": "'Jim' betekent jullie in het Nederlands.",
+      "direction": "frysian-to-dutch"
     }
   ],
   "targetVocabulary": [
-    "ik-haw-in-kat",
-    "hy-is-blid",
-    "sy-hat-in-hûs",
-    "wy-bin-wurch",
-    "jim-hawwe-in-auto",
-    "sy-is-lyts"
+    "ik-ûnthâld",
+    "do-ûnthâld",
+    "hy-ûnthâld",
+    "sy-ûnthâld",
+    "wy-ûnthâld",
+    "jim-ûnthâld"
   ],
   "reviewVocabulary": []
 }

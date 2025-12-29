@@ -15,50 +15,50 @@
         "frysian": "Goeie",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Goeie, hoe giet it?",
+        "exampleSentence": "Goeie, hoe is it?",
         "exampleTranslation": "Hallo, hoe gaat het?"
       },
-      "exampleSentence": "Goeie, hoe giet it?",
+      "exampleSentence": "Goeie, hoe is it?",
       "exampleTranslation": "Hallo, hoe gaat het?"
     },
     {
       "id": "intro-basics-1-1-1",
       "vocabulary": {
+        "id": "goeiemoarn",
+        "frysian": "Goeiemoarn",
+        "dutch": "Goedemorgen",
+        "partOfSpeech": "tussenwerpsel",
+        "exampleSentence": "Goeiemoarn, alles goed?",
+        "exampleTranslation": "Goedemorgen, alles goed?"
+      },
+      "exampleSentence": "Goeiemoarn, alles goed?",
+      "exampleTranslation": "Goedemorgen, alles goed?"
+    },
+    {
+      "id": "intro-basics-1-1-2",
+      "vocabulary": {
         "id": "goeiemiddei",
         "frysian": "Goeiemiddei",
         "dutch": "Goedemiddag",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Goeiemiddei, alles goed?",
-        "exampleTranslation": "Goedemiddag, alles goed?"
+        "exampleSentence": "Goeiemiddei, freon.",
+        "exampleTranslation": "Goedemiddag, vriend."
       },
-      "exampleSentence": "Goeiemiddei, alles goed?",
-      "exampleTranslation": "Goedemiddag, alles goed?"
+      "exampleSentence": "Goeiemiddei, freon.",
+      "exampleTranslation": "Goedemiddag, vriend."
     },
     {
-      "id": "intro-basics-1-1-2",
+      "id": "intro-basics-1-1-3",
       "vocabulary": {
         "id": "goeiejun",
         "frysian": "Goeiejûn",
         "dutch": "Goedenavond",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Goeiejûn, hoe is it?",
-        "exampleTranslation": "Goedenavond, hoe is het?"
+        "exampleSentence": "Goeiejûn, wolkom thús.",
+        "exampleTranslation": "Goedenavond, welkom thuis."
       },
-      "exampleSentence": "Goeiejûn, hoe is it?",
-      "exampleTranslation": "Goedenavond, hoe is het?"
-    },
-    {
-      "id": "intro-basics-1-1-3",
-      "vocabulary": {
-        "id": "goeiemoarn",
-        "frysian": "Goeiemoarn",
-        "dutch": "Goedemorgen",
-        "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Goeiemoarn, moaie dei hjoed.",
-        "exampleTranslation": "Goedemorgen, mooie dag vandaag."
-      },
-      "exampleSentence": "Goeiemoarn, moaie dei hjoed.",
-      "exampleTranslation": "Goedemorgen, mooie dag vandaag."
+      "exampleSentence": "Goeiejûn, wolkom thús.",
+      "exampleTranslation": "Goedenavond, welkom thuis."
     },
     {
       "id": "intro-basics-1-1-4",
@@ -67,11 +67,11 @@
         "frysian": "Hoi",
         "dutch": "Hoi",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Hoi, alles goed?",
-        "exampleTranslation": "Hoi, alles goed?"
+        "exampleSentence": "Hoi, wat dochst?",
+        "exampleTranslation": "Hoi, wat doe je?"
       },
-      "exampleSentence": "Hoi, alles goed?",
-      "exampleTranslation": "Hoi, alles goed?"
+      "exampleSentence": "Hoi, wat dochst?",
+      "exampleTranslation": "Hoi, wat doe je?"
     },
     {
       "id": "intro-basics-1-1-5",
@@ -80,49 +80,50 @@
         "frysian": "Hallo",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Hallo, hoe is it mei dy?",
-        "exampleTranslation": "Hallo, hoe is het met jou?"
+        "exampleSentence": "Hallo, hoe giet it?",
+        "exampleTranslation": "Hallo, hoe gaat het?"
       },
-      "exampleSentence": "Hallo, hoe is it mei dy?",
-      "exampleTranslation": "Hallo, hoe is het met jou?"
+      "exampleSentence": "Hallo, hoe giet it?",
+      "exampleTranslation": "Hallo, hoe gaat het?"
     }
   ],
   "exercises": [
     {
       "type": "translation",
       "id": "trans-1",
-      "question": "goedemiddag",
-      "correctAnswer": "Goeiemiddei",
+      "question": "hallo",
+      "correctAnswer": "Goeie",
       "acceptedAnswers": [
-        "Goeiemiddei"
+        "Goeie"
       ],
-      "hint": "Een begroeting in de middag",
-      "explanation": "'Goeiemiddei' betekent goedemiddag in het Fries",
+      "hint": "Informele begroeting",
+      "explanation": "'Goeie' is de meest gebruikte begroeting",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-rev-1",
-      "question": "Goeiejûn",
-      "correctAnswer": "goedenavond",
+      "question": "Goeie",
+      "correctAnswer": "hallo",
       "acceptedAnswers": [
-        "goedenavond"
+        "hallo",
+        "dag"
       ],
-      "hint": "Een avondgroet",
-      "explanation": "'Goeiejûn' betekent goedenavond in het Nederlands",
+      "hint": "Een begroeting",
+      "explanation": "'Goeie' betekent hallo in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-1",
-      "sentence": "___, hoe is it mei dy?",
+      "sentence": "___! Hoe giet it?",
       "blankIndex": 0,
       "correctAnswer": "Goeie",
       "wordBank": [
         "Goeie",
         "Goeiemoarn",
-        "Goeiemiddei",
-        "Goeiejûn"
+        "Goeiejûn",
+        "Hoi"
       ],
       "hint": "Een algemene begroeting",
       "explanation": "'Goeie' betekent hallo"
@@ -130,28 +131,28 @@
     {
       "type": "multiple-choice",
       "id": "mc-1",
-      "question": "Hoe zeg je 'goedenavond' in het Fries?",
-      "correctAnswer": "Goeiejûn",
+      "question": "Hoe zeg je 'goedemiddag' in het Fries?",
+      "correctAnswer": "Goeiemiddei",
       "options": [
         "Goeie",
+        "Goeiemiddei",
         "Goeiemoarn",
-        "Goeiejûn",
-        "Goeiemiddei"
+        "Goeiejûn"
       ],
-      "hint": "Het is een avondbegroeting",
-      "explanation": "'Goeiejûn' betekent goedenavond",
+      "hint": "Het is een middagbegroeting",
+      "explanation": "'Goeiemiddei' betekent goedemiddag",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-2",
-      "question": "goeiemorgen",
+      "question": "goedemorgen",
       "correctAnswer": "Goeiemoarn",
       "acceptedAnswers": [
         "Goeiemoarn"
       ],
-      "hint": "Een begroeting in de ochtend",
-      "explanation": "'Goeiemoarn' betekent goedemorgen in het Fries",
+      "hint": "Ochtendbegroeting",
+      "explanation": "'Goeiemoarn' wordt gebruikt in de ochtend",
       "direction": "dutch-to-frysian"
     },
     {
@@ -162,50 +163,50 @@
       "acceptedAnswers": [
         "goedemiddag"
       ],
-      "hint": "Een middaggroet",
+      "hint": "Een middagbegroeting",
       "explanation": "'Goeiemiddei' betekent goedemiddag in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-2",
-      "sentence": "___, it is moarn!",
+      "sentence": "___, hoe giet mei dy?",
       "blankIndex": 0,
-      "correctAnswer": "Goeiemoarn",
+      "correctAnswer": "Hoi",
       "wordBank": [
         "Goeie",
-        "Goeiemoarn",
+        "Hoi",
         "Goeiemiddei",
         "Goeiejûn"
       ],
-      "hint": "Een ochtendbegroeting",
-      "explanation": "'Goeiemoarn' betekent goedemorgen"
+      "hint": "Een informele begroeting",
+      "explanation": "'Hoi' is een informele manier van begroeten"
     },
     {
       "type": "multiple-choice",
       "id": "mc-2",
-      "question": "Hoe zeg je 'hallo' in het Fries?",
-      "correctAnswer": "Goeie",
+      "question": "Hoe zeg je 'goedenavond' in het Fries?",
+      "correctAnswer": "Goeiejûn",
       "options": [
         "Goeie",
+        "Goeiemiddei",
         "Goeiemoarn",
-        "Goeiejûn",
-        "Goeiemiddei"
+        "Goeiejûn"
       ],
-      "hint": "Een algemene begroeting",
-      "explanation": "'Goeie' betekent hallo",
+      "hint": "Het is een avondbegroeting",
+      "explanation": "'Goeiejûn' betekent goedenavond",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-3",
-      "question": "hoi",
-      "correctAnswer": "Hoi",
+      "question": "goedenavond",
+      "correctAnswer": "Goeiejûn",
       "acceptedAnswers": [
-        "Hoi"
+        "Goeiejûn"
       ],
-      "hint": "Een informele begroeting",
-      "explanation": "'Hoi' is hetzelfde in het Fries",
+      "hint": "Avondbegroeting",
+      "explanation": "'Goeiejûn' wordt gebruikt in de avond",
       "direction": "dutch-to-frysian"
     },
     {
@@ -216,43 +217,31 @@
       "acceptedAnswers": [
         "goedemorgen"
       ],
-      "hint": "Een ochtendgroet",
+      "hint": "Een ochtendbegroeting",
       "explanation": "'Goeiemoarn' betekent goedemorgen in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-3",
-      "sentence": "___, hoe let is it?",
+      "sentence": "___! Wat in moaie dei!",
       "blankIndex": 0,
-      "correctAnswer": "Goeiemiddei",
+      "correctAnswer": "Goeiemoarn",
       "wordBank": [
-        "Goeie",
-        "Goeiemoarn",
         "Goeiemiddei",
-        "Goeiejûn"
+        "Goeiejûn",
+        "Goeiemoarn",
+        "Hoi"
       ],
-      "hint": "Een middagbegroeting",
-      "explanation": "'Goeiemiddei' betekent goedemiddag"
-    },
-    {
-      "type": "translation",
-      "id": "trans-4",
-      "question": "goedenavond",
-      "correctAnswer": "Goeiejûn",
-      "acceptedAnswers": [
-        "Goeiejûn"
-      ],
-      "hint": "Een begroeting in de avond",
-      "explanation": "'Goeiejûn' betekent goedenavond in het Fries",
-      "direction": "dutch-to-frysian"
+      "hint": "Een ochtendbegroeting",
+      "explanation": "'Goeiemoarn' betekent goedemorgen"
     }
   ],
   "targetVocabulary": [
     "goeie",
+    "goeiemoarn",
     "goeiemiddei",
     "goeiejun",
-    "goeiemoarn",
     "hoi",
     "hallo"
   ],

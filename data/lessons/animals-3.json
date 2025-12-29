@@ -1,0 +1,267 @@
+{
+  "id": "animals-3",
+  "skillId": "animals",
+  "lessonNumber": 3,
+  "title": "Dieren - Les 3",
+  "description": "Wilde dieren: vos (foks), hert (hart), wolf (wolf), beer (bear), uil (ûle).",
+  "topic": "wilde dieren",
+  "difficulty": 1,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-animals-3-0",
+      "vocabulary": {
+        "id": "foks",
+        "frysian": "foks",
+        "dutch": "vos",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De foks is slûchslim.",
+        "exampleTranslation": "De vos is sluw."
+      },
+      "exampleSentence": "De foks is slûchslim.",
+      "exampleTranslation": "De vos is sluw."
+    },
+    {
+      "id": "intro-animals-3-1",
+      "vocabulary": {
+        "id": "hart",
+        "frysian": "hart",
+        "dutch": "hert",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It hart springt heech.",
+        "exampleTranslation": "Het hert springt hoog."
+      },
+      "exampleSentence": "It hart springt heech.",
+      "exampleTranslation": "Het hert springt hoog."
+    },
+    {
+      "id": "intro-animals-3-2",
+      "vocabulary": {
+        "id": "wolf",
+        "frysian": "wolf",
+        "dutch": "wolf",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De wolf huilt nachts.",
+        "exampleTranslation": "De wolf huilt 's nachts."
+      },
+      "exampleSentence": "De wolf huilt nachts.",
+      "exampleTranslation": "De wolf huilt 's nachts."
+    },
+    {
+      "id": "intro-animals-3-3",
+      "vocabulary": {
+        "id": "bear",
+        "frysian": "bear",
+        "dutch": "beer",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "In bear is grut.",
+        "exampleTranslation": "Een beer is groot."
+      },
+      "exampleSentence": "In bear is grut.",
+      "exampleTranslation": "Een beer is groot."
+    },
+    {
+      "id": "intro-animals-3-4",
+      "vocabulary": {
+        "id": "ule",
+        "frysian": "ûle",
+        "dutch": "uil",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De ûle sjocht alles.",
+        "exampleTranslation": "De uil ziet alles."
+      },
+      "exampleSentence": "De ûle sjocht alles.",
+      "exampleTranslation": "De uil ziet alles."
+    },
+    {
+      "id": "intro-animals-3-5",
+      "vocabulary": {
+        "id": "wyld",
+        "frysian": "wyld",
+        "dutch": "wild",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It bist is wyld.",
+        "exampleTranslation": "Het dier is wild."
+      },
+      "exampleSentence": "It bist is wyld.",
+      "exampleTranslation": "Het dier is wild."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "vos",
+      "correctAnswer": "foks",
+      "acceptedAnswers": [
+        "foks"
+      ],
+      "hint": "Een roodharig dier",
+      "explanation": "'Foks' betekent vos in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'beer' in het Fries?",
+      "correctAnswer": "bear",
+      "options": [
+        "ûle",
+        "foks",
+        "bear",
+        "wolf"
+      ],
+      "hint": "Het is geen vogel of roofdier",
+      "explanation": "'Bear' betekent beer in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ is wyld.",
+      "blankIndex": 1,
+      "correctAnswer": "bear",
+      "wordBank": [
+        "foks",
+        "bear",
+        "ûle",
+        "wolf"
+      ],
+      "hint": "Het is een groot en sterk dier",
+      "explanation": "De zin betekent 'De beer is wild.'"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "wolf",
+      "correctAnswer": "wolf",
+      "acceptedAnswers": [
+        "wolf"
+      ],
+      "hint": "Een dier dat in roedels leeft",
+      "explanation": "'Wolf' betekent hetzelfde in het Fries",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "uil",
+      "correctAnswer": "ûle",
+      "acceptedAnswers": [
+        "ûle"
+      ],
+      "hint": "Een nachtdier met grote ogen",
+      "explanation": "'Ûle' betekent uil in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'hart'?",
+      "correctAnswer": "hert",
+      "options": [
+        "vos",
+        "uil",
+        "hert",
+        "beer"
+      ],
+      "hint": "Een dier met gewei",
+      "explanation": "'Hart' is Fries voor hert",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ is in bosk.",
+      "blankIndex": 1,
+      "correctAnswer": "foks",
+      "wordBank": [
+        "foks",
+        "ûle",
+        "wolf",
+        "bear"
+      ],
+      "hint": "Het dier heeft een rode vacht",
+      "explanation": "De zin betekent 'De vos is in het bos.'"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "bear",
+      "correctAnswer": "beer",
+      "acceptedAnswers": [
+        "beer"
+      ],
+      "hint": "Een groot bruin dier",
+      "explanation": "'Bear' betekent beer in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'De vos is wild' in het Fries",
+      "correctOrder": [
+        "De",
+        "foks",
+        "is",
+        "wyld"
+      ],
+      "distractorWords": [
+        "ûle",
+        "hart"
+      ],
+      "hint": "Begin met 'De foks...'"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "hert",
+      "correctAnswer": "hart",
+      "acceptedAnswers": [
+        "hart"
+      ],
+      "hint": "Een dier met een gewei",
+      "explanation": "'Hart' betekent hert in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'wild' in het Fries?",
+      "correctAnswer": "wyld",
+      "options": [
+        "wyld",
+        "bear",
+        "wolf",
+        "ûle"
+      ],
+      "hint": "Het klinkt als het Engelse woord",
+      "explanation": "'Wyld' betekent wild in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "In ___ is yn it bosk.",
+      "blankIndex": 1,
+      "correctAnswer": "wolf",
+      "wordBank": [
+        "bear",
+        "wolf",
+        "ûle",
+        "foks"
+      ],
+      "hint": "Een dier dat in roedels leeft",
+      "explanation": "De zin betekent 'Een wolf is in het bos.'"
+    }
+  ],
+  "targetVocabulary": [
+    "foks",
+    "hart",
+    "wolf",
+    "bear",
+    "ule",
+    "wyld"
+  ],
+  "reviewVocabulary": []
+}

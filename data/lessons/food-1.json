@@ -1,0 +1,260 @@
+{
+  "id": "food-1",
+  "skillId": "food",
+  "lessonNumber": 1,
+  "title": "Eten & Drinken - Les 1",
+  "description": "Basis eten: brood (bôle), kaas (tsiis), boter (bûter), ei (aai), vlees (fleis).",
+  "topic": "basis eten",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-food-1-0",
+      "vocabulary": {
+        "id": "bôle",
+        "frysian": "bôle",
+        "dutch": "brood",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik yt bôle.",
+        "exampleTranslation": "Ik eet brood."
+      },
+      "exampleSentence": "Ik yt bôle.",
+      "exampleTranslation": "Ik eet brood."
+    },
+    {
+      "id": "intro-food-1-1",
+      "vocabulary": {
+        "id": "tsiis",
+        "frysian": "tsiis",
+        "dutch": "kaas",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De tsiis is lekker.",
+        "exampleTranslation": "De kaas is lekker."
+      },
+      "exampleSentence": "De tsiis is lekker.",
+      "exampleTranslation": "De kaas is lekker."
+    },
+    {
+      "id": "intro-food-1-2",
+      "vocabulary": {
+        "id": "bûter",
+        "frysian": "bûter",
+        "dutch": "boter",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De bûter is sêft.",
+        "exampleTranslation": "De boter is zacht."
+      },
+      "exampleSentence": "De bûter is sêft.",
+      "exampleTranslation": "De boter is zacht."
+    },
+    {
+      "id": "intro-food-1-3",
+      "vocabulary": {
+        "id": "aai",
+        "frysian": "aai",
+        "dutch": "ei",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Ik ha in aai.",
+        "exampleTranslation": "Ik heb een ei."
+      },
+      "exampleSentence": "Ik ha in aai.",
+      "exampleTranslation": "Ik heb een ei."
+    },
+    {
+      "id": "intro-food-1-4",
+      "vocabulary": {
+        "id": "fleis",
+        "frysian": "fleis",
+        "dutch": "vlees",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Hy yt fleis.",
+        "exampleTranslation": "Hij eet vlees."
+      },
+      "exampleSentence": "Hy yt fleis.",
+      "exampleTranslation": "Hij eet vlees."
+    },
+    {
+      "id": "intro-food-1-5",
+      "vocabulary": {
+        "id": "drinke",
+        "frysian": "drinke",
+        "dutch": "drinken",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik wol drinke.",
+        "exampleTranslation": "Ik wil drinken."
+      },
+      "exampleSentence": "Ik wol drinke.",
+      "exampleTranslation": "Ik wil drinken."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "brood",
+      "correctAnswer": "bôle",
+      "acceptedAnswers": [
+        "bôle"
+      ],
+      "hint": "Een basisvoedsel gemaakt van meel",
+      "explanation": "'Bôle' betekent brood in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "Ik yt ___ mei tsiis",
+      "blankIndex": 2,
+      "correctAnswer": "bôle",
+      "wordBank": [
+        "bôle",
+        "aai",
+        "bûter",
+        "tsiis"
+      ],
+      "hint": "Dit wordt vaak gegeten met kaas",
+      "explanation": "'Bôle' betekent brood"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "tsiis",
+      "correctAnswer": "kaas",
+      "acceptedAnswers": [
+        "kaas"
+      ],
+      "hint": "Een zuivelproduct",
+      "explanation": "'Tsiis' betekent kaas in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'boter' in het Fries?",
+      "correctAnswer": "bûter",
+      "options": [
+        "bôle",
+        "bûter",
+        "tsiis",
+        "fleis"
+      ],
+      "hint": "Het is een smeerbaar zuivelproduct",
+      "explanation": "'Bûter' betekent boter",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "ei",
+      "correctAnswer": "aai",
+      "acceptedAnswers": [
+        "aai"
+      ],
+      "hint": "Komt van een vogel",
+      "explanation": "'Aai' betekent ei in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Hy hâldt fan ___",
+      "blankIndex": 3,
+      "correctAnswer": "fleis",
+      "wordBank": [
+        "bûter",
+        "tsiis",
+        "fleis",
+        "bôle"
+      ],
+      "hint": "Iets dat van dieren komt",
+      "explanation": "'Fleis' betekent vlees"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "vlees",
+      "correctAnswer": "fleis",
+      "acceptedAnswers": [
+        "fleis"
+      ],
+      "hint": "Wordt vaak gegrild of gebakken",
+      "explanation": "'Fleis' betekent vlees in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'drinken' in het Fries?",
+      "correctAnswer": "drinke",
+      "options": [
+        "aai",
+        "bôle",
+        "drinke",
+        "tsiis"
+      ],
+      "hint": "Het is een werkwoord",
+      "explanation": "'Drinke' betekent drinken",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "bûter",
+      "correctAnswer": "boter",
+      "acceptedAnswers": [
+        "boter"
+      ],
+      "hint": "Een smeerbaar product",
+      "explanation": "'Bûter' betekent boter in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Wy sille ___",
+      "blankIndex": 2,
+      "correctAnswer": "drinke",
+      "wordBank": [
+        "drinke",
+        "aai",
+        "bôle",
+        "tsiis"
+      ],
+      "hint": "Een activiteit die je doet als je dorst hebt",
+      "explanation": "'Drinke' betekent drinken"
+    },
+    {
+      "type": "translation",
+      "id": "trans-4",
+      "question": "kaas",
+      "correctAnswer": "tsiis",
+      "acceptedAnswers": [
+        "tsiis"
+      ],
+      "hint": "Gemaakt van melk",
+      "explanation": "'Tsiis' betekent kaas in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "aai",
+      "correctAnswer": "ei",
+      "acceptedAnswers": [
+        "ei"
+      ],
+      "hint": "Komt van een kip",
+      "explanation": "'Aai' betekent ei in het Nederlands",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "bôle",
+    "tsiis",
+    "bûter",
+    "aai",
+    "fleis",
+    "drinke"
+  ],
+  "reviewVocabulary": []
+}

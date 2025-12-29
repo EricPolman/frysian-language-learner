@@ -15,11 +15,11 @@
         "frysian": "Asjebleaft",
         "dutch": "Alsjeblieft",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Asjebleaft, in kopke tee.",
-        "exampleTranslation": "Alsjeblieft, een kopje thee."
+        "exampleSentence": "Hjir is dyn kofje, asjebleaft.",
+        "exampleTranslation": "Hier is je koffie, alsjeblieft."
       },
-      "exampleSentence": "Asjebleaft, in kopke tee.",
-      "exampleTranslation": "Alsjeblieft, een kopje thee."
+      "exampleSentence": "Hjir is dyn kofje, asjebleaft.",
+      "exampleTranslation": "Hier is je koffie, alsjeblieft."
     },
     {
       "id": "intro-basics-1-4-1",
@@ -28,11 +28,11 @@
         "frysian": "Asjeblyft",
         "dutch": "Alstublieft",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Asjeblyft, jo boek.",
-        "exampleTranslation": "Alstublieft, uw boek."
+        "exampleSentence": "Hjir is jo tee, asjeblyft.",
+        "exampleTranslation": "Hier is uw thee, alstublieft."
       },
-      "exampleSentence": "Asjeblyft, jo boek.",
-      "exampleTranslation": "Alstublieft, uw boek."
+      "exampleSentence": "Hjir is jo tee, asjeblyft.",
+      "exampleTranslation": "Hier is uw thee, alstublieft."
     },
     {
       "id": "intro-basics-1-4-2",
@@ -40,12 +40,12 @@
         "id": "sorry",
         "frysian": "Sorry",
         "dutch": "Sorry",
-        "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Sorry, ik haw gjin tiid.",
-        "exampleTranslation": "Sorry, ik heb geen tijd."
+        "partOfSpeech": "uitdrukking",
+        "exampleSentence": "Sorry, ik haw it fergetten.",
+        "exampleTranslation": "Sorry, ik ben het vergeten."
       },
-      "exampleSentence": "Sorry, ik haw gjin tiid.",
-      "exampleTranslation": "Sorry, ik heb geen tijd."
+      "exampleSentence": "Sorry, ik haw it fergetten.",
+      "exampleTranslation": "Sorry, ik ben het vergeten."
     },
     {
       "id": "intro-basics-1-4-3",
@@ -54,11 +54,11 @@
         "frysian": "It spyt my",
         "dutch": "Het spijt me",
         "partOfSpeech": "uitdrukking",
-        "exampleSentence": "It spyt my, ik koe net komme.",
-        "exampleTranslation": "Het spijt me, ik kon niet komen."
+        "exampleSentence": "It spyt my dat ik let bin.",
+        "exampleTranslation": "Het spijt me dat ik te laat ben."
       },
-      "exampleSentence": "It spyt my, ik koe net komme.",
-      "exampleTranslation": "Het spijt me, ik kon niet komen."
+      "exampleSentence": "It spyt my dat ik let bin.",
+      "exampleTranslation": "Het spijt me dat ik te laat ben."
     },
     {
       "id": "intro-basics-1-4-4",
@@ -67,11 +67,11 @@
         "frysian": "Ferskûldigje",
         "dutch": "Verontschuldigen",
         "partOfSpeech": "werkwoord",
-        "exampleSentence": "Ferskûldigje my, kin ik lâns?",
-        "exampleTranslation": "Pardon, mag ik erlangs?"
+        "exampleSentence": "Ferskûldigje my, kin ik deryn komme?",
+        "exampleTranslation": "Neem me niet kwalijk, mag ik binnenkomen?"
       },
-      "exampleSentence": "Ferskûldigje my, kin ik lâns?",
-      "exampleTranslation": "Pardon, mag ik erlangs?"
+      "exampleSentence": "Ferskûldigje my, kin ik deryn komme?",
+      "exampleTranslation": "Neem me niet kwalijk, mag ik binnenkomen?"
     },
     {
       "id": "intro-basics-1-4-5",
@@ -80,11 +80,11 @@
         "frysian": "Pardon",
         "dutch": "Pardon",
         "partOfSpeech": "tussenwerpsel",
-        "exampleSentence": "Pardon, is dit plak frij?",
-        "exampleTranslation": "Pardon, is deze plek vrij?"
+        "exampleSentence": "Pardon, kinne jo my helpe?",
+        "exampleTranslation": "Pardon, kunt u mij helpen?"
       },
-      "exampleSentence": "Pardon, is dit plak frij?",
-      "exampleTranslation": "Pardon, is deze plek vrij?"
+      "exampleSentence": "Pardon, kinne jo my helpe?",
+      "exampleTranslation": "Pardon, kunt u mij helpen?"
     }
   ],
   "exercises": [
@@ -96,151 +96,151 @@
       "acceptedAnswers": [
         "Asjebleaft"
       ],
-      "hint": "Gebruik het informele woord",
-      "explanation": "'Asjebleaft' is de informele manier om alsjeblieft te zeggen",
+      "hint": "Gebruik dit als je iets geeft",
+      "explanation": "'Asjebleaft' betekent 'alsjeblieft' in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-rev-1",
-      "question": "Sorry",
-      "correctAnswer": "Sorry",
+      "question": "It spyt my",
+      "correctAnswer": "Het spijt me",
       "acceptedAnswers": [
-        "Sorry"
+        "Het spijt me"
       ],
-      "hint": "Hetzelfde woord in beide talen",
-      "explanation": "'Sorry' is zowel in het Fries als in het Nederlands hetzelfde",
+      "hint": "Je gebruikt dit als je ergens spijt van hebt",
+      "explanation": "'It spyt my' betekent 'het spijt me' in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-1",
-      "sentence": "___, kin ik wat freegje?",
+      "sentence": "___, kin ik helpe?",
       "blankIndex": 0,
-      "correctAnswer": "Pardon",
+      "correctAnswer": "Asjebleaft",
       "wordBank": [
+        "Asjebleaft",
+        "Sorry",
+        "Pardon",
+        "Asjeblyft"
+      ],
+      "hint": "Je zegt dit als je iets aanbiedt",
+      "explanation": "'Asjebleaft' wordt gebruikt bij het aanbieden van hulp"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'pardon' in het Fries?",
+      "correctAnswer": "Pardon",
+      "options": [
         "Asjebleaft",
         "Pardon",
         "Sorry",
         "It spyt my"
       ],
-      "hint": "Gebruik een beleefd afleidingswoord",
-      "explanation": "'Pardon' wordt gebruikt om beleefd de aandacht te trekken"
-    },
-    {
-      "type": "multiple-choice",
-      "id": "mc-1",
-      "question": "Hoe zeg je 'het spijt me' in het Fries?",
-      "correctAnswer": "It spyt my",
-      "options": [
-        "It spyt my",
-        "Pardon",
-        "Ferskûldigje",
-        "Asjebleaft"
-      ],
-      "hint": "Het is een hele zin",
-      "explanation": "'It spyt my' betekent het spijt me",
-      "direction": "dutch-to-frysian"
-    },
-    {
-      "type": "translation",
-      "id": "trans-2",
-      "question": "Pardon",
-      "correctAnswer": "Pardon",
-      "acceptedAnswers": [
-        "Pardon"
-      ],
-      "hint": "Hetzelfde woord in beide talen",
-      "explanation": "'Pardon' is hetzelfde in het Fries en Nederlands",
+      "hint": "Het woord lijkt op het Nederlands",
+      "explanation": "'Pardon' blijft hetzelfde in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "multiple-choice",
       "id": "mc-rev-1",
       "question": "Wat betekent 'Asjebleaft'?",
-      "correctAnswer": "Alsjeblieft",
+      "correctAnswer": "alsjeblieft",
       "options": [
-        "Alsjeblieft",
-        "Alstublieft",
-        "Sorry",
-        "Pardon"
+        "sorry",
+        "alsjeblieft",
+        "verontschuldigen",
+        "pardon"
       ],
-      "hint": "Gebruik het informele woord",
-      "explanation": "'Asjebleaft' betekent alsjeblieft",
+      "hint": "Je zegt dit als je iets geeft",
+      "explanation": "'Asjebleaft' betekent 'alsjeblieft' in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
-      "type": "fill-in-blank",
-      "id": "fill-2",
-      "sentence": "It spyt my, ___ foar de flaters.",
-      "blankIndex": 1,
-      "correctAnswer": "ferskûldigje",
-      "wordBank": [
-        "ferskûldigje",
-        "asjebleaft",
-        "sorry",
-        "pardon"
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Sorry, het spijt me' in het Fries",
+      "correctOrder": [
+        "Sorry",
+        "It",
+        "spyt",
+        "my"
       ],
-      "hint": "Betekent verontschuldigen",
-      "explanation": "'Ferskûldigje' betekent verontschuldigen"
+      "distractorWords": [
+        "Asjebleaft",
+        "Asjeblyft"
+      ],
+      "hint": "Begin met een korte verontschuldiging"
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
-      "question": "It spyt my",
-      "correctAnswer": "Het spijt me",
-      "acceptedAnswers": [
-        "Het spijt me"
-      ],
-      "hint": "Een uitdrukking van spijt",
-      "explanation": "'It spyt my' betekent het spijt me in het Nederlands",
-      "direction": "frysian-to-dutch"
-    },
-    {
-      "type": "fill-in-blank",
-      "id": "fill-3",
-      "sentence": "___, kinne jo my helpe?",
-      "blankIndex": 0,
-      "correctAnswer": "Asjeblyft",
-      "wordBank": [
-        "Asjeblyft",
-        "It spyt my",
-        "Sorry",
-        "Pardon"
-      ],
-      "hint": "Gebruik de formele versie",
-      "explanation": "'Asjeblyft' is de formele manier om alstublieft te zeggen"
-    },
-    {
-      "type": "multiple-choice",
-      "id": "mc-2",
-      "question": "Hoe zeg je 'sorry' in het Fries?",
+      "id": "trans-2",
+      "question": "Sorry",
       "correctAnswer": "Sorry",
-      "options": [
-        "Pardon",
-        "It spyt my",
-        "Sorry",
-        "Asjebleaft"
+      "acceptedAnswers": [
+        "Sorry"
       ],
       "hint": "Hetzelfde woord in beide talen",
       "explanation": "'Sorry' blijft hetzelfde in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
-      "type": "sentence-build",
-      "id": "build-1",
-      "prompt": "Zeg 'Het spijt me, pardon' in het Fries",
-      "correctOrder": [
-        "It",
-        "spyt",
-        "my,",
-        "pardon"
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "Ferskûldigje",
+      "correctAnswer": "Verontschuldigen",
+      "acceptedAnswers": [
+        "Verontschuldigen"
       ],
-      "distractorWords": [
+      "hint": "Een synoniem voor 'sorry zeggen'",
+      "explanation": "'Ferskûldigje' betekent 'verontschuldigen' in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It spyt my, ___ ik wol helpe.",
+      "blankIndex": 2,
+      "correctAnswer": "Asjebleaft",
+      "wordBank": [
         "Asjebleaft",
-        "Ferskûldigje"
+        "Sorry",
+        "Pardon",
+        "Asjeblyft"
       ],
-      "hint": "Begin met het uitdrukken van spijt"
+      "hint": "Gebruik dit als je hulp aanbiedt",
+      "explanation": "'Asjebleaft' gebruik je bij het aanbieden"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'het spijt me' in het Fries?",
+      "correctAnswer": "It spyt my",
+      "options": [
+        "Asjebleaft",
+        "It spyt my",
+        "Ferskûldigje",
+        "Sorry"
+      ],
+      "hint": "Begin met 'It'",
+      "explanation": "'It spyt my' betekent 'het spijt me'",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "___, ik haw gjin tiid.",
+      "blankIndex": 0,
+      "correctAnswer": "Sorry",
+      "wordBank": [
+        "Asjebleaft",
+        "Sorry",
+        "Pardon",
+        "Asjeblyft"
+      ],
+      "hint": "Gebruik dit als je ergens spijt van hebt",
+      "explanation": "'Sorry' druk je uit als je iets betreurt"
     },
     {
       "type": "translation",
@@ -250,8 +250,8 @@
       "acceptedAnswers": [
         "Ferskûldigje"
       ],
-      "hint": "Een formeel woord",
-      "explanation": "'Ferskûldigje' betekent verontschuldigen",
+      "hint": "Begin met een 'F'",
+      "explanation": "'Ferskûldigje' betekent 'verontschuldigen' in het Fries",
       "direction": "dutch-to-frysian"
     }
   ],

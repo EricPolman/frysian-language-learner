@@ -14,12 +14,12 @@
         "id": "ik-ha",
         "frysian": "ik ha",
         "dutch": "ik heb",
-        "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Ik ha in hûn.",
-        "exampleTranslation": "Ik heb een hond."
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Ik ha in boek.",
+        "exampleTranslation": "Ik heb een boek."
       },
-      "exampleSentence": "Ik ha in hûn.",
-      "exampleTranslation": "Ik heb een hond."
+      "exampleSentence": "Ik ha in boek.",
+      "exampleTranslation": "Ik heb een boek."
     },
     {
       "id": "intro-basics-2-3-1",
@@ -27,12 +27,12 @@
         "id": "do-hast",
         "frysian": "do hast",
         "dutch": "jij hebt",
-        "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Do hast in boek.",
-        "exampleTranslation": "Jij hebt een boek."
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Do hast in appel.",
+        "exampleTranslation": "Jij hebt een appel."
       },
-      "exampleSentence": "Do hast in boek.",
-      "exampleTranslation": "Jij hebt een boek."
+      "exampleSentence": "Do hast in appel.",
+      "exampleTranslation": "Jij hebt een appel."
     },
     {
       "id": "intro-basics-2-3-2",
@@ -40,51 +40,51 @@
         "id": "hy-hat",
         "frysian": "hy hat",
         "dutch": "hij heeft",
-        "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Hy hat in kat.",
-        "exampleTranslation": "Hij heeft een kat."
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Hy hat in auto.",
+        "exampleTranslation": "Hij heeft een auto."
       },
-      "exampleSentence": "Hy hat in kat.",
-      "exampleTranslation": "Hij heeft een kat."
+      "exampleSentence": "Hy hat in auto.",
+      "exampleTranslation": "Hij heeft een auto."
     },
     {
       "id": "intro-basics-2-3-3",
       "vocabulary": {
-        "id": "sy-hat",
-        "frysian": "sy hat",
-        "dutch": "zij heeft",
-        "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Sy hat in auto.",
-        "exampleTranslation": "Zij heeft een auto."
+        "id": "wy-hawwe",
+        "frysian": "wy hawwe",
+        "dutch": "wij hebben",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Wy hawwe in hûn.",
+        "exampleTranslation": "Wij hebben een hond."
       },
-      "exampleSentence": "Sy hat in auto.",
-      "exampleTranslation": "Zij heeft een auto."
+      "exampleSentence": "Wy hawwe in hûn.",
+      "exampleTranslation": "Wij hebben een hond."
     },
     {
       "id": "intro-basics-2-3-4",
       "vocabulary": {
-        "id": "wy-hawwe",
-        "frysian": "wy hawwe",
-        "dutch": "wij hebben",
-        "partOfSpeech": "uitdrukking",
-        "exampleSentence": "Wy hawwe in hûs.",
-        "exampleTranslation": "Wij hebben een huis."
+        "id": "sy-hat",
+        "frysian": "sy hat",
+        "dutch": "zij heeft",
+        "partOfSpeech": "werkwoord",
+        "exampleSentence": "Sy hat in kat.",
+        "exampleTranslation": "Zij heeft een kat."
       },
-      "exampleSentence": "Wy hawwe in hûs.",
-      "exampleTranslation": "Wij hebben een huis."
+      "exampleSentence": "Sy hat in kat.",
+      "exampleTranslation": "Zij heeft een kat."
     },
     {
       "id": "intro-basics-2-3-5",
       "vocabulary": {
-        "id": "hawwe",
-        "frysian": "hawwe",
-        "dutch": "hebben",
+        "id": "hawwe-jimme",
+        "frysian": "hawwe jimme",
+        "dutch": "hebben jullie",
         "partOfSpeech": "werkwoord",
-        "exampleSentence": "Se wolle hawwe.",
-        "exampleTranslation": "Ze willen hebben."
+        "exampleSentence": "Hawwe jimme tiid?",
+        "exampleTranslation": "Hebben jullie tijd?"
       },
-      "exampleSentence": "Se wolle hawwe.",
-      "exampleTranslation": "Ze willen hebben."
+      "exampleSentence": "Hawwe jimme tiid?",
+      "exampleTranslation": "Hebben jullie tijd?"
     }
   ],
   "exercises": [
@@ -96,62 +96,62 @@
       "acceptedAnswers": [
         "ik ha"
       ],
-      "hint": "Gebruik 'ik' en het werkwoord voor 'hebben'.",
-      "explanation": "'Ik ha' betekent 'ik heb' in het Fries.",
+      "hint": "Begin met 'ik'",
+      "explanation": "'Ik ha' betekent 'ik heb' in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-rev-1",
-      "question": "hy hat",
-      "correctAnswer": "hij heeft",
+      "question": "do hast",
+      "correctAnswer": "jij hebt",
       "acceptedAnswers": [
-        "hij heeft"
+        "jij hebt"
       ],
-      "hint": "Het onderwerp is mannelijk enkelvoud.",
-      "explanation": "'Hy hat' betekent 'hij heeft' in het Nederlands.",
+      "hint": "Denk aan de tweede persoon enkelvoud",
+      "explanation": "'Do hast' betekent 'jij hebt' in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-1",
-      "sentence": "___ hat in boek.",
+      "sentence": "___ hat in boek",
       "blankIndex": 0,
-      "correctAnswer": "Sy",
+      "correctAnswer": "sy",
       "wordBank": [
-        "Sy",
+        "sy",
         "ik ha",
         "do hast",
         "hy hat"
       ],
-      "hint": "Het onderwerp is vrouwelijk enkelvoud.",
-      "explanation": "'Sy hat' betekent 'zij heeft'."
+      "hint": "Vrouwelijke derde persoon enkelvoud",
+      "explanation": "'Sy hat' betekent 'zij heeft' in het Nederlands"
     },
     {
       "type": "multiple-choice",
       "id": "mc-1",
-      "question": "Hoe zeg je 'jij hebt' in het Fries?",
-      "correctAnswer": "do hast",
+      "question": "Hoe zeg je 'wij hebben' in het Fries?",
+      "correctAnswer": "wy hawwe",
       "options": [
+        "wy hawwe",
         "ik ha",
-        "do hast",
-        "hy hat",
-        "wy hawwe"
+        "sy hat",
+        "do hast"
       ],
-      "hint": "Het onderwerp is tweede persoon enkelvoud.",
-      "explanation": "'Do hast' betekent 'jij hebt'.",
+      "hint": "Het begint met 'wy'",
+      "explanation": "'Wy hawwe' betekent 'wij hebben' in het Nederlands",
       "direction": "dutch-to-frysian"
     },
     {
       "type": "translation",
       "id": "trans-2",
-      "question": "wij hebben",
-      "correctAnswer": "wy hawwe",
+      "question": "zij heeft",
+      "correctAnswer": "sy hat",
       "acceptedAnswers": [
-        "wy hawwe"
+        "sy hat"
       ],
-      "hint": "Gebruik 'wy' en het werkwoord voor 'hebben'.",
-      "explanation": "'Wy hawwe' betekent 'wij hebben' in het Fries.",
+      "hint": "Begin met 'sy'",
+      "explanation": "'Sy hat' betekent 'zij heeft' in het Fries",
       "direction": "dutch-to-frysian"
     },
     {
@@ -160,97 +160,97 @@
       "question": "Wat betekent 'wy hawwe'?",
       "correctAnswer": "wij hebben",
       "options": [
+        "ik heb",
         "jij hebt",
-        "zij heeft",
         "wij hebben",
-        "hij heeft"
+        "zij heeft"
       ],
-      "hint": "Het onderwerp is eerste persoon meervoud.",
-      "explanation": "'Wy hawwe' betekent 'wij hebben' in het Nederlands.",
+      "hint": "Meervoudsvorm",
+      "explanation": "'Wy hawwe' betekent 'wij hebben' in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-2",
-      "sentence": "Wy ___ boeken.",
-      "blankIndex": 1,
-      "correctAnswer": "hawwe",
+      "sentence": "___ ha in auto",
+      "blankIndex": 0,
+      "correctAnswer": "ik",
       "wordBank": [
-        "hawwe",
+        "ik",
         "ik ha",
         "do hast",
         "hy hat"
       ],
-      "hint": "Het werkwoord moet in meervoudsvorm staan.",
-      "explanation": "'Wy hawwe' betekent 'wij hebben'."
+      "hint": "Eerste persoon enkelvoud",
+      "explanation": "'Ik ha' betekent 'ik heb' in het Nederlands"
     },
     {
       "type": "translation",
       "id": "trans-rev-2",
-      "question": "do hast",
-      "correctAnswer": "jij hebt",
+      "question": "hy hat",
+      "correctAnswer": "hij heeft",
       "acceptedAnswers": [
-        "jij hebt"
+        "hij heeft"
       ],
-      "hint": "Het onderwerp is tweede persoon enkelvoud.",
-      "explanation": "'Do hast' betekent 'jij hebt' in het Nederlands.",
+      "hint": "Mannelijke derde persoon enkelvoud",
+      "explanation": "'Hy hat' betekent 'hij heeft' in het Nederlands",
       "direction": "frysian-to-dutch"
     },
     {
       "type": "fill-in-blank",
       "id": "fill-3",
-      "sentence": "Hy ___ in hûs.",
+      "sentence": "Hawwe ___ in hûn?",
       "blankIndex": 1,
-      "correctAnswer": "hat",
+      "correctAnswer": "jimme",
       "wordBank": [
-        "hat",
-        "hawwe",
+        "jimme",
+        "ik ha",
+        "do hast",
+        "hy hat"
+      ],
+      "hint": "Meer dan één persoon",
+      "explanation": "'Hawwe jimme' betekent 'hebben jullie' in het Nederlands"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'hij heeft' in het Fries?",
+      "correctAnswer": "hy hat",
+      "options": [
+        "hy hat",
+        "sy hat",
         "ik ha",
         "do hast"
       ],
-      "hint": "Het werkwoord moet in enkelvoudsvorm staan.",
-      "explanation": "'Hy hat' betekent 'hij heeft'."
+      "hint": "Begin met 'hy'",
+      "explanation": "'Hy hat' betekent 'hij heeft' in het Fries",
+      "direction": "dutch-to-frysian"
     },
     {
       "type": "sentence-build",
       "id": "build-1",
-      "prompt": "Zeg 'Wij hebben een boek.' in het Fries",
+      "prompt": "Zeg 'Jij hebt een boek' in het Fries",
       "correctOrder": [
-        "Wy",
-        "hawwe",
+        "Do",
+        "hast",
         "in",
-        "boek."
+        "boek"
       ],
       "distractorWords": [
         "ik ha",
         "do hast",
         "hy hat"
       ],
-      "hint": "Begin met 'Wy', gevolgd door het werkwoord."
-    },
-    {
-      "type": "multiple-choice",
-      "id": "mc-2",
-      "question": "Hoe zeg je 'zij heeft' in het Fries?",
-      "correctAnswer": "sy hat",
-      "options": [
-        "ik ha",
-        "do hast",
-        "sy hat",
-        "wy hawwe"
-      ],
-      "hint": "Het onderwerp is vrouwelijk enkelvoud.",
-      "explanation": "'Sy hat' betekent 'zij heeft'.",
-      "direction": "dutch-to-frysian"
+      "hint": "Begin met 'Do'"
     }
   ],
   "targetVocabulary": [
     "ik-ha",
     "do-hast",
     "hy-hat",
-    "sy-hat",
     "wy-hawwe",
-    "hawwe"
+    "sy-hat",
+    "hawwe-jimme"
   ],
   "reviewVocabulary": []
 }

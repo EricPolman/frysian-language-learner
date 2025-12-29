@@ -1,0 +1,268 @@
+{
+  "id": "numbers-3",
+  "skillId": "numbers",
+  "lessonNumber": 3,
+  "title": "Getallen - Les 3",
+  "description": "Leer de tientallen: tsien, tweintich, tritich, fjirtich... hûndert.",
+  "topic": "tientallen (10-100)",
+  "difficulty": 1,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-numbers-3-0",
+      "vocabulary": {
+        "id": "tsien-01",
+        "frysian": "tsien",
+        "dutch": "tien",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Hy hat tsien boeken.",
+        "exampleTranslation": "Hij heeft tien boeken."
+      },
+      "exampleSentence": "Hy hat tsien boeken.",
+      "exampleTranslation": "Hij heeft tien boeken."
+    },
+    {
+      "id": "intro-numbers-3-1",
+      "vocabulary": {
+        "id": "tweintich-02",
+        "frysian": "tweintich",
+        "dutch": "twintig",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Der binne tweintich minsken.",
+        "exampleTranslation": "Er zijn twintig mensen."
+      },
+      "exampleSentence": "Der binne tweintich minsken.",
+      "exampleTranslation": "Er zijn twintig mensen."
+    },
+    {
+      "id": "intro-numbers-3-2",
+      "vocabulary": {
+        "id": "tritich-03",
+        "frysian": "tritich",
+        "dutch": "dertig",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De auto kostet tritich euro.",
+        "exampleTranslation": "De auto kost dertig euro."
+      },
+      "exampleSentence": "De auto kostet tritich euro.",
+      "exampleTranslation": "De auto kost dertig euro."
+    },
+    {
+      "id": "intro-numbers-3-3",
+      "vocabulary": {
+        "id": "fjirtich-04",
+        "frysian": "fjirtich",
+        "dutch": "veertig",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Hy is fjirtich jier âld.",
+        "exampleTranslation": "Hij is veertig jaar oud."
+      },
+      "exampleSentence": "Hy is fjirtich jier âld.",
+      "exampleTranslation": "Hij is veertig jaar oud."
+    },
+    {
+      "id": "intro-numbers-3-4",
+      "vocabulary": {
+        "id": "fyftich-05",
+        "frysian": "fyftich",
+        "dutch": "vijftig",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Se hat fyftich euro krigen.",
+        "exampleTranslation": "Zij heeft vijftig euro gekregen."
+      },
+      "exampleSentence": "Se hat fyftich euro krigen.",
+      "exampleTranslation": "Zij heeft vijftig euro gekregen."
+    },
+    {
+      "id": "intro-numbers-3-5",
+      "vocabulary": {
+        "id": "sechtich-06",
+        "frysian": "sechtich",
+        "dutch": "zestig",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It doarp hat sechtich huzen.",
+        "exampleTranslation": "Het dorp heeft zestig huizen."
+      },
+      "exampleSentence": "It doarp hat sechtich huzen.",
+      "exampleTranslation": "Het dorp heeft zestig huizen."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "tien",
+      "correctAnswer": "tsien",
+      "acceptedAnswers": [
+        "tsien"
+      ],
+      "hint": "Een getal tussen negen en elf",
+      "explanation": "'Tsien' betekent tien in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "___ plus tweintich is fjirtich.",
+      "blankIndex": 0,
+      "correctAnswer": "fjirtich",
+      "wordBank": [
+        "tsien",
+        "tweintich",
+        "fjirtich",
+        "fyftich"
+      ],
+      "hint": "Het resultaat is veertig",
+      "explanation": "Fjirtich plus tweintich is fjirtich."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'twintig' in het Fries?",
+      "correctAnswer": "tweintich",
+      "options": [
+        "tsien",
+        "tweintich",
+        "tritich",
+        "fyftich"
+      ],
+      "hint": "Het komt na tien",
+      "explanation": "'Tweintich' betekent twintig",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "fyftich",
+      "correctAnswer": "vijftig",
+      "acceptedAnswers": [
+        "vijftig"
+      ],
+      "hint": "Een getal tussen veertig en zestig",
+      "explanation": "'Fyftich' betekent vijftig in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Bouw de zin: 'Veertig plus twintig is zestig' in het Fries",
+      "correctOrder": [
+        "Fjirtich",
+        "plus",
+        "tweintich",
+        "is",
+        "sechtich"
+      ],
+      "distractorWords": [
+        "tsien",
+        "tritich"
+      ],
+      "hint": "Begin met 'Fjirtich' en eindig met 'sechtich'"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Tritich min ___ is tsien.",
+      "blankIndex": 1,
+      "correctAnswer": "tweintich",
+      "wordBank": [
+        "tweintich",
+        "fjirtich",
+        "fyftich",
+        "sechtich"
+      ],
+      "hint": "Het verschil is tien",
+      "explanation": "Tritich min tweintich is tsien."
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "dertig",
+      "correctAnswer": "tritich",
+      "acceptedAnswers": [
+        "tritich"
+      ],
+      "hint": "Een getal tussen twintig en veertig",
+      "explanation": "'Tritich' betekent dertig in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'sechtich'?",
+      "correctAnswer": "zestig",
+      "options": [
+        "veertig",
+        "vijftig",
+        "zestig",
+        "dertig"
+      ],
+      "hint": "Een getal na vijftig",
+      "explanation": "'Sechtich' betekent zestig",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "zestig",
+      "correctAnswer": "sechtich",
+      "acceptedAnswers": [
+        "sechtich"
+      ],
+      "hint": "Een getal na vijftig",
+      "explanation": "'Sechtich' betekent zestig in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "Fyftich min ___ is tweintich.",
+      "blankIndex": 1,
+      "correctAnswer": "tritich",
+      "wordBank": [
+        "tsien",
+        "tweintich",
+        "tritich",
+        "fjirtich"
+      ],
+      "hint": "Het verschil is twintig",
+      "explanation": "Fyftich min tritich is tweintich."
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'vijftig' in het Fries?",
+      "correctAnswer": "fyftich",
+      "options": [
+        "tsien",
+        "fyftich",
+        "sechtich",
+        "tweintich"
+      ],
+      "hint": "Het komt na veertig",
+      "explanation": "'Fyftich' betekent vijftig",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "tweintich",
+      "correctAnswer": "twintig",
+      "acceptedAnswers": [
+        "twintig"
+      ],
+      "hint": "Een getal tussen tien en dertig",
+      "explanation": "'Tweintich' betekent twintig in het Nederlands",
+      "direction": "frysian-to-dutch"
+    }
+  ],
+  "targetVocabulary": [
+    "tsien-01",
+    "tweintich-02",
+    "tritich-03",
+    "fjirtich-04",
+    "fyftich-05",
+    "sechtich-06"
+  ],
+  "reviewVocabulary": []
+}

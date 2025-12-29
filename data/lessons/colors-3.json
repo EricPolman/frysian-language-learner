@@ -1,0 +1,253 @@
+{
+  "id": "colors-3",
+  "skillId": "colors",
+  "lessonNumber": 3,
+  "title": "Kleuren - Les 3",
+  "description": "Licht en donker: wit (wyt), zwart (swart), grijs (griis), licht (ljocht), donker (tsjuster).",
+  "topic": "licht en donker",
+  "difficulty": 1,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-colors-3-0",
+      "vocabulary": {
+        "id": "wyt-licht",
+        "frysian": "wyt",
+        "dutch": "wit",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De muorre is wyt.",
+        "exampleTranslation": "De muur is wit."
+      },
+      "exampleSentence": "De muorre is wyt.",
+      "exampleTranslation": "De muur is wit."
+    },
+    {
+      "id": "intro-colors-3-1",
+      "vocabulary": {
+        "id": "swart-donker",
+        "frysian": "swart",
+        "dutch": "zwart",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De nacht is swart.",
+        "exampleTranslation": "De nacht is zwart."
+      },
+      "exampleSentence": "De nacht is swart.",
+      "exampleTranslation": "De nacht is zwart."
+    },
+    {
+      "id": "intro-colors-3-2",
+      "vocabulary": {
+        "id": "griis-tuskenkleur",
+        "frysian": "griis",
+        "dutch": "grijs",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De loft is griis.",
+        "exampleTranslation": "De lucht is grijs."
+      },
+      "exampleSentence": "De loft is griis.",
+      "exampleTranslation": "De lucht is grijs."
+    },
+    {
+      "id": "intro-colors-3-3",
+      "vocabulary": {
+        "id": "ljocht-kleuren",
+        "frysian": "ljocht",
+        "dutch": "licht",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "It is ljocht bûten.",
+        "exampleTranslation": "Het is licht buiten."
+      },
+      "exampleSentence": "It is ljocht bûten.",
+      "exampleTranslation": "Het is licht buiten."
+    },
+    {
+      "id": "intro-colors-3-4",
+      "vocabulary": {
+        "id": "tsjuster-nacht",
+        "frysian": "tsjuster",
+        "dutch": "donker",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De kelder is tsjuster.",
+        "exampleTranslation": "De kelder is donker."
+      },
+      "exampleSentence": "De kelder is tsjuster.",
+      "exampleTranslation": "De kelder is donker."
+    },
+    {
+      "id": "intro-colors-3-5",
+      "vocabulary": {
+        "id": "ljochtboarne",
+        "frysian": "ljochtboarne",
+        "dutch": "lichtbron",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "In lampe is in ljochtboarne.",
+        "exampleTranslation": "Een lamp is een lichtbron."
+      },
+      "exampleSentence": "In lampe is in ljochtboarne.",
+      "exampleTranslation": "Een lamp is een lichtbron."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "wit licht",
+      "correctAnswer": "wyt ljocht",
+      "acceptedAnswers": [
+        "wyt ljocht"
+      ],
+      "hint": "Kleuren en licht",
+      "explanation": "'Wit' is 'wyt' en 'licht' is 'ljocht'",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ is tsjuster.",
+      "blankIndex": 1,
+      "correctAnswer": "ljochtboarne",
+      "wordBank": [
+        "ljochtboarne",
+        "wyt",
+        "swart",
+        "griis"
+      ],
+      "hint": "Iets dat licht geeft",
+      "explanation": "'Ljochtboarne' betekent lichtbron"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'donker' in het Fries?",
+      "correctAnswer": "tsjuster",
+      "options": [
+        "wyt",
+        "tsjuster",
+        "ljocht",
+        "griis"
+      ],
+      "hint": "Het tegenovergestelde van licht",
+      "explanation": "'Tsjuster' betekent donker",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "swart ljocht",
+      "correctAnswer": "zwart licht",
+      "acceptedAnswers": [
+        "zwart licht"
+      ],
+      "hint": "Kleur en licht",
+      "explanation": "'Swart' betekent zwart en 'ljocht' is licht",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Donker lichtbron' in het Fries",
+      "correctOrder": [
+        "tsjuster",
+        "ljochtboarne"
+      ],
+      "distractorWords": [
+        "wyt",
+        "swart"
+      ],
+      "hint": "Denk aan de volgorde van donker en lichtbron"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "It ljocht is ___.",
+      "blankIndex": 3,
+      "correctAnswer": "griis",
+      "wordBank": [
+        "griis",
+        "wyt",
+        "swart",
+        "ljochtboarne"
+      ],
+      "hint": "Een kleur tussen wit en zwart",
+      "explanation": "'Griis' betekent grijs"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'wyt ljocht'?",
+      "correctAnswer": "wit licht",
+      "options": [
+        "wit licht",
+        "wit",
+        "zwart",
+        "grijs"
+      ],
+      "hint": "Licht en de kleur van sneeuw",
+      "explanation": "'Wyt' betekent wit en 'ljocht' is licht",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "grijs licht",
+      "correctAnswer": "griis ljocht",
+      "acceptedAnswers": [
+        "griis ljocht"
+      ],
+      "hint": "Kleuren en licht",
+      "explanation": "'Grijs' is 'griis' en 'licht' is 'ljocht'",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "It is ___ tsjuster.",
+      "blankIndex": 2,
+      "correctAnswer": "ljocht",
+      "wordBank": [
+        "ljocht",
+        "swart",
+        "griis",
+        "wyt"
+      ],
+      "hint": "Het tegenovergestelde van donker",
+      "explanation": "'Ljocht' betekent licht"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "tsjuster swart",
+      "correctAnswer": "donker zwart",
+      "acceptedAnswers": [
+        "donker zwart"
+      ],
+      "hint": "Kleur en licht",
+      "explanation": "'Tsjuster' betekent donker en 'swart' is zwart",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'lichtbron' in het Fries?",
+      "correctAnswer": "ljochtboarne",
+      "options": [
+        "ljocht",
+        "tsjuster",
+        "ljochtboarne",
+        "wyt"
+      ],
+      "hint": "Iets dat licht geeft",
+      "explanation": "'Ljochtboarne' betekent lichtbron",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "wyt-licht",
+    "swart-donker",
+    "griis-tuskenkleur",
+    "ljocht-kleuren",
+    "tsjuster-nacht",
+    "ljochtboarne"
+  ],
+  "reviewVocabulary": []
+}

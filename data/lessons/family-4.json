@@ -1,0 +1,268 @@
+{
+  "id": "family-4",
+  "skillId": "family",
+  "lessonNumber": 4,
+  "title": "Familie - Les 4",
+  "description": "Overige familie: broer (broer), zus (sus), oom (omke), tante (muoike).",
+  "topic": "overige familie",
+  "difficulty": 2,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-family-4-0",
+      "vocabulary": {
+        "id": "pake",
+        "frysian": "pake",
+        "dutch": "opa",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Myn pake is aardich.",
+        "exampleTranslation": "Mijn opa is aardig."
+      },
+      "exampleSentence": "Myn pake is aardich.",
+      "exampleTranslation": "Mijn opa is aardig."
+    },
+    {
+      "id": "intro-family-4-1",
+      "vocabulary": {
+        "id": "beppe",
+        "frysian": "beppe",
+        "dutch": "oma",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Beppe makket lekkere sop.",
+        "exampleTranslation": "Oma maakt lekkere soep."
+      },
+      "exampleSentence": "Beppe makket lekkere sop.",
+      "exampleTranslation": "Oma maakt lekkere soep."
+    },
+    {
+      "id": "intro-family-4-2",
+      "vocabulary": {
+        "id": "neef",
+        "frysian": "neef",
+        "dutch": "neef",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Myn neef spilet fuotbal.",
+        "exampleTranslation": "Mijn neef speelt voetbal."
+      },
+      "exampleSentence": "Myn neef spilet fuotbal.",
+      "exampleTranslation": "Mijn neef speelt voetbal."
+    },
+    {
+      "id": "intro-family-4-3",
+      "vocabulary": {
+        "id": "nicht",
+        "frysian": "nicht",
+        "dutch": "nicht",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Se is myn nicht.",
+        "exampleTranslation": "Zij is mijn nicht."
+      },
+      "exampleSentence": "Se is myn nicht.",
+      "exampleTranslation": "Zij is mijn nicht."
+    },
+    {
+      "id": "intro-family-4-4",
+      "vocabulary": {
+        "id": "skoansoan",
+        "frysian": "skoansoan",
+        "dutch": "schoonzoon",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Hy is myn skoansoan.",
+        "exampleTranslation": "Hij is mijn schoonzoon."
+      },
+      "exampleSentence": "Hy is myn skoansoan.",
+      "exampleTranslation": "Hij is mijn schoonzoon."
+    },
+    {
+      "id": "intro-family-4-5",
+      "vocabulary": {
+        "id": "skoandochter",
+        "frysian": "skoandochter",
+        "dutch": "schoondochter",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "Myn skoandochter is leaf.",
+        "exampleTranslation": "Mijn schoondochter is lief."
+      },
+      "exampleSentence": "Myn skoandochter is leaf.",
+      "exampleTranslation": "Mijn schoondochter is lief."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "opa en oma",
+      "correctAnswer": "pake en beppe",
+      "acceptedAnswers": [
+        "pake en beppe"
+      ],
+      "hint": "Familiewoorden voor grootouders",
+      "explanation": "'Pake' betekent opa en 'beppe' betekent oma in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "skoansoan",
+      "correctAnswer": "schoonzoon",
+      "acceptedAnswers": [
+        "schoonzoon"
+      ],
+      "hint": "Familierelatie door huwelijk",
+      "explanation": "'Skoansoan' betekent schoonzoon in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ is de dochter fan myn âlden.",
+      "blankIndex": 1,
+      "correctAnswer": "skoandochter",
+      "wordBank": [
+        "skoansoan",
+        "skoandochter",
+        "neef",
+        "nicht"
+      ],
+      "hint": "Ze is getrouwd met je broer",
+      "explanation": "'Skoandochter' betekent schoondochter"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'neef' in het Fries?",
+      "correctAnswer": "neef",
+      "options": [
+        "neef",
+        "nicht",
+        "pake",
+        "beppe"
+      ],
+      "hint": "Het woord is hetzelfde in het Fries",
+      "explanation": "'Neef' blijft hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "schoondochter en schoonzoon",
+      "correctAnswer": "skoandochter en skoansoan",
+      "acceptedAnswers": [
+        "skoandochter en skoansoan"
+      ],
+      "hint": "Familierelaties door huwelijk",
+      "explanation": "'Skoandochter' betekent schoondochter en 'skoansoan' betekent schoonzoon in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "beppe en neef",
+      "correctAnswer": "oma en neef",
+      "acceptedAnswers": [
+        "oma en neef"
+      ],
+      "hint": "Familiewoorden voor grootmoeder en zoon van je broer of zus",
+      "explanation": "'Beppe' betekent oma en 'neef' blijft hetzelfde in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "Myn ___ is troud mei myn skoansuster.",
+      "blankIndex": 1,
+      "correctAnswer": "skoansoan",
+      "wordBank": [
+        "pake",
+        "skoansoan",
+        "neef",
+        "beppe"
+      ],
+      "hint": "Hij is de echtgenoot van je schoondochter",
+      "explanation": "'Skoansoan' betekent schoonzoon"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'oma' in het Fries?",
+      "correctAnswer": "beppe",
+      "options": [
+        "pake",
+        "beppe",
+        "neef",
+        "nicht"
+      ],
+      "hint": "Het begint met een 'b'",
+      "explanation": "'Beppe' betekent oma",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-rev-1",
+      "question": "Wat betekent 'pake'?",
+      "correctAnswer": "opa",
+      "options": [
+        "opa",
+        "neef",
+        "schoonzoon",
+        "nicht"
+      ],
+      "hint": "Het is een familielid",
+      "explanation": "'Pake' betekent opa",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De ___ en de beppe wenje tichtby.",
+      "blankIndex": 1,
+      "correctAnswer": "pake",
+      "wordBank": [
+        "pake",
+        "neef",
+        "skoansoan",
+        "nicht"
+      ],
+      "hint": "Hij is de grootvader",
+      "explanation": "'Pake' betekent opa"
+    },
+    {
+      "type": "sentence-build",
+      "id": "build-1",
+      "prompt": "Zeg 'Opa en oma zijn hier' in het Fries",
+      "correctOrder": [
+        "Pake",
+        "en",
+        "beppe",
+        "binne",
+        "hjir"
+      ],
+      "distractorWords": [
+        "neef",
+        "skoandochter"
+      ],
+      "hint": "Begin met de familiewoorden"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "nicht en neef",
+      "correctAnswer": "nicht en neef",
+      "acceptedAnswers": [
+        "nicht en neef"
+      ],
+      "hint": "Hetzelfde in het Fries",
+      "explanation": "'Nicht' en 'neef' blijven hetzelfde in het Fries",
+      "direction": "dutch-to-frysian"
+    }
+  ],
+  "targetVocabulary": [
+    "pake",
+    "beppe",
+    "neef",
+    "nicht",
+    "skoansoan",
+    "skoandochter"
+  ],
+  "reviewVocabulary": []
+}

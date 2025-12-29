@@ -1,0 +1,248 @@
+{
+  "id": "animals-1",
+  "skillId": "animals",
+  "lessonNumber": 1,
+  "title": "Dieren - Les 1",
+  "description": "Huisdieren: hond (hûn), kat (kat), vogel (fûgel), vis (fisk), konijn (knyn).",
+  "topic": "huisdieren",
+  "difficulty": 1,
+  "estimatedMinutes": 9,
+  "introCards": [
+    {
+      "id": "intro-animals-1-0",
+      "vocabulary": {
+        "id": "hûn",
+        "frysian": "hûn",
+        "dutch": "hond",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De hûn is leaf.",
+        "exampleTranslation": "De hond is lief."
+      },
+      "exampleSentence": "De hûn is leaf.",
+      "exampleTranslation": "De hond is lief."
+    },
+    {
+      "id": "intro-animals-1-1",
+      "vocabulary": {
+        "id": "kat",
+        "frysian": "kat",
+        "dutch": "kat",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De kat sliept.",
+        "exampleTranslation": "De kat slaapt."
+      },
+      "exampleSentence": "De kat sliept.",
+      "exampleTranslation": "De kat slaapt."
+    },
+    {
+      "id": "intro-animals-1-2",
+      "vocabulary": {
+        "id": "fûgel",
+        "frysian": "fûgel",
+        "dutch": "vogel",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De fûgel fljocht.",
+        "exampleTranslation": "De vogel vliegt."
+      },
+      "exampleSentence": "De fûgel fljocht.",
+      "exampleTranslation": "De vogel vliegt."
+    },
+    {
+      "id": "intro-animals-1-3",
+      "vocabulary": {
+        "id": "fisk",
+        "frysian": "fisk",
+        "dutch": "vis",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "De fisk swimt.",
+        "exampleTranslation": "De vis zwemt."
+      },
+      "exampleSentence": "De fisk swimt.",
+      "exampleTranslation": "De vis zwemt."
+    },
+    {
+      "id": "intro-animals-1-4",
+      "vocabulary": {
+        "id": "knyn",
+        "frysian": "knyn",
+        "dutch": "konijn",
+        "partOfSpeech": "zelfstandig naamwoord",
+        "exampleSentence": "It knyn knabbelt.",
+        "exampleTranslation": "Het konijn knabbelt."
+      },
+      "exampleSentence": "It knyn knabbelt.",
+      "exampleTranslation": "Het konijn knabbelt."
+    },
+    {
+      "id": "intro-animals-1-5",
+      "vocabulary": {
+        "id": "freonlik",
+        "frysian": "freonlik",
+        "dutch": "vriendelijk",
+        "partOfSpeech": "bijvoeglijk naamwoord",
+        "exampleSentence": "De kat is freonlik.",
+        "exampleTranslation": "De kat is vriendelijk."
+      },
+      "exampleSentence": "De kat is freonlik.",
+      "exampleTranslation": "De kat is vriendelijk."
+    }
+  ],
+  "exercises": [
+    {
+      "type": "translation",
+      "id": "trans-1",
+      "question": "hond",
+      "correctAnswer": "hûn",
+      "acceptedAnswers": [
+        "hûn"
+      ],
+      "hint": "Een populair huisdier",
+      "explanation": "'Hûn' betekent hond in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-1",
+      "question": "kat",
+      "correctAnswer": "kat",
+      "acceptedAnswers": [
+        "kat"
+      ],
+      "hint": "Een huisdier dat vaak miauwt",
+      "explanation": "'Kat' betekent kat in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-1",
+      "sentence": "De ___ is freonlik.",
+      "blankIndex": 1,
+      "correctAnswer": "hûn",
+      "wordBank": [
+        "hûn",
+        "kat",
+        "fûgel",
+        "fisk"
+      ],
+      "hint": "Een huisdier dat vaak blaft",
+      "explanation": "'Hûn' betekent hond"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-1",
+      "question": "Hoe zeg je 'vogel' in het Fries?",
+      "correctAnswer": "fûgel",
+      "options": [
+        "hûn",
+        "kat",
+        "fûgel",
+        "fisk"
+      ],
+      "hint": "Een dier dat kan vliegen",
+      "explanation": "'Fûgel' betekent vogel",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-2",
+      "question": "vriendelijk",
+      "correctAnswer": "freonlik",
+      "acceptedAnswers": [
+        "freonlik"
+      ],
+      "hint": "Beschrijft een aardig karakter",
+      "explanation": "'Freonlik' betekent vriendelijk in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-2",
+      "question": "fisk",
+      "correctAnswer": "vis",
+      "acceptedAnswers": [
+        "vis"
+      ],
+      "hint": "Een dier dat in het water leeft",
+      "explanation": "'Fisk' betekent vis in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-2",
+      "sentence": "De ___ swimt yn 'e see.",
+      "blankIndex": 1,
+      "correctAnswer": "fisk",
+      "wordBank": [
+        "hûn",
+        "kat",
+        "fisk",
+        "knyn"
+      ],
+      "hint": "Een dier dat in het water zwemt",
+      "explanation": "'Fisk' betekent vis"
+    },
+    {
+      "type": "multiple-choice",
+      "id": "mc-2",
+      "question": "Hoe zeg je 'konijn' in het Fries?",
+      "correctAnswer": "knyn",
+      "options": [
+        "knyn",
+        "kat",
+        "fûgel",
+        "fisk"
+      ],
+      "hint": "Een klein, harig dier met lange oren",
+      "explanation": "'Knyn' betekent konijn",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-3",
+      "question": "konijn",
+      "correctAnswer": "knyn",
+      "acceptedAnswers": [
+        "knyn"
+      ],
+      "hint": "Een dier met lange oren",
+      "explanation": "'Knyn' betekent konijn in het Fries",
+      "direction": "dutch-to-frysian"
+    },
+    {
+      "type": "translation",
+      "id": "trans-rev-3",
+      "question": "freonlik",
+      "correctAnswer": "vriendelijk",
+      "acceptedAnswers": [
+        "vriendelijk"
+      ],
+      "hint": "Een synoniem voor aardig",
+      "explanation": "'Freonlik' betekent vriendelijk in het Nederlands",
+      "direction": "frysian-to-dutch"
+    },
+    {
+      "type": "fill-in-blank",
+      "id": "fill-3",
+      "sentence": "De kat is ___.",
+      "blankIndex": 2,
+      "correctAnswer": "freonlik",
+      "wordBank": [
+        "freonlik",
+        "hûn",
+        "fisk",
+        "knyn"
+      ],
+      "hint": "Beschrijft een aardig karakter",
+      "explanation": "'Freonlik' betekent vriendelijk"
+    }
+  ],
+  "targetVocabulary": [
+    "hûn",
+    "kat",
+    "fûgel",
+    "fisk",
+    "knyn",
+    "freonlik"
+  ],
+  "reviewVocabulary": []
+}
