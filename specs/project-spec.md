@@ -39,6 +39,7 @@ A mobile-friendly web application for learning Frysian (West Frisian) from Dutch
 - Listening exercises (audio comprehension)
 - Speaking exercises (pronunciation practice)
 - Matching pairs (connect words to translations)
+- Read short stories with AI evaluation of user comprehension
 
 ### 2. Lesson Structure
 
