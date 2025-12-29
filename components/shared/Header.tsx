@@ -58,6 +58,11 @@ export async function Header() {
         <nav className="flex items-center gap-2 sm:gap-4">
           {user ? (
             <>
+              <Link href="/chat" className="hidden sm:block">
+                <Button variant="ghost" size="sm">
+                  💬 Chat
+                </Button>
+              </Link>
               <Link href="/practice" className="hidden sm:block">
                 <Button variant="ghost" size="sm">
                   🔄 Oefenen

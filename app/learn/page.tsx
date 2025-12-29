@@ -43,9 +43,24 @@ export default async function LearnPage() {
   return (
     <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-8">
       <div className="container mx-auto px-4">
-        {/* Practice Button */}
-        {hasWeakWords && (
-          <div className="max-w-md mx-auto mb-6">
+        {/* Quick Actions */}
+        <div className="max-w-md mx-auto mb-6 space-y-3">
+          {/* Chat Button */}
+          <Link href="/chat">
+            <div className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-colors text-white rounded-xl p-4 flex items-center justify-between cursor-pointer shadow-lg">
+              <div className="flex items-center gap-3">
+                <span className="text-2xl">💬</span>
+                <div>
+                  <div className="font-bold">Petear yn it Frysk</div>
+                  <div className="text-sm text-blue-100">Chat mei AI-coaching</div>
+                </div>
+              </div>
+              <div className="text-blue-200">→</div>
+            </div>
+          </Link>
+
+          {/* Practice Button */}
+          {hasWeakWords && (
             <Link href="/practice">
               <div className="bg-purple-600 hover:bg-purple-700 transition-colors text-white rounded-xl p-4 flex items-center justify-between cursor-pointer shadow-lg">
                 <div className="flex items-center gap-3">
@@ -58,8 +73,8 @@ export default async function LearnPage() {
                 <div className="text-purple-200">→</div>
               </div>
             </Link>
-          </div>
-        )}
+          )}
+        </div>
         
         <SkillTree
           skills={skillsData.skills}
