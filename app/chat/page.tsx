@@ -3,6 +3,7 @@ import { redirect } from "next/navigation";
 import { ChatbotClient } from "@/components/chat/ChatbotClient";
 import { Card } from "@/components/ui/card";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default async function ChatPage() {
   const supabase = await createClient();
@@ -13,15 +14,15 @@ export default async function ChatPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 via-purple-50 to-pink-50 pb-20 md:pb-8">
-      <div className="container mx-auto px-4 py-6 max-w-4xl">
-        {/* Back button */}
-        <Link
-          href="/learn"
-          className="inline-flex items-center text-blue-600 hover:text-blue-700 mb-4 text-sm font-medium"
-        >
-          ← Terug naar Leren
-        </Link>
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">💬 Fries Oefenen</h1>
+          <p className="text-gray-600 text-lg">
+            Chat in het Fries met AI-coaching
+          </p>
+        </div>
 
         <Card className="shadow-xl overflow-hidden">
           <ChatbotClient />

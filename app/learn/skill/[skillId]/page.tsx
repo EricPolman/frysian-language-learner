@@ -60,28 +60,28 @@ export default async function SkillPage({ params }: Props) {
   const skillWithLongDesc = skill as typeof skill & { longDescription?: string };
 
   return (
-    <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="max-w-3xl mx-auto">
-          {/* Back button */}
-          <Link href="/learn" className="inline-block mb-6">
-            <Button variant="outline" size="sm">
-              ← Terug naar Vaardigheden
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
+          <Link href="/learn">
+            <Button variant="ghost" className="mb-4">
+              ← Leren
             </Button>
           </Link>
 
-          {/* Skill header */}
-          <div className="mb-8 text-center">
-            <div className="text-6xl mb-4">{skill.icon}</div>
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">
-              {skill.title}
-            </h1>
-            <p className="text-gray-600 mb-2">{skill.description}</p>
-            {skillWithLongDesc.longDescription && (
-              <p className="text-sm text-gray-500 max-w-xl mx-auto">
-                {skillWithLongDesc.longDescription}
-              </p>
-            )}
+            <div className="text-center">
+              <div className="text-6xl mb-4">{skill.icon}</div>
+              <h1 className="text-4xl font-bold text-gray-900 mb-2">
+                {skill.title}
+              </h1>
+              <p className="text-gray-600 text-lg mb-2">{skill.description}</p>
+              {skillWithLongDesc.longDescription && (
+                <p className="text-sm text-gray-500 max-w-xl mx-auto">
+                  {skillWithLongDesc.longDescription}
+                </p>
+              )}
+            </div>
           </div>
 
           {/* Lessons */}
@@ -149,6 +149,5 @@ export default async function SkillPage({ params }: Props) {
           </div>
         </div>
       </div>
-    </div>
   );
 }

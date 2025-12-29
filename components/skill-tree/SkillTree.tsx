@@ -60,22 +60,45 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
   });
 
   return (
-    <div className="max-w-3xl mx-auto space-y-6">
-      {/* Header */}
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">
-          Jouw Leerpad
-        </h1>
-        <p className="text-gray-600">
-          Voltooi vaardigheden in volgorde om nieuwe inhoud te ontgrendelen
-        </p>
+    <div className="max-w-7xl mx-auto">
+      {/* Stats header - moved to top for better UX */}
+      <div className="mb-6 bg-white/70 backdrop-blur-xl rounded-2xl p-4 md:p-5 shadow-xl border border-white/50">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="flex items-center justify-center md:justify-start gap-3 group">
+            <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="text-2xl font-bold">{completedLessons.size}</div>
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Lessen</div>
+              <div className="text-base font-bold text-gray-800">Voltooid</div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 group">
+            <div className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="text-2xl font-bold">{unlockedSkills.size}</div>
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Skills</div>
+              <div className="text-base font-bold text-gray-800">Ontgrendeld</div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 group">
+            <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="text-2xl font-bold">{skills.length}</div>
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Totaal</div>
+              <div className="text-base font-bold text-gray-800">Skills</div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Skill nodes */}
-      <div className="space-y-4">
+      {/* Skill nodes in responsive grid */}
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-5">
         {skills
           .sort((a, b) => a.order - b.order)
-          .map((skill) => {
+          .map((skill, index) => {
             const lessonsCompleted = skill.lessons.filter((lesson) =>
               completedLessons.has(getLessonId(lesson))
             ).length;
@@ -84,12 +107,11 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
             const isActive = skill.id === currentSkill;
 
             return (
-              <div key={skill.id} className="relative">
-                {/* Connector line */}
-                {skill.order > 0 && (
-                  <div className="absolute left-1/2 -translate-x-1/2 -top-4 w-0.5 h-4 bg-gray-300" />
-                )}
-                
+              <div 
+                key={skill.id} 
+                className="animate-fadeIn" 
+                style={{ animationDelay: `${index * 50}ms` }}
+              >
                 <SkillNode
                   id={skill.id}
                   title={skill.title}
@@ -105,30 +127,6 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
               </div>
             );
           })}
-      </div>
-
-      {/* Stats footer */}
-      <div className="mt-12 p-6 bg-white rounded-lg border border-gray-200">
-        <div className="grid grid-cols-3 gap-4 text-center">
-          <div>
-            <div className="text-2xl font-bold text-blue-600">
-              {completedLessons.size}
-            </div>
-            <div className="text-sm text-gray-600">Lessen Voltooid</div>
-          </div>
-          <div>
-            <div className="text-2xl font-bold text-green-600">
-              {unlockedSkills.size}
-            </div>
-            <div className="text-sm text-gray-600">Vaardigheden Ontgrendeld</div>
-          </div>
-          <div>
-            <div className="text-2xl font-bold text-purple-600">
-              {skills.length}
-            </div>
-            <div className="text-sm text-gray-600">Totaal Vaardigheden</div>
-          </div>
-        </div>
       </div>
     </div>
   );

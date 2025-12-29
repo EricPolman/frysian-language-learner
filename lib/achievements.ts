@@ -17,8 +17,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   // Lesson Achievements
   {
     id: 'first_lesson',
-    title: 'First Steps',
-    description: 'Complete your first lesson',
+    title: 'Eerste Stappen',
+    description: 'Voltooi je eerste les',
     icon: '🎯',
     category: 'lessons',
     requirement: { type: 'lessons_completed', value: 1 },
@@ -26,8 +26,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'lessons_5',
-    title: 'Getting Started',
-    description: 'Complete 5 lessons',
+    title: 'Aan de Slag',
+    description: 'Voltooi 5 lessen',
     icon: '📚',
     category: 'lessons',
     requirement: { type: 'lessons_completed', value: 5 },
@@ -35,8 +35,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'lessons_10',
-    title: 'Committed Learner',
-    description: 'Complete 10 lessons',
+    title: 'Toegewijde Leerling',
+    description: 'Voltooi 10 lessen',
     icon: '📖',
     category: 'lessons',
     requirement: { type: 'lessons_completed', value: 10 },
@@ -44,8 +44,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'lessons_25',
-    title: 'Dedicated Student',
-    description: 'Complete 25 lessons',
+    title: 'Toegewijde Student',
+    description: 'Voltooi 25 lessen',
     icon: '🎓',
     category: 'lessons',
     requirement: { type: 'lessons_completed', value: 25 },
@@ -53,19 +53,19 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'lessons_50',
-    title: 'Master Student',
-    description: 'Complete 50 lessons',
+    title: 'Meesterstudent',
+    description: 'Voltooi 50 lessen',
     icon: '🏆',
     category: 'lessons',
     requirement: { type: 'lessons_completed', value: 50 },
     xpReward: 500,
   },
 
-  // XP Achievements
+  // XP Prestaties
   {
     id: 'xp_100',
-    title: 'Century',
-    description: 'Earn 100 XP',
+    title: 'Eerste Honderd',
+    description: 'Verdien 100 XP',
     icon: '💯',
     category: 'xp',
     requirement: { type: 'xp_earned', value: 100 },
@@ -73,8 +73,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'xp_500',
-    title: 'Rising Star',
-    description: 'Earn 500 XP',
+    title: 'Rijzende Ster',
+    description: 'Verdien 500 XP',
     icon: '⭐',
     category: 'xp',
     requirement: { type: 'xp_earned', value: 500 },
@@ -82,8 +82,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'xp_1000',
-    title: 'Thousand Club',
-    description: 'Earn 1,000 XP',
+    title: 'Duizend Club',
+    description: 'Verdien 1.000 XP',
     icon: '🌟',
     category: 'xp',
     requirement: { type: 'xp_earned', value: 1000 },
@@ -91,19 +91,19 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'xp_5000',
-    title: 'XP Master',
-    description: 'Earn 5,000 XP',
+    title: 'XP Meester',
+    description: 'Verdien 5.000 XP',
     icon: '💫',
     category: 'xp',
     requirement: { type: 'xp_earned', value: 5000 },
     xpReward: 500,
   },
 
-  // Streak Achievements
+  // Reeks Prestaties
   {
     id: 'streak_3',
-    title: 'Warming Up',
-    description: 'Practice 3 days in a row',
+    title: 'Opwarmen',
+    description: 'Oefen 3 dagen achter elkaar',
     icon: '🔥',
     category: 'streak',
     requirement: { type: 'streak_days', value: 3 },
@@ -111,8 +111,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'streak_7',
-    title: 'Week Warrior',
-    description: 'Practice 7 days in a row',
+    title: 'Weekstrijder',
+    description: 'Oefen 7 dagen achter elkaar',
     icon: '🔥',
     category: 'streak',
     requirement: { type: 'streak_days', value: 7 },
@@ -120,8 +120,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'streak_14',
-    title: 'Two Week Champion',
-    description: 'Practice 14 days in a row',
+    title: 'Twee Weken Kampioen',
+    description: 'Oefen 14 dagen achter elkaar',
     icon: '🔥',
     category: 'streak',
     requirement: { type: 'streak_days', value: 14 },
@@ -129,8 +129,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'streak_30',
-    title: 'Monthly Master',
-    description: 'Practice 30 days in a row',
+    title: 'Maandmeester',
+    description: 'Oefen 30 dagen achter elkaar',
     icon: '🔥',
     category: 'streak',
     requirement: { type: 'streak_days', value: 30 },
@@ -138,19 +138,19 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'streak_100',
-    title: 'Unstoppable',
-    description: 'Practice 100 days in a row',
+    title: 'Onstuitbaar',
+    description: 'Oefen 100 dagen achter elkaar',
     icon: '🔥',
     category: 'streak',
     requirement: { type: 'streak_days', value: 100 },
     xpReward: 1000,
   },
 
-  // Perfect Lesson Achievements
+  // Perfecte Les Prestaties
   {
     id: 'perfect_1',
     title: 'Perfectionist',
-    description: 'Complete a lesson with 100% accuracy',
+    description: 'Voltooi een les met 100% nauwkeurigheid',
     icon: '✨',
     category: 'accuracy',
     requirement: { type: 'perfect_lessons', value: 1 },
@@ -158,8 +158,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'perfect_5',
-    title: 'Precision Expert',
-    description: 'Complete 5 perfect lessons',
+    title: 'Precisie Expert',
+    description: 'Voltooi 5 perfecte lessen',
     icon: '💎',
     category: 'accuracy',
     requirement: { type: 'perfect_lessons', value: 5 },
@@ -167,19 +167,19 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'perfect_10',
-    title: 'Flawless',
-    description: 'Complete 10 perfect lessons',
+    title: 'Foutloos',
+    description: 'Voltooi 10 perfecte lessen',
     icon: '👑',
     category: 'accuracy',
     requirement: { type: 'perfect_lessons', value: 10 },
     xpReward: 250,
   },
 
-  // Word Learning Achievements
+  // Woorden Leren Prestaties
   {
     id: 'words_10',
-    title: 'Word Collector',
-    description: 'Learn 10 words',
+    title: 'Woordenverzamelaar',
+    description: 'Leer 10 woorden',
     icon: '📝',
     category: 'special',
     requirement: { type: 'words_learned', value: 10 },
@@ -187,8 +187,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'words_50',
-    title: 'Vocabulary Builder',
-    description: 'Learn 50 words',
+    title: 'Woordenschatbouwer',
+    description: 'Leer 50 woorden',
     icon: '📚',
     category: 'special',
     requirement: { type: 'words_learned', value: 50 },
@@ -196,19 +196,19 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'words_100',
-    title: 'Word Master',
-    description: 'Learn 100 words',
+    title: 'Woordenmeester',
+    description: 'Leer 100 woorden',
     icon: '📖',
     category: 'special',
     requirement: { type: 'words_learned', value: 100 },
     xpReward: 250,
   },
 
-  // Skill Completion
+  // Vaardigheid Voltooiing
   {
     id: 'first_skill',
-    title: 'Skill Unlocked',
-    description: 'Complete your first skill',
+    title: 'Vaardigheid Ontgrendeld',
+    description: 'Voltooi je eerste vaardigheid',
     icon: '🎯',
     category: 'special',
     requirement: { type: 'skill_completed', value: 1 },
@@ -216,8 +216,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'skills_3',
-    title: 'Triple Threat',
-    description: 'Complete 3 skills',
+    title: 'Drievoudige Dreiging',
+    description: 'Voltooi 3 vaardigheden',
     icon: '🎖️',
     category: 'special',
     requirement: { type: 'skill_completed', value: 3 },
@@ -225,8 +225,8 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
   {
     id: 'skills_5',
-    title: 'Skill Master',
-    description: 'Complete 5 skills',
+    title: 'Vaardigheidsmeester',
+    description: 'Voltooi 5 vaardigheden',
     icon: '👑',
     category: 'special',
     requirement: { type: 'skill_completed', value: 5 },

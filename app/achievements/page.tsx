@@ -9,7 +9,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: "Prestaties - Frysk Leare",
-  description: "View your achievements and progress",
+  description: "Bekijk je prestaties en voortgang",
 };
 
 export default async function AchievementsPage() {
@@ -29,14 +29,13 @@ export default async function AchievementsPage() {
     .order("unlocked_at", { ascending: false });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      <Header />
-      
-      <main className="container mx-auto px-4 py-8 pb-24 max-w-6xl">
-        <div className="mb-6">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <main className="container mx-auto px-4 pb-24 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
           <Link href="/dashboard">
             <Button variant="ghost" className="mb-4">
-              ← Terug naar Dashboard
+              ← Dashboard
             </Button>
           </Link>
           <h1 className="text-4xl font-bold text-gray-900 mb-2">🏆 Prestaties</h1>

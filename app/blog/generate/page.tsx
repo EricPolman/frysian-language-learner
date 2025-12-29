@@ -114,20 +114,23 @@ export default function GenerateBlogPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        <Link href="/blog">
-          <Button variant="ghost" className="mb-4">
-            ← Terug naar Blog
-          </Button>
-        </Link>
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
+          <Link href="/blog">
+            <Button variant="ghost" className="mb-4">
+              ← Blog
+            </Button>
+          </Link>
 
-        <h1 className="text-4xl font-bold text-gray-900 mb-2">
-          Genereer Blogbericht
-        </h1>
-        <p className="text-gray-600 mb-8">
-          Maak een nieuw AI-gegenereerd blogbericht over de Friese taal en cultuur
-        </p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">
+            Genereer Blogbericht
+          </h1>
+          <p className="text-gray-600 text-lg">
+            Maak een nieuw AI-gegenereerd blogbericht over de Friese taal en cultuur
+          </p>
+        </div>
 
         <Card className="p-8 mb-6">
           <div className="space-y-6">

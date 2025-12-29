@@ -89,16 +89,18 @@ export default function BlogPostPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      <div className="max-w-4xl mx-auto px-4 py-8">
-        {/* Back Button */}
-        <Button 
-          variant="ghost" 
-          className="mb-6"
-          onClick={() => router.push('/blog')}
-        >
-          ← Terug naar Blog
-        </Button>
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
+          <Button 
+            variant="ghost" 
+            className="mb-4"
+            onClick={() => router.push('/blog')}
+          >
+            ← Blog
+          </Button>
+        </div>
 
         {/* Main Article */}
         <article>

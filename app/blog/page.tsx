@@ -47,22 +47,16 @@ export default async function BlogPage() {
   const posts = await getBlogPosts();
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white">
-      <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
         {/* Header */}
-        <div className="mb-8">
-          <Link href="/dashboard">
-            <Button variant="ghost" className="mb-4">
-              ← Terug naar Dashboard
-            </Button>
-          </Link>
-          
+        <div className="mb-8">          
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-4xl font-bold text-gray-900 mb-2">
-                Friese taal Blog
+                Blog en nieuws
               </h1>
-              <p className="text-gray-600">
+              <p className="text-gray-600 text-lg">
                 Dagelijkse berichten om je Friese woordenschat en culturele kennis uit te breiden
               </p>
             </div>

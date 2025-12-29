@@ -35,7 +35,7 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
       setMessages([
         {
           role: "assistant",
-          content: "Hoi! Ik ben je Friese taalcoach. Laten we beginnen met een gesprek! Hoe gaat het met je? 👋",
+          content: "Hoi! Ik ben je Friese taalcoach. Laten we beginnen met een gesprek! Hoe giet it mei dy? 👋",
         },
       ]);
     }

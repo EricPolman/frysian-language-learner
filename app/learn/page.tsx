@@ -4,6 +4,7 @@ import { createClient } from "@/lib/supabase/server";
 import skillsData from "@/data/skills.json";
 import { redirect } from "next/navigation";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 export default async function LearnPage() {
   const user = await getUser();
@@ -14,23 +15,12 @@ export default async function LearnPage() {
 
   // Get user progress from database
   const supabase = await createClient();
-  
-  const { data: progressData } = await supabase
-    .from("user_progress")
-    .select("*")
-    .eq("user_id", user.id)
-    .single();
-
-  // Check for weak words (strength < 4)
-  const { data: weakWordsData } = await supabase
-    .from("word_progress")
-    .select("word_id")
-    .eq("user_id", user.id)
-    .lt("strength", 4)
-    .limit(1);
-  
-  const hasWeakWords = (weakWordsData && weakWordsData.length > 0) || 
-                       ((progressData as any)?.completed_lessons?.length > 0);
+    
+    const { data: progressData } = await supabase
+      .from("user_progress")
+      .select("*")
+      .eq("user_id", user.id)
+      .single();
 
   // Convert completed lessons array to Set for efficient lookup
   const completedLessons = new Set<string>(
@@ -41,39 +31,14 @@ export default async function LearnPage() {
     | undefined;
 
   return (
-    <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-8">
-      <div className="container mx-auto px-4">
-        {/* Quick Actions */}
-        <div className="max-w-md mx-auto mb-6 space-y-3">
-          {/* Chat Button */}
-          <Link href="/chat">
-            <div className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 transition-colors text-white rounded-xl p-4 flex items-center justify-between cursor-pointer shadow-lg">
-              <div className="flex items-center gap-3">
-                <span className="text-2xl">💬</span>
-                <div>
-                  <div className="font-bold">Petear yn it Frysk</div>
-                  <div className="text-sm text-blue-100">Chat mei AI-coaching</div>
-                </div>
-              </div>
-              <div className="text-blue-200">→</div>
-            </div>
-          </Link>
-
-          {/* Practice Button */}
-          {hasWeakWords && (
-            <Link href="/practice">
-              <div className="bg-purple-600 hover:bg-purple-700 transition-colors text-white rounded-xl p-4 flex items-center justify-between cursor-pointer shadow-lg">
-                <div className="flex items-center gap-3">
-                  <span className="text-2xl">🔄</span>
-                  <div>
-                    <div className="font-bold">Oefenen</div>
-                    <div className="text-sm text-purple-200">Versterk je zwakke woorden</div>
-                  </div>
-                </div>
-                <div className="text-purple-200">→</div>
-              </div>
-            </Link>
-          )}
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">📚 Leren</h1>
+          <p className="text-gray-600 text-lg">
+            Kies een vaardigheid om te beginnen met leren
+          </p>
         </div>
         
         <SkillTree

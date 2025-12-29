@@ -22,19 +22,19 @@ export function AchievementGrid({ unlockedAchievements }: AchievementGridProps) 
   ];
 
   const categoryTitles = {
-    lessons: "📚 Lessons",
-    xp: "⭐ Experience",
-    streak: "🔥 Streaks",
-    accuracy: "✨ Accuracy",
-    special: "🏆 Special",
+    lessons: "📚 Lessen",
+    xp: "⭐ Ervaring",
+    streak: "🔥 Reeksen",
+    accuracy: "✨ Nauwkeurigheid",
+    special: "🏆 Speciaal",
   };
 
   const categoryDescriptions = {
-    lessons: "Complete lessons to unlock these achievements",
-    xp: "Earn XP to unlock these achievements",
-    streak: "Practice daily to unlock these achievements",
-    accuracy: "Perfect lessons unlock these achievements",
-    special: "Special milestones and achievements",
+    lessons: "Voltooi lessen om deze prestaties te ontgrendelen",
+    xp: "Verdien XP om deze prestaties te ontgrendelen",
+    streak: "Oefen dagelijks om deze prestaties te ontgrendelen",
+    accuracy: "Perfecte lessen ontgrendelen deze prestaties",
+    special: "Speciale mijlpalen en prestaties",
   };
 
   return (
@@ -82,10 +82,10 @@ export function AchievementGrid({ unlockedAchievements }: AchievementGridProps) 
       <Card className="p-6 bg-gradient-to-br from-blue-50 to-purple-50">
         <div className="text-center">
           <h3 className="text-2xl font-bold mb-2">
-            {unlockedIds.length} / {ACHIEVEMENTS.length} Achievements
+            {unlockedIds.length} / {ACHIEVEMENTS.length} Prestaties
           </h3>
           <p className="text-gray-600">
-            Keep learning to unlock more badges and earn bonus XP!
+            Blijf leren om meer badges te ontgrendelen en bonus XP te verdienen!
           </p>
           <div className="mt-4 bg-white rounded-full h-4 overflow-hidden">
             <div
@@ -96,7 +96,7 @@ export function AchievementGrid({ unlockedAchievements }: AchievementGridProps) 
             />
           </div>
           <p className="text-sm text-gray-500 mt-2">
-            {Math.round((unlockedIds.length / ACHIEVEMENTS.length) * 100)}% Complete
+            {Math.round((unlockedIds.length / ACHIEVEMENTS.length) * 100)}% Voltooid
           </p>
         </div>
       </Card>

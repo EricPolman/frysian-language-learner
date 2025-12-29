@@ -103,15 +103,115 @@ export default async function DashboardPage() {
     skill.lessons.every((lessonId) => completedLessons.includes(lessonId))
   ).length;
 
+
+  const { data: progressData } = await supabase
+    .from("user_progress")
+    .select("*")
+    .eq("user_id", user.id)
+    .single();
+    
+  // Check for weak words (strength < 4)
+  const { data: weakWordsData } = await supabase
+    .from("word_progress")
+    .select("word_id")
+    .eq("user_id", user.id)
+    .lt("strength", 4)
+    .limit(1);
+  
+  const hasWeakWords = (weakWordsData && weakWordsData.length > 0) || 
+                       ((progressData as any)?.completed_lessons?.length > 0);
+
+
   return (
-    <div className="min-h-screen bg-linear-to-b from-blue-50 to-white py-8">
-      <div className="container mx-auto px-4">
-        <div className="max-w-4xl mx-auto">
-          {/* Header */}
-          <div className="mb-8">
-            <h1 className="text-3xl font-bold text-gray-900 mb-2">Dashboard</h1>
-            <p className="text-gray-600">Welkom terug, {(profile as any)?.display_name || user.email}!</p>
+    <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
+      <div className="container mx-auto px-4 max-w-6xl">
+        {/* Header */}
+        <div className="mb-8">
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Dashboard</h1>
+          <p className="text-gray-600 text-lg">Welkom terug, {(profile as any)?.display_name || user.email}!</p>
+        </div>
+          
+        {/* Quick Actions Grid */}
+        <div className="mb-12">
+          <div className="grid md:grid-cols-2 gap-4">{/* Chat Button */}
+            <Link href="/chat">
+              <div className="group relative bg-gradient-to-br from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 transition-all duration-300 text-white rounded-2xl p-6 cursor-pointer shadow-xl hover:shadow-2xl hover:scale-105 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative flex items-center justify-between">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
+                      <span className="text-3xl">💬</span>
+                    </div>
+                    <div>
+                      <div className="font-bold text-lg">Petear yn it Frysk</div>
+                      <div className="text-sm text-blue-100">Chat mei AI-coaching</div>
+                    </div>
+                  </div>
+                  <div className="text-blue-200 group-hover:translate-x-1 transition-transform text-2xl">→</div>
+                </div>
+              </div>
+            </Link>
+
+            {/* Practice Button */}
+            {hasWeakWords && (
+              <Link href="/practice">
+                <div className="group relative bg-gradient-to-br from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 transition-all duration-300 text-white rounded-2xl p-6 cursor-pointer shadow-xl hover:shadow-2xl hover:scale-105 overflow-hidden">
+                  <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                  <div className="relative flex items-center justify-between">
+                    <div className="flex items-center gap-4">
+                      <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
+                        <span className="text-3xl">🔄</span>
+                      </div>
+                      <div>
+                        <div className="font-bold text-lg">Oefenen</div>
+                        <div className="text-sm text-purple-100">Versterk je zwakke woorden</div>
+                      </div>
+                    </div>
+                    <div className="text-purple-200 group-hover:translate-x-1 transition-transform text-2xl">→</div>
+                  </div>
+                </div>
+              </Link>
+            )}
+
+            {/* Blog Link */}
+            <Link href="/blog">
+              <div className="group relative bg-gradient-to-br from-indigo-600 to-indigo-700 hover:from-indigo-700 hover:to-indigo-800 transition-all duration-300 text-white rounded-2xl p-6 cursor-pointer shadow-xl hover:shadow-2xl hover:scale-105 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative flex items-center justify-between">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
+                      <span className="text-3xl">📰</span>
+                    </div>
+                    <div>
+                      <div className="font-bold text-lg">Friese Blog</div>
+                      <div className="text-sm text-indigo-100">Lees dagelijkse verhalen</div>
+                    </div>
+                  </div>
+                  <div className="text-indigo-200 group-hover:translate-x-1 transition-transform text-2xl">→</div>
+                </div>
+              </div>
+            </Link>
+
+            {/* Achievements Link */}
+            <Link href="/achievements">
+              <div className="group relative bg-gradient-to-br from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 transition-all duration-300 text-white rounded-2xl p-6 cursor-pointer shadow-xl hover:shadow-2xl hover:scale-105 overflow-hidden">
+                <div className="absolute inset-0 bg-gradient-to-br from-white/20 to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="relative flex items-center justify-between">
+                  <div className="flex items-center gap-4">
+                    <div className="bg-white/20 backdrop-blur-sm p-3 rounded-xl">
+                      <span className="text-3xl">🏆</span>
+                    </div>
+                    <div>
+                      <div className="font-bold text-lg">Prestaties</div>
+                      <div className="text-sm text-amber-100">Bekijk je badges</div>
+                    </div>
+                  </div>
+                  <div className="text-amber-200 group-hover:translate-x-1 transition-transform text-2xl">→</div>
+                </div>
+              </div>
+            </Link>
           </div>
+        </div>
 
           {/* Level and XP Card */}
           <Card className="p-6 mb-6">
@@ -153,11 +253,6 @@ export default async function DashboardPage() {
                   <p className="text-sm text-gray-500">Nog {dailyGoalXp - todayXp} XP te gaan!</p>
                 )}
               </div>
-              <Link href="/settings">
-                <Button variant="outline" size="sm" className="mt-3 w-full">
-                  Pas Doel Aan
-                </Button>
-              </Link>
             </Card>
 
             {/* Streak */}
@@ -313,6 +408,6 @@ export default async function DashboardPage() {
           </Card>
         </div>
       </div>
-    </div>
+    
   );
 }
