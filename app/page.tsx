@@ -1,8 +1,50 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { createClient } from "@/lib/supabase/server";
+import { BlogPostLevel } from "@/types/blog";
 
-export default function Home() {
+async function getLatestBlogPosts() {
+  const supabase = await createClient();
+  
+  const { data: posts, error } = await supabase
+    .from('blog_posts')
+    .select('*')
+    .order('published_date', { ascending: false })
+    .limit(3);
+
+  if (error) {
+    console.error('Error fetching blog posts:', error);
+    return [];
+  }
+
+  return posts || [];
+}
+
+function getLevelBadgeColor(level: BlogPostLevel): string {
+  switch (level) {
+    case 'beginner':
+      return 'bg-green-100 text-green-800 border-green-300';
+    case 'intermediate':
+      return 'bg-yellow-100 text-yellow-800 border-yellow-300';
+    case 'advanced':
+      return 'bg-red-100 text-red-800 border-red-300';
+    default:
+      return '';
+  }
+}
+
+function formatDate(dateString: string): string {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('nl-NL', { 
+    year: 'numeric', 
+    month: 'long', 
+    day: 'numeric' 
+  });
+}
+
+export default async function Home() {
+  const latestPosts = await getLatestBlogPosts();
   return (
     <div className="min-h-screen bg-linear-to-b from-blue-50 to-white">
 
@@ -122,6 +164,79 @@ export default function Home() {
             </p>
           </Card>
         </div>
+      </section>
+
+      {/* Blog Section */}
+      <section className="container mx-auto px-4 py-20">
+        <div className="text-center mb-12">
+          <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            📚 Friese Taal Blog
+          </h3>
+          <p className="text-lg text-gray-600 max-w-2xl mx-auto">
+            Dagelijkse berichten om je Friese woordenschat en culturele kennis uit te breiden
+          </p>
+        </div>
+
+        {latestPosts.length > 0 ? (
+          <>
+            <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto mb-8">
+              {latestPosts.map((post) => (
+                <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+                  <Link href={`/blog/${post.id}`}>
+                    <div className="p-6">
+                      {/* Level Badge */}
+                      <div className="mb-3">
+                        <span className={`inline-block px-3 py-1 text-xs font-semibold rounded-full border ${getLevelBadgeColor(post.level)}`}>
+                          {post.level === 'beginner' ? 'Beginner' : post.level === 'intermediate' ? 'Gemiddeld' : 'Gevorderd'}
+                        </span>
+                      </div>
+
+                      {/* Title */}
+                      <h4 className="text-xl font-bold text-gray-900 mb-2 line-clamp-2">
+                        {post.title}
+                      </h4>
+                      
+                      {/* Frisian Title */}
+                      <p className="text-sm text-blue-600 mb-3 italic">
+                        {post.title_fy}
+                      </p>
+
+                      {/* Summary */}
+                      <p className="text-gray-600 text-sm mb-4 line-clamp-3">
+                        {post.summary}
+                      </p>
+
+                      {/* Metadata */}
+                      <div className="flex items-center justify-between text-xs text-gray-500">
+                        <span>{formatDate(post.published_date)}</span>
+                        <span>{(post.vocabulary as any[])?.length || 0} woorden</span>
+                      </div>
+
+                      {/* Read More Link */}
+                      <div className="mt-4 pt-4 border-t">
+                        <span className="text-blue-600 font-semibold text-sm hover:underline">
+                          Lees meer →
+                        </span>
+                      </div>
+                    </div>
+                  </Link>
+                </Card>
+              ))}
+            </div>
+
+            <div className="text-center">
+              <Link href="/blog">
+                <Button variant="outline" size="lg">
+                  Bekijk Alle Berichten →
+                </Button>
+              </Link>
+            </div>
+          </>
+        ) : (
+          <Card className="p-8 text-center max-w-2xl mx-auto">
+            <p className="text-gray-600">Nog geen blogberichten beschikbaar. Kom later terug!</p>
+          </Card>
+        )}
       </section>
 
       {/* How It Works Section */}

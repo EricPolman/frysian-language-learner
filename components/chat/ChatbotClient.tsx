@@ -35,7 +35,7 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
       setMessages([
         {
           role: "assistant",
-          content: "Hoi! Ik bin dyn Fryske taalcoach. Litte wy begjinne mei in petear! Hoe giet it mei dy? 👋",
+          content: "Hoi! Ik ben je Friese taalcoach. Laten we beginnen met een gesprek! Hoe gaat het met je? 👋",
         },
       ]);
     }
@@ -79,7 +79,7 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
       console.error("Error sending message:", error);
       const errorMessage: Message = {
         role: "assistant",
-        content: "Sorry, der is wat misgien. Probearje it opnij. 😔",
+        content: "Sorry, er is iets misgegaan. Probeer het opnieuw. 😔",
       };
       setMessages((prev) => [...prev, errorMessage]);
     } finally {
@@ -99,8 +99,8 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
     <div className="flex flex-col h-full">
       {/* Header */}
       <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-4 rounded-t-xl">
-        <h1 className="text-2xl font-bold">💬 Frysk Petear</h1>
-        <p className="text-sm opacity-90 mt-1">Chat yn it Frysk mei AI-coaching</p>
+        <h1 className="text-2xl font-bold">💬 Fries Gesprek</h1>
+        <p className="text-sm opacity-90 mt-1">Chat in het Fries met AI-coaching</p>
       </div>
 
       {/* Messages Container */}
@@ -146,7 +146,7 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
             value={input}
             onChange={(e) => setInput(e.target.value)}
             onKeyPress={handleKeyPress}
-            placeholder="Skriuw dyn berjocht yn it Frysk..."
+            placeholder="Schrijf je bericht in het Fries..."
             disabled={isLoading}
             className="flex-1"
           />
@@ -155,13 +155,13 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
             disabled={!input.trim() || isLoading}
             className="bg-blue-600 hover:bg-blue-700 text-white px-6"
           >
-            {isLoading ? "..." : "Ferstjoer"}
+            {isLoading ? "..." : "Verstuur"}
           </Button>
         </div>
         
         {/* Helper tips */}
         <div className="mt-3 text-xs text-gray-500 space-y-1">
-          <p>💡 <strong>Tip:</strong> Skriuw yn it Frysk en de AI sil dy helpe mei korreksjes en coaching!</p>
+          <p>💡 <strong>Tip:</strong> Schrijf in het Fries en de AI zal je helpen met correcties en coaching!</p>
         </div>
       </div>
     </div>

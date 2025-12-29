@@ -14,6 +14,111 @@ export type Database = {
   }
   public: {
     Tables: {
+      blog_post_views: {
+        Row: {
+          blog_post_id: string
+          id: string
+          user_id: string
+          viewed_at: string
+        }
+        Insert: {
+          blog_post_id: string
+          id?: string
+          user_id: string
+          viewed_at?: string
+        }
+        Update: {
+          blog_post_id?: string
+          id?: string
+          user_id?: string
+          viewed_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "blog_post_views_blog_post_id_fkey"
+            columns: ["blog_post_id"]
+            isOneToOne: false
+            referencedRelation: "blog_posts"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "blog_post_views_user_id_fkey"
+            columns: ["user_id"]
+            isOneToOne: false
+            referencedRelation: "profiles"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      blog_posts: {
+        Row: {
+          content: string
+          created_at: string
+          id: string
+          level: string
+          published_date: string
+          source_name: string | null
+          source_url: string | null
+          summary: string
+          title: string
+          title_fy: string
+          updated_at: string
+          vocabulary: Json
+        }
+        Insert: {
+          content: string
+          created_at?: string
+          id?: string
+          level: string
+          published_date?: string
+          source_name?: string | null
+          source_url?: string | null
+          summary: string
+          title: string
+          title_fy: string
+          updated_at?: string
+          vocabulary?: Json
+        }
+        Update: {
+          content?: string
+          created_at?: string
+          id?: string
+          level?: string
+          published_date?: string
+          source_name?: string | null
+          source_url?: string | null
+          summary?: string
+          title?: string
+          title_fy?: string
+          updated_at?: string
+          vocabulary?: Json
+        }
+        Relationships: []
+      }
+      chat_messages: {
+        Row: {
+          ai_response: string
+          created_at: string
+          id: string
+          user_id: string
+          user_message: string
+        }
+        Insert: {
+          ai_response: string
+          created_at?: string
+          id?: string
+          user_id: string
+          user_message: string
+        }
+        Update: {
+          ai_response?: string
+          created_at?: string
+          id?: string
+          user_id?: string
+          user_message?: string
+        }
+        Relationships: []
+      }
       lesson_attempts: {
         Row: {
           completed_at: string | null
@@ -103,30 +208,6 @@ export type Database = {
           notifications_enabled?: boolean
           total_xp?: number
           updated_at?: string
-        }
-        Relationships: []
-      }
-      chat_messages: {
-        Row: {
-          ai_response: string
-          created_at: string
-          id: string
-          user_id: string
-          user_message: string
-        }
-        Insert: {
-          ai_response: string
-          created_at?: string
-          id?: string
-          user_id: string
-          user_message: string
-        }
-        Update: {
-          ai_response?: string
-          created_at?: string
-          id?: string
-          user_id?: string
-          user_message?: string
         }
         Relationships: []
       }
