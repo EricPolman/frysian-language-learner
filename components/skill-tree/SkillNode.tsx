@@ -36,8 +36,8 @@ export function SkillNode({
     <Card
       className={`
         relative overflow-hidden transition-all duration-300 h-full
-        ${isLocked 
-          ? "opacity-70 cursor-not-allowed bg-gray-50/80 backdrop-blur-sm" 
+        ${isLocked
+          ? "opacity-70 cursor-not-allowed bg-gray-50/80 backdrop-blur-sm"
           : "hover:shadow-2xl hover:-translate-y-2 bg-white/90 backdrop-blur-lg cursor-pointer"}
         ${isActive ? "ring-4 ring-blue-500 shadow-2xl -translate-y-1" : "shadow-lg"}
         ${isCompleted ? "bg-gradient-to-br from-green-50/90 to-emerald-50/90 border-green-400/50" : "border-gray-200/50"}
@@ -45,11 +45,11 @@ export function SkillNode({
     >
       {/* Decorative gradient bars */}
       <div className="absolute top-0 left-0 right-0 flex gap-1">
-        <div 
+        <div
           className="h-2 flex-1"
           style={{
-            background: isLocked 
-              ? 'linear-gradient(135deg, #9ca3af 0%, #6b7280 100%)' 
+            background: isLocked
+              ? 'linear-gradient(135deg, #9ca3af 0%, #6b7280 100%)'
               : `linear-gradient(135deg, ${color} 0%, ${color}dd 100%)`,
           }}
         />
@@ -82,11 +82,11 @@ export function SkillNode({
       <div className="p-4 pt-6">
         {/* Icon with gradient background */}
         <div className="mb-5 flex flex-row items-center gap-4">
-          <div 
+          <div
             className="inline-flex w-14 h-14 rounded-2xl items-center justify-center text-4xl shadow-lg transform hover:scale-110 transition-transform"
             style={{
-              background: isLocked 
-                ? 'linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%)' 
+              background: isLocked
+                ? 'linear-gradient(135deg, #e5e7eb 0%, #d1d5db 100%)'
                 : `linear-gradient(135deg, ${color}15 0%, ${color}35 100%)`,
               border: isLocked ? 'none' : `3px solid ${color}30`,
             }}
@@ -95,10 +95,10 @@ export function SkillNode({
           </div>
           <div>
 
-          <div>
-            <h3 className="font-bold text-xl text-gray-900 mb-1">{title}</h3>
-            <p className="text-xs text-gray-600 leading-snug">{description}</p>
-          </div>
+            <div>
+              <h3 className="font-bold text-xl text-gray-900 mb-1">{title}</h3>
+              <p className="text-xs text-gray-600 leading-snug">{description}</p>
+            </div>
 
           </div>
         </div>
@@ -110,9 +110,9 @@ export function SkillNode({
             <div className="relative">
               <Progress value={progress} className="h-3 shadow-inner" />
               {!isLocked && progress > 0 && (
-                <div 
+                <div
                   className="absolute top-0 left-0 h-3 rounded-full opacity-30 blur-sm"
-                  style={{ 
+                  style={{
                     background: color,
                     width: `${progress}%`,
                   }}
@@ -128,9 +128,9 @@ export function SkillNode({
                   <span className="text-sm">✓</span> Voltooid
                 </span>
               ) : (
-                <span 
+                <span
                   className="text-sm font-bold px-2 py-0.5 rounded-full"
-                  style={{ 
+                  style={{
                     color: isLocked ? '#9ca3af' : color,
                     backgroundColor: isLocked ? '#f3f4f6' : `${color}15`,
                   }}
