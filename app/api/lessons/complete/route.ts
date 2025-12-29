@@ -122,11 +122,12 @@ export async function POST(request: Request) {
           const newStrength = Math.max(1, (existingProgress as any).strength - 1);
           await supabase
             .from("word_progress")
+            // @ts-ignore
             .update({
               strength: newStrength,
               incorrect_count: ((existingProgress as any).incorrect_count || 0) + 1,
               last_practiced: new Date().toISOString(),
-            } as any)
+            })
             .eq("id", (existingProgress as any).id);
         } else {
           // Create new word progress entry
