@@ -55,7 +55,6 @@ export default function ImportPage() {
 
       // Check if it's a skill or lesson
       if (data.skills) {
-        // Import skills from skills.json format
         for (const skill of data.skills) {
           logs.push(`Importing skill: ${skill.title}...`);
           
