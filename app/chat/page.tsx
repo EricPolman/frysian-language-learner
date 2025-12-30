@@ -28,8 +28,10 @@ export default async function ChatPage() {
   ]) || [];
 
   return (
-    <div className="h-screen overflow-hidden bg-white">
-      <ChatbotClient initialMessages={initialMessages} />
+    <div className="h-screen overflow-hidden bg-gradient-to-b from-gray-100 to-gray-50 md:p-8">
+      <div className="h-full md:h-auto md:max-h-[85vh] max-w-5xl mx-auto bg-white shadow-2xl md:rounded-2xl overflow-hidden">
+        <ChatbotClient initialMessages={initialMessages} />
+      </div>
     </div>
   );
 }

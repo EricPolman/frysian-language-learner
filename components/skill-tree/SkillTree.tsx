@@ -61,39 +61,6 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
 
   return (
     <div className="max-w-7xl mx-auto">
-      {/* Stats header - moved to top for better UX */}
-      <div className="mb-6 bg-white/70 backdrop-blur-xl rounded-2xl p-4 md:p-5 shadow-xl border border-white/50">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-          <div className="flex items-center justify-center md:justify-start gap-3 group">
-            <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
-              <div className="text-2xl font-bold">{completedLessons.size}</div>
-            </div>
-            <div className="text-left">
-              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Lessen</div>
-              <div className="text-base font-bold text-gray-800">Voltooid</div>
-            </div>
-          </div>
-          <div className="flex items-center justify-center md:justify-start gap-3 group">
-            <div className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
-              <div className="text-2xl font-bold">{unlockedSkills.size}</div>
-            </div>
-            <div className="text-left">
-              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Skills</div>
-              <div className="text-base font-bold text-gray-800">Ontgrendeld</div>
-            </div>
-          </div>
-          <div className="flex items-center justify-center md:justify-start gap-3 group">
-            <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
-              <div className="text-2xl font-bold">{skills.length}</div>
-            </div>
-            <div className="text-left">
-              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Totaal</div>
-              <div className="text-base font-bold text-gray-800">Skills</div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       {/* Skill nodes in responsive grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-5">
         {skills
@@ -128,6 +95,38 @@ export function SkillTree({ skills, userProgress }: SkillTreeProps) {
             );
           })}
       </div>
+      <div className="my-10 bg-white/70 backdrop-blur-xl rounded-2xl p-4 md:p-5 shadow-xl border border-white/50">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div className="flex items-center justify-center md:justify-start gap-3 group">
+            <div className="bg-gradient-to-br from-blue-500 to-blue-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="text-2xl font-bold">{completedLessons.size}</div>
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Lessen</div>
+              <div className="text-base font-bold text-gray-800">Voltooid</div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 group">
+            <div className="bg-gradient-to-br from-green-500 to-green-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="text-2xl font-bold">{unlockedSkills.size}</div>
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Skills</div>
+              <div className="text-base font-bold text-gray-800">Ontgrendeld</div>
+            </div>
+          </div>
+          <div className="flex items-center justify-center md:justify-start gap-3 group">
+            <div className="bg-gradient-to-br from-purple-500 to-purple-600 text-white rounded-xl p-3 shadow-lg group-hover:scale-110 transition-transform">
+              <div className="text-2xl font-bold">{skills.length}</div>
+            </div>
+            <div className="text-left">
+              <div className="text-xs font-medium text-gray-500 uppercase tracking-wide">Totaal</div>
+              <div className="text-base font-bold text-gray-800">Skills</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
     </div>
   );
 }

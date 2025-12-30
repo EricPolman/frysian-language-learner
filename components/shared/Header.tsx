@@ -83,12 +83,6 @@ export async function Header() {
                   Dashboard
                 </Button>
               </Link>
-              <form action={logout}>
-                <Button type="submit" variant="outline" size="sm">
-                  <span className="hidden sm:inline">Uitloggen</span>
-                  <span className="sm:hidden">👋</span>
-                </Button>
-              </form>
             </>
           ) : (
             <>

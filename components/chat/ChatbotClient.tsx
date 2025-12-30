@@ -103,27 +103,7 @@ export function ChatbotClient({ initialMessages = [] }: ChatbotProps) {
   };
 
   return (
-    <div className="flex flex-col h-screen bg-white">
-      {/* Compact Header */}
-      <div className="flex-shrink-0 bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-3 shadow-md">
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-lg">
-              💬
-            </div>
-            <div>
-              <h1 className="text-lg font-bold">Fries Oefenen</h1>
-              <p className="text-xs opacity-90">AI Taalcoach</p>
-            </div>
-          </div>
-          <a href="/dashboard" className="text-white/80 hover:text-white transition-colors">
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-            </svg>
-          </a>
-        </div>
-      </div>
-
+    <div className="flex flex-col h-full md:h-[85vh] bg-white pb-16 md:pb-0">
       {/* Messages Container - Scrollable */}
       <div className="flex-1 overflow-y-auto px-3 sm:px-4 md:px-6 py-4 sm:py-6 space-y-4 sm:space-y-6 bg-gradient-to-b from-gray-50 to-white">
         {messages.length === 0 && (
