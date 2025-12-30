@@ -11,7 +11,7 @@
     {
       "id": "intro-basics-1-1-0",
       "vocabulary": {
-        "id": "goeie-id",
+        "id": "basics-1-1-goeie-id",
         "frysian": "Goeie",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
@@ -24,7 +24,7 @@
     {
       "id": "intro-basics-1-1-1",
       "vocabulary": {
-        "id": "goeiemiddei-id",
+        "id": "basics-1-1-goeiemiddei-id",
         "frysian": "Goeiemiddei",
         "dutch": "Goedemiddag",
         "partOfSpeech": "tussenwerpsel",
@@ -37,7 +37,7 @@
     {
       "id": "intro-basics-1-1-2",
       "vocabulary": {
-        "id": "goeiejun-id",
+        "id": "basics-1-1-goeiejun-id",
         "frysian": "Goeiejûn",
         "dutch": "Goedenavond",
         "partOfSpeech": "tussenwerpsel",
@@ -50,7 +50,7 @@
     {
       "id": "intro-basics-1-1-3",
       "vocabulary": {
-        "id": "goeimoarn-id",
+        "id": "basics-1-1-goeimoarn-id",
         "frysian": "Goeiemoarn",
         "dutch": "Goedemorgen",
         "partOfSpeech": "tussenwerpsel",
@@ -63,7 +63,7 @@
     {
       "id": "intro-basics-1-1-4",
       "vocabulary": {
-        "id": "hoi-id",
+        "id": "basics-1-1-hoi-id",
         "frysian": "Hoi",
         "dutch": "Hoi",
         "partOfSpeech": "tussenwerpsel",
@@ -76,7 +76,7 @@
     {
       "id": "intro-basics-1-1-5",
       "vocabulary": {
-        "id": "hallo-id",
+        "id": "basics-1-1-hallo-id",
         "frysian": "Hallo",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "basics-1-1-trans-1",
       "question": "goedemiddag",
       "correctAnswer": "Goeiemiddei",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "basics-1-1-trans-rev-1",
       "question": "Goeiejûn",
       "correctAnswer": "goedenavond",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "basics-1-1-fill-1",
       "sentence": "___! Hoe is it mei dy?",
       "blankIndex": 0,
       "correctAnswer": "Goeiemiddei",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "basics-1-1-mc-1",
       "question": "Hoe zeg je 'hallo' in het Fries?",
       "correctAnswer": "Goeie",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "basics-1-1-trans-2",
       "question": "goedenavond",
       "correctAnswer": "Goeiejûn",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "basics-1-1-trans-rev-2",
       "question": "Goeiemoarn",
       "correctAnswer": "goedemorgen",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "basics-1-1-fill-2",
       "sentence": "___! Wat in moaie dei!",
       "blankIndex": 0,
       "correctAnswer": "Goeiemoarn",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "basics-1-1-mc-2",
       "question": "Hoe zeg je 'goedemiddag' in het Fries?",
       "correctAnswer": "Goeiemiddei",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "basics-1-1-trans-3",
       "question": "goedemorgen",
       "correctAnswer": "Goeiemoarn",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "basics-1-1-trans-rev-3",
       "question": "Hoi",
       "correctAnswer": "hoi",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "basics-1-1-fill-3",
       "sentence": "___! Hoe is it mei jo?",
       "blankIndex": 0,
       "correctAnswer": "Goeiejûn",

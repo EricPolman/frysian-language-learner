@@ -7,8 +7,38 @@ import { Card } from "@/components/ui/card";
 
 export default function ImportPage() {
   const [importing, setImporting] = useState(false);
+  const [bulkImporting, setBulkImporting] = useState(false);
   const [results, setResults] = useState<string[]>([]);
   const [jsonInput, setJsonInput] = useState("");
+
+  async function bulkImportAll() {
+    if (!confirm("Dit zal alle skills en lessen importeren uit de data/ map. Wil je doorgaan?")) {
+      return;
+    }
+
+    setBulkImporting(true);
+    setResults(["Starting bulk import..."]);
+
+    try {
+      const res = await fetch("/api/admin/import/bulk", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ includeSkills: true, includeLessons: true }),
+      });
+
+      const data = await res.json();
+      
+      if (data.logs) {
+        setResults(data.logs);
+      } else if (data.error) {
+        setResults([`Error: ${data.error}`]);
+      }
+    } catch (error) {
+      setResults([`Error: ${error}`]);
+    } finally {
+      setBulkImporting(false);
+    }
+  }
 
   async function importFromJson() {
     if (!jsonInput.trim()) {
@@ -162,6 +192,22 @@ export default function ImportPage() {
 
         <h1 className="text-3xl font-bold text-gray-900 mb-8">JSON Importeren</h1>
 
+        {/* Bulk Import Section */}
+        <Card className="p-6 mb-6 bg-gradient-to-r from-blue-50 to-indigo-50 border-blue-200">
+          <h2 className="font-bold mb-2 text-blue-900">🚀 Bulk Import</h2>
+          <p className="text-sm text-blue-700 mb-4">
+            Importeer alle skills en lessen uit de <code className="bg-blue-100 px-1 rounded">data/</code> map in één keer.
+            Dit zal bestaande records bijwerken (upsert) in plaats van dupliceren.
+          </p>
+          <Button
+            onClick={bulkImportAll}
+            disabled={bulkImporting || importing}
+            className="bg-blue-600 hover:bg-blue-700"
+          >
+            {bulkImporting ? "Bezig met bulk import..." : "Alles Importeren (Skills + Lessen)"}
+          </Button>
+        </Card>
+
         <Card className="p-6 mb-6">
           <h2 className="font-bold mb-4">Plak JSON Data</h2>
           <p className="text-sm text-gray-600 mb-4">
@@ -200,15 +246,28 @@ Voorbeelden:
         )}
 
         <div className="mt-8">
-          <h2 className="font-bold mb-4">Tip: Batch Import</h2>
-          <p className="text-gray-600 text-sm">
-            Om alle bestaande lessen te importeren, kun je de volgende stappen volgen:
-          </p>
-          <ol className="list-decimal list-inside text-sm text-gray-600 mt-2 space-y-1">
-            <li>Open eerst <code className="bg-gray-100 px-1 rounded">data/skills.json</code> en importeer de skills</li>
-            <li>Open daarna elk lesbestand uit <code className="bg-gray-100 px-1 rounded">data/lessons/</code></li>
-            <li>Plak de JSON en klik op Importeren</li>
-          </ol>
+          <h2 className="font-bold mb-4">💡 Tips</h2>
+          <div className="text-gray-600 text-sm space-y-4">
+            <div>
+              <strong>Bulk Import (aanbevolen):</strong>
+              <p className="mt-1">
+                Gebruik de "Alles Importeren" knop hierboven om alle skills en lessen in één keer te importeren.
+                Dit leest alle JSON bestanden uit de <code className="bg-gray-100 px-1 rounded">data/</code> map.
+              </p>
+            </div>
+            <div>
+              <strong>Handmatige Import:</strong>
+              <p className="mt-1">
+                Je kunt ook individuele JSON bestanden importeren door ze te plakken in het tekstveld.
+              </p>
+            </div>
+            <div>
+              <strong>Upsert Gedrag:</strong>
+              <p className="mt-1">
+                De import gebruikt upsert, wat betekent dat bestaande records worden bijgewerkt en nieuwe records worden aangemaakt.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>

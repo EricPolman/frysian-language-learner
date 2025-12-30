@@ -11,7 +11,7 @@
     {
       "id": "intro-clothing-1-0",
       "vocabulary": {
-        "id": "broek-1",
+        "id": "clothing-1-broek-1",
         "frysian": "broek",
         "dutch": "broek",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-clothing-1-1",
       "vocabulary": {
-        "id": "heve-1",
+        "id": "clothing-1-heve-1",
         "frysian": "heve",
         "dutch": "trui",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-clothing-1-2",
       "vocabulary": {
-        "id": "jas-1",
+        "id": "clothing-1-jas-1",
         "frysian": "jas",
         "dutch": "jas",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-clothing-1-3",
       "vocabulary": {
-        "id": "rok-1",
+        "id": "clothing-1-rok-1",
         "frysian": "rok",
         "dutch": "rok",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-clothing-1-4",
       "vocabulary": {
-        "id": "t-shirt-1",
+        "id": "clothing-1-t-shirt-1",
         "frysian": "T-shirt",
         "dutch": "T-shirt",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-clothing-1-5",
       "vocabulary": {
-        "id": "skuon-1",
+        "id": "clothing-1-skuon-1",
         "frysian": "skuon",
         "dutch": "schoenen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "clothing-1-trans-1",
       "question": "broek",
       "correctAnswer": "broek",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "clothing-1-trans-rev-1",
       "question": "jas",
       "correctAnswer": "jas",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "clothing-1-fill-1",
       "sentence": "Ik draach in ___",
       "blankIndex": 2,
       "correctAnswer": "heve",
@@ -129,7 +129,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "clothing-1-trans-2",
       "question": "T-shirt",
       "correctAnswer": "T-shirt",
       "acceptedAnswers": [
@@ -141,7 +141,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "clothing-1-mc-1",
       "question": "Hoe zeg je 'schoenen' in het Fries?",
       "correctAnswer": "skuon",
       "options": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "clothing-1-trans-rev-2",
       "question": "rok",
       "correctAnswer": "rok",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "clothing-1-fill-2",
       "sentence": "Hy hat in ___ oan",
       "blankIndex": 3,
       "correctAnswer": "jas",
@@ -183,7 +183,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "clothing-1-trans-3",
       "question": "trui",
       "correctAnswer": "heve",
       "acceptedAnswers": [
@@ -195,7 +195,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "clothing-1-mc-2",
       "question": "Hoe zeg je 'rok' in het Fries?",
       "correctAnswer": "rok",
       "options": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "clothing-1-trans-rev-3",
       "question": "broek",
       "correctAnswer": "broek",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "clothing-1-fill-3",
       "sentence": "Se draacht in ___",
       "blankIndex": 2,
       "correctAnswer": "rok",
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "clothing-1-trans-4",
       "question": "schoenen",
       "correctAnswer": "skuon",
       "acceptedAnswers": [

@@ -11,7 +11,7 @@
     {
       "id": "intro-colors-2-0",
       "vocabulary": {
-        "id": "kleur-oranje",
+        "id": "colors-2-kleur-oranje",
         "frysian": "oranje",
         "dutch": "oranje",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-colors-2-1",
       "vocabulary": {
-        "id": "kleur-pears",
+        "id": "colors-2-kleur-pears",
         "frysian": "pears",
         "dutch": "paars",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-colors-2-2",
       "vocabulary": {
-        "id": "kleur-roze",
+        "id": "colors-2-kleur-roze",
         "frysian": "roze",
         "dutch": "roze",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-colors-2-3",
       "vocabulary": {
-        "id": "kleur-brun",
+        "id": "colors-2-kleur-brun",
         "frysian": "brún",
         "dutch": "bruin",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-colors-2-4",
       "vocabulary": {
-        "id": "kleur-griis",
+        "id": "colors-2-kleur-griis",
         "frysian": "griis",
         "dutch": "grijs",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-colors-2-5",
       "vocabulary": {
-        "id": "kleur-giel",
+        "id": "colors-2-kleur-giel",
         "frysian": "giel",
         "dutch": "geel",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "colors-2-trans-1",
       "question": "oranje",
       "correctAnswer": "oranje",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "colors-2-fill-1",
       "sentence": "De auto is ___",
       "blankIndex": 2,
       "correctAnswer": "griis",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "colors-2-trans-rev-1",
       "question": "pears",
       "correctAnswer": "paars",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "colors-2-mc-1",
       "question": "Hoe zeg je 'geel' in het Fries?",
       "correctAnswer": "giel",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "colors-2-trans-2",
       "question": "bruin",
       "correctAnswer": "brún",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "colors-2-fill-2",
       "sentence": "De blom is ___",
       "blankIndex": 2,
       "correctAnswer": "roze",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "colors-2-trans-rev-2",
       "question": "roze",
       "correctAnswer": "roze",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "colors-2-mc-2",
       "question": "Hoe zeg je 'grijs' in het Fries?",
       "correctAnswer": "griis",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "colors-2-trans-3",
       "question": "geel",
       "correctAnswer": "giel",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "colors-2-fill-3",
       "sentence": "De mûr is ___",
       "blankIndex": 2,
       "correctAnswer": "pears",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "colors-2-trans-rev-3",
       "question": "brún",
       "correctAnswer": "bruin",
       "acceptedAnswers": [

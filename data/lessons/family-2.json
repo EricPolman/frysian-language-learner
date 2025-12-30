@@ -11,7 +11,7 @@
     {
       "id": "intro-family-2-0",
       "vocabulary": {
-        "id": "soan-fr",
+        "id": "family-2-soan-fr",
         "frysian": "soan",
         "dutch": "zoon",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-family-2-1",
       "vocabulary": {
-        "id": "dochter-fr",
+        "id": "family-2-dochter-fr",
         "frysian": "dochter",
         "dutch": "dochter",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-family-2-2",
       "vocabulary": {
-        "id": "bern-fr",
+        "id": "family-2-bern-fr",
         "frysian": "bern",
         "dutch": "kind",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-family-2-3",
       "vocabulary": {
-        "id": "famylje-fr",
+        "id": "family-2-famylje-fr",
         "frysian": "famylje",
         "dutch": "familie",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-family-2-4",
       "vocabulary": {
-        "id": "spylje-fr",
+        "id": "family-2-spylje-fr",
         "frysian": "spylje",
         "dutch": "spelen",
         "partOfSpeech": "werkwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-family-2-5",
       "vocabulary": {
-        "id": "leaf-fr",
+        "id": "family-2-leaf-fr",
         "frysian": "leaf",
         "dutch": "lief",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "family-2-trans-1",
       "question": "zoon",
       "correctAnswer": "soan",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "family-2-trans-rev-1",
       "question": "bern",
       "correctAnswer": "kind",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "family-2-fill-1",
       "sentence": "De ___ is leaf.",
       "blankIndex": 1,
       "correctAnswer": "soan",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "family-2-mc-1",
       "question": "Hoe zeg je 'lief' in het Fries?",
       "correctAnswer": "leaf",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "family-2-trans-2",
       "question": "dochter",
       "correctAnswer": "dochter",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "family-2-trans-rev-2",
       "question": "spylje",
       "correctAnswer": "spelen",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "family-2-fill-2",
       "sentence": "De ___ spylje.",
       "blankIndex": 1,
       "correctAnswer": "bern",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "family-2-mc-2",
       "question": "Hoe zeg je 'familie' in het Fries?",
       "correctAnswer": "famylje",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "family-2-trans-3",
       "question": "kind",
       "correctAnswer": "bern",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "family-2-trans-rev-3",
       "question": "famylje",
       "correctAnswer": "familie",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "family-2-fill-3",
       "sentence": "Myn ___ is leaf.",
       "blankIndex": 1,
       "correctAnswer": "dochter",

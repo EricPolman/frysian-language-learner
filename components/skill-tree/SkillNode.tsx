@@ -58,12 +58,17 @@ export function SkillNode({
         )}
       </div>
 
-      {/* Lock overlay with improved design */}
+      {/* Lock overlay with theme preview */}
       {isLocked && (
-        <div className="absolute inset-0 flex items-center justify-center bg-white/95 backdrop-blur-md rounded-lg z-10">
-          <div className="text-center px-3">
-            <div className="text-4xl mb-2 animate-pulse">🔒</div>
-            <p className="text-xs font-bold text-gray-700">Voltooi eerst eerdere skills</p>
+        <div className="absolute inset-0 flex flex-col items-center justify-center bg-white/90 backdrop-blur-sm rounded-lg z-10">
+          <div className="text-center px-4">
+            <div className="text-4xl mb-2">{icon}</div>
+            <h3 className="font-bold text-lg text-gray-700 mb-1">{title}</h3>
+            <p className="text-xs text-gray-500 mb-3 line-clamp-2">{description}</p>
+            <div className="flex items-center justify-center gap-1.5 text-gray-500">
+              <span className="text-lg">🔒</span>
+              <p className="text-xs font-medium">Voltooi eerst eerdere skills</p>
+            </div>
           </div>
         </div>
       )}

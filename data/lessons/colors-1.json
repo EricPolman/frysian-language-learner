@@ -11,7 +11,7 @@
     {
       "id": "intro-colors-1-0",
       "vocabulary": {
-        "id": "kleur-rood",
+        "id": "colors-1-kleur-rood",
         "frysian": "read",
         "dutch": "rood",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-colors-1-1",
       "vocabulary": {
-        "id": "kleur-blauw",
+        "id": "colors-1-kleur-blauw",
         "frysian": "blau",
         "dutch": "blauw",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-colors-1-2",
       "vocabulary": {
-        "id": "kleur-geel",
+        "id": "colors-1-kleur-geel",
         "frysian": "giel",
         "dutch": "geel",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-colors-1-3",
       "vocabulary": {
-        "id": "kleur-groen",
+        "id": "colors-1-kleur-groen",
         "frysian": "grien",
         "dutch": "groen",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-colors-1-4",
       "vocabulary": {
-        "id": "kleur-zwart",
+        "id": "colors-1-kleur-zwart",
         "frysian": "swart",
         "dutch": "zwart",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-colors-1-5",
       "vocabulary": {
-        "id": "kleur-wit",
+        "id": "colors-1-kleur-wit",
         "frysian": "wyt",
         "dutch": "wit",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "colors-1-trans-1",
       "question": "rood",
       "correctAnswer": "read",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "colors-1-trans-rev-1",
       "question": "blau",
       "correctAnswer": "blauw",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "colors-1-fill-1",
       "sentence": "De sinne is ___",
       "blankIndex": 2,
       "correctAnswer": "giel",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "colors-1-mc-1",
       "question": "Hoe zeg je 'groen' in het Fries?",
       "correctAnswer": "grien",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "colors-1-trans-2",
       "question": "zwart",
       "correctAnswer": "swart",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "colors-1-trans-rev-2",
       "question": "grien",
       "correctAnswer": "groen",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "colors-1-fill-2",
       "sentence": "De loft is ___",
       "blankIndex": 2,
       "correctAnswer": "blau",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "colors-1-mc-2",
       "question": "Hoe zeg je 'wit' in het Fries?",
       "correctAnswer": "wyt",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "colors-1-trans-3",
       "question": "geel",
       "correctAnswer": "giel",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "colors-1-trans-rev-3",
       "question": "read",
       "correctAnswer": "rood",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "colors-1-fill-3",
       "sentence": "In panda is ___ en ___",
       "blankIndex": 3,
       "correctAnswer": "wyt",
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "colors-1-trans-4",
       "question": "wit",
       "correctAnswer": "wyt",
       "acceptedAnswers": [

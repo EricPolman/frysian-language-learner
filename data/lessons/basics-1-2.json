@@ -11,7 +11,7 @@
     {
       "id": "intro-basics-1-2-0",
       "vocabulary": {
-        "id": "oant-sjen",
+        "id": "basics-1-2-oant-sjen",
         "frysian": "Oant sjen",
         "dutch": "Tot ziens",
         "partOfSpeech": "uitdrukking",
@@ -24,7 +24,7 @@
     {
       "id": "intro-basics-1-2-1",
       "vocabulary": {
-        "id": "oant-moarn",
+        "id": "basics-1-2-oant-moarn",
         "frysian": "Oant moarn",
         "dutch": "Tot morgen",
         "partOfSpeech": "uitdrukking",
@@ -37,7 +37,7 @@
     {
       "id": "intro-basics-1-2-2",
       "vocabulary": {
-        "id": "oant-aanst",
+        "id": "basics-1-2-oant-aanst",
         "frysian": "Oant aanst",
         "dutch": "Tot straks",
         "partOfSpeech": "uitdrukking",
@@ -50,7 +50,7 @@
     {
       "id": "intro-basics-1-2-3",
       "vocabulary": {
-        "id": "goeienacht",
+        "id": "basics-1-2-goeienacht",
         "frysian": "Goeienacht",
         "dutch": "Goedenacht",
         "partOfSpeech": "tussenwerpsel",
@@ -63,7 +63,7 @@
     {
       "id": "intro-basics-1-2-4",
       "vocabulary": {
-        "id": "oant-letter",
+        "id": "basics-1-2-oant-letter",
         "frysian": "Oant letter",
         "dutch": "Tot later",
         "partOfSpeech": "uitdrukking",
@@ -76,7 +76,7 @@
     {
       "id": "intro-basics-1-2-5",
       "vocabulary": {
-        "id": "sjoch",
+        "id": "basics-1-2-sjoch",
         "frysian": "Sjoch",
         "dutch": "Kijk",
         "partOfSpeech": "werkwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "basics-1-2-trans-1",
       "question": "Tot ziens",
       "correctAnswer": "Oant sjen",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "basics-1-2-trans-2",
       "question": "Tot morgen",
       "correctAnswer": "Oant moarn",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "basics-1-2-fill-1",
       "sentence": "___ moarn!",
       "blankIndex": 0,
       "correctAnswer": "Oant",
@@ -129,7 +129,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "basics-1-2-trans-rev-1",
       "question": "Sjoch",
       "correctAnswer": "Kijk",
       "acceptedAnswers": [
@@ -141,7 +141,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "basics-1-2-mc-1",
       "question": "Hoe zeg je 'tot straks' in het Fries?",
       "correctAnswer": "Oant aanst",
       "options": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "basics-1-2-trans-3",
       "question": "Goedenacht",
       "correctAnswer": "Goeienacht",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "basics-1-2-fill-2",
       "sentence": "___! Sliep lekker!",
       "blankIndex": 0,
       "correctAnswer": "Goeienacht",
@@ -183,7 +183,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "basics-1-2-trans-rev-2",
       "question": "Oant letter",
       "correctAnswer": "Tot later",
       "acceptedAnswers": [
@@ -195,7 +195,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "basics-1-2-mc-2",
       "question": "Hoe zeg je 'kijk' in het Fries?",
       "correctAnswer": "Sjoch",
       "options": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "basics-1-2-trans-4",
       "question": "Tot later",
       "correctAnswer": "Oant letter",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "basics-1-2-fill-3",
       "sentence": "___, ik sjoch dy aanst!",
       "blankIndex": 0,
       "correctAnswer": "Oant aanst",
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "basics-1-2-trans-rev-3",
       "question": "Goeienacht",
       "correctAnswer": "Goedenacht",
       "acceptedAnswers": [

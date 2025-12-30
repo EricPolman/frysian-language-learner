@@ -11,7 +11,7 @@
     {
       "id": "intro-adjectives-2-0",
       "vocabulary": {
-        "id": "goed-kwaliteit",
+        "id": "adjectives-2-goed-kwaliteit",
         "frysian": "goed",
         "dutch": "goed",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-adjectives-2-1",
       "vocabulary": {
-        "id": "min-kwaliteit",
+        "id": "adjectives-2-min-kwaliteit",
         "frysian": "min",
         "dutch": "slecht",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-adjectives-2-2",
       "vocabulary": {
-        "id": "moai-kwaliteit",
+        "id": "adjectives-2-moai-kwaliteit",
         "frysian": "moai",
         "dutch": "mooi",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-adjectives-2-3",
       "vocabulary": {
-        "id": "lelik-kwaliteit",
+        "id": "adjectives-2-lelik-kwaliteit",
         "frysian": "lelik",
         "dutch": "lelijk",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-adjectives-2-4",
       "vocabulary": {
-        "id": "nij-kwaliteit",
+        "id": "adjectives-2-nij-kwaliteit",
         "frysian": "nij",
         "dutch": "nieuw",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-adjectives-2-5",
       "vocabulary": {
-        "id": "âld-kwaliteit",
+        "id": "adjectives-2-âld-kwaliteit",
         "frysian": "âld",
         "dutch": "oud",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "adjectives-2-trans-1",
       "question": "goed",
       "correctAnswer": "goed",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "adjectives-2-trans-rev-1",
       "question": "âld",
       "correctAnswer": "oud",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "adjectives-2-fill-1",
       "sentence": "It is in ___ dei.",
       "blankIndex": 2,
       "correctAnswer": "moai",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "adjectives-2-mc-1",
       "question": "Hoe zeg je 'nieuw' in het Fries?",
       "correctAnswer": "nij",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "adjectives-2-trans-2",
       "question": "lelijk",
       "correctAnswer": "lelik",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "adjectives-2-trans-rev-2",
       "question": "moai",
       "correctAnswer": "mooi",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "adjectives-2-fill-2",
       "sentence": "Dit boek is ___ en spannend.",
       "blankIndex": 2,
       "correctAnswer": "nij",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "adjectives-2-mc-2",
       "question": "Hoe zeg je 'slecht' in het Fries?",
       "correctAnswer": "min",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "adjectives-2-trans-3",
       "question": "oud",
       "correctAnswer": "âld",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "adjectives-2-trans-rev-3",
       "question": "goed",
       "correctAnswer": "goed",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "adjectives-2-fill-3",
       "sentence": "It hûs is ___, net nij.",
       "blankIndex": 2,
       "correctAnswer": "âld",
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "adjectives-2-trans-4",
       "question": "nieuw",
       "correctAnswer": "nij",
       "acceptedAnswers": [

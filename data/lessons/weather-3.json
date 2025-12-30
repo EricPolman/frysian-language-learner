@@ -11,7 +11,7 @@
     {
       "id": "intro-weather-3-0",
       "vocabulary": {
-        "id": "waarm",
+        "id": "weather-3-waarm",
         "frysian": "waarm",
         "dutch": "warm",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-weather-3-1",
       "vocabulary": {
-        "id": "kald",
+        "id": "weather-3-kald",
         "frysian": "kâld",
         "dutch": "koud",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-weather-3-2",
       "vocabulary": {
-        "id": "hjit",
+        "id": "weather-3-hjit",
         "frysian": "hjit",
         "dutch": "heet",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-weather-3-3",
       "vocabulary": {
-        "id": "fris",
+        "id": "weather-3-fris",
         "frysian": "fris",
         "dutch": "fris",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-weather-3-4",
       "vocabulary": {
-        "id": "lekker",
+        "id": "weather-3-lekker",
         "frysian": "lekker",
         "dutch": "lekker",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-weather-3-5",
       "vocabulary": {
-        "id": "temperatuer",
+        "id": "weather-3-temperatuer",
         "frysian": "temperatuer",
         "dutch": "temperatuur",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "weather-3-trans-1",
       "question": "warm",
       "correctAnswer": "waarm",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "weather-3-trans-2",
       "question": "koud",
       "correctAnswer": "kâld",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "weather-3-fill-1",
       "sentence": "De temperatuer is ___.",
       "blankIndex": 3,
       "correctAnswer": "lekker",
@@ -129,7 +129,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "weather-3-trans-rev-1",
       "question": "hjit",
       "correctAnswer": "heet",
       "acceptedAnswers": [
@@ -141,7 +141,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "weather-3-mc-1",
       "question": "Hoe zeg je 'fris' in het Fries?",
       "correctAnswer": "fris",
       "options": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "weather-3-fill-2",
       "sentence": "It is ___ en kâld.",
       "blankIndex": 2,
       "correctAnswer": "fris",
@@ -171,7 +171,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "weather-3-mc-rev-1",
       "question": "Wat betekent 'kâld'?",
       "correctAnswer": "koud",
       "options": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "weather-3-trans-3",
       "question": "De temperatuur is warm",
       "correctAnswer": "De temperatuer is waarm",
       "acceptedAnswers": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "weather-3-fill-3",
       "sentence": "It waar is ___ hjit.",
       "blankIndex": 3,
       "correctAnswer": "hjit",
@@ -213,7 +213,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "weather-3-build-1",
       "prompt": "Zeg 'De temperatuur is fris' in het Fries",
       "correctOrder": [
         "De",
@@ -229,7 +229,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "weather-3-mc-2",
       "question": "Hoe zeg je 'lekker' in het Fries?",
       "correctAnswer": "lekker",
       "options": [
@@ -244,7 +244,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "weather-3-trans-rev-2",
       "question": "fris",
       "correctAnswer": "fris",
       "acceptedAnswers": [

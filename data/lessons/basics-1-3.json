@@ -11,7 +11,7 @@
     {
       "id": "intro-basics-1-3-0",
       "vocabulary": {
-        "id": "tankewol-01",
+        "id": "basics-1-3-tankewol-01",
         "frysian": "Tankewol",
         "dutch": "Dankjewel",
         "partOfSpeech": "uitdrukking",
@@ -24,7 +24,7 @@
     {
       "id": "intro-basics-1-3-1",
       "vocabulary": {
-        "id": "tige-tank-02",
+        "id": "basics-1-3-tige-tank-02",
         "frysian": "Tige tank",
         "dutch": "Hartelijk dank",
         "partOfSpeech": "uitdrukking",
@@ -37,7 +37,7 @@
     {
       "id": "intro-basics-1-3-2",
       "vocabulary": {
-        "id": "graach-dien-03",
+        "id": "basics-1-3-graach-dien-03",
         "frysian": "Graach dien",
         "dutch": "Graag gedaan",
         "partOfSpeech": "uitdrukking",
@@ -50,7 +50,7 @@
     {
       "id": "intro-basics-1-3-3",
       "vocabulary": {
-        "id": "gjin-tank-04",
+        "id": "basics-1-3-gjin-tank-04",
         "frysian": "Gjin tank",
         "dutch": "Geen dank",
         "partOfSpeech": "uitdrukking",
@@ -63,7 +63,7 @@
     {
       "id": "intro-basics-1-3-4",
       "vocabulary": {
-        "id": "tank-05",
+        "id": "basics-1-3-tank-05",
         "frysian": "Tank",
         "dutch": "Dank",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-basics-1-3-5",
       "vocabulary": {
-        "id": "tige-tankber-06",
+        "id": "basics-1-3-tige-tankber-06",
         "frysian": "Tige tankber",
         "dutch": "Zeer dankbaar",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "basics-1-3-trans-1",
       "question": "Dankjewel",
       "correctAnswer": "Tankewol",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "basics-1-3-fill-1",
       "sentence": "___! Ik bin tige tankber.",
       "blankIndex": 0,
       "correctAnswer": "Tankewol",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "basics-1-3-mc-1",
       "question": "Hoe zeg je 'geen dank' in het Fries?",
       "correctAnswer": "Gjin tank",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "basics-1-3-trans-rev-1",
       "question": "Tige tank",
       "correctAnswer": "Hartelijk dank",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "basics-1-3-fill-2",
       "sentence": "Ik bin ___ foar dyn help.",
       "blankIndex": 1,
       "correctAnswer": "tige tankber",
@@ -159,7 +159,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "basics-1-3-mc-rev-1",
       "question": "Wat betekent 'Graach dien'?",
       "correctAnswer": "Graag gedaan",
       "options": [
@@ -174,7 +174,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "basics-1-3-build-1",
       "prompt": "Zeg 'Hartelijk dank! Graag gedaan!' in het Fries",
       "correctOrder": [
         "Tige",
@@ -191,7 +191,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "basics-1-3-trans-2",
       "question": "Zeer dankbaar",
       "correctAnswer": "Tige tankber",
       "acceptedAnswers": [
@@ -203,7 +203,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "basics-1-3-fill-3",
       "sentence": "Tige tank! ___ dien!",
       "blankIndex": 1,
       "correctAnswer": "Graach",
@@ -218,7 +218,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "basics-1-3-mc-2",
       "question": "Hoe zeg je 'dank' in het Fries?",
       "correctAnswer": "Tank",
       "options": [
@@ -233,7 +233,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "basics-1-3-trans-rev-2",
       "question": "Gjin tank",
       "correctAnswer": "Geen dank",
       "acceptedAnswers": [

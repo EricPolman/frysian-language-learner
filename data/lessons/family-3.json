@@ -11,7 +11,7 @@
     {
       "id": "intro-family-3-0",
       "vocabulary": {
-        "id": "pake",
+        "id": "family-3-pake",
         "frysian": "pake",
         "dutch": "opa",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-family-3-1",
       "vocabulary": {
-        "id": "beppe",
+        "id": "family-3-beppe",
         "frysian": "beppe",
         "dutch": "oma",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-family-3-2",
       "vocabulary": {
-        "id": "pake-en-beppe",
+        "id": "family-3-pake-en-beppe",
         "frysian": "pake en beppe",
         "dutch": "grootouders",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-family-3-3",
       "vocabulary": {
-        "id": "famylje",
+        "id": "family-3-famylje",
         "frysian": "famylje",
         "dutch": "familie",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-family-3-4",
       "vocabulary": {
-        "id": "leaf",
+        "id": "family-3-leaf",
         "frysian": "leaf",
         "dutch": "lief",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-family-3-5",
       "vocabulary": {
-        "id": "besykje",
+        "id": "family-3-besykje",
         "frysian": "besykje",
         "dutch": "bezoeken",
         "partOfSpeech": "werkwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "family-3-trans-1",
       "question": "opa",
       "correctAnswer": "pake",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "family-3-trans-rev-1",
       "question": "beppe",
       "correctAnswer": "oma",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "family-3-fill-1",
       "sentence": "Ik sil myn ___ besykje.",
       "blankIndex": 2,
       "correctAnswer": "pake en beppe",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "family-3-mc-1",
       "question": "Hoe zeg je 'lief' in het Fries?",
       "correctAnswer": "leaf",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "family-3-build-1",
       "prompt": "Zeg 'Lieve familie' in het Fries",
       "correctOrder": [
         "Leaf",
@@ -158,7 +158,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "family-3-trans-2",
       "question": "lief familie",
       "correctAnswer": "leaf famylje",
       "acceptedAnswers": [
@@ -170,7 +170,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "family-3-trans-rev-2",
       "question": "famylje",
       "correctAnswer": "familie",
       "acceptedAnswers": [
@@ -182,7 +182,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "family-3-fill-2",
       "sentence": "Ik hâld fan myn ___.",
       "blankIndex": 4,
       "correctAnswer": "famylje",
@@ -197,7 +197,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "family-3-mc-rev-1",
       "question": "Wat betekent 'pake en beppe'?",
       "correctAnswer": "grootouders",
       "options": [
@@ -212,7 +212,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "family-3-fill-3",
       "sentence": "Myn ___ is leaf.",
       "blankIndex": 1,
       "correctAnswer": "pake",
@@ -227,7 +227,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "family-3-mc-2",
       "question": "Hoe zeg je 'bezoeken' in het Fries?",
       "correctAnswer": "besykje",
       "options": [
@@ -242,7 +242,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "family-3-trans-3",
       "question": "grootouders",
       "correctAnswer": "pake en beppe",
       "acceptedAnswers": [

@@ -11,7 +11,7 @@
     {
       "id": "intro-basics-2-4-0",
       "vocabulary": {
-        "id": "ik-ûnthâld",
+        "id": "basics-2-4-ik-ûnthâld",
         "frysian": "ik",
         "dutch": "ik",
         "partOfSpeech": "voornaamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-basics-2-4-1",
       "vocabulary": {
-        "id": "do-ûnthâld",
+        "id": "basics-2-4-do-ûnthâld",
         "frysian": "do",
         "dutch": "jij",
         "partOfSpeech": "voornaamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-basics-2-4-2",
       "vocabulary": {
-        "id": "hy-ûnthâld",
+        "id": "basics-2-4-hy-ûnthâld",
         "frysian": "hy",
         "dutch": "hij",
         "partOfSpeech": "voornaamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-basics-2-4-3",
       "vocabulary": {
-        "id": "sy-ûnthâld",
+        "id": "basics-2-4-sy-ûnthâld",
         "frysian": "sy",
         "dutch": "zij",
         "partOfSpeech": "voornaamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-basics-2-4-4",
       "vocabulary": {
-        "id": "wy-ûnthâld",
+        "id": "basics-2-4-wy-ûnthâld",
         "frysian": "wy",
         "dutch": "wij",
         "partOfSpeech": "voornaamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-basics-2-4-5",
       "vocabulary": {
-        "id": "jim-ûnthâld",
+        "id": "basics-2-4-jim-ûnthâld",
         "frysian": "jim",
         "dutch": "jullie",
         "partOfSpeech": "voornaamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "basics-2-4-trans-1",
       "question": "ik",
       "correctAnswer": "ik",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "basics-2-4-trans-rev-1",
       "question": "sy",
       "correctAnswer": "zij",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "basics-2-4-fill-1",
       "sentence": "___ binne hjir.",
       "blankIndex": 0,
       "correctAnswer": "Wy",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "basics-2-4-mc-1",
       "question": "Hoe zeg je 'hij' in het Fries?",
       "correctAnswer": "hy",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "basics-2-4-trans-2",
       "question": "jij",
       "correctAnswer": "do",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "basics-2-4-mc-rev-1",
       "question": "Wat betekent 'wy'?",
       "correctAnswer": "wij",
       "options": [
@@ -171,7 +171,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "basics-2-4-fill-2",
       "sentence": "___ is hjir.",
       "blankIndex": 0,
       "correctAnswer": "Hy",
@@ -186,7 +186,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "basics-2-4-build-1",
       "prompt": "Zeg 'Hij en zij' in het Fries",
       "correctOrder": [
         "Hy",
@@ -201,7 +201,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "basics-2-4-trans-3",
       "question": "zij",
       "correctAnswer": "sy",
       "acceptedAnswers": [
@@ -213,7 +213,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "basics-2-4-fill-3",
       "sentence": "Jim en ___ binne der.",
       "blankIndex": 1,
       "correctAnswer": "wy",
@@ -228,7 +228,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "basics-2-4-mc-2",
       "question": "Hoe zeg je 'wij' in het Fries?",
       "correctAnswer": "wy",
       "options": [
@@ -243,7 +243,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "basics-2-4-trans-rev-2",
       "question": "jim",
       "correctAnswer": "jullie",
       "acceptedAnswers": [

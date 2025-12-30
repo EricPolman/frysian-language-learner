@@ -11,7 +11,7 @@
     {
       "id": "intro-food-2-0",
       "vocabulary": {
-        "id": "wetter-drinke",
+        "id": "food-2-wetter-drinke",
         "frysian": "wetter",
         "dutch": "water",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-food-2-1",
       "vocabulary": {
-        "id": "molke-drinke",
+        "id": "food-2-molke-drinke",
         "frysian": "molke",
         "dutch": "melk",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-food-2-2",
       "vocabulary": {
-        "id": "kofje-drinke",
+        "id": "food-2-kofje-drinke",
         "frysian": "kofje",
         "dutch": "koffie",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-food-2-3",
       "vocabulary": {
-        "id": "tee-drinke",
+        "id": "food-2-tee-drinke",
         "frysian": "tee",
         "dutch": "thee",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-food-2-4",
       "vocabulary": {
-        "id": "sop-drinke",
+        "id": "food-2-sop-drinke",
         "frysian": "sop",
         "dutch": "sap",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-food-2-5",
       "vocabulary": {
-        "id": "drinke-doen",
+        "id": "food-2-drinke-doen",
         "frysian": "drinke",
         "dutch": "drinken",
         "partOfSpeech": "werkwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "food-2-trans-1",
       "question": "water",
       "correctAnswer": "wetter",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "food-2-trans-rev-1",
       "question": "molke",
       "correctAnswer": "melk",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "food-2-fill-1",
       "sentence": "Ik drink ___ foar it moarnsbrochje.",
       "blankIndex": 2,
       "correctAnswer": "kofje",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "food-2-mc-1",
       "question": "Hoe zeg je 'sap' in het Fries?",
       "correctAnswer": "sop",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "food-2-trans-2",
       "question": "thee",
       "correctAnswer": "tee",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "food-2-trans-rev-2",
       "question": "wetter",
       "correctAnswer": "water",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "food-2-fill-2",
       "sentence": "Hast do ___ dronken?",
       "blankIndex": 1,
       "correctAnswer": "molke",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "food-2-mc-2",
       "question": "Hoe zeg je 'melk' in het Fries?",
       "correctAnswer": "molke",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "food-2-trans-3",
       "question": "koffie",
       "correctAnswer": "kofje",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "food-2-trans-rev-3",
       "question": "sop",
       "correctAnswer": "sap",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "food-2-fill-3",
       "sentence": "Se wolle graach ___ drinke.",
       "blankIndex": 3,
       "correctAnswer": "tee",
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "food-2-trans-4",
       "question": "drinken",
       "correctAnswer": "drinke",
       "acceptedAnswers": [

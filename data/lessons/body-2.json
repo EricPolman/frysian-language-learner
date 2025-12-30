@@ -11,7 +11,7 @@
     {
       "id": "intro-body-2-0",
       "vocabulary": {
-        "id": "lichem-001",
+        "id": "body-2-lichem-001",
         "frysian": "lichem",
         "dutch": "lichaam",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-body-2-1",
       "vocabulary": {
-        "id": "lichem-002",
+        "id": "body-2-lichem-002",
         "frysian": "hals",
         "dutch": "hals",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-body-2-2",
       "vocabulary": {
-        "id": "lichem-003",
+        "id": "body-2-lichem-003",
         "frysian": "boarst",
         "dutch": "borst",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-body-2-3",
       "vocabulary": {
-        "id": "lichem-004",
+        "id": "body-2-lichem-004",
         "frysian": "rêch",
         "dutch": "rug",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-body-2-4",
       "vocabulary": {
-        "id": "lichem-005",
+        "id": "body-2-lichem-005",
         "frysian": "búk",
         "dutch": "buik",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-body-2-5",
       "vocabulary": {
-        "id": "lichem-006",
+        "id": "body-2-lichem-006",
         "frysian": "hân",
         "dutch": "hand",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "body-2-trans-1",
       "question": "lichaam",
       "correctAnswer": "lichem",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "body-2-fill-1",
       "sentence": "De ___ is sterk.",
       "blankIndex": 1,
       "correctAnswer": "rêch",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "body-2-trans-rev-1",
       "question": "hân",
       "correctAnswer": "hand",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "body-2-mc-1",
       "question": "Hoe zeg je 'borst' in het Fries?",
       "correctAnswer": "boarst",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "body-2-trans-2",
       "question": "rug",
       "correctAnswer": "rêch",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "body-2-fill-2",
       "sentence": "De ___ is fol.",
       "blankIndex": 1,
       "correctAnswer": "búk",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "body-2-trans-rev-2",
       "question": "boarst",
       "correctAnswer": "borst",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "body-2-mc-2",
       "question": "Hoe zeg je 'hals' in het Fries?",
       "correctAnswer": "hals",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "body-2-trans-3",
       "question": "hand",
       "correctAnswer": "hân",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "body-2-fill-3",
       "sentence": "De ___ is sterk.",
       "blankIndex": 1,
       "correctAnswer": "hân",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "body-2-trans-rev-3",
       "question": "búk",
       "correctAnswer": "buik",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "body-2-trans-4",
       "question": "hals",
       "correctAnswer": "hals",
       "acceptedAnswers": [

@@ -11,7 +11,7 @@
     {
       "id": "intro-time-3-0",
       "vocabulary": {
-        "id": "moarns-1",
+        "id": "time-3-moarns-1",
         "frysian": "moarns",
         "dutch": "'s ochtends",
         "partOfSpeech": "bijwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-time-3-1",
       "vocabulary": {
-        "id": "middeis-2",
+        "id": "time-3-middeis-2",
         "frysian": "middeis",
         "dutch": "'s middags",
         "partOfSpeech": "bijwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-time-3-2",
       "vocabulary": {
-        "id": "jûns-3",
+        "id": "time-3-jûns-3",
         "frysian": "jûns",
         "dutch": "'s avonds",
         "partOfSpeech": "bijwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-time-3-3",
       "vocabulary": {
-        "id": "nachts-4",
+        "id": "time-3-nachts-4",
         "frysian": "nachts",
         "dutch": "'s nachts",
         "partOfSpeech": "bijwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-time-3-4",
       "vocabulary": {
-        "id": "goeie-5",
+        "id": "time-3-goeie-5",
         "frysian": "Goeie",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
@@ -76,7 +76,7 @@
     {
       "id": "intro-time-3-5",
       "vocabulary": {
-        "id": "goeiejûn-6",
+        "id": "time-3-goeiejûn-6",
         "frysian": "Goeiejûn",
         "dutch": "Goedenavond",
         "partOfSpeech": "tussenwerpsel",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "time-3-trans-1",
       "question": "'s avonds",
       "correctAnswer": "jûns",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "time-3-trans-rev-1",
       "question": "Goeiejûn",
       "correctAnswer": "goedenavond",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "time-3-fill-1",
       "sentence": "Goeiejûn, hoe wie dyn ___?",
       "blankIndex": 3,
       "correctAnswer": "jûns",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "time-3-mc-1",
       "question": "Hoe zeg je 'goedenacht' in het Fries?",
       "correctAnswer": "nachts",
       "options": [
@@ -143,7 +143,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "time-3-build-1",
       "prompt": "Zeg 'Hallo! Goedenavond!' in het Fries",
       "correctOrder": [
         "Goeie!",
@@ -157,7 +157,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "time-3-trans-2",
       "question": "'s middags",
       "correctAnswer": "middeis",
       "acceptedAnswers": [
@@ -169,7 +169,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "time-3-trans-rev-2",
       "question": "moarns",
       "correctAnswer": "'s ochtends",
       "acceptedAnswers": [
@@ -181,7 +181,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "time-3-fill-2",
       "sentence": "Hoe wie dyn ___?",
       "blankIndex": 3,
       "correctAnswer": "moarns",
@@ -196,7 +196,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "time-3-mc-2",
       "question": "Hoe zeg je 'hallo' in het Fries?",
       "correctAnswer": "Goeie",
       "options": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "time-3-fill-3",
       "sentence": "Goeie, hoe wie dyn ___?",
       "blankIndex": 3,
       "correctAnswer": "middeis",
@@ -225,7 +225,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "time-3-mc-rev-1",
       "question": "Wat betekent 'middeis'?",
       "correctAnswer": "'s middags",
       "options": [
@@ -240,7 +240,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "time-3-trans-3",
       "question": "'s nachts",
       "correctAnswer": "nachts",
       "acceptedAnswers": [

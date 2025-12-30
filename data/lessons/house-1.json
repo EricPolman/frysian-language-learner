@@ -11,7 +11,7 @@
     {
       "id": "intro-house-1-0",
       "vocabulary": {
-        "id": "keamer",
+        "id": "house-1-keamer",
         "frysian": "keamer",
         "dutch": "kamer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-house-1-1",
       "vocabulary": {
-        "id": "keuken",
+        "id": "house-1-keuken",
         "frysian": "keuken",
         "dutch": "keuken",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-house-1-2",
       "vocabulary": {
-        "id": "badkeamer",
+        "id": "house-1-badkeamer",
         "frysian": "badkeamer",
         "dutch": "badkamer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-house-1-3",
       "vocabulary": {
-        "id": "sliepkeamer",
+        "id": "house-1-sliepkeamer",
         "frysian": "sliepkeamer",
         "dutch": "slaapkamer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-house-1-4",
       "vocabulary": {
-        "id": "tún",
+        "id": "house-1-tún",
         "frysian": "tún",
         "dutch": "tuin",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-house-1-5",
       "vocabulary": {
-        "id": "bank",
+        "id": "house-1-bank",
         "frysian": "bank",
         "dutch": "bank",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "house-1-trans-1",
       "question": "kamer",
       "correctAnswer": "keamer",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "house-1-fill-1",
       "sentence": "Ik gean nei de ___",
       "blankIndex": 2,
       "correctAnswer": "keuken",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "house-1-trans-rev-1",
       "question": "sliepkeamer",
       "correctAnswer": "slaapkamer",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "house-1-mc-1",
       "question": "Hoe zeg je 'badkamer' in het Fries?",
       "correctAnswer": "badkeamer",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "house-1-trans-2",
       "question": "tuin",
       "correctAnswer": "tún",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "house-1-fill-2",
       "sentence": "De ___ is grut",
       "blankIndex": 1,
       "correctAnswer": "tún",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "house-1-trans-rev-2",
       "question": "bank",
       "correctAnswer": "bank",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "house-1-mc-2",
       "question": "Hoe zeg je 'slaapkamer' in het Fries?",
       "correctAnswer": "sliepkeamer",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "house-1-trans-3",
       "question": "bank",
       "correctAnswer": "bank",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "house-1-fill-3",
       "sentence": "Yn de ___ is in bêd",
       "blankIndex": 2,
       "correctAnswer": "sliepkeamer",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "house-1-trans-rev-3",
       "question": "keamer",
       "correctAnswer": "kamer",
       "acceptedAnswers": [

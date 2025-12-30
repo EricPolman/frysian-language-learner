@@ -11,7 +11,7 @@
     {
       "id": "intro-places-2-0",
       "vocabulary": {
-        "id": "lofts-123",
+        "id": "places-2-lofts-123",
         "frysian": "lofts",
         "dutch": "links",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-places-2-1",
       "vocabulary": {
-        "id": "rjochts-456",
+        "id": "places-2-rjochts-456",
         "frysian": "rjochts",
         "dutch": "rechts",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-places-2-2",
       "vocabulary": {
-        "id": "foarut-789",
+        "id": "places-2-foarut-789",
         "frysian": "foarút",
         "dutch": "vooruit",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-places-2-3",
       "vocabulary": {
-        "id": "efterut-101",
+        "id": "places-2-efterut-101",
         "frysian": "efterút",
         "dutch": "achteruit",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-places-2-4",
       "vocabulary": {
-        "id": "boppe-112",
+        "id": "places-2-boppe-112",
         "frysian": "boppe",
         "dutch": "boven",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-places-2-5",
       "vocabulary": {
-        "id": "under-131",
+        "id": "places-2-under-131",
         "frysian": "ûnder",
         "dutch": "onder",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "places-2-trans-1",
       "question": "links",
       "correctAnswer": "lofts",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "places-2-trans-rev-1",
       "question": "rjochts",
       "correctAnswer": "rechts",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "places-2-fill-1",
       "sentence": "Gean ___!",
       "blankIndex": 1,
       "correctAnswer": "foarút",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "places-2-mc-1",
       "question": "Hoe zeg je 'boven' in het Fries?",
       "correctAnswer": "boppe",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "places-2-trans-2",
       "question": "onder",
       "correctAnswer": "ûnder",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "places-2-trans-rev-2",
       "question": "foarút",
       "correctAnswer": "vooruit",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "places-2-fill-2",
       "sentence": "Draaie ___!",
       "blankIndex": 1,
       "correctAnswer": "lofts",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "places-2-mc-2",
       "question": "Hoe zeg je 'achteruit' in het Fries?",
       "correctAnswer": "efterút",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "places-2-trans-3",
       "question": "vooruit",
       "correctAnswer": "foarút",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "places-2-trans-rev-3",
       "question": "ûnder",
       "correctAnswer": "onder",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "places-2-fill-3",
       "sentence": "Sjoch ___ de tafel.",
       "blankIndex": 1,
       "correctAnswer": "ûnder",

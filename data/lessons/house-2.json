@@ -11,7 +11,7 @@
     {
       "id": "intro-house-2-0",
       "vocabulary": {
-        "id": "stoel",
+        "id": "house-2-stoel",
         "frysian": "stoel",
         "dutch": "stoel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-house-2-1",
       "vocabulary": {
-        "id": "tafel",
+        "id": "house-2-tafel",
         "frysian": "tafel",
         "dutch": "tafel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-house-2-2",
       "vocabulary": {
-        "id": "bed",
+        "id": "house-2-bed",
         "frysian": "bêd",
         "dutch": "bed",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-house-2-3",
       "vocabulary": {
-        "id": "kast",
+        "id": "house-2-kast",
         "frysian": "kast",
         "dutch": "kast",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-house-2-4",
       "vocabulary": {
-        "id": "bank",
+        "id": "house-2-bank",
         "frysian": "bank",
         "dutch": "bank",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-house-2-5",
       "vocabulary": {
-        "id": "lamp",
+        "id": "house-2-lamp",
         "frysian": "lamp",
         "dutch": "lamp",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "house-2-trans-1",
       "question": "stoel",
       "correctAnswer": "stoel",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "house-2-fill-1",
       "sentence": "De ___ is grut.",
       "blankIndex": 1,
       "correctAnswer": "tafel",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "house-2-trans-rev-1",
       "question": "bêd",
       "correctAnswer": "bed",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "house-2-mc-1",
       "question": "Hoe zeg je 'kast' in het Fries?",
       "correctAnswer": "kast",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "house-2-trans-2",
       "question": "lamp",
       "correctAnswer": "lamp",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "house-2-fill-2",
       "sentence": "De ___ skynt helder.",
       "blankIndex": 1,
       "correctAnswer": "lamp",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "house-2-trans-rev-2",
       "question": "bank",
       "correctAnswer": "bank",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "house-2-mc-2",
       "question": "Hoe zeg je 'bed' in het Fries?",
       "correctAnswer": "bêd",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "house-2-trans-3",
       "question": "bank",
       "correctAnswer": "bank",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "house-2-fill-3",
       "sentence": "De ___ is fol boeken.",
       "blankIndex": 1,
       "correctAnswer": "kast",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "house-2-trans-rev-3",
       "question": "tafel",
       "correctAnswer": "tafel",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "house-2-trans-4",
       "question": "kast",
       "correctAnswer": "kast",
       "acceptedAnswers": [

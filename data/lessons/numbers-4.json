@@ -11,7 +11,7 @@
     {
       "id": "intro-numbers-4-0",
       "vocabulary": {
-        "id": "ienentweintich",
+        "id": "numbers-4-ienentweintich",
         "frysian": "ienentweintich",
         "dutch": "eenentwintig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-numbers-4-1",
       "vocabulary": {
-        "id": "tweintich",
+        "id": "numbers-4-tweintich",
         "frysian": "tweintich",
         "dutch": "twintig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-numbers-4-2",
       "vocabulary": {
-        "id": "twaentritich",
+        "id": "numbers-4-twaentritich",
         "frysian": "twaentritich",
         "dutch": "tweeëndertig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-numbers-4-3",
       "vocabulary": {
-        "id": "fjirtich",
+        "id": "numbers-4-fjirtich",
         "frysian": "fjirtich",
         "dutch": "veertig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-numbers-4-4",
       "vocabulary": {
-        "id": "fiifentweintich",
+        "id": "numbers-4-fiifentweintich",
         "frysian": "fiifentweintich",
         "dutch": "vijfentwintig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-numbers-4-5",
       "vocabulary": {
-        "id": "sechtich",
+        "id": "numbers-4-sechtich",
         "frysian": "sechtich",
         "dutch": "zestig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "numbers-4-trans-1",
       "question": "eenentwintig",
       "correctAnswer": "ienentweintich",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "numbers-4-fill-1",
       "sentence": "Hy is ___ jier âld.",
       "blankIndex": 1,
       "correctAnswer": "fiifentweintich",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "numbers-4-mc-1",
       "question": "Hoe zeg je 'tweeëndertig' in het Fries?",
       "correctAnswer": "twaentritich",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "numbers-4-trans-rev-1",
       "question": "fjirtich",
       "correctAnswer": "veertig",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "numbers-4-fill-2",
       "sentence": "Se binne ___ jier troud.",
       "blankIndex": 1,
       "correctAnswer": "sechtich",
@@ -159,7 +159,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "numbers-4-mc-rev-1",
       "question": "Wat betekent 'tweintich'?",
       "correctAnswer": "twintig",
       "options": [
@@ -174,7 +174,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "numbers-4-trans-2",
       "question": "zestig",
       "correctAnswer": "sechtich",
       "acceptedAnswers": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "numbers-4-build-1",
       "prompt": "Zeg 'Eenentwintig is meer dan twintig' in het Fries",
       "correctOrder": [
         "Ienentweintich",
@@ -203,7 +203,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "numbers-4-fill-3",
       "sentence": "Syn auto kostet ___ euro.",
       "blankIndex": 2,
       "correctAnswer": "fjirtich",
@@ -218,7 +218,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "numbers-4-mc-2",
       "question": "Hoe zeg je 'vijfentwintig' in het Fries?",
       "correctAnswer": "fiifentweintich",
       "options": [
@@ -233,7 +233,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "numbers-4-trans-rev-2",
       "question": "twaentritich",
       "correctAnswer": "tweeëndertig",
       "acceptedAnswers": [

@@ -11,7 +11,7 @@
     {
       "id": "intro-clothing-4-0",
       "vocabulary": {
-        "id": "jas-oandwaan",
+        "id": "clothing-4-jas-oandwaan",
         "frysian": "jas",
         "dutch": "jas",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-clothing-4-1",
       "vocabulary": {
-        "id": "skoen-oandwaan",
+        "id": "clothing-4-skoen-oandwaan",
         "frysian": "skoen",
         "dutch": "schoen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-clothing-4-2",
       "vocabulary": {
-        "id": "trui-oandwaan",
+        "id": "clothing-4-trui-oandwaan",
         "frysian": "trui",
         "dutch": "trui",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-clothing-4-3",
       "vocabulary": {
-        "id": "broek-oandwaan",
+        "id": "clothing-4-broek-oandwaan",
         "frysian": "broek",
         "dutch": "broek",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-clothing-4-4",
       "vocabulary": {
-        "id": "shirt-oandwaan",
+        "id": "clothing-4-shirt-oandwaan",
         "frysian": "shirt",
         "dutch": "shirt",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-clothing-4-5",
       "vocabulary": {
-        "id": "mûtse-oandwaan",
+        "id": "clothing-4-mûtse-oandwaan",
         "frysian": "mûtse",
         "dutch": "muts",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "clothing-4-trans-1",
       "question": "jas",
       "correctAnswer": "jas",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "clothing-4-trans-rev-1",
       "question": "broek",
       "correctAnswer": "broek",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "clothing-4-fill-1",
       "sentence": "Ik draach in ___.",
       "blankIndex": 3,
       "correctAnswer": "trui",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "clothing-4-mc-1",
       "question": "Hoe zeg je 'schoen' in het Fries?",
       "correctAnswer": "skoen",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "clothing-4-mc-rev-1",
       "question": "Wat betekent 'mûtse'?",
       "correctAnswer": "muts",
       "options": [
@@ -159,7 +159,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "clothing-4-build-1",
       "prompt": "Zeg 'Ik draag een jas.' in het Fries",
       "correctOrder": [
         "Ik",
@@ -175,7 +175,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "clothing-4-trans-2",
       "question": "trui",
       "correctAnswer": "trui",
       "acceptedAnswers": [
@@ -187,7 +187,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "clothing-4-trans-rev-2",
       "question": "skoen",
       "correctAnswer": "schoen",
       "acceptedAnswers": [
@@ -199,7 +199,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "clothing-4-fill-2",
       "sentence": "De ___ is blau.",
       "blankIndex": 1,
       "correctAnswer": "broek",
@@ -214,7 +214,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "clothing-4-trans-3",
       "question": "shirt",
       "correctAnswer": "shirt",
       "acceptedAnswers": [
@@ -226,7 +226,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "clothing-4-fill-3",
       "sentence": "Se draacht in ___ op 'e holle.",
       "blankIndex": 3,
       "correctAnswer": "mûtse",
@@ -241,7 +241,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "clothing-4-mc-2",
       "question": "Hoe zeg je 'broek' in het Fries?",
       "correctAnswer": "broek",
       "options": [

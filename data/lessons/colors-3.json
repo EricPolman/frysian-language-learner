@@ -11,7 +11,7 @@
     {
       "id": "intro-colors-3-0",
       "vocabulary": {
-        "id": "wyt-licht",
+        "id": "colors-3-wyt-licht",
         "frysian": "wyt",
         "dutch": "wit",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-colors-3-1",
       "vocabulary": {
-        "id": "swart-donker",
+        "id": "colors-3-swart-donker",
         "frysian": "swart",
         "dutch": "zwart",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-colors-3-2",
       "vocabulary": {
-        "id": "griis-tuskenkleur",
+        "id": "colors-3-griis-tuskenkleur",
         "frysian": "griis",
         "dutch": "grijs",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-colors-3-3",
       "vocabulary": {
-        "id": "ljocht-kleuren",
+        "id": "colors-3-ljocht-kleuren",
         "frysian": "ljocht",
         "dutch": "licht",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-colors-3-4",
       "vocabulary": {
-        "id": "tsjuster-nacht",
+        "id": "colors-3-tsjuster-nacht",
         "frysian": "tsjuster",
         "dutch": "donker",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-colors-3-5",
       "vocabulary": {
-        "id": "ljochtboarne",
+        "id": "colors-3-ljochtboarne",
         "frysian": "ljochtboarne",
         "dutch": "lichtbron",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "colors-3-trans-1",
       "question": "wit licht",
       "correctAnswer": "wyt ljocht",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "colors-3-fill-1",
       "sentence": "De ___ is tsjuster.",
       "blankIndex": 1,
       "correctAnswer": "ljochtboarne",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "colors-3-mc-1",
       "question": "Hoe zeg je 'donker' in het Fries?",
       "correctAnswer": "tsjuster",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "colors-3-trans-rev-1",
       "question": "swart ljocht",
       "correctAnswer": "zwart licht",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "colors-3-build-1",
       "prompt": "Zeg 'Donker lichtbron' in het Fries",
       "correctOrder": [
         "tsjuster",
@@ -158,7 +158,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "colors-3-fill-2",
       "sentence": "It ljocht is ___.",
       "blankIndex": 3,
       "correctAnswer": "griis",
@@ -173,7 +173,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "colors-3-mc-rev-1",
       "question": "Wat betekent 'wyt ljocht'?",
       "correctAnswer": "wit licht",
       "options": [
@@ -188,7 +188,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "colors-3-trans-2",
       "question": "grijs licht",
       "correctAnswer": "griis ljocht",
       "acceptedAnswers": [
@@ -200,7 +200,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "colors-3-fill-3",
       "sentence": "It is ___ tsjuster.",
       "blankIndex": 2,
       "correctAnswer": "ljocht",
@@ -215,7 +215,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "colors-3-trans-rev-2",
       "question": "tsjuster swart",
       "correctAnswer": "donker zwart",
       "acceptedAnswers": [
@@ -227,7 +227,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "colors-3-mc-2",
       "question": "Hoe zeg je 'lichtbron' in het Fries?",
       "correctAnswer": "ljochtboarne",
       "options": [

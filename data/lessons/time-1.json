@@ -11,7 +11,7 @@
     {
       "id": "intro-time-1-0",
       "vocabulary": {
-        "id": "moandei-dag",
+        "id": "time-1-moandei-dag",
         "frysian": "moandei",
         "dutch": "maandag",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-time-1-1",
       "vocabulary": {
-        "id": "tiisdei-dag",
+        "id": "time-1-tiisdei-dag",
         "frysian": "tiisdei",
         "dutch": "dinsdag",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-time-1-2",
       "vocabulary": {
-        "id": "woansdei-dag",
+        "id": "time-1-woansdei-dag",
         "frysian": "woansdei",
         "dutch": "woensdag",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-time-1-3",
       "vocabulary": {
-        "id": "tongersdei-dag",
+        "id": "time-1-tongersdei-dag",
         "frysian": "tongersdei",
         "dutch": "donderdag",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-time-1-4",
       "vocabulary": {
-        "id": "freed-dag",
+        "id": "time-1-freed-dag",
         "frysian": "freed",
         "dutch": "vrijdag",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-time-1-5",
       "vocabulary": {
-        "id": "sneon-dag",
+        "id": "time-1-sneon-dag",
         "frysian": "sneon",
         "dutch": "zaterdag",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "time-1-trans-1",
       "question": "maandag",
       "correctAnswer": "moandei",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "time-1-trans-rev-1",
       "question": "freed",
       "correctAnswer": "vrijdag",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "time-1-fill-1",
       "sentence": "Op ___ begjint it wykein.",
       "blankIndex": 1,
       "correctAnswer": "sneon",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "time-1-mc-1",
       "question": "Hoe zeg je 'dinsdag' in het Fries?",
       "correctAnswer": "tiisdei",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "time-1-trans-2",
       "question": "woensdag",
       "correctAnswer": "woansdei",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "time-1-trans-rev-2",
       "question": "tongersdei",
       "correctAnswer": "donderdag",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "time-1-fill-2",
       "sentence": "It wykein begjint op ___ en ___ .",
       "blankIndex": 2,
       "correctAnswer": "sneon",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "time-1-mc-2",
       "question": "Hoe zeg je 'zaterdag' in het Fries?",
       "correctAnswer": "sneon",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "time-1-trans-3",
       "question": "donderdag",
       "correctAnswer": "tongersdei",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "time-1-trans-rev-3",
       "question": "moandei",
       "correctAnswer": "maandag",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "time-1-fill-3",
       "sentence": "Nei ___ komt tiisdei.",
       "blankIndex": 1,
       "correctAnswer": "moandei",

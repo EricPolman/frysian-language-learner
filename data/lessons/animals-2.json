@@ -11,7 +11,7 @@
     {
       "id": "intro-animals-2-0",
       "vocabulary": {
-        "id": "ko",
+        "id": "animals-2-ko",
         "frysian": "ko",
         "dutch": "koe",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-animals-2-1",
       "vocabulary": {
-        "id": "baarch",
+        "id": "animals-2-baarch",
         "frysian": "baarch",
         "dutch": "varken",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-animals-2-2",
       "vocabulary": {
-        "id": "hin",
+        "id": "animals-2-hin",
         "frysian": "hin",
         "dutch": "kip",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-animals-2-3",
       "vocabulary": {
-        "id": "hynder",
+        "id": "animals-2-hynder",
         "frysian": "hynder",
         "dutch": "paard",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-animals-2-4",
       "vocabulary": {
-        "id": "skiep",
+        "id": "animals-2-skiep",
         "frysian": "skiep",
         "dutch": "schaap",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-animals-2-5",
       "vocabulary": {
-        "id": "geit",
+        "id": "animals-2-geit",
         "frysian": "geit",
         "dutch": "geit",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "animals-2-trans-1",
       "question": "koe",
       "correctAnswer": "ko",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "animals-2-trans-rev-1",
       "question": "baarch",
       "correctAnswer": "varken",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "animals-2-mc-1",
       "question": "Hoe zeg je 'kip' in het Fries?",
       "correctAnswer": "hin",
       "options": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "animals-2-fill-1",
       "sentence": "De ___ is in grut bist.",
       "blankIndex": 1,
       "correctAnswer": "hynder",
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "animals-2-trans-2",
       "question": "schaap",
       "correctAnswer": "skiep",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "animals-2-trans-rev-2",
       "question": "geit",
       "correctAnswer": "geit",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "animals-2-fill-2",
       "sentence": "In ___ jout molke.",
       "blankIndex": 1,
       "correctAnswer": "ko",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "animals-2-mc-2",
       "question": "Hoe zeg je 'paard' in het Fries?",
       "correctAnswer": "hynder",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "animals-2-trans-3",
       "question": "varken",
       "correctAnswer": "baarch",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "animals-2-trans-rev-3",
       "question": "hin",
       "correctAnswer": "kip",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "animals-2-fill-3",
       "sentence": "In ___ hat in wolige jas.",
       "blankIndex": 1,
       "correctAnswer": "skiep",

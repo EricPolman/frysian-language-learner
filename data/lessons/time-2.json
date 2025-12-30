@@ -11,7 +11,7 @@
     {
       "id": "intro-time-2-0",
       "vocabulary": {
-        "id": "jannewaris",
+        "id": "time-2-jannewaris",
         "frysian": "jannewaris",
         "dutch": "januari",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-time-2-1",
       "vocabulary": {
-        "id": "febrewaris",
+        "id": "time-2-febrewaris",
         "frysian": "febrewaris",
         "dutch": "februari",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-time-2-2",
       "vocabulary": {
-        "id": "maart",
+        "id": "time-2-maart",
         "frysian": "maart",
         "dutch": "maart",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-time-2-3",
       "vocabulary": {
-        "id": "april",
+        "id": "time-2-april",
         "frysian": "april",
         "dutch": "april",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-time-2-4",
       "vocabulary": {
-        "id": "maaie",
+        "id": "time-2-maaie",
         "frysian": "maaie",
         "dutch": "mei",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-time-2-5",
       "vocabulary": {
-        "id": "juny",
+        "id": "time-2-juny",
         "frysian": "juny",
         "dutch": "juni",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "time-2-trans-1",
       "question": "januari",
       "correctAnswer": "jannewaris",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "time-2-trans-rev-1",
       "question": "febrewaris",
       "correctAnswer": "februari",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "time-2-fill-1",
       "sentence": "It is ___ no.",
       "blankIndex": 2,
       "correctAnswer": "maart",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "time-2-mc-1",
       "question": "Hoe zeg je 'mei' in het Fries?",
       "correctAnswer": "maaie",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "time-2-trans-2",
       "question": "april",
       "correctAnswer": "april",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "time-2-trans-rev-2",
       "question": "maaie",
       "correctAnswer": "mei",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "time-2-fill-2",
       "sentence": "De simmer begjint yn ___",
       "blankIndex": 3,
       "correctAnswer": "juny",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "time-2-mc-2",
       "question": "Hoe zeg je 'juni' in het Fries?",
       "correctAnswer": "juny",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "time-2-trans-3",
       "question": "mei",
       "correctAnswer": "maaie",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "time-2-trans-rev-3",
       "question": "juny",
       "correctAnswer": "juni",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "time-2-fill-3",
       "sentence": "___ komt foar maaie.",
       "blankIndex": 0,
       "correctAnswer": "april",

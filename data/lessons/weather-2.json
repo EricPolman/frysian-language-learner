@@ -11,7 +11,7 @@
     {
       "id": "intro-weather-2-0",
       "vocabulary": {
-        "id": "sinne",
+        "id": "weather-2-sinne",
         "frysian": "sinne",
         "dutch": "zon",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-weather-2-1",
       "vocabulary": {
-        "id": "rein",
+        "id": "weather-2-rein",
         "frysian": "rein",
         "dutch": "regen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-weather-2-2",
       "vocabulary": {
-        "id": "wyn",
+        "id": "weather-2-wyn",
         "frysian": "wyn",
         "dutch": "wind",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-weather-2-3",
       "vocabulary": {
-        "id": "snie",
+        "id": "weather-2-snie",
         "frysian": "snie",
         "dutch": "sneeuw",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-weather-2-4",
       "vocabulary": {
-        "id": "bewolkt",
+        "id": "weather-2-bewolkt",
         "frysian": "bewolkt",
         "dutch": "bewolkt",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-weather-2-5",
       "vocabulary": {
-        "id": "stoarm",
+        "id": "weather-2-stoarm",
         "frysian": "stoarm",
         "dutch": "storm",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "weather-2-trans-1",
       "question": "zon",
       "correctAnswer": "sinne",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "weather-2-fill-1",
       "sentence": "De ___ skynt",
       "blankIndex": 1,
       "correctAnswer": "sinne",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "weather-2-trans-rev-1",
       "question": "rein",
       "correctAnswer": "regen",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "weather-2-mc-1",
       "question": "Hoe zeg je 'wind' in het Fries?",
       "correctAnswer": "wyn",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "weather-2-trans-2",
       "question": "sneeuw",
       "correctAnswer": "snie",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "weather-2-fill-2",
       "sentence": "It is ___ hjoed",
       "blankIndex": 2,
       "correctAnswer": "bewolkt",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "weather-2-trans-rev-2",
       "question": "stoarm",
       "correctAnswer": "storm",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "weather-2-mc-2",
       "question": "Hoe zeg je 'bewolkt' in het Fries?",
       "correctAnswer": "bewolkt",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "weather-2-trans-3",
       "question": "storm",
       "correctAnswer": "stoarm",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "weather-2-fill-3",
       "sentence": "De ___ waait hurd",
       "blankIndex": 1,
       "correctAnswer": "wyn",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "weather-2-trans-rev-3",
       "question": "bewolkt",
       "correctAnswer": "bewolkt",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "weather-2-trans-4",
       "question": "regen",
       "correctAnswer": "rein",
       "acceptedAnswers": [

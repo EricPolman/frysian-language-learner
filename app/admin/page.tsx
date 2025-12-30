@@ -137,6 +137,21 @@ export default async function AdminPage() {
             </div>
           </Card>
 
+          <Card className="p-6 hover:shadow-lg transition-shadow bg-gradient-to-br from-purple-50 to-blue-50 border-purple-200">
+            <div className="flex items-start gap-4">
+              <div className="text-4xl">🤖</div>
+              <div className="flex-1">
+                <h2 className="text-xl font-bold mb-2">AI Content Generator</h2>
+                <p className="text-gray-600 mb-4">
+                  Genereer complete vaardigheden en lessen met AI.
+                </p>
+                <Link href="/admin/generate">
+                  <Button className="bg-purple-600 hover:bg-purple-700">✨ Genereren →</Button>
+                </Link>
+              </div>
+            </div>
+          </Card>
+
           <Card className="p-6 hover:shadow-lg transition-shadow">
             <div className="flex items-start gap-4">
               <div className="text-4xl">📥</div>

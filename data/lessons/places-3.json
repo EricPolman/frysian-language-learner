@@ -11,7 +11,7 @@
     {
       "id": "intro-places-3-0",
       "vocabulary": {
-        "id": "yn1",
+        "id": "places-3-yn1",
         "frysian": "yn",
         "dutch": "in",
         "partOfSpeech": "voorzetsel",
@@ -24,7 +24,7 @@
     {
       "id": "intro-places-3-1",
       "vocabulary": {
-        "id": "op1",
+        "id": "places-3-op1",
         "frysian": "op",
         "dutch": "op",
         "partOfSpeech": "voorzetsel",
@@ -37,7 +37,7 @@
     {
       "id": "intro-places-3-2",
       "vocabulary": {
-        "id": "under1",
+        "id": "places-3-under1",
         "frysian": "ûnder",
         "dutch": "onder",
         "partOfSpeech": "voorzetsel",
@@ -50,7 +50,7 @@
     {
       "id": "intro-places-3-3",
       "vocabulary": {
-        "id": "neist1",
+        "id": "places-3-neist1",
         "frysian": "neist",
         "dutch": "naast",
         "partOfSpeech": "voorzetsel",
@@ -63,7 +63,7 @@
     {
       "id": "intro-places-3-4",
       "vocabulary": {
-        "id": "tusken1",
+        "id": "places-3-tusken1",
         "frysian": "tusken",
         "dutch": "tussen",
         "partOfSpeech": "voorzetsel",
@@ -76,7 +76,7 @@
     {
       "id": "intro-places-3-5",
       "vocabulary": {
-        "id": "by1",
+        "id": "places-3-by1",
         "frysian": "by",
         "dutch": "bij",
         "partOfSpeech": "voorzetsel",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "places-3-trans-1",
       "question": "in de doos",
       "correctAnswer": "yn de doaze",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "places-3-trans-rev-1",
       "question": "ûnder de tafel",
       "correctAnswer": "onder de tafel",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "places-3-fill-1",
       "sentence": "De boek is ___ de tafel.",
       "blankIndex": 2,
       "correctAnswer": "op",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "places-3-mc-1",
       "question": "Hoe zeg je 'naast de stoel' in het Fries?",
       "correctAnswer": "neist de stoel",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "places-3-trans-2",
       "question": "tussen de boeken",
       "correctAnswer": "tusken de boeken",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "places-3-mc-rev-1",
       "question": "Wat betekent 'by de rjochting'?",
       "correctAnswer": "bij de richting",
       "options": [
@@ -171,7 +171,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "places-3-fill-2",
       "sentence": "De kat sit ___ de stoel.",
       "blankIndex": 2,
       "correctAnswer": "ûnder",
@@ -186,7 +186,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "places-3-trans-3",
       "question": "bij het raam",
       "correctAnswer": "by it rút",
       "acceptedAnswers": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "places-3-build-1",
       "prompt": "Zeg 'In de kast' in het Fries",
       "correctOrder": [
         "Yn",
@@ -213,7 +213,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "places-3-fill-3",
       "sentence": "De papieren lizze ___ de tafel.",
       "blankIndex": 2,
       "correctAnswer": "op",
@@ -228,7 +228,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "places-3-mc-2",
       "question": "Hoe zeg je 'onder de brug' in het Fries?",
       "correctAnswer": "ûnder de brêge",
       "options": [
@@ -243,7 +243,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "places-3-trans-rev-2",
       "question": "tusken de huzen",
       "correctAnswer": "tussen de huizen",
       "acceptedAnswers": [

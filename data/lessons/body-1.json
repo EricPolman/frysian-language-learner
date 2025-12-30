@@ -11,7 +11,7 @@
     {
       "id": "intro-body-1-0",
       "vocabulary": {
-        "id": "holle-1",
+        "id": "body-1-holle-1",
         "frysian": "holle",
         "dutch": "hoofd",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-body-1-1",
       "vocabulary": {
-        "id": "eagen-2",
+        "id": "body-1-eagen-2",
         "frysian": "eagen",
         "dutch": "ogen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-body-1-2",
       "vocabulary": {
-        "id": "noas-3",
+        "id": "body-1-noas-3",
         "frysian": "noas",
         "dutch": "neus",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-body-1-3",
       "vocabulary": {
-        "id": "mule-4",
+        "id": "body-1-mule-4",
         "frysian": "mûle",
         "dutch": "mond",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-body-1-4",
       "vocabulary": {
-        "id": "earen-5",
+        "id": "body-1-earen-5",
         "frysian": "earen",
         "dutch": "oren",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-body-1-5",
       "vocabulary": {
-        "id": "sjen-6",
+        "id": "body-1-sjen-6",
         "frysian": "sjen",
         "dutch": "zien",
         "partOfSpeech": "werkwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "body-1-trans-1",
       "question": "hoofd",
       "correctAnswer": "holle",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "body-1-fill-1",
       "sentence": "Myn ___ docht sear.",
       "blankIndex": 1,
       "correctAnswer": "holle",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "body-1-trans-rev-1",
       "question": "eagen",
       "correctAnswer": "ogen",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "body-1-mc-1",
       "question": "Hoe zeg je 'neus' in het Fries?",
       "correctAnswer": "noas",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "body-1-trans-2",
       "question": "mond",
       "correctAnswer": "mûle",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "body-1-fill-2",
       "sentence": "Ik sjoch mei myn ___.",
       "blankIndex": 4,
       "correctAnswer": "eagen",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "body-1-trans-rev-2",
       "question": "mûle",
       "correctAnswer": "mond",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "body-1-mc-2",
       "question": "Hoe zeg je 'oren' in het Fries?",
       "correctAnswer": "earen",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "body-1-trans-3",
       "question": "oren",
       "correctAnswer": "earen",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "body-1-fill-3",
       "sentence": "Hy kin ___ net goed.",
       "blankIndex": 2,
       "correctAnswer": "sjen",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "body-1-trans-rev-3",
       "question": "noas",
       "correctAnswer": "neus",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "body-1-trans-4",
       "question": "zien",
       "correctAnswer": "sjen",
       "acceptedAnswers": [

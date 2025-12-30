@@ -11,7 +11,7 @@
     {
       "id": "intro-food-4-0",
       "vocabulary": {
-        "id": "bestelling-plaatsen",
+        "id": "food-4-bestelling-plaatsen",
         "frysian": "bestelling",
         "dutch": "bestelling",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-food-4-1",
       "vocabulary": {
-        "id": "menu-ynsjen",
+        "id": "food-4-menu-ynsjen",
         "frysian": "menu",
         "dutch": "menu",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-food-4-2",
       "vocabulary": {
-        "id": "fersykje-rekken",
+        "id": "food-4-fersykje-rekken",
         "frysian": "rekken",
         "dutch": "rekening",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-food-4-3",
       "vocabulary": {
-        "id": "smaklik-iten",
+        "id": "food-4-smaklik-iten",
         "frysian": "smaklik",
         "dutch": "smakelijk",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-food-4-4",
       "vocabulary": {
-        "id": "drankje-bestelle",
+        "id": "food-4-drankje-bestelle",
         "frysian": "drankje",
         "dutch": "drankje",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-food-4-5",
       "vocabulary": {
-        "id": "kelner-roppe",
+        "id": "food-4-kelner-roppe",
         "frysian": "kelner",
         "dutch": "ober",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "food-4-trans-1",
       "question": "bestelling",
       "correctAnswer": "bestelling",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "food-4-fill-1",
       "sentence": "De ___ is smaklik",
       "blankIndex": 1,
       "correctAnswer": "rekken",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "food-4-mc-1",
       "question": "Hoe zeg je 'smakelijk' in het Fries?",
       "correctAnswer": "smaklik",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "food-4-trans-rev-1",
       "question": "kelner",
       "correctAnswer": "ober",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "food-4-build-1",
       "prompt": "Zeg 'De rekening is smakelijk' in het Fries",
       "correctOrder": [
         "De",
@@ -160,7 +160,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "food-4-trans-2",
       "question": "drankje",
       "correctAnswer": "drankje",
       "acceptedAnswers": [
@@ -172,7 +172,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "food-4-fill-2",
       "sentence": "It ___ is best goed.",
       "blankIndex": 1,
       "correctAnswer": "menu",
@@ -187,7 +187,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "food-4-mc-rev-1",
       "question": "Wat betekent 'smaklik'?",
       "correctAnswer": "smakelijk",
       "options": [
@@ -202,7 +202,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "food-4-fill-3",
       "sentence": "De ___ bringt it drankje.",
       "blankIndex": 1,
       "correctAnswer": "kelner",
@@ -217,7 +217,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "food-4-trans-3",
       "question": "menu",
       "correctAnswer": "menu",
       "acceptedAnswers": [
@@ -229,7 +229,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "food-4-trans-rev-2",
       "question": "bestelling",
       "correctAnswer": "bestelling",
       "acceptedAnswers": [
@@ -241,7 +241,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "food-4-mc-2",
       "question": "Hoe zeg je 'ober' in het Fries?",
       "correctAnswer": "kelner",
       "options": [

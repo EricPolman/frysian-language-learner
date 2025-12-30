@@ -11,7 +11,7 @@
     {
       "id": "intro-animals-3-0",
       "vocabulary": {
-        "id": "foks",
+        "id": "animals-3-foks",
         "frysian": "foks",
         "dutch": "vos",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-animals-3-1",
       "vocabulary": {
-        "id": "hart",
+        "id": "animals-3-hart",
         "frysian": "hart",
         "dutch": "hert",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-animals-3-2",
       "vocabulary": {
-        "id": "wolf",
+        "id": "animals-3-wolf",
         "frysian": "wolf",
         "dutch": "wolf",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-animals-3-3",
       "vocabulary": {
-        "id": "bear",
+        "id": "animals-3-bear",
         "frysian": "bear",
         "dutch": "beer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-animals-3-4",
       "vocabulary": {
-        "id": "ule",
+        "id": "animals-3-ule",
         "frysian": "ûle",
         "dutch": "uil",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-animals-3-5",
       "vocabulary": {
-        "id": "wyld",
+        "id": "animals-3-wyld",
         "frysian": "wyld",
         "dutch": "wild",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "animals-3-trans-1",
       "question": "vos",
       "correctAnswer": "foks",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "animals-3-mc-1",
       "question": "Hoe zeg je 'beer' in het Fries?",
       "correctAnswer": "bear",
       "options": [
@@ -117,7 +117,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "animals-3-fill-1",
       "sentence": "De ___ is wyld.",
       "blankIndex": 1,
       "correctAnswer": "bear",
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "animals-3-trans-rev-1",
       "question": "wolf",
       "correctAnswer": "wolf",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "animals-3-trans-2",
       "question": "uil",
       "correctAnswer": "ûle",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "animals-3-mc-rev-1",
       "question": "Wat betekent 'hart'?",
       "correctAnswer": "hert",
       "options": [
@@ -171,7 +171,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "animals-3-fill-2",
       "sentence": "De ___ is in bosk.",
       "blankIndex": 1,
       "correctAnswer": "foks",
@@ -186,7 +186,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "animals-3-trans-rev-2",
       "question": "bear",
       "correctAnswer": "beer",
       "acceptedAnswers": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "animals-3-build-1",
       "prompt": "Zeg 'De vos is wild' in het Fries",
       "correctOrder": [
         "De",
@@ -214,7 +214,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "animals-3-trans-3",
       "question": "hert",
       "correctAnswer": "hart",
       "acceptedAnswers": [
@@ -226,7 +226,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "animals-3-mc-2",
       "question": "Hoe zeg je 'wild' in het Fries?",
       "correctAnswer": "wyld",
       "options": [
@@ -241,7 +241,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "animals-3-fill-3",
       "sentence": "In ___ is yn it bosk.",
       "blankIndex": 1,
       "correctAnswer": "wolf",

@@ -3,7 +3,6 @@ import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { getUser } from "@/app/login/actions";
 import { createClient } from "@/lib/supabase/server";
-import skillsData from "@/data/skills.json";
 import { redirect, notFound } from "next/navigation";
 
 interface LessonInfo {
@@ -27,7 +26,7 @@ function getLessonInfo(lesson: LessonInfo | string, index: number): { id: string
   if (typeof lesson === 'string') {
     return { id: lesson, title: `Les ${index + 1}`, description: lesson };
   }
-  return { id: lesson.id, title: lesson.title, description: lesson.description };
+  return { id: lesson.id, title: lesson.title, description: lesson.description || '' };
 }
 
 export default async function SkillPage({ params }: Props) {
@@ -38,14 +37,55 @@ export default async function SkillPage({ params }: Props) {
     redirect("/login");
   }
 
-  // Find the skill
-  const skill = skillsData.skills.find((s) => s.id === skillId);
-  if (!skill) {
+  const supabase = await createClient();
+
+  // Get skill from database
+  const { data: skillData, error: skillError } = await supabase
+    .from("skills")
+    .select(`
+      id,
+      title,
+      description,
+      long_description,
+      icon,
+      color,
+      lessons (
+        id,
+        title,
+        description,
+        topic,
+        lesson_number,
+        is_published
+      )
+    `)
+    .eq("id", skillId)
+    .eq("is_published", true)
+    .single();
+
+  if (skillError || !skillData) {
     notFound();
   }
 
+  // Transform skill data
+  const skill = {
+    id: skillData.id,
+    title: skillData.title,
+    description: skillData.description,
+    longDescription: skillData.long_description,
+    icon: skillData.icon || "📚",
+    color: skillData.color || "#3b82f6",
+    lessons: (skillData.lessons || [])
+      .filter((lesson: any) => lesson.is_published)
+      .sort((a: any, b: any) => a.lesson_number - b.lesson_number)
+      .map((lesson: any) => ({
+        id: lesson.id,
+        title: lesson.title,
+        description: lesson.description || '',
+        topic: lesson.topic,
+      })),
+  };
+
   // Get user progress
-  const supabase = await createClient();
   const { data: progressData } = await supabase
     .from("user_progress")
     .select("*")
@@ -53,11 +93,8 @@ export default async function SkillPage({ params }: Props) {
     .single();
 
   const completedLessons = new Set<string>(
-    (progressData as any)?.completed_lessons || []
+    progressData?.completed_lessons || []
   );
-
-  // Cast skill to include optional longDescription
-  const skillWithLongDesc = skill as typeof skill & { longDescription?: string };
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
@@ -76,9 +113,9 @@ export default async function SkillPage({ params }: Props) {
                 {skill.title}
               </h1>
               <p className="text-gray-600 text-lg mb-2">{skill.description}</p>
-              {skillWithLongDesc.longDescription && (
+              {skill.longDescription && (
                 <p className="text-sm text-gray-500 max-w-xl mx-auto">
-                  {skillWithLongDesc.longDescription}
+                  {skill.longDescription}
                 </p>
               )}
             </div>

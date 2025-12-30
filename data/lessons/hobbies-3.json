@@ -11,7 +11,7 @@
     {
       "id": "intro-hobbies-3-0",
       "vocabulary": {
-        "id": "kuierje-id",
+        "id": "hobbies-3-kuierje-id",
         "frysian": "kuierje",
         "dutch": "wandelen",
         "partOfSpeech": "werkwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-hobbies-3-1",
       "vocabulary": {
-        "id": "tinte-id",
+        "id": "hobbies-3-tinte-id",
         "frysian": "tinte",
         "dutch": "tent",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-hobbies-3-2",
       "vocabulary": {
-        "id": "fiskstok-id",
+        "id": "hobbies-3-fiskstok-id",
         "frysian": "fiskstok",
         "dutch": "hengel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-hobbies-3-3",
       "vocabulary": {
-        "id": "simmer-id",
+        "id": "hobbies-3-simmer-id",
         "frysian": "simmer",
         "dutch": "zomer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-hobbies-3-4",
       "vocabulary": {
-        "id": "blommen-id",
+        "id": "hobbies-3-blommen-id",
         "frysian": "blommen",
         "dutch": "bloemen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-hobbies-3-5",
       "vocabulary": {
-        "id": "kâld-id",
+        "id": "hobbies-3-kâld-id",
         "frysian": "kâld",
         "dutch": "koud",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "hobbies-3-trans-1",
       "question": "wandelen",
       "correctAnswer": "kuierje",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "hobbies-3-fill-1",
       "sentence": "Yn 'e ___ kuierje wy faak.",
       "blankIndex": 2,
       "correctAnswer": "simmer",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "hobbies-3-mc-1",
       "question": "Hoe zeg je 'tent' in het Fries?",
       "correctAnswer": "tinte",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "hobbies-3-trans-rev-1",
       "question": "blommen",
       "correctAnswer": "bloemen",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "hobbies-3-fill-2",
       "sentence": "It is ___ yn 'e winter.",
       "blankIndex": 2,
       "correctAnswer": "kâld",
@@ -159,7 +159,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "hobbies-3-trans-2",
       "question": "zomer",
       "correctAnswer": "simmer",
       "acceptedAnswers": [
@@ -171,7 +171,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "hobbies-3-mc-rev-1",
       "question": "Wat betekent 'fiskstok'?",
       "correctAnswer": "hengel",
       "options": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "hobbies-3-trans-rev-2",
       "question": "kuierje",
       "correctAnswer": "wandelen",
       "acceptedAnswers": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "hobbies-3-fill-3",
       "sentence": "Ik haw in ___ yn 'e tún.",
       "blankIndex": 3,
       "correctAnswer": "tinte",
@@ -213,7 +213,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "hobbies-3-trans-3",
       "question": "bloemen",
       "correctAnswer": "blommen",
       "acceptedAnswers": [
@@ -225,7 +225,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "hobbies-3-mc-2",
       "question": "Hoe zeg je 'koud' in het Fries?",
       "correctAnswer": "kâld",
       "options": [
@@ -240,7 +240,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "hobbies-3-build-1",
       "prompt": "Zeg 'In de zomer is het warm' in het Fries",
       "correctOrder": [
         "Yn",

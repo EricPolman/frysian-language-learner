@@ -11,7 +11,7 @@
     {
       "id": "intro-hobbies-1-0",
       "vocabulary": {
-        "id": "fuotbalje",
+        "id": "hobbies-1-fuotbalje",
         "frysian": "fuotbalje",
         "dutch": "voetballen",
         "partOfSpeech": "werkwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-hobbies-1-1",
       "vocabulary": {
-        "id": "fytse",
+        "id": "hobbies-1-fytse",
         "frysian": "fytse",
         "dutch": "fietsen",
         "partOfSpeech": "werkwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-hobbies-1-2",
       "vocabulary": {
-        "id": "swimme",
+        "id": "hobbies-1-swimme",
         "frysian": "swimme",
         "dutch": "zwemmen",
         "partOfSpeech": "werkwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-hobbies-1-3",
       "vocabulary": {
-        "id": "rinne",
+        "id": "hobbies-1-rinne",
         "frysian": "rinne",
         "dutch": "hardlopen",
         "partOfSpeech": "werkwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-hobbies-1-4",
       "vocabulary": {
-        "id": "tennis",
+        "id": "hobbies-1-tennis",
         "frysian": "tennis",
         "dutch": "tennis",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-hobbies-1-5",
       "vocabulary": {
-        "id": "sport",
+        "id": "hobbies-1-sport",
         "frysian": "sport",
         "dutch": "sport",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "hobbies-1-trans-1",
       "question": "voetballen",
       "correctAnswer": "fuotbalje",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "hobbies-1-fill-1",
       "sentence": "Ik hâld fan ___",
       "blankIndex": 3,
       "correctAnswer": "fytse",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "hobbies-1-trans-rev-1",
       "question": "swimme",
       "correctAnswer": "zwemmen",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "hobbies-1-mc-1",
       "question": "Hoe zeg je 'tennis' in het Fries?",
       "correctAnswer": "tennis",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "hobbies-1-trans-2",
       "question": "fietsen",
       "correctAnswer": "fytse",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "hobbies-1-fill-2",
       "sentence": "Hâldsto fan ___?",
       "blankIndex": 2,
       "correctAnswer": "rinne",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "hobbies-1-trans-rev-2",
       "question": "rinne",
       "correctAnswer": "hardlopen",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "hobbies-1-mc-2",
       "question": "Hoe zeg je 'sport' in het Fries?",
       "correctAnswer": "sport",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "hobbies-1-trans-3",
       "question": "zwemmen",
       "correctAnswer": "swimme",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "hobbies-1-fill-3",
       "sentence": "Wy geane te ___",
       "blankIndex": 2,
       "correctAnswer": "fuotbalje",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "hobbies-1-trans-rev-3",
       "question": "tennis",
       "correctAnswer": "tennis",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "hobbies-1-trans-4",
       "question": "sport",
       "correctAnswer": "sport",
       "acceptedAnswers": [

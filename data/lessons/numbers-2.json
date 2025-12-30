@@ -11,7 +11,7 @@
     {
       "id": "intro-numbers-2-0",
       "vocabulary": {
-        "id": "alve-getal",
+        "id": "numbers-2-alve-getal",
         "frysian": "alve",
         "dutch": "elf",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-numbers-2-1",
       "vocabulary": {
-        "id": "tolve-getal",
+        "id": "numbers-2-tolve-getal",
         "frysian": "tolve",
         "dutch": "twaalf",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-numbers-2-2",
       "vocabulary": {
-        "id": "trettjin-getal",
+        "id": "numbers-2-trettjin-getal",
         "frysian": "trettjin",
         "dutch": "dertien",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-numbers-2-3",
       "vocabulary": {
-        "id": "fjirtjin-getal",
+        "id": "numbers-2-fjirtjin-getal",
         "frysian": "fjirtjin",
         "dutch": "veertien",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-numbers-2-4",
       "vocabulary": {
-        "id": "fyftjin-getal",
+        "id": "numbers-2-fyftjin-getal",
         "frysian": "fyftjin",
         "dutch": "vijftien",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-numbers-2-5",
       "vocabulary": {
-        "id": "sechtjin-getal",
+        "id": "numbers-2-sechtjin-getal",
         "frysian": "sechtjin",
         "dutch": "zestien",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "numbers-2-trans-1",
       "question": "elf",
       "correctAnswer": "alve",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "numbers-2-fill-1",
       "sentence": "Ik haw ___ appels.",
       "blankIndex": 2,
       "correctAnswer": "tolve",
@@ -117,7 +117,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "numbers-2-trans-rev-1",
       "question": "fyftjin",
       "correctAnswer": "vijftien",
       "acceptedAnswers": [
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "numbers-2-mc-1",
       "question": "Hoe zeg je 'zestien' in het Fries?",
       "correctAnswer": "sechtjin",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "numbers-2-trans-2",
       "question": "dertien",
       "correctAnswer": "trettjin",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "numbers-2-fill-2",
       "sentence": "Hy hat ___ boeken lêzen.",
       "blankIndex": 2,
       "correctAnswer": "fjirtjin",
@@ -171,7 +171,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "numbers-2-trans-rev-2",
       "question": "tolve",
       "correctAnswer": "twaalf",
       "acceptedAnswers": [
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "numbers-2-mc-2",
       "question": "Hoe zeg je 'veertien' in het Fries?",
       "correctAnswer": "fjirtjin",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "numbers-2-trans-3",
       "question": "zestien",
       "correctAnswer": "sechtjin",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "numbers-2-fill-3",
       "sentence": "Der binne ___ minsken hjir.",
       "blankIndex": 2,
       "correctAnswer": "fyftjin",
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "numbers-2-trans-rev-3",
       "question": "trettjin",
       "correctAnswer": "dertien",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "numbers-2-trans-4",
       "question": "veertien",
       "correctAnswer": "fjirtjin",
       "acceptedAnswers": [

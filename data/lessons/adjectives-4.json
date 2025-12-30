@@ -11,7 +11,7 @@
     {
       "id": "intro-adjectives-4-0",
       "vocabulary": {
-        "id": "lytse-grut",
+        "id": "adjectives-4-lytse-grut",
         "frysian": "lytse",
         "dutch": "klein",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-adjectives-4-1",
       "vocabulary": {
-        "id": "grutte-grut",
+        "id": "adjectives-4-grutte-grut",
         "frysian": "grutte",
         "dutch": "groot",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-adjectives-4-2",
       "vocabulary": {
-        "id": "rap-slow",
+        "id": "adjectives-4-rap-slow",
         "frysian": "rap",
         "dutch": "snel",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-adjectives-4-3",
       "vocabulary": {
-        "id": "stadich-slow",
+        "id": "adjectives-4-stadich-slow",
         "frysian": "stadich",
         "dutch": "langzaam",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-adjectives-4-4",
       "vocabulary": {
-        "id": "heech-low",
+        "id": "adjectives-4-heech-low",
         "frysian": "heech",
         "dutch": "hoog",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-adjectives-4-5",
       "vocabulary": {
-        "id": "leech-low",
+        "id": "adjectives-4-leech-low",
         "frysian": "leech",
         "dutch": "laag",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "adjectives-4-trans-1",
       "question": "klein en snel",
       "correctAnswer": "lytse en rap",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "adjectives-4-fill-1",
       "sentence": "Hy is ___ stadich.",
       "blankIndex": 1,
       "correctAnswer": "grutte",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "adjectives-4-mc-1",
       "question": "Hoe zeg je 'hoog en laag' in het Fries?",
       "correctAnswer": "heech en leech",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "adjectives-4-trans-rev-1",
       "question": "stadich en grutte",
       "correctAnswer": "langzaam en groot",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "adjectives-4-fill-2",
       "sentence": "It is in ___ dei.",
       "blankIndex": 2,
       "correctAnswer": "rap",
@@ -159,7 +159,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "adjectives-4-mc-rev-1",
       "question": "Wat betekent 'lytse en grutte'?",
       "correctAnswer": "klein en groot",
       "options": [
@@ -174,7 +174,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "adjectives-4-trans-2",
       "question": "hoog en snel",
       "correctAnswer": "heech en rap",
       "acceptedAnswers": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "adjectives-4-build-1",
       "prompt": "Zeg 'Klein en laag' in het Fries",
       "correctOrder": [
         "lytse",
@@ -201,7 +201,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "adjectives-4-fill-3",
       "sentence": "De auto is ___ en rap.",
       "blankIndex": 2,
       "correctAnswer": "lytse",
@@ -216,7 +216,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "adjectives-4-trans-rev-2",
       "question": "heech en stadich",
       "correctAnswer": "hoog en langzaam",
       "acceptedAnswers": [
@@ -228,7 +228,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "adjectives-4-mc-2",
       "question": "Hoe zeg je 'groot en langzaam' in het Fries?",
       "correctAnswer": "grutte en stadich",
       "options": [

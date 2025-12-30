@@ -11,7 +11,7 @@
     {
       "id": "intro-weather-1-0",
       "vocabulary": {
-        "id": "linte-seizoen",
+        "id": "weather-1-linte-seizoen",
         "frysian": "linte",
         "dutch": "lente",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-weather-1-1",
       "vocabulary": {
-        "id": "simme-seizoen",
+        "id": "weather-1-simme-seizoen",
         "frysian": "simme",
         "dutch": "zomer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-weather-1-2",
       "vocabulary": {
-        "id": "hjerst-seizoen",
+        "id": "weather-1-hjerst-seizoen",
         "frysian": "hjerst",
         "dutch": "herfst",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-weather-1-3",
       "vocabulary": {
-        "id": "winter-seizoen",
+        "id": "weather-1-winter-seizoen",
         "frysian": "winter",
         "dutch": "winter",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-weather-1-4",
       "vocabulary": {
-        "id": "waar-waar",
+        "id": "weather-1-waar-waar",
         "frysian": "waar",
         "dutch": "weer",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-weather-1-5",
       "vocabulary": {
-        "id": "snie-verschijnsel",
+        "id": "weather-1-snie-verschijnsel",
         "frysian": "snie",
         "dutch": "sneeuw",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "weather-1-trans-1",
       "question": "lente",
       "correctAnswer": "linte",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "weather-1-trans-rev-1",
       "question": "simme",
       "correctAnswer": "zomer",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "weather-1-fill-1",
       "sentence": "___ is moai.",
       "blankIndex": 0,
       "correctAnswer": "Waar",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "weather-1-mc-1",
       "question": "Hoe zeg je 'herfst' in het Fries?",
       "correctAnswer": "hjerst",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "weather-1-trans-2",
       "question": "winter",
       "correctAnswer": "winter",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "weather-1-trans-rev-2",
       "question": "waar",
       "correctAnswer": "weer",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "weather-1-fill-2",
       "sentence": "De ___ is kâld.",
       "blankIndex": 1,
       "correctAnswer": "winter",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "weather-1-mc-2",
       "question": "Hoe zeg je 'sneeuw' in het Fries?",
       "correctAnswer": "snie",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "weather-1-trans-3",
       "question": "herfst",
       "correctAnswer": "hjerst",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "weather-1-trans-rev-3",
       "question": "linte",
       "correctAnswer": "lente",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "weather-1-fill-3",
       "sentence": "De ___ falt.",
       "blankIndex": 1,
       "correctAnswer": "snie",

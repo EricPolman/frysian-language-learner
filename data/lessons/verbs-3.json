@@ -11,7 +11,7 @@
     {
       "id": "intro-verbs-3-0",
       "vocabulary": {
-        "id": "wurkje",
+        "id": "verbs-3-wurkje",
         "frysian": "wurkje",
         "dutch": "werken",
         "partOfSpeech": "werkwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-verbs-3-1",
       "vocabulary": {
-        "id": "learje",
+        "id": "verbs-3-learje",
         "frysian": "learje",
         "dutch": "leren",
         "partOfSpeech": "werkwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-verbs-3-2",
       "vocabulary": {
-        "id": "spylje",
+        "id": "verbs-3-spylje",
         "frysian": "spylje",
         "dutch": "spelen",
         "partOfSpeech": "werkwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-verbs-3-3",
       "vocabulary": {
-        "id": "lêze",
+        "id": "verbs-3-lêze",
         "frysian": "lêze",
         "dutch": "lezen",
         "partOfSpeech": "werkwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-verbs-3-4",
       "vocabulary": {
-        "id": "skriuwe",
+        "id": "verbs-3-skriuwe",
         "frysian": "skriuwe",
         "dutch": "schrijven",
         "partOfSpeech": "werkwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-verbs-3-5",
       "vocabulary": {
-        "id": "drinke",
+        "id": "verbs-3-drinke",
         "frysian": "drinke",
         "dutch": "drinken",
         "partOfSpeech": "werkwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "verbs-3-trans-1",
       "question": "werken",
       "correctAnswer": "wurkje",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "verbs-3-trans-2",
       "question": "leren",
       "correctAnswer": "learje",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "verbs-3-trans-rev-1",
       "question": "spylje",
       "correctAnswer": "spelen",
       "acceptedAnswers": [
@@ -126,7 +126,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "verbs-3-fill-1",
       "sentence": "Ik wol ___ hjoed.",
       "blankIndex": 1,
       "correctAnswer": "wurkje",
@@ -141,7 +141,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "verbs-3-mc-1",
       "question": "Hoe zeg je 'schrijven' in het Fries?",
       "correctAnswer": "skriuwe",
       "options": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "verbs-3-build-1",
       "prompt": "Zeg 'Ik wil lezen en schrijven' in het Fries",
       "correctOrder": [
         "Ik",
@@ -173,7 +173,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "verbs-3-trans-3",
       "question": "drinken",
       "correctAnswer": "drinke",
       "acceptedAnswers": [
@@ -185,7 +185,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "verbs-3-fill-2",
       "sentence": "Se wolle ___ yn de biblioteek.",
       "blankIndex": 2,
       "correctAnswer": "lêze",
@@ -200,7 +200,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "verbs-3-trans-rev-2",
       "question": "drinke",
       "correctAnswer": "drinken",
       "acceptedAnswers": [
@@ -212,7 +212,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "verbs-3-fill-3",
       "sentence": "Wy geane ___ nei skoalle.",
       "blankIndex": 1,
       "correctAnswer": "learje",
@@ -227,7 +227,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "verbs-3-mc-2",
       "question": "Hoe zeg je 'spelen' in het Fries?",
       "correctAnswer": "spylje",
       "options": [
@@ -242,7 +242,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "verbs-3-mc-rev-1",
       "question": "Wat betekent 'wurkje'?",
       "correctAnswer": "werken",
       "options": [

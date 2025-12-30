@@ -11,7 +11,7 @@
     {
       "id": "intro-adjectives-1-0",
       "vocabulary": {
-        "id": "grut-bijvoeglijk-naamwoord",
+        "id": "adjectives-1-grut-bijvoeglijk-naamwoord",
         "frysian": "grut",
         "dutch": "groot",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-adjectives-1-1",
       "vocabulary": {
-        "id": "lyts-bijvoeglijk-naamwoord",
+        "id": "adjectives-1-lyts-bijvoeglijk-naamwoord",
         "frysian": "lyts",
         "dutch": "klein",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-adjectives-1-2",
       "vocabulary": {
-        "id": "lang-bijvoeglijk-naamwoord",
+        "id": "adjectives-1-lang-bijvoeglijk-naamwoord",
         "frysian": "lang",
         "dutch": "lang",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-adjectives-1-3",
       "vocabulary": {
-        "id": "koart-bijvoeglijk-naamwoord",
+        "id": "adjectives-1-koart-bijvoeglijk-naamwoord",
         "frysian": "koart",
         "dutch": "kort",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-adjectives-1-4",
       "vocabulary": {
-        "id": "breed-bijvoeglijk-naamwoord",
+        "id": "adjectives-1-breed-bijvoeglijk-naamwoord",
         "frysian": "breed",
         "dutch": "breed",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-adjectives-1-5",
       "vocabulary": {
-        "id": "smel-bijvoeglijk-naamwoord",
+        "id": "adjectives-1-smel-bijvoeglijk-naamwoord",
         "frysian": "smel",
         "dutch": "smal",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "adjectives-1-trans-1",
       "question": "groot",
       "correctAnswer": "grut",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "adjectives-1-trans-rev-1",
       "question": "lyts",
       "correctAnswer": "klein",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "adjectives-1-fill-1",
       "sentence": "In ___ hûs",
       "blankIndex": 1,
       "correctAnswer": "grut",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "adjectives-1-mc-1",
       "question": "Hoe zeg je 'klein' in het Fries?",
       "correctAnswer": "lyts",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "adjectives-1-trans-2",
       "question": "lang",
       "correctAnswer": "lang",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "adjectives-1-trans-rev-2",
       "question": "koart",
       "correctAnswer": "kort",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "adjectives-1-fill-2",
       "sentence": "De strjitte is ___",
       "blankIndex": 3,
       "correctAnswer": "lang",
@@ -183,7 +183,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "adjectives-1-trans-3",
       "question": "smal",
       "correctAnswer": "smel",
       "acceptedAnswers": [
@@ -195,7 +195,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "adjectives-1-mc-2",
       "question": "Hoe zeg je 'smal' in het Fries?",
       "correctAnswer": "smel",
       "options": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "adjectives-1-trans-rev-3",
       "question": "breed",
       "correctAnswer": "breed",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "adjectives-1-fill-3",
       "sentence": "In ___ paad",
       "blankIndex": 1,
       "correctAnswer": "smel",
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "adjectives-1-trans-4",
       "question": "kort",
       "correctAnswer": "koart",
       "acceptedAnswers": [

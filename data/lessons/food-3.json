@@ -11,7 +11,7 @@
     {
       "id": "intro-food-3-0",
       "vocabulary": {
-        "id": "moarnsiten",
+        "id": "food-3-moarnsiten",
         "frysian": "moarnsiten",
         "dutch": "ontbijt",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-food-3-1",
       "vocabulary": {
-        "id": "middeis-iten",
+        "id": "food-3-middeis-iten",
         "frysian": "middeis iten",
         "dutch": "lunch",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-food-3-2",
       "vocabulary": {
-        "id": "junsiten",
+        "id": "food-3-junsiten",
         "frysian": "jûnsiten",
         "dutch": "avondeten",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-food-3-3",
       "vocabulary": {
-        "id": "bôle",
+        "id": "food-3-bôle",
         "frysian": "bôle",
         "dutch": "brood",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-food-3-4",
       "vocabulary": {
-        "id": "iten",
+        "id": "food-3-iten",
         "frysian": "iten",
         "dutch": "eten",
         "partOfSpeech": "werkwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-food-3-5",
       "vocabulary": {
-        "id": "drinke",
+        "id": "food-3-drinke",
         "frysian": "drinke",
         "dutch": "drinken",
         "partOfSpeech": "werkwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "food-3-trans-1",
       "question": "ontbijt eten",
       "correctAnswer": "moarnsiten iten",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "food-3-fill-1",
       "sentence": "Ik wol ___ drinke.",
       "blankIndex": 2,
       "correctAnswer": "iten",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "food-3-mc-1",
       "question": "Hoe zeg je 'brood drinken' in het Fries?",
       "correctAnswer": "bôle drinke",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "food-3-trans-rev-1",
       "question": "jûnsiten drinke",
       "correctAnswer": "avondeten drinken",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "food-3-build-1",
       "prompt": "Zeg 'Lunch eten en drinken' in het Fries",
       "correctOrder": [
         "middeis",
@@ -161,7 +161,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "food-3-trans-2",
       "question": "avondeten eten",
       "correctAnswer": "jûnsiten iten",
       "acceptedAnswers": [
@@ -173,7 +173,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "food-3-mc-2",
       "question": "Hoe zeg je 'lunch eten' in het Fries?",
       "correctAnswer": "middeis iten iten",
       "options": [
@@ -188,7 +188,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "food-3-fill-2",
       "sentence": "Wy sille ___ iten moarn.",
       "blankIndex": 2,
       "correctAnswer": "jûnsiten",
@@ -203,7 +203,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "food-3-trans-rev-2",
       "question": "bôle iten",
       "correctAnswer": "brood eten",
       "acceptedAnswers": [
@@ -215,7 +215,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "food-3-fill-3",
       "sentence": "Se hawwe ___ drinke.",
       "blankIndex": 2,
       "correctAnswer": "moarnsiten",
@@ -230,7 +230,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "food-3-mc-rev-1",
       "question": "Wat betekent 'moarnsiten iten'?",
       "correctAnswer": "ontbijt eten",
       "options": [
@@ -245,7 +245,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "food-3-trans-3",
       "question": "drinken tijdens lunch",
       "correctAnswer": "drinke middeis iten",
       "acceptedAnswers": [

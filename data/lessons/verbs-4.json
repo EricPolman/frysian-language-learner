@@ -11,7 +11,7 @@
     {
       "id": "intro-verbs-4-0",
       "vocabulary": {
-        "id": "ik-rin",
+        "id": "verbs-4-ik-rin",
         "frysian": "rin",
         "dutch": "loop",
         "partOfSpeech": "werkwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-verbs-4-1",
       "vocabulary": {
-        "id": "do-rinst",
+        "id": "verbs-4-do-rinst",
         "frysian": "rinst",
         "dutch": "loopt",
         "partOfSpeech": "werkwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-verbs-4-2",
       "vocabulary": {
-        "id": "hy-rint",
+        "id": "verbs-4-hy-rint",
         "frysian": "rint",
         "dutch": "loopt",
         "partOfSpeech": "werkwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-verbs-4-3",
       "vocabulary": {
-        "id": "se-rinne",
+        "id": "verbs-4-se-rinne",
         "frysian": "rinne",
         "dutch": "lopen",
         "partOfSpeech": "werkwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-verbs-4-4",
       "vocabulary": {
-        "id": "goeie",
+        "id": "verbs-4-goeie",
         "frysian": "Goeie",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
@@ -76,7 +76,7 @@
     {
       "id": "intro-verbs-4-5",
       "vocabulary": {
-        "id": "moarn",
+        "id": "verbs-4-moarn",
         "frysian": "moarn",
         "dutch": "morgen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "verbs-4-trans-1",
       "question": "hallo",
       "correctAnswer": "Goeie",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "verbs-4-trans-rev-1",
       "question": "Goeie",
       "correctAnswer": "hallo",
       "acceptedAnswers": [
@@ -115,7 +115,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "verbs-4-fill-1",
       "sentence": "Goeie! Hoe giet it mei ___?",
       "blankIndex": 3,
       "correctAnswer": "moarn",
@@ -130,7 +130,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "verbs-4-mc-1",
       "question": "Hoe zeg je 'loopt' in het Fries?",
       "correctAnswer": "rinst",
       "options": [
@@ -145,7 +145,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "verbs-4-mc-rev-1",
       "question": "Wat betekent 'rinne'?",
       "correctAnswer": "lopen",
       "options": [
@@ -160,7 +160,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "verbs-4-trans-2",
       "question": "lopen",
       "correctAnswer": "rinne",
       "acceptedAnswers": [
@@ -172,7 +172,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "verbs-4-fill-2",
       "sentence": "Ik ___ nei skoalle.",
       "blankIndex": 1,
       "correctAnswer": "rin",
@@ -187,7 +187,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "verbs-4-build-1",
       "prompt": "Zeg 'Hallo! Morgen loop ik!' in het Fries",
       "correctOrder": [
         "Goeie!",
@@ -203,7 +203,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "verbs-4-trans-3",
       "question": "morgen",
       "correctAnswer": "moarn",
       "acceptedAnswers": [
@@ -215,7 +215,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "verbs-4-trans-rev-2",
       "question": "rint",
       "correctAnswer": "loopt",
       "acceptedAnswers": [
@@ -227,7 +227,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "verbs-4-fill-3",
       "sentence": "Hy ___ nei de winkel.",
       "blankIndex": 1,
       "correctAnswer": "rint",
@@ -242,7 +242,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "verbs-4-mc-2",
       "question": "Hoe zeg je 'morgen' in het Fries?",
       "correctAnswer": "moarn",
       "options": [

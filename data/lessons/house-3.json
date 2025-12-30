@@ -11,7 +11,7 @@
     {
       "id": "intro-house-3-0",
       "vocabulary": {
-        "id": "stoel-1",
+        "id": "house-3-stoel-1",
         "frysian": "stoel",
         "dutch": "stoel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-house-3-1",
       "vocabulary": {
-        "id": "tafel-2",
+        "id": "house-3-tafel-2",
         "frysian": "tafel",
         "dutch": "tafel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-house-3-2",
       "vocabulary": {
-        "id": "bêd-3",
+        "id": "house-3-bêd-3",
         "frysian": "bêd",
         "dutch": "bed",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-house-3-3",
       "vocabulary": {
-        "id": "kast-4",
+        "id": "house-3-kast-4",
         "frysian": "kast",
         "dutch": "kast",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-house-3-4",
       "vocabulary": {
-        "id": "fakuum-5",
+        "id": "house-3-fakuum-5",
         "frysian": "fakuum",
         "dutch": "stofzuiger",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-house-3-5",
       "vocabulary": {
-        "id": "skuon-6",
+        "id": "house-3-skuon-6",
         "frysian": "skuon",
         "dutch": "schoenen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "house-3-trans-1",
       "question": "stoel",
       "correctAnswer": "stoel",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "house-3-fill-1",
       "sentence": "De ___ stiet by de tafel.",
       "blankIndex": 1,
       "correctAnswer": "stoel",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "house-3-mc-1",
       "question": "Hoe zeg je 'bed' in het Fries?",
       "correctAnswer": "bêd",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "house-3-trans-rev-1",
       "question": "tafel",
       "correctAnswer": "tafel",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "house-3-mc-rev-1",
       "question": "Wat betekent 'kast'?",
       "correctAnswer": "kast",
       "options": [
@@ -159,7 +159,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "house-3-trans-2",
       "question": "kast",
       "correctAnswer": "kast",
       "acceptedAnswers": [
@@ -171,7 +171,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "house-3-fill-2",
       "sentence": "De ___ makket it skjin.",
       "blankIndex": 1,
       "correctAnswer": "fakuum",
@@ -186,7 +186,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "house-3-build-1",
       "prompt": "Zeg 'Het bed staat hier' in het Fries",
       "correctOrder": [
         "It",
@@ -202,7 +202,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "house-3-trans-3",
       "question": "schoenen",
       "correctAnswer": "skuon",
       "acceptedAnswers": [
@@ -214,7 +214,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "house-3-fill-3",
       "sentence": "De ___ binne swart.",
       "blankIndex": 1,
       "correctAnswer": "skuon",
@@ -229,7 +229,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "house-3-trans-rev-2",
       "question": "bêd",
       "correctAnswer": "bed",
       "acceptedAnswers": [
@@ -241,7 +241,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "house-3-mc-2",
       "question": "Hoe zeg je 'stofzuiger' in het Fries?",
       "correctAnswer": "fakuum",
       "options": [

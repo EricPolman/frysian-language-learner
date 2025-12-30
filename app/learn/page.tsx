@@ -1,10 +1,7 @@
 import { SkillTree } from "@/components/skill-tree/SkillTree";
 import { getUser } from "@/app/login/actions";
 import { createClient } from "@/lib/supabase/server";
-import skillsData from "@/data/skills.json";
 import { redirect } from "next/navigation";
-import Link from "next/link";
-import { Button } from "@/components/ui/button";
 
 export default async function LearnPage() {
   const user = await getUser();
@@ -13,22 +10,66 @@ export default async function LearnPage() {
     redirect("/login");
   }
 
-  // Get user progress from database
   const supabase = await createClient();
-    
-    const { data: progressData } = await supabase
-      .from("user_progress")
-      .select("*")
-      .eq("user_id", user.id)
-      .single();
+
+  // Get skills with their lessons from database
+  const { data: skillsData } = await supabase
+    .from("skills")
+    .select(`
+      id,
+      title,
+      description,
+      long_description,
+      icon,
+      order,
+      difficulty,
+      prerequisites,
+      color,
+      lessons (
+        id,
+        title,
+        description,
+        topic,
+        lesson_number,
+        is_published
+      )
+    `)
+    .eq("is_published", true)
+    .order("order");
+
+  // Get user progress from database
+  const { data: progressData } = await supabase
+    .from("user_progress")
+    .select("*")
+    .eq("user_id", user.id)
+    .single();
+
+  // Transform skills data to match the expected format
+  const skills = (skillsData || []).map((skill) => ({
+    id: skill.id,
+    title: skill.title,
+    description: skill.description,
+    longDescription: skill.long_description || undefined,
+    icon: skill.icon || "📚",
+    order: skill.order,
+    color: skill.color || "#3b82f6",
+    prerequisites: skill.prerequisites || [],
+    lessons: (skill.lessons || [])
+      .filter((lesson: any) => lesson.is_published)
+      .sort((a: any, b: any) => a.lesson_number - b.lesson_number)
+      .map((lesson: any) => ({
+        id: lesson.id,
+        title: lesson.title,
+        description: lesson.description,
+        topic: lesson.topic,
+      })),
+  }));
 
   // Convert completed lessons array to Set for efficient lookup
   const completedLessons = new Set<string>(
-    (progressData as any)?.completed_lessons || []
+    progressData?.completed_lessons || []
   );
-  const currentSkill = (progressData as any)?.current_skill as
-    | string
-    | undefined;
+  const currentSkill = progressData?.current_skill || undefined;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-blue-50 to-white py-8">
@@ -42,7 +83,7 @@ export default async function LearnPage() {
         </div>
         
         <SkillTree
-          skills={skillsData.skills}
+          skills={skills}
           userProgress={{
             completedLessons,
             currentSkill,

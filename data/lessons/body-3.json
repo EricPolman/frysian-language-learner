@@ -11,7 +11,7 @@
     {
       "id": "intro-body-3-0",
       "vocabulary": {
-        "id": "hân",
+        "id": "body-3-hân",
         "frysian": "hân",
         "dutch": "hand",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-body-3-1",
       "vocabulary": {
-        "id": "finger",
+        "id": "body-3-finger",
         "frysian": "finger",
         "dutch": "vinger",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-body-3-2",
       "vocabulary": {
-        "id": "foet",
+        "id": "body-3-foet",
         "frysian": "foet",
         "dutch": "voet",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-body-3-3",
       "vocabulary": {
-        "id": "tean",
+        "id": "body-3-tean",
         "frysian": "tean",
         "dutch": "teen",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-body-3-4",
       "vocabulary": {
-        "id": "earm",
+        "id": "body-3-earm",
         "frysian": "earm",
         "dutch": "arm",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-body-3-5",
       "vocabulary": {
-        "id": "been",
+        "id": "body-3-been",
         "frysian": "been",
         "dutch": "been",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "body-3-trans-1",
       "question": "hand en voet",
       "correctAnswer": "hân en foet",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "body-3-fill-1",
       "sentence": "De ___ is kapot.",
       "blankIndex": 1,
       "correctAnswer": "foet",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "body-3-mc-1",
       "question": "Hoe zeg je 'vinger' in het Fries?",
       "correctAnswer": "finger",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "body-3-trans-rev-1",
       "question": "earm en been",
       "correctAnswer": "arm en been",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "body-3-fill-2",
       "sentence": "De ___ hat in tean.",
       "blankIndex": 1,
       "correctAnswer": "foet",
@@ -159,7 +159,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "body-3-mc-rev-1",
       "question": "Wat betekent 'tean'?",
       "correctAnswer": "teen",
       "options": [
@@ -174,7 +174,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "body-3-trans-2",
       "question": "been en teen",
       "correctAnswer": "been en tean",
       "acceptedAnswers": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "body-3-fill-3",
       "sentence": "Hy hat in lange ___.",
       "blankIndex": 4,
       "correctAnswer": "finger",
@@ -201,7 +201,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "body-3-build-1",
       "prompt": "Zeg 'Hand en arm' in het Fries",
       "correctOrder": [
         "Hân",
@@ -216,7 +216,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "body-3-mc-2",
       "question": "Hoe zeg je 'arm' in het Fries?",
       "correctAnswer": "earm",
       "options": [
@@ -231,7 +231,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "body-3-trans-rev-2",
       "question": "hân en tean",
       "correctAnswer": "hand en teen",
       "acceptedAnswers": [

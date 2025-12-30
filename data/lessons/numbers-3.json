@@ -11,7 +11,7 @@
     {
       "id": "intro-numbers-3-0",
       "vocabulary": {
-        "id": "tsien-01",
+        "id": "numbers-3-tsien-01",
         "frysian": "tsien",
         "dutch": "tien",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-numbers-3-1",
       "vocabulary": {
-        "id": "tweintich-02",
+        "id": "numbers-3-tweintich-02",
         "frysian": "tweintich",
         "dutch": "twintig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-numbers-3-2",
       "vocabulary": {
-        "id": "tritich-03",
+        "id": "numbers-3-tritich-03",
         "frysian": "tritich",
         "dutch": "dertig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-numbers-3-3",
       "vocabulary": {
-        "id": "fjirtich-04",
+        "id": "numbers-3-fjirtich-04",
         "frysian": "fjirtich",
         "dutch": "veertig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-numbers-3-4",
       "vocabulary": {
-        "id": "fyftich-05",
+        "id": "numbers-3-fyftich-05",
         "frysian": "fyftich",
         "dutch": "vijftig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-numbers-3-5",
       "vocabulary": {
-        "id": "sechtich-06",
+        "id": "numbers-3-sechtich-06",
         "frysian": "sechtich",
         "dutch": "zestig",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "numbers-3-trans-1",
       "question": "tien",
       "correctAnswer": "tsien",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "numbers-3-fill-1",
       "sentence": "___ plus tweintich is fjirtich.",
       "blankIndex": 0,
       "correctAnswer": "fjirtich",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "numbers-3-mc-1",
       "question": "Hoe zeg je 'twintig' in het Fries?",
       "correctAnswer": "tweintich",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "numbers-3-trans-rev-1",
       "question": "fyftich",
       "correctAnswer": "vijftig",
       "acceptedAnswers": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "numbers-3-build-1",
       "prompt": "Bouw de zin: 'Veertig plus twintig is zestig' in het Fries",
       "correctOrder": [
         "Fjirtich",
@@ -161,7 +161,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "numbers-3-fill-2",
       "sentence": "Tritich min ___ is tsien.",
       "blankIndex": 1,
       "correctAnswer": "tweintich",
@@ -176,7 +176,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "numbers-3-trans-2",
       "question": "dertig",
       "correctAnswer": "tritich",
       "acceptedAnswers": [
@@ -188,7 +188,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "numbers-3-mc-rev-1",
       "question": "Wat betekent 'sechtich'?",
       "correctAnswer": "zestig",
       "options": [
@@ -203,7 +203,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "numbers-3-trans-3",
       "question": "zestig",
       "correctAnswer": "sechtich",
       "acceptedAnswers": [
@@ -215,7 +215,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "numbers-3-fill-3",
       "sentence": "Fyftich min ___ is tweintich.",
       "blankIndex": 1,
       "correctAnswer": "tritich",
@@ -230,7 +230,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "numbers-3-mc-2",
       "question": "Hoe zeg je 'vijftig' in het Fries?",
       "correctAnswer": "fyftich",
       "options": [
@@ -245,7 +245,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "numbers-3-trans-rev-2",
       "question": "tweintich",
       "correctAnswer": "twintig",
       "acceptedAnswers": [

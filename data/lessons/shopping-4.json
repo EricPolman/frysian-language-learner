@@ -11,7 +11,7 @@
     {
       "id": "intro-shopping-4-0",
       "vocabulary": {
-        "id": "goeie",
+        "id": "shopping-4-goeie",
         "frysian": "Goeie",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
@@ -24,7 +24,7 @@
     {
       "id": "intro-shopping-4-1",
       "vocabulary": {
-        "id": "betelje",
+        "id": "shopping-4-betelje",
         "frysian": "Betelje",
         "dutch": "Betalen",
         "partOfSpeech": "werkwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-shopping-4-2",
       "vocabulary": {
-        "id": "koarting",
+        "id": "shopping-4-koarting",
         "frysian": "Koarting",
         "dutch": "Korting",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-shopping-4-3",
       "vocabulary": {
-        "id": "helpe",
+        "id": "shopping-4-helpe",
         "frysian": "Helpe",
         "dutch": "Helpen",
         "partOfSpeech": "werkwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-shopping-4-4",
       "vocabulary": {
-        "id": "bestelle",
+        "id": "shopping-4-bestelle",
         "frysian": "Bestelle",
         "dutch": "Bestellen",
         "partOfSpeech": "werkwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-shopping-4-5",
       "vocabulary": {
-        "id": "tankewol",
+        "id": "shopping-4-tankewol",
         "frysian": "Tankewol",
         "dutch": "Dank u wel",
         "partOfSpeech": "uitdrukking",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "shopping-4-trans-1",
       "question": "hallo",
       "correctAnswer": "Goeie",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "shopping-4-trans-rev-1",
       "question": "Betelje",
       "correctAnswer": "betalen",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "shopping-4-fill-1",
       "sentence": "___ foar de koarting!",
       "blankIndex": 0,
       "correctAnswer": "Tankewol",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "shopping-4-mc-1",
       "question": "Hoe zeg je 'korting' in het Fries?",
       "correctAnswer": "Koarting",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "shopping-4-trans-2",
       "question": "bestellen",
       "correctAnswer": "Bestelle",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "shopping-4-fill-2",
       "sentence": "Ik wol graach ___",
       "blankIndex": 3,
       "correctAnswer": "bestelle",
@@ -171,7 +171,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "shopping-4-mc-rev-1",
       "question": "Wat betekent 'Helpe'?",
       "correctAnswer": "helpen",
       "options": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "shopping-4-trans-rev-2",
       "question": "Koarting",
       "correctAnswer": "korting",
       "acceptedAnswers": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "shopping-4-fill-3",
       "sentence": "Kinsto my ___?",
       "blankIndex": 2,
       "correctAnswer": "helpe",
@@ -213,7 +213,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "shopping-4-mc-2",
       "question": "Hoe zeg je 'dank u wel' in het Fries?",
       "correctAnswer": "Tankewol",
       "options": [
@@ -228,7 +228,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "shopping-4-build-1",
       "prompt": "Zeg 'Hallo! Dank u wel!' in het Fries",
       "correctOrder": [
         "Goeie!",
@@ -242,7 +242,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "shopping-4-trans-3",
       "question": "helpen",
       "correctAnswer": "Helpe",
       "acceptedAnswers": [

@@ -11,7 +11,7 @@
     {
       "id": "intro-shopping-2-0",
       "vocabulary": {
-        "id": "goeie-tussenwerpsel",
+        "id": "shopping-2-goeie-tussenwerpsel",
         "frysian": "Goeie",
         "dutch": "Hallo",
         "partOfSpeech": "tussenwerpsel",
@@ -24,7 +24,7 @@
     {
       "id": "intro-shopping-2-1",
       "vocabulary": {
-        "id": "winkel-selstandig-naamwoord",
+        "id": "shopping-2-winkel-selstandig-naamwoord",
         "frysian": "winkel",
         "dutch": "winkel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-shopping-2-2",
       "vocabulary": {
-        "id": "keapje-werkwoord",
+        "id": "shopping-2-keapje-werkwoord",
         "frysian": "keapje",
         "dutch": "kopen",
         "partOfSpeech": "werkwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-shopping-2-3",
       "vocabulary": {
-        "id": "jild-selstandig-naamwoord",
+        "id": "shopping-2-jild-selstandig-naamwoord",
         "frysian": "jild",
         "dutch": "geld",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-shopping-2-4",
       "vocabulary": {
-        "id": "goedkeap-bijvoeglijk-naamwoord",
+        "id": "shopping-2-goedkeap-bijvoeglijk-naamwoord",
         "frysian": "goedkeap",
         "dutch": "goedkoop",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-shopping-2-5",
       "vocabulary": {
-        "id": "hofolle-kostet-dit-uitdrukking",
+        "id": "shopping-2-hofolle-kostet-dit-uitdrukking",
         "frysian": "Hofolle kostet dit?",
         "dutch": "Hoeveel kost dit?",
         "partOfSpeech": "uitdrukking",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "shopping-2-trans-1",
       "question": "winkel",
       "correctAnswer": "winkel",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "shopping-2-trans-rev-1",
       "question": "keapje",
       "correctAnswer": "kopen",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "shopping-2-fill-1",
       "sentence": "Ik wol ___ yn de winkel.",
       "blankIndex": 2,
       "correctAnswer": "keapje",
@@ -129,7 +129,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "shopping-2-trans-2",
       "question": "geld",
       "correctAnswer": "jild",
       "acceptedAnswers": [
@@ -141,7 +141,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "shopping-2-mc-1",
       "question": "Hoe zeg je 'goedkoop' in het Fries?",
       "correctAnswer": "goedkeap",
       "options": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "shopping-2-trans-rev-2",
       "question": "goedkeap",
       "correctAnswer": "goedkoop",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "shopping-2-fill-2",
       "sentence": "Hofolle kostet ___?",
       "blankIndex": 2,
       "correctAnswer": "dit",
@@ -183,7 +183,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "shopping-2-trans-3",
       "question": "hoeveel kost dit?",
       "correctAnswer": "Hofolle kostet dit?",
       "acceptedAnswers": [
@@ -195,7 +195,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "shopping-2-fill-3",
       "sentence": "Ik haw net genôch ___.",
       "blankIndex": 4,
       "correctAnswer": "jild",
@@ -210,7 +210,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "shopping-2-mc-2",
       "question": "Hoe zeg je 'hallo' in het Fries?",
       "correctAnswer": "Goeie",
       "options": [
@@ -225,7 +225,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "shopping-2-trans-rev-3",
       "question": "jild",
       "correctAnswer": "geld",
       "acceptedAnswers": [
@@ -237,7 +237,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-4",
+      "id": "shopping-2-trans-4",
       "question": "kopen",
       "correctAnswer": "keapje",
       "acceptedAnswers": [

@@ -60,6 +60,7 @@ export default function LessonEditorPage({ params }: Props) {
   const [exercises, setExercises] = useState<Exercise[]>([]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [generating, setGenerating] = useState(false);
   const [activeTab, setActiveTab] = useState<"info" | "intro" | "exercises">("info");
 
   // Form states
@@ -95,6 +96,33 @@ export default function LessonEditorPage({ params }: Props) {
     prompt: "",
     correctOrder: "",
     distractorWords: "",
+  });
+
+  const [editingExercise, setEditingExercise] = useState<Exercise | null>(null);
+  const [editExerciseForm, setEditExerciseForm] = useState({
+    type: "translation",
+    question: "",
+    correctAnswer: "",
+    acceptedAnswers: "",
+    hint: "",
+    explanation: "",
+    direction: "dutch-to-frysian",
+    options: "",
+    sentence: "",
+    blankIndex: 0,
+    wordBank: "",
+    prompt: "",
+    correctOrder: "",
+    distractorWords: "",
+  });
+
+  const [editingIntroCard, setEditingIntroCard] = useState<IntroCard | null>(null);
+  const [editIntroCardForm, setEditIntroCardForm] = useState({
+    frysian: "",
+    dutch: "",
+    partOfSpeech: "",
+    exampleSentence: "",
+    exampleTranslation: "",
   });
 
   useEffect(() => {
@@ -146,6 +174,80 @@ export default function LessonEditorPage({ params }: Props) {
     }
   }
 
+  async function generateWithAI() {
+    if (!lesson) return;
+    
+    const topic = lessonForm.topic || lessonForm.title || "algemene woordenschat";
+    
+    if (!confirm(`AI-content genereren voor deze les over "${topic}"? Dit voegt nieuwe vocabulaire en oefeningen toe.`)) {
+      return;
+    }
+    
+    setGenerating(true);
+    try {
+      const res = await fetch("/api/admin/generate/lesson", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          topic,
+          skillTitle: lesson.skill_id,
+          lessonNumber: lesson.lesson_number,
+          difficulty: lessonForm.difficulty,
+          vocabularyCount: 5,
+          exerciseCount: 8,
+        }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        throw new Error(data.error || "Failed to generate");
+      }
+
+      // Add generated vocabulary as intro cards
+      for (let i = 0; i < data.content.vocabulary.length; i++) {
+        const vocab = data.content.vocabulary[i];
+        await fetch(`/api/admin/lessons/${lessonId}/intro-cards`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            vocabulary: {
+              id: `${lessonId}-ai-vocab-${Date.now()}-${i}`,
+              frysian: vocab.frysian,
+              dutch: vocab.dutch,
+              partOfSpeech: vocab.partOfSpeech,
+              exampleSentence: vocab.exampleSentence,
+              exampleTranslation: vocab.exampleTranslation,
+            },
+            exampleSentence: vocab.exampleSentence,
+            exampleTranslation: vocab.exampleTranslation,
+          }),
+        });
+      }
+
+      // Add generated exercises
+      for (let i = 0; i < data.content.exercises.length; i++) {
+        const exercise = data.content.exercises[i];
+        await fetch(`/api/admin/lessons/${lessonId}/exercises`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            id: `${lessonId}-ai-ex-${Date.now()}-${i}`,
+            ...exercise,
+          }),
+        });
+      }
+
+      await fetchLesson();
+      alert("AI-content succesvol gegenereerd!");
+    } catch (error: any) {
+      console.error("Error generating content:", error);
+      alert(`Fout bij genereren: ${error.message}`);
+    } finally {
+      setGenerating(false);
+    }
+  }
+
   async function addIntroCard() {
     try {
       await fetch(`/api/admin/lessons/${lessonId}/intro-cards`, {
@@ -185,6 +287,56 @@ export default function LessonEditorPage({ params }: Props) {
       await fetchLesson();
     } catch (error) {
       console.error("Error deleting intro card:", error);
+    }
+  }
+
+  function startEditIntroCard(card: IntroCard) {
+    setEditingIntroCard(card);
+    setEditIntroCardForm({
+      frysian: card.vocabulary?.frysian || "",
+      dutch: card.vocabulary?.dutch || "",
+      partOfSpeech: card.vocabulary?.part_of_speech || "",
+      exampleSentence: card.vocabulary?.example_sentence || card.example_sentence || "",
+      exampleTranslation: card.vocabulary?.example_translation || card.example_translation || "",
+    });
+  }
+
+  function cancelEditIntroCard() {
+    setEditingIntroCard(null);
+    setEditIntroCardForm({
+      frysian: "",
+      dutch: "",
+      partOfSpeech: "",
+      exampleSentence: "",
+      exampleTranslation: "",
+    });
+  }
+
+  async function updateIntroCard() {
+    if (!editingIntroCard) return;
+
+    try {
+      await fetch(`/api/admin/lessons/${lessonId}/intro-cards`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          id: editingIntroCard.id,
+          vocabulary: {
+            id: editingIntroCard.vocabulary_id,
+            frysian: editIntroCardForm.frysian,
+            dutch: editIntroCardForm.dutch,
+            partOfSpeech: editIntroCardForm.partOfSpeech || null,
+            exampleSentence: editIntroCardForm.exampleSentence || null,
+            exampleTranslation: editIntroCardForm.exampleTranslation || null,
+          },
+          exampleSentence: editIntroCardForm.exampleSentence || null,
+          exampleTranslation: editIntroCardForm.exampleTranslation || null,
+        }),
+      });
+      await fetchLesson();
+      cancelEditIntroCard();
+    } catch (error) {
+      console.error("Error updating intro card:", error);
     }
   }
 
@@ -289,6 +441,125 @@ export default function LessonEditorPage({ params }: Props) {
     }
   }
 
+  function startEditExercise(exercise: Exercise) {
+    setEditingExercise(exercise);
+    const data = exercise.data;
+    setEditExerciseForm({
+      type: exercise.type,
+      question: data.question || "",
+      correctAnswer: data.correctAnswer || "",
+      acceptedAnswers: Array.isArray(data.acceptedAnswers) ? data.acceptedAnswers.join(", ") : "",
+      hint: data.hint || "",
+      explanation: data.explanation || "",
+      direction: data.direction || "dutch-to-frysian",
+      options: Array.isArray(data.options) ? data.options.join(", ") : "",
+      sentence: data.sentence || "",
+      blankIndex: data.blankIndex || 0,
+      wordBank: Array.isArray(data.wordBank) ? data.wordBank.join(", ") : "",
+      prompt: data.prompt || "",
+      correctOrder: Array.isArray(data.correctOrder) ? data.correctOrder.join(", ") : "",
+      distractorWords: Array.isArray(data.distractorWords) ? data.distractorWords.join(", ") : "",
+    });
+  }
+
+  function cancelEditExercise() {
+    setEditingExercise(null);
+    setEditExerciseForm({
+      type: "translation",
+      question: "",
+      correctAnswer: "",
+      acceptedAnswers: "",
+      hint: "",
+      explanation: "",
+      direction: "dutch-to-frysian",
+      options: "",
+      sentence: "",
+      blankIndex: 0,
+      wordBank: "",
+      prompt: "",
+      correctOrder: "",
+      distractorWords: "",
+    });
+  }
+
+  async function updateExercise() {
+    if (!editingExercise) return;
+
+    const exerciseData: Record<string, any> = {
+      id: editingExercise.id,
+      type: editExerciseForm.type,
+      order: editingExercise.order,
+      hint: editExerciseForm.hint || undefined,
+      explanation: editExerciseForm.explanation || undefined,
+    };
+
+    switch (editExerciseForm.type) {
+      case "translation":
+        exerciseData.question = editExerciseForm.question;
+        exerciseData.correctAnswer = editExerciseForm.correctAnswer;
+        exerciseData.acceptedAnswers = editExerciseForm.acceptedAnswers
+          .split(",")
+          .map((a) => a.trim())
+          .filter(Boolean);
+        if (exerciseData.acceptedAnswers.length === 0) {
+          exerciseData.acceptedAnswers = [editExerciseForm.correctAnswer];
+        }
+        exerciseData.direction = editExerciseForm.direction;
+        break;
+
+      case "multiple-choice":
+        exerciseData.question = editExerciseForm.question;
+        exerciseData.correctAnswer = editExerciseForm.correctAnswer;
+        exerciseData.options = editExerciseForm.options
+          .split(",")
+          .map((o) => o.trim())
+          .filter(Boolean);
+        exerciseData.direction = editExerciseForm.direction;
+        break;
+
+      case "fill-in-blank":
+        exerciseData.sentence = editExerciseForm.sentence;
+        exerciseData.blankIndex = editExerciseForm.blankIndex;
+        exerciseData.correctAnswer = editExerciseForm.correctAnswer;
+        exerciseData.acceptedAnswers = editExerciseForm.acceptedAnswers
+          .split(",")
+          .map((a) => a.trim())
+          .filter(Boolean);
+        if (exerciseData.acceptedAnswers.length === 0) {
+          exerciseData.acceptedAnswers = [editExerciseForm.correctAnswer];
+        }
+        exerciseData.wordBank = editExerciseForm.wordBank
+          .split(",")
+          .map((w) => w.trim())
+          .filter(Boolean);
+        break;
+
+      case "sentence-build":
+        exerciseData.prompt = editExerciseForm.prompt;
+        exerciseData.correctOrder = editExerciseForm.correctOrder
+          .split(",")
+          .map((w) => w.trim())
+          .filter(Boolean);
+        exerciseData.distractorWords = editExerciseForm.distractorWords
+          .split(",")
+          .map((w) => w.trim())
+          .filter(Boolean);
+        break;
+    }
+
+    try {
+      await fetch(`/api/admin/lessons/${lessonId}/exercises`, {
+        method: "PUT",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(exerciseData),
+      });
+      await fetchLesson();
+      cancelEditExercise();
+    } catch (error) {
+      console.error("Error updating exercise:", error);
+    }
+  }
+
   if (loading) {
     return (
       <div className="container mx-auto px-4 py-8">
@@ -324,6 +595,20 @@ export default function LessonEditorPage({ params }: Props) {
             <p className="text-gray-600">{lesson.skill_id} - Les {lesson.lesson_number}</p>
           </div>
           <div className="flex items-center gap-2">
+            <Button
+              onClick={generateWithAI}
+              disabled={generating}
+              className="bg-purple-600 hover:bg-purple-700"
+            >
+              {generating ? (
+                <>
+                  <span className="animate-spin mr-2">⚙️</span>
+                  Genereren...
+                </>
+              ) : (
+                <>🤖 AI Genereren</>
+              )}
+            </Button>
             {lesson.is_published ? (
               <span className="text-sm bg-green-100 text-green-800 px-3 py-1 rounded-full">
                 Gepubliceerd
@@ -503,39 +788,104 @@ export default function LessonEditorPage({ params }: Props) {
               ) : (
                 introCards.sort((a, b) => a.order - b.order).map((card, index) => (
                   <Card key={card.id} className="p-4">
-                    <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">
-                        {index + 1}
+                    {editingIntroCard?.id === card.id ? (
+                      /* Edit form for this intro card */
+                      <div className="space-y-4">
+                        <div className="flex items-center justify-between mb-4">
+                          <h4 className="font-bold text-blue-600">Introkaart bewerken</h4>
+                          <Button size="sm" variant="outline" onClick={cancelEditIntroCard}>
+                            Annuleren
+                          </Button>
+                        </div>
+
+                        <div className="grid md:grid-cols-2 gap-4">
+                          <div>
+                            <Label>Fries woord</Label>
+                            <Input
+                              value={editIntroCardForm.frysian}
+                              onChange={(e) => setEditIntroCardForm({ ...editIntroCardForm, frysian: e.target.value })}
+                            />
+                          </div>
+                          <div>
+                            <Label>Nederlandse vertaling</Label>
+                            <Input
+                              value={editIntroCardForm.dutch}
+                              onChange={(e) => setEditIntroCardForm({ ...editIntroCardForm, dutch: e.target.value })}
+                            />
+                          </div>
+                          <div>
+                            <Label>Woordsoort</Label>
+                            <Input
+                              value={editIntroCardForm.partOfSpeech}
+                              onChange={(e) => setEditIntroCardForm({ ...editIntroCardForm, partOfSpeech: e.target.value })}
+                            />
+                          </div>
+                          <div>
+                            <Label>Voorbeeldzin (Fries)</Label>
+                            <Input
+                              value={editIntroCardForm.exampleSentence}
+                              onChange={(e) => setEditIntroCardForm({ ...editIntroCardForm, exampleSentence: e.target.value })}
+                            />
+                          </div>
+                          <div className="md:col-span-2">
+                            <Label>Vertaling voorbeeldzin</Label>
+                            <Input
+                              value={editIntroCardForm.exampleTranslation}
+                              onChange={(e) => setEditIntroCardForm({ ...editIntroCardForm, exampleTranslation: e.target.value })}
+                            />
+                          </div>
+                        </div>
+
+                        <div className="flex gap-2">
+                          <Button onClick={updateIntroCard}>Opslaan</Button>
+                          <Button variant="outline" onClick={cancelEditIntroCard}>Annuleren</Button>
+                        </div>
                       </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className="text-xl font-bold text-blue-600">{card.vocabulary?.frysian}</span>
-                          <span className="text-gray-400">=</span>
-                          <span className="text-lg">{card.vocabulary?.dutch}</span>
-                          {card.vocabulary?.part_of_speech && (
-                            <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
-                              {card.vocabulary.part_of_speech}
-                            </span>
+                    ) : (
+                      /* Display mode */
+                      <div className="flex items-start gap-4">
+                        <div className="w-8 h-8 bg-blue-100 rounded-full flex items-center justify-center text-blue-600 font-bold">
+                          {index + 1}
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className="text-xl font-bold text-blue-600">{card.vocabulary?.frysian}</span>
+                            <span className="text-gray-400">=</span>
+                            <span className="text-lg">{card.vocabulary?.dutch}</span>
+                            {card.vocabulary?.part_of_speech && (
+                              <span className="text-xs bg-gray-100 px-2 py-0.5 rounded">
+                                {card.vocabulary.part_of_speech}
+                              </span>
+                            )}
+                          </div>
+                          {card.vocabulary?.example_sentence && (
+                            <p className="text-sm text-gray-600">
+                              "{card.vocabulary.example_sentence}"
+                              {card.vocabulary?.example_translation && (
+                                <span className="text-gray-400"> — {card.vocabulary.example_translation}</span>
+                              )}
+                            </p>
                           )}
                         </div>
-                        {card.vocabulary?.example_sentence && (
-                          <p className="text-sm text-gray-600">
-                            "{card.vocabulary.example_sentence}"
-                            {card.vocabulary?.example_translation && (
-                              <span className="text-gray-400"> — {card.vocabulary.example_translation}</span>
-                            )}
-                          </p>
-                        )}
+                        <div className="flex gap-1">
+                          <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={() => startEditIntroCard(card)}
+                          >
+                            ✏️
+                          </Button>
+                          <Button
+                            size="sm"
+                            variant="outline"
+                            className="text-red-600"
+                            onClick={() => deleteIntroCard(card.id)}
+                          >
+                            ×
+                          </Button>
+                        </div>
                       </div>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="text-red-600"
-                        onClick={() => deleteIntroCard(card.id)}
-                      >
-                        ×
-                      </Button>
-                    </div>
+                    )}
                   </Card>
                 ))
               )}
@@ -749,40 +1099,241 @@ export default function LessonEditorPage({ params }: Props) {
               ) : (
                 exercises.sort((a, b) => a.order - b.order).map((ex, index) => (
                   <Card key={ex.id} className="p-4">
-                    <div className="flex items-start gap-4">
-                      <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold">
-                        {index + 1}
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-1">
-                          <span className={`text-xs px-2 py-0.5 rounded font-medium ${
-                            ex.type === "translation" ? "bg-blue-100 text-blue-800" :
-                            ex.type === "multiple-choice" ? "bg-green-100 text-green-800" :
-                            ex.type === "fill-in-blank" ? "bg-yellow-100 text-yellow-800" :
-                            "bg-purple-100 text-purple-800"
-                          }`}>
-                            {ex.type === "translation" ? "Vertaling" :
-                             ex.type === "multiple-choice" ? "Meerkeuze" :
-                             ex.type === "fill-in-blank" ? "Invullen" :
-                             "Zin bouwen"}
-                          </span>
+                    {editingExercise?.id === ex.id ? (
+                      /* Edit form for this exercise */
+                      <div className="space-y-4">
+                        <div className="flex items-center justify-between mb-4">
+                          <h4 className="font-bold text-purple-600">Oefening bewerken</h4>
+                          <Button size="sm" variant="outline" onClick={cancelEditExercise}>
+                            Annuleren
+                          </Button>
                         </div>
-                        <p className="font-medium">
-                          {ex.data.question || ex.data.sentence || ex.data.prompt}
-                        </p>
-                        <p className="text-sm text-gray-600">
-                          Antwoord: {ex.data.correctAnswer || ex.data.correctOrder?.join(" ")}
-                        </p>
+
+                        <div className="mb-4">
+                          <Label>Type oefening</Label>
+                          <select
+                            className="w-full px-3 py-2 border rounded-md"
+                            value={editExerciseForm.type}
+                            onChange={(e) => setEditExerciseForm({ ...editExerciseForm, type: e.target.value })}
+                          >
+                            <option value="translation">Vertaling</option>
+                            <option value="multiple-choice">Meerkeuze</option>
+                            <option value="fill-in-blank">Invullen</option>
+                            <option value="sentence-build">Zin bouwen</option>
+                          </select>
+                        </div>
+
+                        {/* Translation fields */}
+                        {editExerciseForm.type === "translation" && (
+                          <div className="space-y-4">
+                            <div>
+                              <Label>Richting</Label>
+                              <select
+                                className="w-full px-3 py-2 border rounded-md"
+                                value={editExerciseForm.direction}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, direction: e.target.value })}
+                              >
+                                <option value="dutch-to-frysian">Nederlands → Fries</option>
+                                <option value="frysian-to-dutch">Fries → Nederlands</option>
+                              </select>
+                            </div>
+                            <div>
+                              <Label>Vraag</Label>
+                              <Input
+                                value={editExerciseForm.question}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, question: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Correct antwoord</Label>
+                              <Input
+                                value={editExerciseForm.correctAnswer}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, correctAnswer: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Alternatieve antwoorden (komma-gescheiden)</Label>
+                              <Input
+                                value={editExerciseForm.acceptedAnswers}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, acceptedAnswers: e.target.value })}
+                              />
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Multiple choice fields */}
+                        {editExerciseForm.type === "multiple-choice" && (
+                          <div className="space-y-4">
+                            <div>
+                              <Label>Richting</Label>
+                              <select
+                                className="w-full px-3 py-2 border rounded-md"
+                                value={editExerciseForm.direction}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, direction: e.target.value })}
+                              >
+                                <option value="dutch-to-frysian">Nederlands → Fries</option>
+                                <option value="frysian-to-dutch">Fries → Nederlands</option>
+                              </select>
+                            </div>
+                            <div>
+                              <Label>Vraag</Label>
+                              <Input
+                                value={editExerciseForm.question}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, question: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Correct antwoord</Label>
+                              <Input
+                                value={editExerciseForm.correctAnswer}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, correctAnswer: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Alle opties (komma-gescheiden)</Label>
+                              <Input
+                                value={editExerciseForm.options}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, options: e.target.value })}
+                              />
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Fill in blank fields */}
+                        {editExerciseForm.type === "fill-in-blank" && (
+                          <div className="space-y-4">
+                            <div>
+                              <Label>Zin (gebruik ___ voor de lege plek)</Label>
+                              <Input
+                                value={editExerciseForm.sentence}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, sentence: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Index van lege plek</Label>
+                              <Input
+                                type="number"
+                                min={0}
+                                value={editExerciseForm.blankIndex}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, blankIndex: parseInt(e.target.value) })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Correct antwoord</Label>
+                              <Input
+                                value={editExerciseForm.correctAnswer}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, correctAnswer: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Woordenbank (komma-gescheiden)</Label>
+                              <Input
+                                value={editExerciseForm.wordBank}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, wordBank: e.target.value })}
+                              />
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Sentence build fields */}
+                        {editExerciseForm.type === "sentence-build" && (
+                          <div className="space-y-4">
+                            <div>
+                              <Label>Opdracht (te vertalen zin)</Label>
+                              <Input
+                                value={editExerciseForm.prompt}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, prompt: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Correcte volgorde (komma-gescheiden)</Label>
+                              <Input
+                                value={editExerciseForm.correctOrder}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, correctOrder: e.target.value })}
+                              />
+                            </div>
+                            <div>
+                              <Label>Afleidingswoorden (komma-gescheiden)</Label>
+                              <Input
+                                value={editExerciseForm.distractorWords}
+                                onChange={(e) => setEditExerciseForm({ ...editExerciseForm, distractorWords: e.target.value })}
+                              />
+                            </div>
+                          </div>
+                        )}
+
+                        {/* Common fields */}
+                        <div className="grid md:grid-cols-2 gap-4">
+                          <div>
+                            <Label>Hint (optioneel)</Label>
+                            <Input
+                              value={editExerciseForm.hint}
+                              onChange={(e) => setEditExerciseForm({ ...editExerciseForm, hint: e.target.value })}
+                            />
+                          </div>
+                          <div>
+                            <Label>Uitleg (optioneel)</Label>
+                            <Input
+                              value={editExerciseForm.explanation}
+                              onChange={(e) => setEditExerciseForm({ ...editExerciseForm, explanation: e.target.value })}
+                            />
+                          </div>
+                        </div>
+
+                        <div className="flex gap-2">
+                          <Button onClick={updateExercise}>Opslaan</Button>
+                          <Button variant="outline" onClick={cancelEditExercise}>Annuleren</Button>
+                        </div>
                       </div>
-                      <Button
-                        size="sm"
-                        variant="outline"
-                        className="text-red-600"
-                        onClick={() => deleteExercise(ex.id)}
-                      >
-                        ×
-                      </Button>
-                    </div>
+                    ) : (
+                      /* Display mode */
+                      <div className="flex items-start gap-4">
+                        <div className="w-8 h-8 bg-purple-100 rounded-full flex items-center justify-center text-purple-600 font-bold">
+                          {index + 1}
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex items-center gap-2 mb-1">
+                            <span className={`text-xs px-2 py-0.5 rounded font-medium ${
+                              ex.type === "translation" ? "bg-blue-100 text-blue-800" :
+                              ex.type === "multiple-choice" ? "bg-green-100 text-green-800" :
+                              ex.type === "fill-in-blank" ? "bg-yellow-100 text-yellow-800" :
+                              "bg-purple-100 text-purple-800"
+                            }`}>
+                              {ex.type === "translation" ? "Vertaling" :
+                               ex.type === "multiple-choice" ? "Meerkeuze" :
+                               ex.type === "fill-in-blank" ? "Invullen" :
+                               "Zin bouwen"}
+                            </span>
+                          </div>
+                          <p className="font-medium">
+                            {ex.data.question || ex.data.sentence || ex.data.prompt}
+                          </p>
+                          <p className="text-sm text-gray-600">
+                            Antwoord: {ex.data.correctAnswer || ex.data.correctOrder?.join(" ")}
+                          </p>
+                          {ex.data.hint && (
+                            <p className="text-xs text-gray-500 mt-1">💡 {ex.data.hint}</p>
+                          )}
+                        </div>
+                        <div className="flex gap-1">
+                          <Button
+                            size="sm"
+                            variant="outline"
+                            onClick={() => startEditExercise(ex)}
+                          >
+                            ✏️
+                          </Button>
+                          <Button
+                            size="sm"
+                            variant="outline"
+                            className="text-red-600"
+                            onClick={() => deleteExercise(ex.id)}
+                          >
+                            ×
+                          </Button>
+                        </div>
+                      </div>
+                    )}
                   </Card>
                 ))
               )}

@@ -11,7 +11,7 @@
     {
       "id": "intro-shopping-3-0",
       "vocabulary": {
-        "id": "euro",
+        "id": "shopping-3-euro",
         "frysian": "euro",
         "dutch": "euro",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-shopping-3-1",
       "vocabulary": {
-        "id": "sint",
+        "id": "shopping-3-sint",
         "frysian": "sint",
         "dutch": "cent",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-shopping-3-2",
       "vocabulary": {
-        "id": "kilo",
+        "id": "shopping-3-kilo",
         "frysian": "kilo",
         "dutch": "kilo",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-shopping-3-3",
       "vocabulary": {
-        "id": "gram",
+        "id": "shopping-3-gram",
         "frysian": "gram",
         "dutch": "gram",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-shopping-3-4",
       "vocabulary": {
-        "id": "stik",
+        "id": "shopping-3-stik",
         "frysian": "stik",
         "dutch": "stuk",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-shopping-3-5",
       "vocabulary": {
-        "id": "te-djoer",
+        "id": "shopping-3-te-djoer",
         "frysian": "te djoer",
         "dutch": "te duur",
         "partOfSpeech": "uitdrukking",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "shopping-3-trans-1",
       "question": "te duur",
       "correctAnswer": "te djoer",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "shopping-3-fill-1",
       "sentence": "It is ___ kilo.",
       "blankIndex": 2,
       "correctAnswer": "te djoer",
@@ -117,7 +117,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "shopping-3-mc-1",
       "question": "Hoe zeg je 'cent' in het Fries?",
       "correctAnswer": "sint",
       "options": [
@@ -132,7 +132,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-rev-1",
+      "id": "shopping-3-mc-rev-1",
       "question": "Wat betekent 'gram'?",
       "correctAnswer": "gram",
       "options": [
@@ -147,7 +147,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "shopping-3-trans-2",
       "question": "stuk",
       "correctAnswer": "stik",
       "acceptedAnswers": [
@@ -159,7 +159,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "shopping-3-fill-2",
       "sentence": "In ___ fan 100 gram.",
       "blankIndex": 1,
       "correctAnswer": "stik",
@@ -174,7 +174,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "shopping-3-trans-rev-1",
       "question": "kilo",
       "correctAnswer": "kilo",
       "acceptedAnswers": [
@@ -186,7 +186,7 @@
     },
     {
       "type": "sentence-build",
-      "id": "build-1",
+      "id": "shopping-3-build-1",
       "prompt": "Zeg 'Een euro en een stuk' in het Fries",
       "correctOrder": [
         "In",
@@ -204,7 +204,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "shopping-3-fill-3",
       "sentence": "In kilo foar ien ___.",
       "blankIndex": 4,
       "correctAnswer": "euro",
@@ -219,7 +219,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "shopping-3-trans-3",
       "question": "cent",
       "correctAnswer": "sint",
       "acceptedAnswers": [
@@ -231,7 +231,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "shopping-3-trans-rev-2",
       "question": "stik",
       "correctAnswer": "stuk",
       "acceptedAnswers": [
@@ -243,7 +243,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "shopping-3-mc-2",
       "question": "Hoe zeg je 'gram' in het Fries?",
       "correctAnswer": "gram",
       "options": [

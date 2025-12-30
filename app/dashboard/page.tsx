@@ -5,7 +5,6 @@ import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Progress } from "@/components/ui/progress";
 import Link from "next/link";
-import skillsData from "@/data/skills.json";
 import { calculateLevel, getLevelProgress, getXPRequiredForLevel, getXPUntilNextLevel } from "@/lib/levels";
 import { ResetProgressButton } from "@/components/dashboard/ResetProgressButton";
 import { getStreakStatus } from "@/lib/streaks";
@@ -58,10 +57,24 @@ export default async function DashboardPage() {
     .eq("user_id", user.id)
     .order("unlocked_at", { ascending: false });
 
+  // Get skills with their lessons from database
+  const { data: skillsData } = await supabase
+    .from("skills")
+    .select(`
+      id,
+      lessons (
+        id,
+        is_published
+      )
+    `)
+    .eq("is_published", true);
+
   const totalXP = (profile as any)?.total_xp || 0;
   const completedLessons = (progress as any)?.completed_lessons || [];
-  const totalLessons = skillsData.skills.reduce(
-    (acc, skill) => acc + skill.lessons.length,
+  
+  // Calculate total published lessons from database
+  const totalLessons = (skillsData || []).reduce(
+    (acc, skill) => acc + (skill.lessons || []).filter((l: any) => l.is_published).length,
     0
   );
 
@@ -98,10 +111,11 @@ export default async function DashboardPage() {
   ) || 0;
   const overallAccuracy = totalAnswered > 0 ? Math.round((totalCorrect / totalAnswered) * 100) : 0;
 
-  // Calculate skills completed
-  const skillsCompleted = skillsData.skills.filter((skill) =>
-    skill.lessons.every((lessonId) => completedLessons.includes(lessonId))
-  ).length;
+  // Calculate skills completed from database
+  const skillsCompleted = (skillsData || []).filter((skill) => {
+    const publishedLessons = (skill.lessons || []).filter((l: any) => l.is_published);
+    return publishedLessons.length > 0 && publishedLessons.every((lesson: any) => completedLessons.includes(lesson.id));
+  }).length;
 
 
   const { data: progressData } = await supabase

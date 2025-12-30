@@ -11,7 +11,7 @@
     {
       "id": "intro-animals-1-0",
       "vocabulary": {
-        "id": "hûn",
+        "id": "animals-1-hûn",
         "frysian": "hûn",
         "dutch": "hond",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -24,7 +24,7 @@
     {
       "id": "intro-animals-1-1",
       "vocabulary": {
-        "id": "kat",
+        "id": "animals-1-kat",
         "frysian": "kat",
         "dutch": "kat",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -37,7 +37,7 @@
     {
       "id": "intro-animals-1-2",
       "vocabulary": {
-        "id": "fûgel",
+        "id": "animals-1-fûgel",
         "frysian": "fûgel",
         "dutch": "vogel",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -50,7 +50,7 @@
     {
       "id": "intro-animals-1-3",
       "vocabulary": {
-        "id": "fisk",
+        "id": "animals-1-fisk",
         "frysian": "fisk",
         "dutch": "vis",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -63,7 +63,7 @@
     {
       "id": "intro-animals-1-4",
       "vocabulary": {
-        "id": "knyn",
+        "id": "animals-1-knyn",
         "frysian": "knyn",
         "dutch": "konijn",
         "partOfSpeech": "zelfstandig naamwoord",
@@ -76,7 +76,7 @@
     {
       "id": "intro-animals-1-5",
       "vocabulary": {
-        "id": "freonlik",
+        "id": "animals-1-freonlik",
         "frysian": "freonlik",
         "dutch": "vriendelijk",
         "partOfSpeech": "bijvoeglijk naamwoord",
@@ -90,7 +90,7 @@
   "exercises": [
     {
       "type": "translation",
-      "id": "trans-1",
+      "id": "animals-1-trans-1",
       "question": "hond",
       "correctAnswer": "hûn",
       "acceptedAnswers": [
@@ -102,7 +102,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-1",
+      "id": "animals-1-trans-rev-1",
       "question": "kat",
       "correctAnswer": "kat",
       "acceptedAnswers": [
@@ -114,7 +114,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-1",
+      "id": "animals-1-fill-1",
       "sentence": "De ___ is freonlik.",
       "blankIndex": 1,
       "correctAnswer": "hûn",
@@ -129,7 +129,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-1",
+      "id": "animals-1-mc-1",
       "question": "Hoe zeg je 'vogel' in het Fries?",
       "correctAnswer": "fûgel",
       "options": [
@@ -144,7 +144,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-2",
+      "id": "animals-1-trans-2",
       "question": "vriendelijk",
       "correctAnswer": "freonlik",
       "acceptedAnswers": [
@@ -156,7 +156,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-2",
+      "id": "animals-1-trans-rev-2",
       "question": "fisk",
       "correctAnswer": "vis",
       "acceptedAnswers": [
@@ -168,7 +168,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-2",
+      "id": "animals-1-fill-2",
       "sentence": "De ___ swimt yn 'e see.",
       "blankIndex": 1,
       "correctAnswer": "fisk",
@@ -183,7 +183,7 @@
     },
     {
       "type": "multiple-choice",
-      "id": "mc-2",
+      "id": "animals-1-mc-2",
       "question": "Hoe zeg je 'konijn' in het Fries?",
       "correctAnswer": "knyn",
       "options": [
@@ -198,7 +198,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-3",
+      "id": "animals-1-trans-3",
       "question": "konijn",
       "correctAnswer": "knyn",
       "acceptedAnswers": [
@@ -210,7 +210,7 @@
     },
     {
       "type": "translation",
-      "id": "trans-rev-3",
+      "id": "animals-1-trans-rev-3",
       "question": "freonlik",
       "correctAnswer": "vriendelijk",
       "acceptedAnswers": [
@@ -222,7 +222,7 @@
     },
     {
       "type": "fill-in-blank",
-      "id": "fill-3",
+      "id": "animals-1-fill-3",
       "sentence": "De kat is ___.",
       "blankIndex": 2,
       "correctAnswer": "freonlik",
