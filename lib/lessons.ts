@@ -6,14 +6,14 @@ export interface DbSkill {
   title: string;
   description: string;
   long_description: string | null;
-  icon: string;
+  icon: string | null;
   order: number;
-  difficulty: number;
-  prerequisites: string[];
-  color: string;
-  is_published: boolean;
-  created_at: string;
-  updated_at: string;
+  difficulty: number | null;
+  prerequisites: string[] | null;
+  color: string | null;
+  is_published: boolean | null;
+  created_at: string | null;
+  updated_at: string | null;
 }
 
 export interface DbLesson {
@@ -23,11 +23,11 @@ export interface DbLesson {
   title: string;
   description: string | null;
   topic: string | null;
-  difficulty: number;
-  estimated_minutes: number;
-  is_published: boolean;
-  created_at: string;
-  updated_at: string;
+  difficulty: number | null;
+  estimated_minutes: number | null;
+  is_published: boolean | null;
+  created_at: string | null;
+  updated_at: string | null;
 }
 
 export interface DbVocabulary {
@@ -59,9 +59,9 @@ export interface DbExercise {
   lesson_id: string;
   type: string;
   order: number;
-  data: Record<string, any>;
-  created_at: string;
-  updated_at: string;
+  data: Record<string, any> | null;
+  created_at: string | null;
+  updated_at: string | null;
 }
 
 // Convert DB skill to app Skill format
@@ -71,12 +71,11 @@ export function dbSkillToSkill(dbSkill: DbSkill, lessons: { id: string; title: s
     title: dbSkill.title,
     description: dbSkill.description,
     longDescription: dbSkill.long_description || undefined,
-    icon: dbSkill.icon,
+    icon: dbSkill.icon || undefined,
     order: dbSkill.order,
-    difficulty: dbSkill.difficulty,
     lessons: lessons,
-    prerequisites: dbSkill.prerequisites,
-    color: dbSkill.color,
+    prerequisites: dbSkill.prerequisites || [],
+    color: dbSkill.color || undefined,
   };
 }
 
@@ -201,9 +200,9 @@ export async function getLesson(lessonId: string): Promise<Lesson | null> {
     .order('order');
   
   return dbLessonToLesson(
-    lesson,
+    lesson as unknown as DbLesson,
     (introCards || []) as unknown as DbIntroCard[],
-    exercises || []
+    (exercises || []) as unknown as DbExercise[]
   );
 }
 

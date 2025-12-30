@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, use } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
@@ -13,7 +13,7 @@ interface Skill {
   title: string;
 }
 
-export default function NewLessonPage() {
+function NewLessonForm() {
   const router = useRouter();
   const searchParams = useSearchParams();
   const preSelectedSkillId = searchParams.get("skillId") || "";
@@ -254,5 +254,17 @@ export default function NewLessonPage() {
         </p>
       </div>
     </div>
+  );
+}
+
+export default function NewLessonPage() {
+  return (
+    <Suspense fallback={
+      <div className="container mx-auto px-4 py-8">
+        <div className="text-center py-12">Laden...</div>
+      </div>
+    }>
+      <NewLessonForm />
+    </Suspense>
   );
 }

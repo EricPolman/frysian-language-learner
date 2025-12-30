@@ -1,7 +1,7 @@
 import { getUser } from "@/app/login/actions";
 import { redirect, notFound } from "next/navigation";
 import { LessonClient } from "@/components/lesson/LessonClient";
-import type { Lesson } from "@/types/content";
+import { getLesson } from "@/lib/lessons";
 
 interface Props {
   params: Promise<{ lessonId: string }>;
@@ -15,14 +15,10 @@ export default async function LessonPage({ params }: Props) {
     redirect("/login");
   }
 
-  // Load lesson data
-  let lesson: Lesson;
-  try {
-    const lessonData = await import(
-      `@/data/lessons/${lessonId}.json`
-    );
-    lesson = lessonData.default;
-  } catch (error) {
+  // Load lesson data from database
+  const lesson = await getLesson(lessonId);
+  
+  if (!lesson) {
     notFound();
   }
 
