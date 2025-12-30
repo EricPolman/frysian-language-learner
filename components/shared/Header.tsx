@@ -11,16 +11,18 @@ export async function Header() {
   let level = 1;
   let totalXP = 0;
   let xpProgress = 0;
+  let isAdmin = false;
   
   if (user) {
     const supabase = await createClient();
     const { data: profile } = await supabase
       .from("profiles")
-      .select("level, total_xp")
+      .select("level, total_xp, is_admin")
       .eq("id", user.id)
       .single();
     
     totalXP = (profile as any)?.total_xp || 0;
+    isAdmin = (profile as any)?.is_admin || false;
     
     // Calculate level using progressive scaling
     level = calculateLevel(totalXP);
@@ -83,6 +85,13 @@ export async function Header() {
                   Dashboard
                 </Button>
               </Link>
+              {isAdmin && (
+                <Link href="/admin" className="hidden sm:block">
+                  <Button variant="ghost" size="sm" className="text-purple-600">
+                    Admin
+                  </Button>
+                </Link>
+              )}
             </>
           ) : (
             <>

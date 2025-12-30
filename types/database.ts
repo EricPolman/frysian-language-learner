@@ -16,6 +16,7 @@ export interface Database {
           daily_goal_xp: number;
           audio_enabled: boolean;
           notifications_enabled: boolean;
+          is_admin: boolean;
           created_at: string;
           updated_at: string;
         };
@@ -31,6 +32,7 @@ export interface Database {
           daily_goal_xp?: number;
           audio_enabled?: boolean;
           notifications_enabled?: boolean;
+          is_admin?: boolean;
           created_at?: string;
           updated_at?: string;
         };
@@ -46,6 +48,7 @@ export interface Database {
           daily_goal_xp?: number;
           audio_enabled?: boolean;
           notifications_enabled?: boolean;
+          is_admin?: boolean;
           created_at?: string;
           updated_at?: string;
         };

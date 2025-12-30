@@ -119,6 +119,89 @@ export type Database = {
         }
         Relationships: []
       }
+      exercises: {
+        Row: {
+          created_at: string | null
+          data: Json
+          id: string
+          lesson_id: string
+          order: number
+          type: string
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          data: Json
+          id: string
+          lesson_id: string
+          order?: number
+          type: string
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          data?: Json
+          id?: string
+          lesson_id?: string
+          order?: number
+          type?: string
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "exercises_lesson_id_fkey"
+            columns: ["lesson_id"]
+            isOneToOne: false
+            referencedRelation: "lessons"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      intro_cards: {
+        Row: {
+          created_at: string | null
+          example_sentence: string | null
+          example_translation: string | null
+          id: string
+          lesson_id: string
+          order: number
+          vocabulary_id: string
+        }
+        Insert: {
+          created_at?: string | null
+          example_sentence?: string | null
+          example_translation?: string | null
+          id: string
+          lesson_id: string
+          order?: number
+          vocabulary_id: string
+        }
+        Update: {
+          created_at?: string | null
+          example_sentence?: string | null
+          example_translation?: string | null
+          id?: string
+          lesson_id?: string
+          order?: number
+          vocabulary_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "intro_cards_lesson_id_fkey"
+            columns: ["lesson_id"]
+            isOneToOne: false
+            referencedRelation: "lessons"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "intro_cards_vocabulary_id_fkey"
+            columns: ["vocabulary_id"]
+            isOneToOne: false
+            referencedRelation: "vocabulary"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       lesson_attempts: {
         Row: {
           completed_at: string | null
@@ -163,6 +246,56 @@ export type Database = {
           },
         ]
       }
+      lessons: {
+        Row: {
+          created_at: string | null
+          description: string | null
+          difficulty: number | null
+          estimated_minutes: number | null
+          id: string
+          is_published: boolean | null
+          lesson_number: number
+          skill_id: string
+          title: string
+          topic: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          created_at?: string | null
+          description?: string | null
+          difficulty?: number | null
+          estimated_minutes?: number | null
+          id: string
+          is_published?: boolean | null
+          lesson_number: number
+          skill_id: string
+          title: string
+          topic?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          created_at?: string | null
+          description?: string | null
+          difficulty?: number | null
+          estimated_minutes?: number | null
+          id?: string
+          is_published?: boolean | null
+          lesson_number?: number
+          skill_id?: string
+          title?: string
+          topic?: string | null
+          updated_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "lessons_skill_id_fkey"
+            columns: ["skill_id"]
+            isOneToOne: false
+            referencedRelation: "skills"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       profiles: {
         Row: {
           audio_enabled: boolean
@@ -172,6 +305,7 @@ export type Database = {
           daily_goal_xp: number
           display_name: string | null
           id: string
+          is_admin: boolean | null
           last_practice_date: string | null
           level: number
           longest_streak: number
@@ -187,6 +321,7 @@ export type Database = {
           daily_goal_xp?: number
           display_name?: string | null
           id: string
+          is_admin?: boolean | null
           last_practice_date?: string | null
           level?: number
           longest_streak?: number
@@ -202,12 +337,58 @@ export type Database = {
           daily_goal_xp?: number
           display_name?: string | null
           id?: string
+          is_admin?: boolean | null
           last_practice_date?: string | null
           level?: number
           longest_streak?: number
           notifications_enabled?: boolean
           total_xp?: number
           updated_at?: string
+        }
+        Relationships: []
+      }
+      skills: {
+        Row: {
+          color: string | null
+          created_at: string | null
+          description: string
+          difficulty: number
+          icon: string | null
+          id: string
+          is_published: boolean | null
+          long_description: string | null
+          order: number
+          prerequisites: string[] | null
+          title: string
+          updated_at: string | null
+        }
+        Insert: {
+          color?: string | null
+          created_at?: string | null
+          description: string
+          difficulty?: number
+          icon?: string | null
+          id: string
+          is_published?: boolean | null
+          long_description?: string | null
+          order?: number
+          prerequisites?: string[] | null
+          title: string
+          updated_at?: string | null
+        }
+        Update: {
+          color?: string | null
+          created_at?: string | null
+          description?: string
+          difficulty?: number
+          icon?: string | null
+          id?: string
+          is_published?: boolean | null
+          long_description?: string | null
+          order?: number
+          prerequisites?: string[] | null
+          title?: string
+          updated_at?: string | null
         }
         Relationships: []
       }
@@ -280,6 +461,45 @@ export type Database = {
             referencedColumns: ["id"]
           },
         ]
+      }
+      vocabulary: {
+        Row: {
+          audio_url: string | null
+          created_at: string | null
+          dutch: string
+          example_sentence: string | null
+          example_translation: string | null
+          frysian: string
+          id: string
+          image_url: string | null
+          part_of_speech: string | null
+          updated_at: string | null
+        }
+        Insert: {
+          audio_url?: string | null
+          created_at?: string | null
+          dutch: string
+          example_sentence?: string | null
+          example_translation?: string | null
+          frysian: string
+          id: string
+          image_url?: string | null
+          part_of_speech?: string | null
+          updated_at?: string | null
+        }
+        Update: {
+          audio_url?: string | null
+          created_at?: string | null
+          dutch?: string
+          example_sentence?: string | null
+          example_translation?: string | null
+          frysian?: string
+          id?: string
+          image_url?: string | null
+          part_of_speech?: string | null
+          updated_at?: string | null
+        }
+        Relationships: []
       }
       word_progress: {
         Row: {
